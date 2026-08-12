@@ -54,6 +54,18 @@ export default function PageHero({ eyebrow, title, crumbs = [] }) {
           </motion.div>
         )}
 
+        {eyebrow && (
+          <motion.span
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-gold-light"
+          >
+            <span className="h-px w-6 bg-gold-light" />
+            {eyebrow}
+          </motion.span>
+        )}
+
         <h1 className="max-w-2xl overflow-hidden font-display text-3xl leading-[1.08] md:text-5xl">
           {words.map((word, i) => (
             <span key={i} className="mr-3 inline-block overflow-hidden last:mr-0">
