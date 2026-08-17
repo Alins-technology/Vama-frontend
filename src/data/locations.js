@@ -55,3 +55,6 @@ export const locations = [
 export const primaryPhone = "+91 92897 58206";
 export const primaryEmail = "vamaskinhair@gmail.com";
 export const whatsappNumber = "919310915249";
+
+// City labels used for location-targeted SEO copy (meta keywords, page copy).
+export const serviceCities = ["Noida", "Indirapuram", "Lajpat Nagar", "Agra", "Lucknow", "Kanpur"];

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Clock } from "lucide-react";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import Placeholder from "../components/ui/Placeholder";
@@ -11,6 +12,11 @@ const tones = ["brand", "gold", "rose"];
 export default function Blog() {
   return (
     <>
+      <Seo
+        title="Blog"
+        description="Expert insights on hair transplant, skin treatments, weight loss and allergy care from VAMA Advanced Hair & Skin Clinic's specialists in Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur."
+        keywords="hair transplant blog, skin care tips, hair fall treatment blog, VAMA Advanced Hair & Skin Clinic blog, dermatology articles Noida"
+      />
       <PageHero eyebrow="Blog" title="Insights from our specialists." crumbs={[{ label: "Blog" }]} />
 
       <section className="bg-ivory py-20 md:py-28">

@@ -1,12 +1,14 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import SectionHeading from "../components/ui/SectionHeading";
 import FAQSection from "../components/sections/FAQSection";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
 import { categories, treatmentsByCategory } from "../data/treatments";
+import { serviceCities } from "../data/locations";
 
 export default function TreatmentCategory() {
   const { category } = useParams();
@@ -14,9 +16,16 @@ export default function TreatmentCategory() {
   if (!cat) return <Navigate to="/" replace />;
 
   const items = treatmentsByCategory(category);
+  const cityKeywords = serviceCities.map((city) => `${cat.name} in ${city}`).join(", ");
+  const treatmentKeywords = items.map((t) => t.name).join(", ");
 
   return (
     <>
+      <Seo
+        title={cat.name}
+        description={`${cat.tagline} Explore ${items.length} ${cat.name.toLowerCase()} options at VAMA's clinics in ${serviceCities.join(", ")}.`}
+        keywords={`${cat.name}, ${treatmentKeywords}, ${cityKeywords}`}
+      />
       <PageHero
         eyebrow="Treatments"
         title={cat.name}

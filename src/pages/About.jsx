@@ -1,5 +1,6 @@
 import { CheckCircle2, Target, Eye } from "lucide-react";
 import { motion } from "framer-motion";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import SectionHeading from "../components/ui/SectionHeading";
@@ -24,6 +25,11 @@ const whyPoints = [
 export default function About() {
   return (
     <>
+      <Seo
+        title="About Us"
+        description="Meet VAMA Advanced Hair & Skin Clinic — certified dermatologists, cosmetologists & trichologists delivering safe, ethical hair, skin, weight loss & allergy care across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur."
+        keywords="about VAMA clinic, hair and skin clinic Ghaziabad, dermatology team Noida, best hair transplant doctors, aesthetic clinic Indirapuram"
+      />
       <PageHero
         eyebrow="About Us"
         title="A decade of honest, science-led care."

@@ -1,12 +1,14 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { CheckCircle2, Clock, Repeat, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import Accordion from "../components/ui/Accordion";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
 import { categories, getTreatment, treatmentsByCategory } from "../data/treatments";
+import { serviceCities } from "../data/locations";
 
 export default function TreatmentDetail() {
   const { category, slug } = useParams();
@@ -22,8 +24,15 @@ export default function TreatmentDetail() {
     { icon: ShieldCheck, label: "Downtime", value: treatment.downtime },
   ];
 
+  const cityKeywords = serviceCities.map((city) => `${treatment.name} in ${city}`).join(", ");
+
   return (
     <>
+      <Seo
+        title={treatment.name}
+        description={treatment.short}
+        keywords={`${treatment.name}, ${treatment.name} cost, best ${treatment.name} clinic, ${cat.name}, ${cityKeywords}`}
+      />
       <PageHero
         eyebrow={cat.name}
         title={treatment.name}

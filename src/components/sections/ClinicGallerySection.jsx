@@ -22,7 +22,7 @@ function GalleryImg({ src, label, className = "" }) {
 
 export default function ClinicGallerySection() {
   return (
-    <section className="bg-ivory py-20 md:py-28">
+    <section id="our-gallery" className="bg-ivory py-20 md:py-28">
       <div className="container-page">
         <SectionHeading eyebrow="Our Space" title="Inside the clinic" />
 

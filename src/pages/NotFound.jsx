@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
 
 export default function NotFound() {
   return (
     <section className="flex min-h-[70vh] flex-col items-center justify-center px-6 pt-24 text-center">
+      <Seo title="Page Not Found" description="The page you're looking for doesn't exist or may have moved." />
       <span className="font-display text-8xl text-brand/20">404</span>
       <h1 className="mt-4 font-display text-3xl text-ink">This page took a wrong turn.</h1>
       <p className="mt-3 max-w-sm text-sm text-ink-soft">

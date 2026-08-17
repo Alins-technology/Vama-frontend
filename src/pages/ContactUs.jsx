@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Mail, Phone, Send } from "lucide-react";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import SectionHeading from "../components/ui/SectionHeading";
 import FAQSection from "../components/sections/FAQSection";
+import LocationsSection from "../components/sections/LocationsSection";
 import { primaryEmail } from "../data/locations";
 
 const WHATSAPP_NUMBER = "919289758206"; // +91 92897 58206, no + or spaces
@@ -35,6 +37,11 @@ export default function ContactUs() {
 
   return (
     <>
+      <Seo
+        title="Contact Us"
+        description="Get in touch with VAMA Advanced Hair & Skin Clinic. Visit or call our clinics in Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur, or book a free consultation online."
+        keywords="contact VAMA clinic, hair skin clinic near me, VAMA clinic Noida address, VAMA clinic Indirapuram phone number, book consultation dermatologist"
+      />
       <PageHero eyebrow="Contact Us" title="We'd love to hear from you." crumbs={[{ label: "Contact Us" }]} />
 
       <section className="bg-panel py-20 md:py-28">
@@ -116,6 +123,7 @@ export default function ContactUs() {
         </div>
       </section>
 
+      <LocationsSection />
       <FAQSection />
     </>
   );

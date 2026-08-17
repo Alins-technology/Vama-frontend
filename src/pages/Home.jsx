@@ -1,3 +1,4 @@
+import Seo from "../components/Seo";
 import HomeHero from "../components/sections/HomeHero";
 import ServicesGrid from "../components/sections/ServicesGrid";
 import WhyChooseUs from "../components/sections/WhyChooseUs";
@@ -12,6 +13,11 @@ import Divider from "../components/ui/Divider";
 export default function Home() {
   return (
     <>
+      <Seo
+        title="Advanced Hair, Skin, Weight Loss & Allergy Clinic"
+        description="VAMA Advanced Hair & Skin Clinic offers hair transplant, skin treatments, weight loss programmes and allergy treatment across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur. Book a free consultation today."
+        keywords="hair transplant clinic Noida, skin clinic Indirapuram, best dermatologist Ghaziabad, hair fall treatment, acne scar treatment, weight loss clinic, allergy treatment clinic, VAMA Advanced Hair & Skin Clinic"
+      />
       <HomeHero />
       <ServicesGrid />
       <WhyChooseUs />

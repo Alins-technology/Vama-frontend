@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { Clock } from "lucide-react";
+import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import Placeholder from "../components/ui/Placeholder";
@@ -16,6 +17,7 @@ export default function BlogPost() {
 
   return (
     <>
+      <Seo title={post.title} description={post.excerpt} keywords={`${post.title}, ${post.category}, VAMA Advanced Hair & Skin Clinic blog`} />
       <PageHero
         eyebrow={post.category}
         title={post.title}
