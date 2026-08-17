@@ -153,9 +153,7 @@ export default function TreatmentDetail() {
       </Reveal>
 
       <div className="mt-10 space-y-3">
-        <Accordion
-          items={treatment.faqs.map((f) => ({ question: f.q, answer: f.a }))}
-        />
+        <Accordion items={treatment.faqs} />
       </div>
     </div>
   </section>
