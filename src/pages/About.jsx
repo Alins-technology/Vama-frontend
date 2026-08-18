@@ -8,8 +8,41 @@ import WhyChooseUs from "../components/sections/WhyChooseUs";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
 import LocationsSection from "../components/sections/LocationsSection";
+import ArticleBlocks from "../components/ui/ArticleBlocks";
 
 import aboutImage from "../assets/Clinic/Reception.jpg";
+
+const aboutStoryBlocks = [
+  {
+    type: "lead",
+    text: "VAMA Advanced Hair & Skin Clinic was built around a simple belief: people deserve honest, expert care for their hair and skin concerns, delivered without pressure or exaggerated promises. What started as a single clinic has grown into a trusted name across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow, and Kanpur — but our approach to patient care has stayed the same.",
+  },
+  {
+    type: "paragraph",
+    text: "We bring together experienced doctors, dermatologists, and aesthetic specialists under one roof, offering hair transplant and restoration, dermatology, laser treatments, weight management, and allergy care. Rather than treating each concern in isolation, we look at the full picture — because hair loss, skin health, and overall wellbeing are often connected.",
+  },
+  {
+    type: "paragraph",
+    text: "Every consultation at VAMA Clinics begins the same way: with a genuine conversation about your history, concerns, and goals. We explain your options clearly, including their limitations, before recommending any treatment. If something isn't the right fit for you, we'll say so — our priority is your wellbeing, not a quick sale.",
+  },
+  {
+    type: "paragraph",
+    text: "We also invest in modern equipment and updated techniques across our hair, skin, and laser services, paired with clear aftercare guidance so results are supported well beyond the treatment room.",
+  },
+  {
+    type: "paragraph",
+    text: "Being present across six cities means quality hair and skin care doesn't have to come with a long commute. Whether you're visiting us for your first consultation or returning years later as your needs change, our team is built to support you through different stages of your care journey.",
+  },
+  {
+    type: "paragraph",
+    text: "At VAMA Clinics, we measure success not by promises made, but by patients who leave better informed, properly cared for, and confident in the decisions they've made about their own health.",
+  },
+  {
+    type: "paragraph",
+    text: "Visit your nearest VAMA Advanced Hair & Skin Clinic today, or reach out to schedule a consultation.",
+  },
+  { type: "link", text: "Schedule a Consultation", to: "/contact-us" },
+];
 
 const whyPoints = [
   "Experienced hair & skin specialists",
@@ -118,6 +151,17 @@ export default function About() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-ivory py-20 md:py-28">
+        <div className="container-page mx-auto max-w-3xl">
+          <SectionHeading eyebrow="Our Story" title="A clinic built for the long term" align="center" />
+          <Reveal delay={0.1}>
+            <div className="prose-content mt-10">
+              <ArticleBlocks blocks={aboutStoryBlocks} />
+            </div>
+          </Reveal>
         </div>
       </section>
 
