@@ -1,9 +1,18 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus } from "lucide-react";
+import { linkifyTreatments } from "../../utils/linkifyTreatments";
 
-export default function Accordion({ items }) {
+/**
+ * `linkedSlugs` — pass a Set shared with surrounding content (e.g. an
+ * article) so a treatment already linked there doesn't get re-linked here.
+ * Omit it to track dedup locally to this accordion instance.
+ * `excludeSlug` — the current page's own treatment, so its FAQs don't
+ * self-link.
+ */
+export default function Accordion({ items, linkedSlugs, excludeSlug }) {
   const [open, setOpen] = useState(0);
+  const slugs = linkedSlugs || new Set();
 
   return (
     <div className="divide-y divide-line border-y border-line">
@@ -37,7 +46,7 @@ export default function Accordion({ items }) {
                   className="overflow-hidden"
                 >
                   <p className="max-w-2xl pt-3 text-[15px] leading-relaxed text-ink-soft">
-                    {item.a}
+                    {linkifyTreatments(item.a, { linkedSlugs: slugs, excludeSlug })}
                   </p>
                 </motion.div>
               )}

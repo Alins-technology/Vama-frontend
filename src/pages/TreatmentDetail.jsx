@@ -9,6 +9,7 @@ import AppointmentCTA from "../components/sections/AppointmentCTA";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
 import { categories, getTreatment, treatmentsByCategory } from "../data/treatments";
 import { serviceCities } from "../data/locations";
+import { linkifyTreatments } from "../utils/linkifyTreatments";
 
 export default function TreatmentDetail() {
   const { category, slug } = useParams();
@@ -30,7 +31,8 @@ export default function TreatmentDetail() {
     <>
       <Seo
         title={treatment.name}
-        description={treatment.short}
+        titleOverride={treatment.metaTitle}
+        description={treatment.metaDescription || treatment.short}
         keywords={`${treatment.name}, ${treatment.name} cost, best ${treatment.name} clinic, ${cat.name}, ${cityKeywords}`}
       />
       <PageHero
@@ -68,7 +70,9 @@ export default function TreatmentDetail() {
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Overview</span>
             <h2 className="mt-3 font-display text-3xl text-ink md:text-4xl">{treatment.name}</h2>
-            <p className="mt-5 text-[15px] leading-relaxed text-ink-soft">{treatment.description}</p>
+            <p className="mt-5 text-[15px] leading-relaxed text-ink-soft">
+              {linkifyTreatments(treatment.description, { excludeSlug: treatment.slug })}
+            </p>
 
             <div className="mt-8">
               <h3 className="font-display text-xl text-ink">Key benefits</h3>
@@ -153,7 +157,7 @@ export default function TreatmentDetail() {
       </Reveal>
 
       <div className="mt-10 space-y-3">
-        <Accordion items={treatment.faqs} />
+        <Accordion items={treatment.faqs} excludeSlug={treatment.slug} />
       </div>
     </div>
   </section>

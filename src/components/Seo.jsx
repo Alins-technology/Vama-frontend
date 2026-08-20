@@ -33,10 +33,16 @@ function setMetaByProperty(property, content) {
  * Renders nothing — just synchronises `document.head` on mount/update.
  *
  * `keywords` accepts a string or an array of strings (joined with ", ").
+ * `titleOverride`, when given, is used verbatim as the <title> (no auto
+ * "| SITE_NAME" suffix appended) — for pages with an SEO-provided full title.
  */
-export default function Seo({ title, description, keywords }) {
+export default function Seo({ title, description, keywords, titleOverride }) {
   useEffect(() => {
-    const pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Hair, Skin, Weight Loss & Allergy Treatments`;
+    const pageTitle = titleOverride
+      ? titleOverride
+      : title
+        ? `${title} | ${SITE_NAME}`
+        : `${SITE_NAME} | Hair, Skin, Weight Loss & Allergy Treatments`;
     const pageDescription = description || DEFAULT_DESCRIPTION;
     const pageKeywords = keywords
       ? Array.isArray(keywords)
@@ -49,7 +55,7 @@ export default function Seo({ title, description, keywords }) {
     setMetaByName("keywords", pageKeywords);
     setMetaByProperty("og:title", pageTitle);
     setMetaByProperty("og:description", pageDescription);
-  }, [title, description, keywords]);
+  }, [title, description, keywords, titleOverride]);
 
   return null;
 }

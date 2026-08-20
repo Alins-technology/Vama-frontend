@@ -50,6 +50,9 @@ export const treatments = [
     name: "Acne Scar Treatment",
     image: acneScarImg,
     short: "Smoother texture with laser resurfacing, micro-needling & peels.",
+    metaTitle: "Acne Scar Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Reduce acne scars and uneven skin texture with advanced dermatologist-led treatments at VAMA Clinics. Personalized plans for visibly smoother skin.",
     description:
       "Our acne scar programmes combine fractional laser resurfacing, micro-needling and chemical peels to rebuild collagen and even out skin texture. Every plan is customised to your scar type — ice-pick, boxcar or rolling — for the most natural improvement.",
     benefits: ["Visibly smoother texture", "Minimal downtime", "Customised to scar type", "Collagen rebuilding over time"],
@@ -75,6 +78,9 @@ export const treatments = [
     name: "Anti-Ageing Treatment",
     image: antiAgeingImg,
     short: "Firmer, youthful skin with non-surgical lifting & rejuvenation.",
+    metaTitle: "Anti-Ageing Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Address fine lines, wrinkles and loss of skin firmness with expert-guided anti-ageing treatments at VAMA Clinics, tailored to your skin's needs.",
     description:
       "From thread lifts to skin-boosters, our anti-ageing protocols target fine lines, sagging and dullness without surgery — restoring a naturally youthful look while keeping your expressions intact.",
     benefits: ["Reduces fine lines & wrinkles", "Improves skin elasticity", "No surgery, minimal downtime", "Natural-looking results"],
@@ -100,6 +106,9 @@ export const treatments = [
     name: "Botox",
     image: botoxImg,
     short: "Soften expression lines with precise, doctor-administered Botox.",
+    metaTitle: "Botox Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Smoothen expression lines and fine wrinkles with professionally administered Botox at VAMA Clinics. Consult our experts for a personalized plan.",
     description:
       "Botox relaxes the muscles responsible for forehead lines, crow's feet and frown lines. Administered by our trained dermatologists in precise, measured doses for a refreshed — never frozen — look.",
     benefits: ["Softens expression lines", "15–20 minute session", "Results in 3–7 days", "Lasts 4–6 months"],
@@ -125,6 +134,9 @@ export const treatments = [
     name: "Mole / Skin Tag Removal",
     image: moleImg,
     short: "Safe, scarless removal of moles and skin tags.",
+    metaTitle: "Mole & Skin Tag Removal | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Safe, dermatologist-guided mole and skin tag removal at VAMA Clinics. Minimally invasive procedures with proper pre- and post-care support.",
     description:
       "Using laser and radiofrequency techniques, we remove unwanted moles and skin tags safely and precisely, with minimal scarring and quick healing.",
     benefits: ["Quick, walk-in procedure", "Minimal scarring", "Precise & safe", "Immediate results"],
@@ -150,6 +162,9 @@ export const treatments = [
     name: "HydraFacial",
     image: hydrafacialImg,
     short: "Deep cleanse, exfoliate & hydrate in one relaxing session.",
+    metaTitle: "HydraFacial Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Cleanse, exfoliate and hydrate your skin with HydraFacial at VAMA Clinics. A dermatologist-guided treatment for refreshed, glowing skin.",
     description:
       "HydraFacial combines cleansing, exfoliation, extraction and hydration in a single machine-assisted treatment — leaving skin instantly brighter with zero downtime.",
     benefits: ["Instant glow", "Deep pore cleansing", "Zero downtime", "Suitable for all skin types"],
@@ -175,6 +190,9 @@ export const treatments = [
     name: "Korean Glass Skin Treatment",
     image: koreanGlassSkinImg,
     short: "The dewy, poreless 'glass skin' finish, done right.",
+    metaTitle: "Korean Glass Skin Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Get smoother, luminous skin with the Korean Glass Skin treatment at VAMA Clinics. Expert-guided skincare for a radiant, even-toned complexion.",
     description:
       "A multi-step protocol of gentle exfoliation, deep hydration and skin-barrier repair inspired by Korean skincare rituals — for that smooth, translucent, dewy finish.",
     benefits: ["Poreless, dewy finish", "Improves hydration & barrier", "Gentle, multi-step protocol", "Great pre-event glow"],
@@ -200,6 +218,9 @@ export const treatments = [
     name: "Laser Hair Reduction",
     image: laserHairReductionImg,
     short: "Long-term hair reduction with advanced diode laser.",
+    metaTitle: "Laser Hair Reduction – Smooth, Hair-Free Skin | VAMA Clinics",
+    metaDescription:
+      "Reduce unwanted hair with advanced laser hair reduction at VAMA Clinics. Safe, dermatologist-supervised sessions tailored to your skin type.",
     description:
       "Our diode laser technology targets hair follicles at the root for long-lasting reduction across face and body, suitable for all skin tones with minimal discomfort.",
     benefits: ["Long-lasting results", "Suitable for all skin tones", "Fast sessions", "Minimal discomfort"],
@@ -225,6 +246,9 @@ export const treatments = [
     name: "Dermal Fillers",
     image: dermalFillerImg,
     short: "Restore volume & contour with precision filler placement.",
+    metaTitle: "Dermal Filler Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Restore facial volume and smoothen contours with professionally administered dermal fillers at VAMA Clinics. Book a personalized consultation.",
     description:
       "Dermal fillers restore lost volume in cheeks, lips and under-eyes, and sharpen facial contouring — administered with precision for natural, balanced results.",
     benefits: ["Restores facial volume", "Natural contouring", "Immediate results", "Minimal downtime"],
@@ -250,6 +274,9 @@ export const treatments = [
     name: "Face PRP",
     image: facePrpImg,
     short: "Your own platelets, concentrated to rejuvenate skin naturally.",
+    metaTitle: "Face PRP Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Improve skin texture and radiance with Face PRP treatment at VAMA Clinics, performed under expert dermatological supervision.",
     description:
       "Platelet-Rich Plasma from your own blood is reinjected into the skin to stimulate collagen and improve texture, tone and glow — a completely natural rejuvenation method.",
     benefits: ["100% natural (autologous)", "Improves tone & texture", "Stimulates collagen", "Minimal side effects"],
@@ -275,6 +302,9 @@ export const treatments = [
     name: "Skin Rejuvenation",
     image: skinRejuvenationImg,
     short: "Restore tone, texture & radiance with combination therapy.",
+    metaTitle: "Skin Rejuvenation Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Refresh dull, tired-looking skin with dermatologist-guided skin rejuvenation treatments at VAMA Clinics, customized to your skin concerns.",
     description:
       "A tailored combination of peels, laser toning and skin boosters designed to reverse dullness, pigmentation and uneven texture for consistently radiant skin.",
     benefits: ["Evens out tone", "Reduces pigmentation", "Boosts radiance", "Custom combination therapy"],
@@ -302,6 +332,9 @@ export const treatments = [
     name: "Hair Transplant (FUE)",
     image: hairTransplantImg,
     short: "Natural, permanent hair restoration with advanced FUE.",
+    metaTitle: "Hair Transplant by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Get a personalized hair transplant consultation with Dr. Akanksha Gupta at VAMA Clinics. Expert-led evaluation and natural-looking results.",
     description:
       "Our Follicular Unit Extraction (FUE) technique transplants healthy follicles individually for a natural hairline and density — permanent, scarless and tailored to your growth pattern.",
     benefits: ["Permanent, natural results", "Scarless FUE technique", "Customised hairline design", "Experienced surgical team"],
@@ -327,6 +360,9 @@ export const treatments = [
     name: "Hair Fall Treatment",
     image: hairFallImg,
     short: "Diagnose the root cause and stop hair fall early.",
+    metaTitle: "Hair Fall Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Address hair fall with expert diagnosis and treatment plans by Dr. Akanksha Gupta at VAMA Clinics, tailored to your scalp and hair condition.",
     description:
       "We identify the underlying cause of hair fall — nutritional, hormonal or hereditary — and build a targeted plan combining medication, PRP and topical therapy.",
     benefits: ["Root-cause diagnosis", "Customised treatment plan", "Combination therapy", "Regular progress tracking"],
@@ -352,6 +388,9 @@ export const treatments = [
     name: "Hair Replacement",
     image: hairReplacementImg,
     short: "Instant, natural-looking density with non-surgical systems.",
+    metaTitle: "Hair Replacement by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Explore non-surgical hair replacement solutions guided by Dr. Akanksha Gupta at VAMA Clinics, designed to suit your lifestyle and needs.",
     description:
       "Our non-surgical hair replacement systems offer an immediate, natural-looking solution for hair loss — undetectable, comfortable and fully customisable.",
     benefits: ["Instant results", "Non-surgical", "Undetectable & natural", "Low maintenance"],
@@ -377,6 +416,9 @@ export const treatments = [
     name: "Hair PRP",
     image: hairPrpImg,
     short: "Platelet-Rich Plasma therapy to stimulate hair regrowth.",
+    metaTitle: "Hair PRP Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Support hair growth with PRP therapy administered by Dr. Akanksha Gupta at VAMA Clinics, using your body's own healing process.",
     description:
       "PRP therapy uses concentrated growth factors from your own blood, injected into the scalp to stimulate dormant follicles and strengthen existing hair.",
     benefits: ["Stimulates regrowth", "100% natural", "No downtime", "Strengthens existing hair"],
@@ -402,6 +444,9 @@ export const treatments = [
     name: "Dandruff Treatment",
     image: dandruffImg,
     short: "Targeted therapy for a healthy, flake-free scalp.",
+    metaTitle: "Dandruff Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Get lasting relief from dandruff and scalp irritation with expert care from Dr. Akanksha Gupta at VAMA Clinics.",
     description:
       "Our scalp-specific protocols treat dandruff at the source — balancing scalp flora and oil production for lasting relief, not just temporary control.",
     benefits: ["Lasting relief", "Scalp-specific diagnosis", "Restores scalp balance", "Prevents recurrence"],
@@ -427,6 +472,9 @@ export const treatments = [
     name: "Hair DNA Test",
     image: hairDnaImg,
     short: "Understand your genetic hair-loss risk before it starts.",
+    metaTitle: "Hair DNA Test by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Understand the genetic causes of your hair loss with a Hair DNA Test guided by Dr. Akanksha Gupta at VAMA Clinics.",
     description:
       "A simple genetic test that predicts your predisposition to hair thinning, helping us design a preventive, personalised treatment roadmap.",
     benefits: ["Predicts hair-loss risk", "Personalised roadmap", "Simple, non-invasive test", "Preventive approach"],
@@ -452,6 +500,9 @@ export const treatments = [
     name: "GFC Hair Treatment",
     image: gfcImg,
     short: "Growth Factor Concentrate for denser, healthier hair.",
+    metaTitle: "GFC Hair Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaDescription:
+      "Explore Growth Factor Concentrate (GFC) therapy for hair restoration, offered by Dr. Akanksha Gupta at VAMA Clinics.",
     description:
       "GFC therapy delivers a concentrated dose of growth factors to the scalp, promoting follicle activity and hair density with fewer sessions than traditional PRP.",
     benefits: ["Fewer sessions needed", "Boosts follicle activity", "Improves density", "Minimal discomfort"],

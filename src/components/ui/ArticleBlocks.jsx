@@ -2,6 +2,7 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Accordion from "./Accordion";
+import { linkifyTreatments } from "../../utils/linkifyTreatments";
 
 /**
  * Renders a blog/article body from a simple content-block schema, styled to
@@ -22,6 +23,10 @@ import Accordion from "./Accordion";
  *   { type: "faq", items: [{ q, a }] }      accordion-style Q&A (reuses ui/Accordion)
  */
 export default function ArticleBlocks({ blocks = [] }) {
+  // Shared across every block in this article so each treatment gets linked
+  // only on its first mention, not every time it's named.
+  const linkedSlugs = new Set();
+
   return (
     <div className="space-y-5">
       {blocks.map((block, i) => {
@@ -29,7 +34,7 @@ export default function ArticleBlocks({ blocks = [] }) {
           case "lead":
             return (
               <p key={i} className="text-lg leading-relaxed text-ink">
-                {block.text}
+                {linkifyTreatments(block.text, { linkedSlugs })}
               </p>
             );
 
@@ -63,7 +68,7 @@ export default function ArticleBlocks({ blocks = [] }) {
                     className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-soft"
                   >
                     <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
-                    {item}
+                    {linkifyTreatments(item, { linkedSlugs })}
                   </motion.li>
                 ))}
               </ul>
@@ -84,7 +89,7 @@ export default function ArticleBlocks({ blocks = [] }) {
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand text-[11px] font-semibold text-ivory">
                       {j + 1}
                     </span>
-                    <span className="text-sm leading-relaxed text-ink-soft">{item}</span>
+                    <span className="text-sm leading-relaxed text-ink-soft">{linkifyTreatments(item, { linkedSlugs })}</span>
                   </motion.li>
                 ))}
               </ol>
@@ -116,7 +121,7 @@ export default function ArticleBlocks({ blocks = [] }) {
                               c === 0 ? "font-semibold text-ink" : "text-ink-soft"
                             }`}
                           >
-                            {cell}
+                            {linkifyTreatments(cell, { linkedSlugs })}
                           </td>
                         ))}
                       </tr>
@@ -139,7 +144,7 @@ export default function ArticleBlocks({ blocks = [] }) {
                     className="rounded-2xl border border-line bg-panel/40 p-4"
                   >
                     <p className="text-[11px] font-semibold uppercase tracking-wide text-gold">{label}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-ink-soft">{text}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-soft">{linkifyTreatments(text, { linkedSlugs })}</p>
                   </motion.div>
                 ))}
               </div>
@@ -148,7 +153,7 @@ export default function ArticleBlocks({ blocks = [] }) {
           case "faq":
             return (
               <div key={i} className="pt-1">
-                <Accordion items={block.items} />
+                <Accordion items={block.items} linkedSlugs={linkedSlugs} />
               </div>
             );
 
@@ -168,7 +173,7 @@ export default function ArticleBlocks({ blocks = [] }) {
           default:
             return (
               <p key={i} className="text-[15px] leading-relaxed text-ink-soft">
-                {block.text}
+                {linkifyTreatments(block.text, { linkedSlugs })}
               </p>
             );
         }
