@@ -5,6 +5,7 @@ import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";
 import Accordion from "../components/ui/Accordion";
+import ArticleBlocks from "../components/ui/ArticleBlocks";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
 import { categories, getTreatment, treatmentsByCategory } from "../data/treatments";
@@ -140,6 +141,23 @@ export default function TreatmentDetail() {
                   </motion.div>
                 </Reveal>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* In-depth guide */}
+      {treatment.article?.length > 0 && (
+        <section className="bg-ivory py-20 md:py-28">
+          <div className="container-page mx-auto max-w-3xl">
+            <Reveal>
+              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Guide</span>
+              <h2 className="mt-2 font-display text-3xl text-ink md:text-4xl">
+                Everything about {treatment.name}
+              </h2>
+            </Reveal>
+            <div className="prose-content mt-10">
+              <ArticleBlocks blocks={treatment.article} />
             </div>
           </div>
         </section>

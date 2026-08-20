@@ -1,5 +1,7 @@
-// Each treatment: slug, name, category, short, description, benefits,
-// duration, sessions, downtime, process (steps), faqs
+// Each treatment: slug, name, category, short, metaTitle, metaDescription,
+// description, benefits, duration, sessions, downtime, process (steps), faqs,
+// article (optional long-form guide, ArticleBlocks block schema — see
+// components/ui/ArticleBlocks.jsx)
 
 import acneScarImg from "../assets/Treatments/Acne-scar.avif";
 import alopeciaImg from "../assets/Treatments/Alopecia.jpg";
@@ -65,6 +67,79 @@ export const treatments = [
       "The chosen procedure is performed under topical numbing for comfort, typically in under an hour.",
       "You'll get a simple home-care routine and a follow-up schedule to track collagen rebuilding."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Acne can leave behind more than just memories — ice-pick, boxcar and rolling scars, along with patches of uneven texture, can remain long after breakouts clear up. With the right professional approach, the appearance of these scars can be visibly improved, even though no treatment can guarantee complete removal.",
+      },
+      {
+        type: "paragraph",
+        text: "Acne Scar Treatment focuses on rebuilding collagen and smoothing skin texture according to an individual's scar type and skin condition. At VAMA Clinics, treatment planning starts with identifying exactly which kind of scarring you have, rather than applying the same procedure to every patient.",
+      },
+      { type: "heading", text: "Understanding Acne Scar Types" },
+      { type: "paragraph", text: "Not all acne scars are the same, and the right treatment depends on correctly identifying the type. Common patterns include:" },
+      {
+        type: "list",
+        items: [
+          "Ice-pick scars — narrow, deep pits",
+          "Boxcar scars — broad depressions with defined edges",
+          "Rolling scars — shallow, wave-like texture",
+          "Hypertrophic or keloid scarring — raised, thickened tissue",
+          "Post-inflammatory pigmentation alongside scarring",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A professional assessment helps determine which scar types are present, since most patients have a mix rather than a single pattern.",
+      },
+      { type: "heading", text: "Acne Scar Treatment in Noida" },
+      {
+        type: "paragraph",
+        text: "People looking for Acne Scar Treatment in Noida often have a combination of concerns — active breakouts, residual pigmentation and textural scarring together. A consultation can help prioritise which concern to address first and in what sequence.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on scar depth and skin sensitivity, treatment may combine laser resurfacing, micro-needling, chemical peels or a staged approach across several sessions.",
+      },
+      { type: "heading", text: "Treatment Approaches We Consider" },
+      { type: "paragraph", text: "Depending on the assessment, a suitable combination may be recommended from options such as:" },
+      {
+        type: "list",
+        items: ["Fractional laser resurfacing", "Micro-needling / collagen induction therapy", "Chemical peels", "Subcision for deeper rolling scars", "Combination therapy across sessions"],
+      },
+      {
+        type: "paragraph",
+        text: "The number of sessions, spacing between them and expected improvement vary between individuals, and results build gradually as collagen remodels over several months.",
+      },
+      { type: "heading", text: "Acne Scar Treatment in Indirapuram" },
+      {
+        type: "paragraph",
+        text: "For those considering Acne Scar Treatment in Indirapuram, convenient access for a multi-session course matters — most protocols are spaced several weeks apart over a few months.",
+      },
+      {
+        type: "paragraph",
+        text: "Beyond convenience, it's worth checking the treating professional's experience with scar-specific procedures, the clinic's approach to numbing and comfort, and how realistically it explains achievable results before you begin.",
+      },
+      { type: "heading", text: "Caring for Skin Between Sessions" },
+      { type: "paragraph", text: "Since acne-prone skin can be sensitive, aftercare between sessions matters for both comfort and results. A simple routine may include:" },
+      {
+        type: "list",
+        items: ["Gentle, non-comedogenic cleansing", "Daily sunscreen to protect healing skin", "Avoiding active breakouts before a session", "Following your dermatologist's post-procedure instructions", "Staying consistent with the recommended session schedule"],
+      },
+      {
+        type: "paragraph",
+        text: "Sun protection is especially important after resurfacing or peeling procedures, as treated skin is more sensitive to UV exposure during healing.",
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "Professional Acne Scar Treatment can meaningfully improve the appearance of ice-pick, boxcar and rolling scars, along with uneven texture — though results depend on scar depth, skin type and the number of sessions completed.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional consultation is the best starting point for identifying your scar type and building a realistic, personalised treatment plan.",
+      },
+    ],
     faqs: [
       { q: "Does acne scar treatment hurt?", a: "Most sessions are performed with topical numbing cream, so discomfort is minimal — patients describe it as mild tingling or heat." },
       { q: "How many sessions will I need?", a: "Most patients need 4–6 sessions spaced 3–4 weeks apart, depending on scar depth and skin response." },
@@ -93,11 +168,97 @@ export const treatments = [
       "Treatment is delivered in-clinic with precise, doctor-administered technique.",
       "Simple skincare guidance and spaced-out touch-up sessions keep results looking natural."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Ageing is a natural process, but factors such as sun exposure, lifestyle, stress and changes in skin structure can make fine lines, wrinkles, pigmentation and loss of firmness more noticeable. With the right professional approach, these concerns can be managed to support healthier and more refreshed-looking skin.",
+      },
+      {
+        type: "paragraph",
+        text: "Anti-Ageing Treatment focuses on improving visible signs of skin ageing according to an individual's skin condition and aesthetic goals. At VAMA Clinics, treatment planning is based on a professional assessment rather than using the same procedure for every person.",
+      },
+      { type: "heading", text: "Anti-Ageing Treatment in Noida" },
+      {
+        type: "paragraph",
+        text: "People looking for Anti-Ageing Treatment in Noida may have concerns such as fine lines, uneven skin tone, dullness, pigmentation or reduced skin firmness. A consultation can help identify the primary concern and determine which treatment approach may be suitable.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on the condition of the skin, treatment may focus on improving texture, hydration, pigmentation, fine lines or overall skin quality.",
+      },
+      { type: "heading", text: "Common Signs of Skin Ageing" },
+      { type: "paragraph", text: "Visible signs of ageing can vary from person to person. Common concerns include:" },
+      {
+        type: "list",
+        items: [
+          "Fine lines and wrinkles",
+          "Loss of skin firmness",
+          "Uneven pigmentation",
+          "Dull-looking skin",
+          "Rough or uneven texture",
+          "Reduced skin elasticity",
+          "Dehydrated appearance",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the specific skin concern is important because different issues may require different treatment approaches.",
+      },
+      { type: "heading", text: "Personalized Anti-Ageing Skin Treatment" },
+      {
+        type: "paragraph",
+        text: "An Anti-Ageing Skin Treatment plan should be personalized according to the individual's skin type, condition and goals. Depending on the assessment, a professional may recommend suitable aesthetic or dermatological procedures to address concerns such as wrinkles, pigmentation, texture or skin rejuvenation.",
+      },
+      {
+        type: "paragraph",
+        text: "The number of sessions, recovery time and expected results can vary between individuals. No treatment can guarantee identical results for every patient.",
+      },
+      { type: "heading", text: "Anti-Ageing Treatment in Indirapuram" },
+      {
+        type: "paragraph",
+        text: "For people considering Anti-Ageing Treatment in Indirapuram, convenient access to consultation and follow-up can be useful. However, choosing a clinic should involve more than location.",
+      },
+      {
+        type: "paragraph",
+        text: "Before starting treatment, consider the qualifications of the treating professional, consultation process, hygiene standards, treatment suitability and aftercare. It is also important that the clinic provides realistic information about potential results and limitations.",
+      },
+      { type: "heading", text: "Anti-Ageing Treatment in Ghaziabad" },
+      {
+        type: "paragraph",
+        text: "People searching for Anti-Ageing Treatment in Ghaziabad may have different skin concerns depending on their age, skin type, lifestyle and sun exposure.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional consultation can assess fine lines, pigmentation, skin texture, sensitivity and firmness before recommending a suitable approach. Personalized treatment can help ensure that the procedure is selected according to the individual's needs.",
+      },
+      { type: "heading", text: "Skincare After Treatment" },
+      {
+        type: "paragraph",
+        text: "Professional anti-ageing treatments should be supported by appropriate skincare and sun protection. Depending on the procedure, aftercare may include temporary changes to your skincare routine and avoiding excessive sun exposure. A simple routine may include:",
+      },
+      {
+        type: "list",
+        items: ["Gentle cleansing", "Regular moisturization", "Suitable sunscreen", "Adequate hydration", "Following professional aftercare instructions"],
+      },
+      {
+        type: "paragraph",
+        text: "Consistent sun protection is particularly important because UV exposure contributes to visible skin ageing.",
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "Professional Anti-Ageing Treatment can help address visible concerns such as fine lines, wrinkles, pigmentation, dullness and reduced firmness. The most appropriate treatment depends on individual skin needs and expectations.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional consultation is the best starting point for understanding your options and developing a suitable skincare or treatment plan.",
+      },
+    ],
     faqs: [
-      { q: "Is this treatment surgical?", a: "No — all our anti-ageing protocols are completely non-surgical with little to no downtime." },
-      { q: "Will my face look 'frozen' or unnatural?", a: "No. Our doctors use measured, conservative dosing so your natural expressions stay intact." },
-      { q: "How long do results last?", a: "Depending on the treatment combination, results typically last 6–12 months." },
-      { q: "At what age should I start anti-ageing treatment?", a: "There's no fixed age — some patients start preventive care in their late 20s, while others begin corrective treatment in their 40s or 50s; we tailor the plan to your skin's actual condition, not just your age." },
+      { q: "Is anti-ageing treatment suitable for everyone?", a: "Not necessarily. Suitability depends on your skin condition, medical history and the treatment being considered. A professional consultation is recommended." },
+      { q: "Can anti-ageing treatment remove wrinkles completely?", a: "Treatments may improve the appearance of wrinkles, but complete removal cannot be guaranteed. Results vary between individuals." },
+      { q: "Is there downtime?", a: "Downtime depends on the procedure. Some treatments may involve minimal downtime, while others can cause temporary redness, swelling or sensitivity." },
+      { q: "How long do results last?", a: "Results vary according to the treatment, individual skin characteristics and lifestyle. Some procedures may require maintenance sessions." },
     ],
   },
   {
@@ -121,11 +282,83 @@ export const treatments = [
       "Micro-injections are administered with a fine needle — quick and largely painless.",
       "Avoid rubbing the area for 24 hours; results settle in over the following week."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Fine lines and wrinkles are a natural part of ageing. Repeated facial expressions, sun exposure and changes in skin structure can make these lines more visible over time. Botox treatment is a non-surgical aesthetic procedure that can help reduce the appearance of certain dynamic wrinkles and create a smoother-looking facial appearance.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, treatment is planned according to individual facial features, concerns and aesthetic goals. A professional consultation is recommended before treatment to determine whether Botox is appropriate.",
+      },
+      { type: "heading", text: "What Is Botox Treatment?" },
+      {
+        type: "paragraph",
+        text: "Botox contains a purified form of botulinum toxin that is used in controlled amounts for cosmetic purposes. When injected into selected muscles, it temporarily reduces muscle activity. This can soften expression-related wrinkles. Commonly treated areas include:",
+      },
+      { type: "list", items: ["Forehead lines", "Frown lines between the eyebrows", "Crow's feet around the eyes", "Certain other dynamic facial lines"] },
+      {
+        type: "paragraph",
+        text: "Botox does not treat every type of wrinkle. Skin texture, pigmentation and volume loss may require different treatment approaches.",
+      },
+      { type: "heading", text: "How Does Botox Work?" },
+      {
+        type: "paragraph",
+        text: "Facial expressions involve repeated muscle movement. Over time, this movement contributes to the development of dynamic lines. During treatment, small amounts of Botox are injected into carefully selected muscles. The injection points and amount used depend on facial anatomy, muscle activity and the desired outcome.",
+      },
+      {
+        type: "paragraph",
+        text: "The goal is not necessarily to eliminate all facial movement, but to soften specific lines while maintaining an appropriate and natural facial appearance.",
+      },
+      { type: "heading", text: "Who May Consider Botox?" },
+      { type: "paragraph", text: "Adults concerned about dynamic facial wrinkles may consider Botox after professional assessment. A consultation may include evaluation of:" },
+      {
+        type: "list",
+        items: ["Facial muscle movement", "Location and depth of wrinkles", "Skin condition", "Previous aesthetic treatments", "Medical history", "Current medications", "Treatment expectations"],
+      },
+      { type: "paragraph", text: "Individual suitability varies, so professional assessment is important." },
+      { type: "heading", text: "Botox Treatment in Noida" },
+      {
+        type: "paragraph",
+        text: "People searching for Botox Treatment in Noida may be interested in improving the appearance of forehead lines, frown lines or crow's feet. A qualified professional can assess the facial muscles and determine whether Botox is suitable for the specific concern. Treatment should be personalized rather than based on a standard injection pattern.",
+      },
+      { type: "heading", text: "Botox Treatment in Indirapuram" },
+      {
+        type: "paragraph",
+        text: "For people considering Botox Treatment in Indirapuram, it is important to choose a qualified and appropriately trained professional. Before treatment, patients should understand the procedure, possible side effects, expected results and aftercare requirements.",
+      },
+      { type: "heading", text: "What Happens During Treatment?" },
+      { type: "paragraph", text: "A typical Botox appointment may involve:" },
+      {
+        type: "steps",
+        items: ["Consultation and discussion of aesthetic goals", "Facial assessment", "Identification of appropriate injection points", "Administration of small injections", "Post-treatment instructions"],
+      },
+      { type: "paragraph", text: "The exact treatment plan varies from person to person." },
+      { type: "heading", text: "Botox Aftercare and Results" },
+      {
+        type: "paragraph",
+        text: "Botox does not usually produce its full effect immediately. Visible changes develop gradually, and the duration of results varies between individuals. After treatment, patients should follow the specific instructions provided by their practitioner. Temporary effects such as redness, swelling, tenderness or bruising can occur.",
+      },
+      {
+        type: "paragraph",
+        text: "Because Botox is temporary, its effects gradually wear off and maintenance treatment may be considered when appropriate.",
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "Botox treatment can help reduce the appearance of certain expression-related wrinkles without surgery. The right approach depends on facial anatomy, muscle activity, skin condition and individual expectations.",
+      },
+      {
+        type: "paragraph",
+        text: "A consultation with a qualified professional is the best way to determine whether Botox is suitable and understand its potential benefits and risks.",
+      },
+    ],
     faqs: [
-      { q: "How soon will I see results?", a: "Botox typically starts working within 3–7 days, with full effect visible by day 14." },
-      { q: "Is Botox safe?", a: "Yes, when administered by a trained, licensed dermatologist in measured doses, Botox has an excellent safety profile." },
-      { q: "How long does it last?", a: "Results generally last 4–6 months before a top-up session is needed." },
-      { q: "Is Botox safe for younger or older patients?", a: "Botox is typically recommended for adults from their mid-20s (for preventive use) through to older age, with dosing adjusted for skin thickness and muscle strength at every stage." },
+      { q: "Is Botox painful?", a: "The injections may cause brief discomfort, but individual sensitivity varies." },
+      { q: "How long does Botox treatment take?", a: "The procedure is generally relatively quick, although appointment time depends on the number of areas being assessed and treated." },
+      { q: "Can Botox remove all wrinkles?", a: "No. Botox primarily addresses dynamic wrinkles caused by muscle movement. Other skin concerns may require different treatments." },
+      { q: "Is there downtime?", a: "Many people resume normal activities quickly, but specific aftercare instructions should be followed." },
+      { q: "How long do results last?", a: "Results are temporary and vary according to the individual, treatment area and muscle activity." },
     ],
   },
   {
@@ -149,11 +382,75 @@ export const treatments = [
       "The growth is precisely removed under local anaesthesia — quick and comfortable.",
       "A small scab forms and heals within a few days; sun protection is advised."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Moles and skin tags are common skin growths that can appear on different parts of the body. While many are harmless, they can sometimes become a cosmetic concern or get irritated by clothing, jewellery or shaving. Professional assessment is important before deciding on removal because a mole or skin growth should first be identified correctly.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, mole and skin tag removal can be considered after evaluating the size, location, appearance and nature of the growth.",
+      },
+      { type: "heading", text: "What Are Moles and Skin Tags?" },
+      {
+        type: "paragraph",
+        text: "Moles, also known as nevi, are common skin growths that can vary in colour, size and appearance. Most moles are harmless, but changes in colour, shape, size, bleeding or persistent itching should be assessed by a qualified professional.",
+      },
+      {
+        type: "paragraph",
+        text: "Skin tags are usually soft, benign growths that commonly develop in areas where skin rubs against skin or clothing, such as the neck, underarms and body folds.",
+      },
+      { type: "heading", text: "Mole & Skin Tag Removal Treatment" },
+      {
+        type: "paragraph",
+        text: "Treatment depends on the type, size and location of the growth. After assessment, a qualified professional may recommend an appropriate removal method. Depending on the case, possible approaches can include:",
+      },
+      {
+        type: "list",
+        items: ["Surgical removal or excision", "Shaving or minor surgical removal", "Cautery", "Cryotherapy in suitable cases", "Other dermatologist-recommended techniques"],
+      },
+      {
+        type: "paragraph",
+        text: "The most appropriate method depends on the individual growth and should be decided after professional evaluation. Some procedures can cause temporary redness, pigmentation changes, bleeding or scarring.",
+      },
+      { type: "heading", text: "When Should a Mole Be Checked?" },
+      { type: "paragraph", text: "A mole should be professionally assessed if it:" },
+      {
+        type: "list",
+        items: ["Changes in size, shape or colour", "Develops irregular borders", "Starts bleeding", "Becomes painful or persistently itchy", "Changes noticeably over time", "Appears unusual compared with other moles"],
+      },
+      {
+        type: "paragraph",
+        text: "Suspicious moles may require further examination or biopsy rather than straightforward cosmetic removal.",
+      },
+      { type: "heading", text: "Who Can Consider Skin Tag Removal?" },
+      {
+        type: "paragraph",
+        text: "People may consider skin tag removal if a tag is repeatedly irritated, catches on clothing or jewellery, or is unwanted for cosmetic reasons. However, it is important not to remove skin tags at home because another type of skin growth can sometimes look similar.",
+      },
+      { type: "heading", text: "What to Expect During Consultation" },
+      { type: "paragraph", text: "A consultation may include examination of the growth and discussion of:" },
+      {
+        type: "list",
+        items: ["Size and location", "How long it has been present", "Any recent changes", "Previous treatments", "Skin sensitivity", "Suitable removal options", "Possible risks and aftercare"],
+      },
+      { type: "paragraph", text: "This helps determine the safest and most appropriate approach for the individual." },
+      { type: "heading", text: "Aftercare" },
+      {
+        type: "paragraph",
+        text: "After removal, patients should follow the specific instructions provided by their treating professional. Depending on the procedure, aftercare may include keeping the area clean, protecting it from unnecessary irritation and following recommended wound-care instructions. Avoid attempting to cut, burn or remove a mole or skin tag yourself.",
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "Mole & Skin Tag Removal can help address unwanted or repeatedly irritated skin growths. The correct treatment depends on the type and characteristics of the growth, so professional assessment should come before removal.",
+      },
+    ],
     faqs: [
-      { q: "Will it leave a scar?", a: "In most cases, scarring is minimal to none since we use precise laser/RF techniques suited to the growth size." },
-      { q: "Is the procedure painful?", a: "Local anaesthesia is used, so the procedure itself is virtually painless." },
-      { q: "Can moles grow back?", a: "Properly removed moles typically don't grow back, though new ones can form elsewhere over time." },
-      { q: "Can children get moles or skin tags removed?", a: "Yes, though for younger patients we take extra care with anaesthesia and technique, and always confirm the growth is benign before removal." },
+      { q: "Is mole removal safe?", a: "Mole removal can be performed safely when appropriately assessed and carried out by a qualified professional. The method depends on the individual mole." },
+      { q: "Can all skin tags be removed?", a: "Many benign skin tags can be removed, but proper identification is important before treatment." },
+      { q: "Can mole removal leave a scar?", a: "Some removal techniques can result in scarring or temporary/permanent pigmentation changes. Your professional can explain the expected risks." },
+      { q: "Can I remove a mole at home?", a: "Home removal is not recommended. A mole that appears unusual should first be assessed professionally." },
     ],
   },
   {
@@ -177,6 +474,87 @@ export const treatments = [
       "The HydraFacial device cleanses, exfoliates, extracts and infuses serums in one pass.",
       "Skin is left glowing immediately; monthly sessions maintain the results."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Healthy, glowing and refreshed skin can make a noticeable difference to your overall appearance and confidence. At VAMA Advanced Hair & Skin Clinic, HydraFacial is a popular non-invasive skin treatment designed to cleanse, exfoliate and hydrate the skin while helping improve the appearance of common concerns such as dullness, clogged pores, uneven skin texture and dehydration.",
+      },
+      { type: "heading", text: "What Is a HydraFacial?" },
+      {
+        type: "paragraph",
+        text: "A HydraFacial is a multi-step facial treatment that combines deep cleansing, exfoliation, extraction and hydration in a single procedure. It is designed to remove impurities from the skin while delivering hydrating and nourishing ingredients.",
+      },
+      {
+        type: "paragraph",
+        text: "Unlike a traditional facial, a professional HydraFacial treatment uses specialized technology and can be customized according to your skin type and concerns. It is suitable for people looking for a refreshed and brighter complexion without significant downtime.",
+      },
+      { type: "heading", text: "Benefits of HydraFacial Treatment" },
+      { type: "paragraph", text: "A HydraFacial can offer several skin benefits, including:" },
+      {
+        type: "list",
+        items: [
+          "Deep cleansing of the skin",
+          "Removal of surface dead skin cells",
+          "Helps clear clogged pores and excess oil",
+          "Improves the appearance of dull-looking skin",
+          "Provides intense hydration",
+          "Helps improve overall skin texture",
+          "Gives the skin a fresh and healthy-looking appearance",
+          "Can be customized according to individual skin concerns",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "With regular professional skincare and an appropriate home-care routine, HydraFacial may help you maintain smoother, cleaner and more hydrated-looking skin.",
+      },
+      { type: "heading", text: "HydraFacial for Different Skin Concerns" },
+      {
+        type: "paragraph",
+        text: "HydraFacial can be considered for various skin concerns. People with dull skin, dehydrated skin, congested pores, uneven texture or excess oil may benefit from a customized treatment plan.",
+      },
+      {
+        type: "paragraph",
+        text: "If your main concern is pigmentation, acne-prone skin, fine lines or another specific skin condition, a skin professional can assess your skin and determine whether HydraFacial is appropriate or whether another treatment would be more suitable.",
+      },
+      { type: "heading", text: "How Does HydraFacial Work?" },
+      { type: "paragraph", text: "A typical HydraFacial session involves multiple stages:" },
+      {
+        type: "steps",
+        items: [
+          "Cleansing — the skin is gently cleansed to remove surface impurities, oil and makeup.",
+          "Exfoliation — the treatment exfoliates dead skin cells from the surface, helping reveal fresher-looking skin underneath.",
+          "Extraction — specialized technology is used to help remove impurities and congestion from pores.",
+          "Hydration and Nourishment — the skin is infused with hydrating and nourishing ingredients to leave it feeling refreshed and moisturized.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The exact procedure and products used may vary depending on your skin type and the assessment performed by the clinic.",
+      },
+      { type: "heading", text: "Why Choose VAMA Solution for HydraFacial?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, the focus is on providing professional skin and hair treatments with experienced doctors and modern technology. The clinic states that safety, transparency and effective treatment are priorities in its approach to patient care.",
+      },
+      {
+        type: "paragraph",
+        text: "Before starting treatment, your skin can be assessed so that the procedure can be planned according to your individual requirements.",
+      },
+      { type: "heading", text: "HydraFacial Treatment in Noida, Ghaziabad & Lucknow" },
+      {
+        type: "paragraph",
+        text: "If you are searching for a HydraFacial treatment in Noida, HydraFacial in Ghaziabad, or a professional HydraFacial clinic in Lucknow, VAMA Solution provides skin-care services across multiple locations. The clinic's listed locations include Noida, Ghaziabad, Lucknow, Delhi, Agra and Kanpur.",
+      },
+      { type: "heading", text: "Is HydraFacial Right for You?" },
+      {
+        type: "paragraph",
+        text: "HydraFacial may be a good option if you want a non-invasive treatment focused on cleansing, exfoliation and hydration. However, the right treatment depends on your skin type, existing skin concerns and treatment goals.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional consultation is recommended before treatment, particularly if you have active skin conditions or are undergoing other dermatological treatments.",
+      },
+    ],
     faqs: [
       { q: "Is HydraFacial suitable for sensitive skin?", a: "Yes, it's gentle enough for most skin types including sensitive skin — serums are adjusted accordingly." },
       { q: "Can I wear makeup right after?", a: "Yes, there's zero downtime, so you can resume your day — including makeup — immediately." },
@@ -205,6 +583,68 @@ export const treatments = [
       "Multi-step application is performed with gentle massage techniques to boost absorption.",
       "A simple at-home layering routine is shared to extend the glass-skin effect."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Clear, smooth and naturally radiant skin is a common skincare goal. The Korean Glass Skin Treatment is designed to help improve the overall appearance of the skin by focusing on hydration, skin texture, brightness and a healthy-looking glow. At VAMA Advanced Hair & Skin Clinic, the treatment can be customized according to your skin type, concerns and desired results.",
+      },
+      { type: "heading", text: "What Is Korean Glass Skin Treatment?" },
+      {
+        type: "paragraph",
+        text: "Korean Glass Skin refers to a smooth, hydrated and luminous complexion that looks fresh and healthy. The treatment is not simply about making the skin lighter; instead, it focuses on improving skin hydration, texture, clarity and radiance.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional glass skin treatment may combine different skin-care technologies and techniques depending on individual requirements. Your skin is assessed before treatment so the most appropriate approach can be selected.",
+      },
+      { type: "heading", text: "Benefits of Korean Glass Skin Treatment" },
+      { type: "paragraph", text: "A customized Korean Glass Skin Treatment may help improve several common skin concerns, including:" },
+      {
+        type: "list",
+        items: [
+          "Dull and tired-looking skin",
+          "Uneven skin texture",
+          "Dehydrated or dry-looking skin",
+          "Mild pigmentation and uneven skin tone",
+          "Rough skin texture",
+          "Enlarged or congested pores",
+          "Lack of natural skin radiance",
+        ],
+      },
+      { type: "paragraph", text: "The treatment aims to leave your skin looking fresh, hydrated, smoother and more radiant." },
+      { type: "heading", text: "How Does the Treatment Work?" },
+      {
+        type: "paragraph",
+        text: "The exact treatment protocol depends on your skin condition and treatment goals. During your consultation, the skin is evaluated to understand your concerns and determine which procedures or skincare technologies may be suitable.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on your requirements, your treatment plan may focus on hydration, exfoliation, nourishment, pigmentation management or improving overall skin quality. Because every person's skin is different, the number of sessions and expected results can vary.",
+      },
+      { type: "heading", text: "Who Can Consider Korean Glass Skin Treatment?" },
+      {
+        type: "paragraph",
+        text: "Korean Glass Skin Treatment may be suitable for individuals who want to improve the appearance of dull, dehydrated or uneven-looking skin and achieve a healthier-looking glow.",
+      },
+      {
+        type: "paragraph",
+        text: "It can be particularly useful before special occasions or as part of a regular professional skincare routine. However, people with active acne, infections, significant skin sensitivity or other dermatological conditions should first consult a qualified skin professional.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, treatments are planned according to individual skin needs rather than following a one-size-fits-all approach. Our experienced team focuses on professional assessment, appropriate treatment selection and personalized skincare guidance.",
+      },
+      {
+        type: "paragraph",
+        text: "Whether your concern is dullness, uneven texture, pigmentation or dehydration, a consultation can help determine the most suitable approach for your skin.",
+      },
+      { type: "heading", text: "Get Glowing, Healthy-Looking Skin" },
+      {
+        type: "paragraph",
+        text: "If you are looking for a professional Korean Glass Skin Treatment, VAMA Clinics can help you understand the right treatment approach for your skin. The goal is not just an instant glow but healthier-looking, smoother and well-hydrated skin with a personalized treatment plan.",
+      },
+    ],
     faqs: [
       { q: "Is this good before an event or wedding?", a: "Yes — it's one of our most popular pre-event treatments for an instant, camera-ready glow." },
       { q: "Will it help with visible pores?", a: "Yes, consistent sessions visibly refine pore appearance and smooth texture." },
@@ -233,6 +673,74 @@ export const treatments = [
       "The diode laser is passed over the area, targeting follicles with minimal discomfort.",
       "Sun protection is advised between sessions to protect treated skin and support results."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Unwanted hair can be difficult to manage with regular shaving, waxing or threading. If you are looking for a longer-term solution for unwanted hair, Laser Hair Reduction Treatment can be an effective option. At VAMA Advanced Hair & Skin Clinic, laser hair reduction is performed using professional technology and a treatment plan tailored to your skin type, hair growth and individual requirements.",
+      },
+      { type: "heading", text: "What Is Laser Hair Reduction?" },
+      {
+        type: "paragraph",
+        text: "Laser hair reduction is a non-invasive cosmetic procedure that uses controlled laser energy to target the pigment in the hair follicle. The energy is absorbed by the hair and converted into heat, which can help reduce the ability of the follicle to produce new hair.",
+      },
+      {
+        type: "paragraph",
+        text: "Unlike shaving or waxing, which only manage visible hair temporarily, laser treatment works at the follicle level. With a recommended series of sessions, many people experience a significant reduction in unwanted hair growth.",
+      },
+      { type: "heading", text: "Benefits of Laser Hair Reduction" },
+      { type: "paragraph", text: "Laser hair reduction can provide several benefits, including:" },
+      {
+        type: "list",
+        items: [
+          "Long-term reduction in unwanted hair",
+          "Smoother-looking skin",
+          "Reduced dependence on shaving and waxing",
+          "Helps manage frequent hair growth",
+          "Can be performed on different body areas",
+          "Treatment sessions are generally quick, depending on the area",
+          "Customized according to individual skin and hair characteristics",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Laser hair reduction may also help reduce problems associated with frequent shaving, such as razor bumps and irritation in some individuals.",
+      },
+      { type: "heading", text: "How Does Laser Hair Reduction Work?" },
+      {
+        type: "paragraph",
+        text: "Before treatment, your skin and hair are assessed to determine the appropriate laser settings and treatment approach. During the procedure, the laser device delivers controlled pulses of energy to the targeted area.",
+      },
+      {
+        type: "paragraph",
+        text: "You may experience a mild snapping or warming sensation during the procedure. The duration of each session depends on the treatment area. Smaller areas such as the upper lip or chin generally require less time than larger areas such as the legs, arms or back.",
+      },
+      {
+        type: "paragraph",
+        text: "Because hair grows in different stages, multiple sessions are usually required to achieve optimal hair reduction. Your doctor or skin professional will recommend a treatment schedule based on your individual response.",
+      },
+      { type: "heading", text: "Areas That Can Be Treated" },
+      { type: "paragraph", text: "Laser hair reduction may be performed on various areas of the body, including:" },
+      { type: "list", items: ["Face", "Upper lip", "Chin", "Underarms", "Arms", "Legs", "Back", "Chest", "Bikini area"] },
+      {
+        type: "paragraph",
+        text: "The suitability of treatment depends on factors such as skin type, hair colour, hair thickness and the area being treated.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, treatment is planned according to your individual skin and hair characteristics. A professional consultation helps determine whether laser hair reduction is suitable for you and which treatment approach may provide the best results.",
+      },
+      {
+        type: "paragraph",
+        text: "Our team focuses on appropriate treatment settings, patient comfort and personalized skincare guidance throughout the treatment process.",
+      },
+      { type: "heading", text: "Is Laser Hair Reduction Right for You?" },
+      {
+        type: "paragraph",
+        text: "Laser hair reduction can be a convenient option for people who want to reduce unwanted hair growth and spend less time on temporary hair-removal methods. However, results can vary depending on factors such as hair colour, thickness, hormonal influences and the treatment area.",
+      },
+      { type: "paragraph", text: "A consultation is recommended before beginning treatment so your skin and hair can be properly evaluated." },
+    ],
     faqs: [
       { q: "Is laser hair reduction permanent?", a: "It offers long-term reduction rather than 100% permanent removal — most patients see 80–90% reduction after a full course." },
       { q: "Does it work on dark skin tones?", a: "Yes, our diode laser is calibrated to be safe and effective across all skin tones." },
@@ -261,6 +769,77 @@ export const treatments = [
       "Filler is injected in small, precise amounts, with results assessed in real-time.",
       "Mild swelling settles within 24–48 hours; final results are visible within a week."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Facial volume naturally changes with age, which can contribute to the appearance of fine lines, wrinkles, hollow areas and less-defined facial contours. Dermal fillers are a non-surgical cosmetic treatment designed to restore or enhance facial volume and create a more balanced, refreshed appearance. At VAMA Advanced Hair & Skin Clinic, filler treatments are planned according to your facial features, skin condition and aesthetic goals.",
+      },
+      { type: "heading", text: "What Are Dermal Fillers?" },
+      {
+        type: "paragraph",
+        text: "Dermal fillers are injectable gel-like substances used to add volume to specific areas of the face. Many modern fillers contain hyaluronic acid, a substance naturally found in the body that helps support skin hydration and volume.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on the treatment area and desired outcome, fillers may be used to enhance facial contours, soften the appearance of certain lines or restore volume in areas that have become hollow over time.",
+      },
+      { type: "heading", text: "Benefits of Dermal Fillers" },
+      { type: "paragraph", text: "A professionally administered filler treatment may help:" },
+      {
+        type: "list",
+        items: [
+          "Restore lost facial volume",
+          "Enhance facial contours",
+          "Improve the appearance of certain wrinkles and folds",
+          "Add definition to the lips",
+          "Improve the appearance of hollow areas",
+          "Create better facial balance and symmetry",
+          "Provide a refreshed and naturally proportioned appearance",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal is not necessarily to create a dramatic change. A customized treatment can be planned to maintain your natural facial appearance while addressing specific concerns.",
+      },
+      { type: "heading", text: "Areas Commonly Treated With Fillers" },
+      { type: "paragraph", text: "Dermal fillers can be used for different facial areas depending on individual requirements. Common treatment areas include:" },
+      {
+        type: "list",
+        items: ["Lips", "Cheeks", "Chin", "Jawline", "Nasolabial folds", "Marionette lines", "Under-eye hollows", "Other areas requiring volume restoration"],
+      },
+      {
+        type: "paragraph",
+        text: "The appropriate treatment area and filler type depend on your facial structure, skin condition and desired results.",
+      },
+      { type: "heading", text: "How Does the Filler Treatment Work?" },
+      {
+        type: "paragraph",
+        text: "Before treatment, a consultation is performed to understand your concerns and aesthetic goals. Your facial features are evaluated so that the treatment can be planned according to your individual requirements.",
+      },
+      {
+        type: "paragraph",
+        text: "During the procedure, the selected filler is carefully injected into the targeted area using appropriate injection techniques. The treatment duration depends on the number and location of areas being treated.",
+      },
+      {
+        type: "paragraph",
+        text: "Some temporary redness, swelling, tenderness or bruising may occur after injections. Your doctor will provide appropriate aftercare instructions to support recovery.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, cosmetic treatments are approached with an emphasis on personalized planning and natural-looking results. Our experienced team evaluates your facial features and discusses realistic treatment expectations before recommending a filler procedure.",
+      },
+      {
+        type: "paragraph",
+        text: "Every face is different, so the amount and placement of filler should be customized rather than following a standard approach.",
+      },
+      { type: "heading", text: "Is Dermal Filler Right for You?" },
+      {
+        type: "paragraph",
+        text: "Dermal fillers may be suitable for adults who want to enhance facial volume, improve certain facial contours or address specific signs of ageing without undergoing surgery. However, fillers are not appropriate for everyone.",
+      },
+      { type: "paragraph", text: "A professional consultation is important to assess your suitability, discuss potential risks and determine the most appropriate treatment plan." },
+    ],
     faqs: [
       { q: "Are fillers safe?", a: "Yes, we use approved hyaluronic-acid based fillers that are reversible and have a strong safety record." },
       { q: "How long do fillers last?", a: "Depending on the area and product, results typically last 9–18 months." },
@@ -289,6 +868,76 @@ export const treatments = [
       "PRP is micro-injected or applied with micro-needling across the treatment area.",
       "Mild redness settles within a day; collagen-building continues over following weeks."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Healthy, youthful-looking skin is often associated with good hydration, smooth texture and natural collagen production. Face PRP Treatment, also known as Platelet-Rich Plasma therapy, is a minimally invasive cosmetic procedure that uses components of your own blood to support skin rejuvenation. At VAMA Advanced Hair & Skin Clinic, PRP treatment is customized according to your skin condition, concerns and aesthetic goals.",
+      },
+      { type: "heading", text: "What Is Face PRP Treatment?" },
+      {
+        type: "paragraph",
+        text: "PRP stands for Platelet-Rich Plasma. During the treatment, a small amount of blood is collected and processed to separate the plasma containing a higher concentration of platelets. This platelet-rich portion is then used on the targeted facial areas.",
+      },
+      {
+        type: "paragraph",
+        text: "Platelets contain growth factors that are involved in the body's natural tissue-repair processes. When PRP is introduced into the skin using an appropriate technique, it may support collagen production and overall skin rejuvenation.",
+      },
+      { type: "heading", text: "Benefits of Face PRP" },
+      { type: "paragraph", text: "Face PRP treatment may help improve the appearance of several common skin concerns, including:" },
+      {
+        type: "list",
+        items: [
+          "Dull or tired-looking skin",
+          "Uneven skin texture",
+          "Fine lines and early signs of ageing",
+          "Mild acne scars",
+          "Reduced skin firmness",
+          "Uneven-looking complexion",
+          "Loss of natural skin radiance",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The treatment uses your own blood-derived material, making it a popular option for people seeking an autologous approach to facial rejuvenation.",
+      },
+      { type: "heading", text: "How Does Face PRP Work?" },
+      { type: "paragraph", text: "Before treatment, your skin is assessed to understand your concerns and determine whether PRP is suitable for you." },
+      {
+        type: "paragraph",
+        text: "A small blood sample is collected and processed using specialized equipment to separate the platelet-rich plasma. After preparing the treatment area, the PRP is applied or introduced into the targeted skin according to the selected treatment technique.",
+      },
+      {
+        type: "paragraph",
+        text: "The procedure may cause temporary redness, mild swelling or sensitivity. These effects generally settle as the skin recovers, although individual recovery can vary.",
+      },
+      { type: "heading", text: "How Many PRP Sessions Are Needed?" },
+      {
+        type: "paragraph",
+        text: "The number of sessions depends on your skin condition, treatment goals and response to therapy. Some individuals may require a series of sessions to achieve their desired improvement.",
+      },
+      {
+        type: "paragraph",
+        text: "During your consultation, the VAMA Clinics team can recommend an individualized treatment schedule based on your skin assessment.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics for Face PRP?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, treatments are planned around individual skin requirements rather than using the same approach for every patient. Our experienced team evaluates your skin and discusses realistic expectations before beginning treatment.",
+      },
+      {
+        type: "paragraph",
+        text: "The objective of Face PRP is to support natural-looking skin rejuvenation while addressing specific concerns such as texture, fine lines and reduced radiance.",
+      },
+      { type: "heading", text: "Is Face PRP Right for You?" },
+      {
+        type: "paragraph",
+        text: "Face PRP may be considered by adults who want to improve overall skin quality and address early signs of ageing or uneven texture without undergoing surgical procedures. However, PRP is not suitable for everyone.",
+      },
+      {
+        type: "paragraph",
+        text: "A professional consultation is recommended before treatment, particularly if you have an active skin condition, bleeding-related concerns or are taking certain medications.",
+      },
+    ],
     faqs: [
       { q: "Is Face PRP safe since it uses my own blood?", a: "Yes — because PRP is derived from your own blood, allergic reactions are extremely rare." },
       { q: "Does the blood draw hurt?", a: "It's a standard blood draw, similar to a routine blood test — quick and minimally uncomfortable." },
@@ -317,6 +966,78 @@ export const treatments = [
       "Sessions are delivered in sequence, spaced to allow skin recovery and cumulative improvement.",
       "A maintenance skincare plan keeps results consistent between sessions."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Healthy, youthful-looking skin can naturally change with age, sun exposure, stress and environmental factors. Fine lines, uneven skin tone, pigmentation, dullness and changes in skin texture may gradually become more noticeable. Skin Rejuvenation Treatment is designed to improve the overall appearance and quality of the skin by addressing specific concerns and supporting a smoother, fresher and more radiant complexion.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, skin rejuvenation treatments are customized according to your skin type, concerns and individual treatment goals.",
+      },
+      { type: "heading", text: "What Is Skin Rejuvenation?" },
+      {
+        type: "paragraph",
+        text: "Skin rejuvenation refers to a range of professional treatments that aim to improve the appearance of ageing, dull, uneven or damaged skin. Depending on your concerns, a customized treatment plan may focus on improving skin texture, pigmentation, hydration, fine lines, acne marks or overall radiance.",
+      },
+      {
+        type: "paragraph",
+        text: "The appropriate treatment depends on factors such as your skin type, condition and desired results. A professional skin assessment helps determine the most suitable approach.",
+      },
+      { type: "heading", text: "Benefits of Skin Rejuvenation Treatment" },
+      { type: "paragraph", text: "Skin rejuvenation may help improve the appearance of:" },
+      {
+        type: "list",
+        items: [
+          "Fine lines and early signs of ageing",
+          "Uneven skin tone",
+          "Dull or tired-looking skin",
+          "Pigmentation and sun-related skin concerns",
+          "Uneven skin texture",
+          "Mild acne marks and scars",
+          "Enlarged or congested pores",
+          "Loss of skin firmness",
+          "Reduced natural skin radiance",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal is to help your skin look smoother, healthier and more refreshed while maintaining a natural appearance.",
+      },
+      { type: "heading", text: "How Does Skin Rejuvenation Work?" },
+      {
+        type: "paragraph",
+        text: "Before starting treatment, your skin is carefully evaluated to understand your concerns and treatment objectives. Based on this assessment, a suitable rejuvenation procedure or combination of treatments may be recommended.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on your skin requirements, treatment may focus on exfoliation, collagen stimulation, pigmentation management, hydration or improving overall skin texture. The number of sessions and recovery time can vary according to the selected procedure and individual response.",
+      },
+      { type: "heading", text: "Who Can Consider Skin Rejuvenation?" },
+      {
+        type: "paragraph",
+        text: "Skin rejuvenation may be suitable for adults who want to improve the appearance of dull skin, uneven texture, pigmentation, fine lines or early signs of ageing.",
+      },
+      {
+        type: "paragraph",
+        text: "It can also be considered by people who want to maintain healthier-looking skin as part of a professional skincare routine. However, not every treatment is appropriate for every skin type, so consultation with a qualified skin professional is recommended before beginning treatment.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Advanced Hair & Skin Clinic, treatment plans are personalized according to individual skin concerns. Our experienced team evaluates your skin and discusses realistic expectations before recommending a procedure.",
+      },
+      {
+        type: "paragraph",
+        text: "Rather than following a one-size-fits-all approach, the treatment plan can be selected according to your skin condition, lifestyle and desired outcome.",
+      },
+      { type: "heading", text: "Is Skin Rejuvenation Right for You?" },
+      {
+        type: "paragraph",
+        text: "The right rejuvenation treatment depends on your specific skin concerns. Factors such as skin sensitivity, pigmentation, active acne, previous treatments and overall skin health may influence the recommended procedure.",
+      },
+      { type: "paragraph", text: "A professional consultation allows your skin to be assessed and helps determine the safest and most appropriate treatment approach." },
+    ],
     faqs: [
       { q: "What concerns does this treat?", a: "It's effective for dullness, pigmentation, uneven texture and early signs of sun damage." },
       { q: "Will I need to take time off work?", a: "Most sessions have no downtime, so you can return to your routine right after." },
