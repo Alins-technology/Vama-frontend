@@ -52,7 +52,7 @@ export const treatments = [
     name: "Acne Scar Treatment",
     image: acneScarImg,
     short: "Smoother texture with laser resurfacing, micro-needling & peels.",
-    metaTitle: "Acne Scar Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Acne Scar Treatment & Skin Resurfacing | VAMA Clinics",
     metaDescription:
       "Reduce acne scars and uneven skin texture with advanced dermatologist-led treatments at VAMA Clinics. Personalized plans for visibly smoother skin.",
     description:
@@ -153,7 +153,7 @@ export const treatments = [
     name: "Anti-Ageing Treatment",
     image: antiAgeingImg,
     short: "Firmer, youthful skin with non-surgical lifting & rejuvenation.",
-    metaTitle: "Anti-Ageing Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Anti-Ageing Treatment & Skin Care | VAMA Clinics",
     metaDescription:
       "Address fine lines, wrinkles and loss of skin firmness with expert-guided anti-ageing treatments at VAMA Clinics, tailored to your skin's needs.",
     description:
@@ -267,7 +267,7 @@ export const treatments = [
     name: "Botox",
     image: botoxImg,
     short: "Soften expression lines with precise, doctor-administered Botox.",
-    metaTitle: "Botox Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Botox Treatment & Facial Care | VAMA Clinics",
     metaDescription:
       "Smoothen expression lines and fine wrinkles with professionally administered Botox at VAMA Clinics. Consult our experts for a personalized plan.",
     description:
@@ -367,7 +367,7 @@ export const treatments = [
     name: "Mole / Skin Tag Removal",
     image: moleImg,
     short: "Safe, scarless removal of moles and skin tags.",
-    metaTitle: "Mole & Skin Tag Removal | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Mole & Skin Tag Removal Treatment | VAMA Clinics",
     metaDescription:
       "Safe, dermatologist-guided mole and skin tag removal at VAMA Clinics. Minimally invasive procedures with proper pre- and post-care support.",
     description:
@@ -459,7 +459,7 @@ export const treatments = [
     name: "HydraFacial",
     image: hydrafacialImg,
     short: "Deep cleanse, exfoliate & hydrate in one relaxing session.",
-    metaTitle: "HydraFacial Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "HydraFacial Treatment & Facial Care | VAMA Clinics",
     metaDescription:
       "Cleanse, exfoliate and hydrate your skin with HydraFacial at VAMA Clinics. A dermatologist-guided treatment for refreshed, glowing skin.",
     description:
@@ -568,7 +568,7 @@ export const treatments = [
     name: "Korean Glass Skin Treatment",
     image: koreanGlassSkinImg,
     short: "The dewy, poreless 'glass skin' finish, done right.",
-    metaTitle: "Korean Glass Skin Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Korean Glass Skin Treatment & Facial Glow | VAMA Clinics",
     metaDescription:
       "Get smoother, luminous skin with the Korean Glass Skin treatment at VAMA Clinics. Expert-guided skincare for a radiant, even-toned complexion.",
     description:
@@ -754,7 +754,7 @@ export const treatments = [
     name: "Dermal Fillers",
     image: dermalFillerImg,
     short: "Restore volume & contour with precision filler placement.",
-    metaTitle: "Dermal Filler Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Dermal Filler Treatment & Facial Contouring | VAMA Clinics",
     metaDescription:
       "Restore facial volume and smoothen contours with professionally administered dermal fillers at VAMA Clinics. Book a personalized consultation.",
     description:
@@ -853,7 +853,7 @@ export const treatments = [
     name: "Face PRP",
     image: facePrpImg,
     short: "Your own platelets, concentrated to rejuvenate skin naturally.",
-    metaTitle: "Face PRP Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Face PRP Treatment & Facial Care | VAMA Clinics",
     metaDescription:
       "Improve skin texture and radiance with Face PRP treatment at VAMA Clinics, performed under expert dermatological supervision.",
     description:
@@ -951,7 +951,7 @@ export const treatments = [
     name: "Skin Rejuvenation",
     image: skinRejuvenationImg,
     short: "Restore tone, texture & radiance with combination therapy.",
-    metaTitle: "Skin Rejuvenation Treatment | Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Skin Rejuvenation Treatment & Facial Renewal | VAMA Clinics",
     metaDescription:
       "Refresh dull, tired-looking skin with dermatologist-guided skin rejuvenation treatments at VAMA Clinics, customized to your skin concerns.",
     description:
@@ -1053,7 +1053,7 @@ export const treatments = [
     name: "Hair Transplant (FUE)",
     image: hairTransplantImg,
     short: "Natural, permanent hair restoration with advanced FUE.",
-    metaTitle: "Hair Transplant by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Hair Transplant Clinic & Treatment | VAMA Clinics",
     metaDescription:
       "Get a personalized hair transplant consultation with Dr. Akanksha Gupta at VAMA Clinics. Expert-led evaluation and natural-looking results.",
     description:
@@ -1081,7 +1081,7 @@ export const treatments = [
     name: "Hair Fall Treatment",
     image: hairFallImg,
     short: "Diagnose the root cause and stop hair fall early.",
-    metaTitle: "Hair Fall Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Advanced Hair Fall Treatment & Care | VAMA Clinics",
     metaDescription:
       "Address hair fall with expert diagnosis and treatment plans by Dr. Akanksha Gupta at VAMA Clinics, tailored to your scalp and hair condition.",
     description:
@@ -1109,7 +1109,7 @@ export const treatments = [
     name: "Hair Replacement",
     image: hairReplacementImg,
     short: "Instant, natural-looking density with non-surgical systems.",
-    metaTitle: "Hair Replacement by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Hair Replacement Treatment & Care | VAMA Clinics",
     metaDescription:
       "Explore non-surgical hair replacement solutions guided by Dr. Akanksha Gupta at VAMA Clinics, designed to suit your lifestyle and needs.",
     description:
@@ -1137,7 +1137,7 @@ export const treatments = [
     name: "Hair PRP",
     image: hairPrpImg,
     short: "Platelet-Rich Plasma therapy to stimulate hair regrowth.",
-    metaTitle: "Hair PRP Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Hair PRP Treatment & Hair Growth | VAMA Clinics",
     metaDescription:
       "Support hair growth with PRP therapy administered by Dr. Akanksha Gupta at VAMA Clinics, using your body's own healing process.",
     description:
@@ -1165,7 +1165,7 @@ export const treatments = [
     name: "Dandruff Treatment",
     image: dandruffImg,
     short: "Targeted therapy for a healthy, flake-free scalp.",
-    metaTitle: "Dandruff Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Dandruff Treatment & Scalp Care | VAMA Clinics",
     metaDescription:
       "Get lasting relief from dandruff and scalp irritation with expert care from Dr. Akanksha Gupta at VAMA Clinics.",
     description:
@@ -1193,7 +1193,7 @@ export const treatments = [
     name: "Hair DNA Test",
     image: hairDnaImg,
     short: "Understand your genetic hair-loss risk before it starts.",
-    metaTitle: "Hair DNA Test by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "Hair DNA Test & Hair Health Analysis | VAMA Clinics",
     metaDescription:
       "Understand the genetic causes of your hair loss with a Hair DNA Test guided by Dr. Akanksha Gupta at VAMA Clinics.",
     description:
@@ -1221,7 +1221,7 @@ export const treatments = [
     name: "GFC Hair Treatment",
     image: gfcImg,
     short: "Growth Factor Concentrate for denser, healthier hair.",
-    metaTitle: "GFC Hair Treatment by Dr. Akanksha Gupta | VAMA Clinics",
+    metaTitle: "GFC Hair Treatment & Hair Growth | VAMA Clinics",
     metaDescription:
       "Explore Growth Factor Concentrate (GFC) therapy for hair restoration, offered by Dr. Akanksha Gupta at VAMA Clinics.",
     description:
@@ -1248,26 +1248,223 @@ export const treatments = [
   {
     slug: "medical-weight-loss",
     category: "weight-loss",
-    name: "Medical Weight Loss Programme",
+    name: "Medical Weight Loss",
     image: weightLossImg,
-    short: "Doctor-supervised plans combining diet, therapy & tracking.",
+    short: "Professionally supervised, personalised weight-management guidance.",
+    metaTitle: "Looking Medical Weight Loss | VAMA Clinics",
+    metaDescription:
+      "Get personalized medical weight loss support at VAMA Clinics with professional guidance, nutrition planning, and sustainable lifestyle strategies.",
     description:
-      "A structured, doctor-supervised programme combining nutrition planning, body-composition tracking and targeted therapies to help you lose weight sustainably and safely.",
-    benefits: ["Doctor-supervised", "Sustainable, healthy results", "Personalised nutrition plan", "Regular progress tracking"],
+      "Medical Weight Loss offers a structured approach that considers your health, lifestyle, eating habits, weight history and individual goals. At VAMA Clinics, it focuses on personalised weight-management guidance rather than temporary or restrictive dieting — combining nutritional guidance, physical activity, behavioural changes, health monitoring and medically appropriate options when required.",
+    benefits: ["Professionally supervised guidance", "Personalised nutrition & lifestyle plan", "Focus on sustainable change, not crash diets", "Regular progress monitoring"],
     duration: "45 mins per visit",
-    sessions: "8–12 week programme",
+    sessions: "Ongoing programme, reviewed regularly",
     downtime: "None",
     process: commonProcess(
-      "Body composition, metabolic health and lifestyle are assessed in detail.",
-      "A personalised nutrition, activity and therapy plan is designed around your goals.",
-      "The programme is followed with regular check-ins and plan adjustments.",
-      "Progress is tracked with body-composition analysis at each milestone."
+      "A healthcare professional assesses your current weight, body composition, medical history, eating habits, activity levels, previous weight-loss attempts and personal goals.",
+      "Based on this assessment, a personalised plan combining nutrition, activity and behavioural strategies is designed around your requirements.",
+      "The plan is followed with practical, realistic lifestyle changes rather than extreme or restrictive dieting.",
+      "Regular follow-ups assess progress and help determine whether adjustments to the plan are required."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Losing excess weight can be challenging, particularly when diet and exercise alone do not provide sustainable progress. Medical Weight Loss offers a structured approach that considers your health, lifestyle, eating habits, weight history and individual goals.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, medical weight loss focuses on personalised weight-management guidance rather than temporary or restrictive dieting. A suitable plan may combine nutritional guidance, physical activity, behavioural changes, health monitoring and medically appropriate options when required.",
+      },
+      { type: "heading", text: "What Is Medical Weight Loss?" },
+      { type: "paragraph", text: "Medical weight loss is a professionally supervised approach to managing excess weight. Before recommending a treatment plan, a healthcare professional may assess your:" },
+      {
+        type: "list",
+        items: ["Current weight and body composition", "Medical history", "Eating habits", "Physical activity", "Lifestyle", "Previous weight-loss attempts", "Weight-related health concerns", "Personal goals"],
+      },
+      { type: "paragraph", text: "This assessment helps determine which strategies may be appropriate for you." },
+      { type: "heading", text: "Who May Consider Medical Weight Loss?" },
+      { type: "paragraph", text: "Medical weight-management support may be useful for people who:" },
+      {
+        type: "list",
+        items: ["Have difficulty losing excess weight", "Frequently regain weight after dieting", "Have weight-related health concerns", "Want structured professional guidance", "Need help improving eating and lifestyle habits", "Have tried multiple approaches without sustainable progress"],
+      },
+      { type: "paragraph", text: "Not every treatment is suitable for everyone. A professional consultation is important before starting a medical weight-loss program." },
+      { type: "heading", text: "Personalized Weight Management" },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, weight-loss plans are developed according to individual requirements. Your healthcare professional can discuss your current lifestyle, nutritional habits, physical activity, health history and goals before suggesting an appropriate approach.",
+      },
+      { type: "paragraph", text: "The focus is on realistic and sustainable lifestyle changes rather than extreme diets." },
+      { type: "heading", text: "Nutrition and Lifestyle" },
+      {
+        type: "paragraph",
+        text: "Healthy weight management involves more than reducing food intake. A balanced diet, regular physical activity, adequate sleep, stress management and consistent daily habits can all contribute to better weight management.",
+      },
+      { type: "paragraph", text: "Your plan may include practical nutrition recommendations and lifestyle strategies that fit your routine." },
+      { type: "heading", text: "Progress Monitoring" },
+      {
+        type: "paragraph",
+        text: "Weight-loss progress varies between individuals. Factors such as starting weight, lifestyle, medical conditions, consistency and individual response can influence results.",
+      },
+      { type: "paragraph", text: "Regular follow-ups can help assess progress and determine whether adjustments are required." },
+      { type: "heading", text: "VAMA Clinics Locations" },
+      { type: "paragraph", text: "VAMA Clinics provides personalised weight-management services across multiple locations:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "You can choose the VAMA Clinics location convenient for you and discuss your weight-management goals with a qualified professional." },
+      { type: "heading", text: "Start Your Weight-Loss Journey" },
+      {
+        type: "paragraph",
+        text: "If you are struggling with excess weight or repeated dieting, professional guidance can help you understand suitable options. VAMA Clinics focuses on individualised medical weight management designed around your health and goals.",
+      },
+    ],
     faqs: [
-      { q: "Is this a crash diet?", a: "No, it's a medically supervised, sustainable programme focused on long-term healthy weight management." },
-      { q: "Will I need medication?", a: "Not always — plans are built around your specific case, and medication is only used when clinically appropriate." },
-      { q: "How much weight can I expect to lose?", a: "Results vary by individual, but a safe, sustainable target of 0.5–1 kg per week is typical." },
-      { q: "Is this programme suitable for all age groups?", a: "Yes — our plans are medically adjusted for age, metabolism and any existing health conditions, and are suitable for adults across a wide age range." },
+      { q: "Is medical weight loss a crash diet?", a: "No. It is a professionally supervised approach focused on realistic, sustainable lifestyle changes rather than extreme or restrictive dieting." },
+      { q: "Will I definitely be prescribed medication?", a: "Not necessarily. Medically appropriate options are only considered where suitable — your plan is based on individual assessment, not a standard protocol." },
+      { q: "How much weight can I expect to lose?", a: "Results vary between individuals depending on starting weight, lifestyle, consistency and health conditions, and cannot be guaranteed." },
+      { q: "Is this suitable for all age groups?", a: "Suitability depends on individual health and history. A professional consultation determines whether medical weight loss is appropriate for you." },
+    ],
+  },
+  {
+    slug: "obesity-treatment",
+    category: "weight-loss",
+    name: "Obesity Treatment",
+    image: weightLossImg,
+    short: "Structured, individualised weight-management strategies for obesity.",
+    metaTitle: "Are You Looking Obesity Treatment & Care | VAMA Clinics",
+    metaDescription:
+      "Explore personalized obesity treatment at VAMA Clinics with professional guidance, lifestyle support, and structured weight management solutions.",
+    description:
+      "Obesity is a complex health concern influenced by nutrition, physical activity, genetics, lifestyle, medications, sleep and other health factors. VAMA Clinics provides a structured approach to Obesity Treatment, focusing on individual assessment and personalised weight-management strategies rather than short-term dieting.",
+    benefits: ["Individual health assessment", "Personalised combination of strategies", "Behavioural & lifestyle support", "Regular weight monitoring"],
+    duration: "45 mins per visit",
+    sessions: "Ongoing programme, reviewed regularly",
+    downtime: "None",
+    process: commonProcess(
+      "Your weight history, lifestyle, eating patterns, physical activity and relevant health conditions are reviewed to understand contributing factors.",
+      "An individualised approach combining nutrition guidance, activity recommendations, behavioural support and medical evaluation is discussed.",
+      "The plan is followed with weight monitoring and other clinically appropriate interventions as needed.",
+      "Regular review helps identify areas that need adjustment for sustained, long-term results."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Obesity is a complex health concern that can be influenced by nutrition, physical activity, genetics, lifestyle, medications, sleep and other health factors. For people struggling with excess weight, simply following a short-term diet may not always provide sustainable results.",
+      },
+      {
+        type: "paragraph",
+        text: "VAMA Clinics provides a structured approach to Obesity Treatment, focusing on individual assessment and personalised weight-management strategies.",
+      },
+      { type: "heading", text: "What Is Obesity Treatment?" },
+      { type: "paragraph", text: "Obesity treatment aims to help individuals manage excess body weight and develop healthier long-term habits. Depending on individual requirements, treatment may involve:" },
+      {
+        type: "list",
+        items: ["Nutrition guidance", "Physical activity recommendations", "Lifestyle modification", "Behavioural support", "Weight monitoring", "Medical evaluation", "Other clinically appropriate interventions"],
+      },
+      { type: "paragraph", text: "The right combination depends on your health and individual circumstances." },
+      { type: "heading", text: "Understanding the Causes of Obesity" },
+      {
+        type: "paragraph",
+        text: "Weight gain can have multiple contributing factors. These may include excessive calorie intake, sedentary habits, stress, poor sleep, certain medications, hormonal or metabolic conditions and genetic factors.",
+      },
+      { type: "paragraph", text: "Understanding these factors can help create a more suitable treatment plan." },
+      { type: "heading", text: "Who May Need Obesity Management?" },
+      { type: "paragraph", text: "Professional obesity management may be considered if you:" },
+      {
+        type: "list",
+        items: ["Have difficulty reducing excess weight", "Experience repeated weight regain", "Have reduced mobility due to excess weight", "Have weight-related health concerns", "Need structured weight-management support", "Want professional guidance instead of unsupervised dieting"],
+      },
+      { type: "paragraph", text: "A consultation can help determine whether obesity treatment is appropriate for you." },
+      { type: "heading", text: "Personalized Treatment at VAMA Clinics" },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, treatment planning starts with understanding your individual needs. Your healthcare professional may review your weight history, lifestyle, eating patterns, physical activity and relevant health conditions.",
+      },
+      { type: "paragraph", text: "Based on the assessment, an individualised approach can be discussed." },
+      { type: "heading", text: "Lifestyle and Long-Term Weight Management" },
+      {
+        type: "paragraph",
+        text: "Obesity management is not simply about reaching a particular number on the weighing scale. Long-term success may involve improving eating habits, increasing appropriate physical activity, managing stress, improving sleep and developing sustainable routines.",
+      },
+      { type: "paragraph", text: "Regular monitoring can help identify areas that need adjustment." },
+      { type: "heading", text: "VAMA Clinics Locations" },
+      { type: "paragraph", text: "Obesity-management consultations are available at VAMA Clinics in:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "This allows patients to choose a nearby VAMA Clinics location for consultation and professional guidance." },
+      { type: "heading", text: "Take the First Step" },
+      {
+        type: "paragraph",
+        text: "If excess weight is affecting your daily life or health, professional assessment can help you understand the available options. VAMA Clinics provides personalised obesity-management guidance based on individual health requirements.",
+      },
+    ],
+    faqs: [
+      { q: "Is obesity treatment the same as weight-loss dieting?", a: "No. It is a structured, professionally guided approach that considers medical history, lifestyle and health factors, not just short-term dieting." },
+      { q: "What causes obesity?", a: "Obesity can be influenced by multiple factors including diet, activity levels, genetics, sleep, stress, medications and hormonal or metabolic conditions." },
+      { q: "How is a treatment plan decided?", a: "Your healthcare professional reviews your weight history, lifestyle and health conditions before discussing a suitable individualised approach." },
+      { q: "Is obesity treatment suitable for everyone?", a: "Not every treatment is suitable for everyone. A professional consultation is important before starting a programme." },
+    ],
+  },
+  {
+    slug: "inch-loss-treatment",
+    category: "weight-loss",
+    name: "Inch Loss Treatment",
+    image: contouringImg,
+    short: "Targeted measurement reduction for the abdomen, waist & more.",
+    metaTitle: "Inch Loss & Body Shaping Treatments| VAMA Clinics",
+    metaDescription:
+      "Discover personalized inch loss treatment at VAMA Clinics to support targeted body shaping with professional guidance and suitable treatment options.",
+    description:
+      "Sometimes body measurements remain a concern even when overall weight changes. Inch Loss Treatment focuses on improving measurements and body contours in selected areas — the abdomen, waist, thighs, arms and hips — based on your individual body composition, goals and suitability.",
+    benefits: ["Targets localised areas of concern", "Improves body contours", "Non-surgical treatment options", "Personalised, area-specific planning"],
+    duration: "30–60 mins per session",
+    sessions: "Multiple sessions, as advised",
+    downtime: "None to minimal",
+    process: commonProcess(
+      "Your target areas, body composition, goals and medical history are evaluated before recommending a treatment approach.",
+      "A suitable non-surgical option is discussed, along with expected improvement, number of sessions and aftercare.",
+      "Treatment is delivered to the selected areas — abdomen, waist, hips, thighs, arms or flanks — as planned.",
+      "Lifestyle recommendations and follow-up sessions support your body-contouring goals over time."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Sometimes body measurements can remain a concern even when overall weight changes. Areas such as the abdomen, waist, thighs, arms and hips may have localised fat or excess body volume that can be difficult to address through lifestyle changes alone.",
+      },
+      { type: "paragraph", text: "Inch Loss Treatment focuses on improving measurements and body contours in selected areas. At VAMA Clinics, treatment planning is based on individual body composition, goals, medical history and suitability." },
+      { type: "heading", text: "What Is Inch Loss Treatment?" },
+      {
+        type: "paragraph",
+        text: "Inch loss refers to reducing measurements around selected areas of the body. It is different from general weight loss because changes in body measurements do not always correspond directly with changes on the weighing scale. Treatment areas may include:",
+      },
+      { type: "list", items: ["Abdomen", "Waist", "Hips", "Thighs", "Arms", "Flanks"] },
+      { type: "paragraph", text: "The appropriate treatment depends on your individual requirements." },
+      { type: "heading", text: "Who May Consider Inch Loss Treatment?" },
+      { type: "paragraph", text: "Inch-loss treatment may be considered by people who:" },
+      {
+        type: "list",
+        items: ["Have localised areas of excess fat", "Want to improve body contours", "Have difficulty changing specific areas through lifestyle alone", "Want to explore non-surgical body-shaping options", "Are working toward healthier lifestyle habits"],
+      },
+      { type: "paragraph", text: "A consultation is important to determine suitability." },
+      { type: "heading", text: "Personalized Treatment Planning" },
+      { type: "paragraph", text: "At VAMA Clinics, your concerns and target areas are evaluated before recommending a treatment approach. Your professional may discuss:" },
+      { type: "list", items: ["Target areas", "Suitable treatment options", "Expected improvement", "Number of sessions, if applicable", "Possible side effects", "Aftercare", "Lifestyle recommendations"] },
+      { type: "paragraph", text: "Results vary from person to person and cannot be guaranteed." },
+      { type: "heading", text: "Inch Loss and Healthy Lifestyle" },
+      { type: "paragraph", text: "Inch-loss treatments should complement — not replace — a healthy lifestyle. Balanced nutrition, regular physical activity, adequate sleep and maintaining a stable weight can support your overall body-contouring goals." },
+      { type: "heading", text: "VAMA Clinics Locations" },
+      { type: "paragraph", text: "You can explore inch-loss treatment at VAMA Clinics in:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "Choose the location nearest to you for consultation and personalised treatment guidance." },
+      { type: "heading", text: "Start Your Body-Contouring Journey" },
+      {
+        type: "paragraph",
+        text: "If you are concerned about measurements in specific body areas, a professional consultation can help you understand which options may be suitable. VAMA Clinics provides personalised guidance for individuals interested in inch-loss and body-contouring solutions.",
+      },
+    ],
+    faqs: [
+      { q: "Is inch loss the same as weight loss?", a: "No. Inch loss focuses on reducing measurements in specific areas, which does not always correspond directly with changes on the weighing scale." },
+      { q: "Which areas can be targeted?", a: "Commonly treated areas include the abdomen, waist, hips, thighs, arms and flanks, depending on your individual requirements." },
+      { q: "How many sessions will I need?", a: "This depends on your target areas and treatment plan — your professional will discuss an appropriate number of sessions at consultation." },
+      { q: "Can inch loss treatment replace diet and exercise?", a: "No. It should complement — not replace — a healthy, balanced lifestyle for the best overall results." },
     ],
   },
   {
@@ -1275,24 +1472,193 @@ export const treatments = [
     category: "weight-loss",
     name: "Body Contouring",
     image: contouringImg,
-    short: "Non-invasive fat reduction & body shaping.",
+    short: "Non-surgical shaping for areas resistant to diet & exercise.",
+    metaTitle: "Body Contouring Treatment & Body Shaping | VAMA Clinics",
+    metaDescription:
+      "Explore personalized body contouring at VAMA Clinics for targeted body shaping with suitable non-surgical options and professional treatment guidance.",
     description:
-      "Non-invasive body contouring technology targets stubborn fat pockets that resist diet and exercise, sculpting a more defined silhouette without surgery.",
-    benefits: ["Non-invasive", "Targets stubborn fat", "No downtime", "Visible inch-loss"],
+      "Even with regular exercise and a balanced diet, certain areas of the body can remain resistant to changes in shape. Body Contouring focuses on improving the appearance and shape of selected areas through appropriate non-surgical treatment options, selected according to your goals, body composition, health status and suitability.",
+    benefits: ["Non-invasive shaping options", "Targets areas resistant to lifestyle change", "Personalised treatment planning", "Realistic, expectation-led consultation"],
     duration: "30–60 mins per area",
-    sessions: "6–8 sessions",
+    sessions: "Multiple sessions, as advised",
     downtime: "None",
     process: commonProcess(
-      "Problem areas and fat distribution are assessed to plan the treatment zones.",
-      "A session plan is built around target areas — abdomen, thighs, arms or flanks.",
-      "Non-invasive energy-based technology is applied to break down stubborn fat cells.",
-      "Results build gradually over following weeks as the body clears treated fat naturally."
+      "Your concerns, target areas and body composition are evaluated to determine treatment suitability.",
+      "Appropriate options, expected outcomes and number of sessions are discussed for a personalised plan.",
+      "The selected body-contouring technology is applied to the target area — abdomen, waist, hips, thighs, arms or flanks.",
+      "Aftercare guidance and lifestyle recommendations support your overall body-management goals."
     ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Even with regular exercise and a balanced diet, certain areas of the body can remain resistant to changes in shape. Body Contouring focuses on improving the appearance and shape of selected areas through appropriate treatment options.",
+      },
+      { type: "paragraph", text: "At VAMA Clinics, body-contouring treatments are selected according to individual goals, body composition, health status and treatment suitability." },
+      { type: "heading", text: "What Is Body Contouring?" },
+      { type: "paragraph", text: "Body contouring refers to treatments designed to improve body shape and address localised areas of unwanted fat or excess body volume. Potential treatment areas may include:" },
+      { type: "list", items: ["Abdomen", "Waist", "Hips", "Thighs", "Arms", "Flanks"] },
+      { type: "paragraph", text: "Different treatment technologies may be suitable for different individuals." },
+      { type: "heading", text: "Who Can Consider Body Contouring?" },
+      { type: "paragraph", text: "Body contouring may be appropriate for individuals who:" },
+      {
+        type: "list",
+        items: ["Have localised areas of excess fat", "Want to improve body proportions", "Maintain a relatively stable weight", "Have areas resistant to lifestyle changes", "Want to explore non-surgical body-shaping options"],
+      },
+      { type: "paragraph", text: "Body contouring is generally intended for shaping specific areas rather than treating obesity." },
+      { type: "heading", text: "Personalized Body-Shaping Plans" },
+      { type: "paragraph", text: "At VAMA Clinics, consultation is an important first step. Your professional can evaluate your concerns and discuss appropriate options, expected outcomes, treatment sessions, possible side effects, recovery and aftercare." },
+      { type: "paragraph", text: "A personalised plan helps ensure that expectations remain realistic." },
+      { type: "heading", text: "Body Contouring and Lifestyle" },
+      { type: "paragraph", text: "Body contouring works best alongside healthy lifestyle habits. Maintaining a balanced diet, staying physically active, getting adequate sleep and maintaining a stable weight can support your overall body-management goals." },
+      { type: "heading", text: "VAMA Clinics Near You" },
+      { type: "paragraph", text: "VAMA Clinics offers personalised body-contouring consultations across:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "Patients can select the VAMA Clinics branch that is most convenient for them." },
+      { type: "heading", text: "Explore Your Options" },
+      {
+        type: "paragraph",
+        text: "If you are looking to address specific areas of your body, a professional consultation can help you understand whether body contouring is suitable for your goals. VAMA Clinics focuses on individualised treatment planning rather than a one-treatment-fits-all approach.",
+      },
+    ],
     faqs: [
-      { q: "Is body contouring painful?", a: "No, it's a non-invasive procedure and most patients find it comfortable, often described as a warming or cooling sensation." },
-      { q: "Is it a substitute for weight loss?", a: "No — it's best for sculpting stubborn areas that resist diet and exercise, not for overall weight loss." },
-      { q: "When will I see results?", a: "Initial changes appear within 3–4 weeks, with fuller results visible by 8–12 weeks." },
-      { q: "Is body contouring safe for older patients?", a: "Yes — it's a non-invasive procedure suitable for most adults; we review your health history at consultation to confirm you're a good candidate regardless of age." },
+      { q: "Is body contouring painful?", a: "Comfort levels vary by technology and individual — your professional will explain what to expect for the specific option recommended for you." },
+      { q: "Is it a substitute for weight loss?", a: "No — it is generally intended for shaping specific areas rather than treating obesity or overall weight loss." },
+      { q: "When will I see results?", a: "Results build gradually and vary between individuals depending on the technology used, treatment area and consistency." },
+      { q: "Is body contouring safe for older patients?", a: "Suitability is assessed individually at consultation, taking your health history into account regardless of age." },
+    ],
+  },
+  {
+    slug: "ems-body-sculpting",
+    category: "weight-loss",
+    name: "EMS Body Sculpting",
+    image: contouringImg,
+    short: "Electrical muscle stimulation for non-surgical body shaping.",
+    metaTitle: "EMS Body Sculpting Treatment & Body Shaping | VAMA Clinics",
+    metaDescription:
+      "Discover EMS body sculpting Treatment at VAMA Clinics for targeted muscle stimulation and body shaping with a personalized treatment approach.",
+    description:
+      "EMS Body Sculpting uses electrical muscle stimulation to activate targeted muscles through controlled electrical impulses. It is a non-surgical approach that may be considered as part of a body-shaping and muscle-conditioning program, planned according to your goals, target areas, health considerations and suitability.",
+    benefits: ["Non-surgical muscle activation", "Targeted body-shaping support", "Adjustable treatment intensity", "Complements an active lifestyle"],
+    duration: "20–30 mins per session",
+    sessions: "Multiple sessions, as advised",
+    downtime: "None",
+    process: commonProcess(
+      "Your goals, target muscle groups and health considerations are assessed to determine treatment suitability.",
+      "A session plan is built around areas such as the abdomen, arms, thighs, glutes or other suitable muscle groups.",
+      "Specialised equipment delivers controlled electrical impulses to targeted muscles, adjusted to your tolerance.",
+      "Aftercare guidance and a broader body-management plan support your overall goals between sessions."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "EMS Body Sculpting uses electrical muscle stimulation to activate targeted muscles through controlled electrical impulses. It is a non-surgical approach that may be considered as part of a body-shaping and muscle-conditioning program.",
+      },
+      { type: "paragraph", text: "At VAMA Clinics, EMS treatment is planned according to individual goals, target areas, health considerations and suitability." },
+      { type: "heading", text: "What Is EMS Body Sculpting?" },
+      {
+        type: "paragraph",
+        text: "EMS stands for Electrical Muscle Stimulation. During treatment, specialised equipment delivers controlled electrical impulses to targeted muscles, causing them to contract. Treatment may focus on areas such as:",
+      },
+      { type: "list", items: ["Abdomen", "Arms", "Thighs", "Glutes", "Other suitable muscle groups"] },
+      { type: "paragraph", text: "The treatment settings and experience may vary depending on the individual and equipment used." },
+      { type: "heading", text: "Who May Consider EMS?" },
+      { type: "paragraph", text: "EMS Body Sculpting may be considered by adults who:" },
+      {
+        type: "list",
+        items: ["Want to support muscle activation", "Are interested in body shaping", "Want to complement an active lifestyle", "Have specific areas they want to target", "Prefer to explore non-surgical options"],
+      },
+      { type: "paragraph", text: "A professional assessment is recommended before treatment." },
+      { type: "heading", text: "How Does EMS Work?" },
+      {
+        type: "paragraph",
+        text: "Controlled electrical impulses stimulate targeted muscles, producing repeated muscle contractions. The intensity can generally be adjusted according to treatment settings and individual tolerance.",
+      },
+      { type: "paragraph", text: "EMS should be viewed as a complementary body-sculpting option rather than a replacement for regular exercise." },
+      { type: "heading", text: "EMS and Healthy Lifestyle" },
+      { type: "paragraph", text: "Regular physical activity, appropriate nutrition, hydration and healthy lifestyle habits remain important for overall fitness and body composition. EMS may be incorporated into an individual's broader body-management plan when appropriate." },
+      { type: "heading", text: "EMS at VAMA Clinics" },
+      {
+        type: "paragraph",
+        text: "Before treatment, VAMA Clinics professionals can discuss your goals, targeted areas, treatment suitability, expected experience and aftercare requirements. The number and frequency of sessions may depend on your individual treatment plan.",
+      },
+      { type: "paragraph", text: "Results vary according to individual factors, lifestyle, treatment consistency and body composition." },
+      { type: "heading", text: "VAMA Clinics Locations" },
+      { type: "paragraph", text: "EMS Body Sculpting consultations are available at VAMA Clinics locations in:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "You can choose a convenient VAMA Clinics branch for consultation." },
+      { type: "heading", text: "Begin Your Body-Sculpting Journey" },
+      { type: "paragraph", text: "If you are interested in EMS for muscle activation and body shaping, a professional consultation can help determine whether it is appropriate for you." },
+    ],
+    faqs: [
+      { q: "Does EMS replace regular exercise?", a: "No. It should be viewed as a complementary body-sculpting option rather than a replacement for regular exercise." },
+      { q: "Is EMS painful?", a: "Sensation varies by individual and treatment intensity — settings can generally be adjusted according to your tolerance." },
+      { q: "Which areas can be treated?", a: "Common areas include the abdomen, arms, thighs, glutes and other suitable muscle groups, depending on your goals." },
+      { q: "How many sessions will I need?", a: "The number and frequency of sessions depend on your individual treatment plan, discussed at consultation." },
+    ],
+  },
+  {
+    slug: "weight-management",
+    category: "weight-loss",
+    name: "Weight Management",
+    image: weightLossImg,
+    short: "Practical nutrition & diet consultation for sustainable habits.",
+    metaTitle: "Weight Management Program & Support | VAMA Clinics",
+    metaDescription:
+      "Get personalized weight management support at VAMA Clinics with nutrition guidance, lifestyle strategies, and professional care for healthier habits.",
+    description:
+      "Healthy weight management involves more than following a temporary diet. Your food choices, activity level, sleep, stress, lifestyle, medical history and daily routine can all influence your ability to maintain a healthy weight. Weight Management and Diet Consultation at VAMA Clinics focuses on creating practical nutrition and lifestyle strategies based on individual needs.",
+    benefits: ["Personalised nutrition guidance", "Practical, sustainable strategies", "Lifestyle & behavioural support", "Regular follow-up & review"],
+    duration: "30–45 mins per visit",
+    sessions: "Ongoing, reviewed periodically",
+    downtime: "None",
+    process: commonProcess(
+      "Your current eating patterns, meal timing, portion sizes, food preferences, activity level and goals are discussed in detail.",
+      "Suitable nutritional recommendations and lifestyle strategies are developed around your daily schedule and preferences.",
+      "The plan focuses on realistic eating habits — balanced meals, portion awareness and sustainable routines — rather than extreme restriction.",
+      "Your plan is reviewed according to progress and changing needs at regular follow-ups."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Healthy weight management involves more than following a temporary diet. Your food choices, activity level, sleep, stress, lifestyle, medical history and daily routine can all influence your ability to maintain a healthy weight.",
+      },
+      { type: "paragraph", text: "At VAMA Clinics, Weight Management and Diet Consultation focuses on creating practical nutrition and lifestyle strategies based on individual needs." },
+      { type: "heading", text: "What Is a Diet Consultation?" },
+      { type: "paragraph", text: "A diet consultation provides an opportunity to discuss your current eating habits, lifestyle, nutritional goals and weight-management concerns with an appropriate professional. Your consultation may cover:" },
+      {
+        type: "list",
+        items: ["Current eating patterns", "Meal timing", "Portion sizes", "Food preferences", "Physical activity", "Weight-management goals", "Lifestyle habits", "Relevant health considerations"],
+      },
+      { type: "paragraph", text: "Based on your needs, suitable nutritional recommendations can be developed." },
+      { type: "heading", text: "Who Can Benefit?" },
+      { type: "paragraph", text: "Diet consultation may help individuals who:" },
+      {
+        type: "list",
+        items: ["Want to improve their eating habits", "Are working toward weight-loss goals", "Struggle with portion control", "Follow irregular meal patterns", "Want structured nutrition guidance", "Need support with sustainable lifestyle changes"],
+      },
+      { type: "heading", text: "Personalized Nutrition Guidance" },
+      { type: "paragraph", text: "At VAMA Clinics, we understand that every person's nutritional requirements are different. Your dietary recommendations can take into account your daily schedule, food preferences, lifestyle, activity level and personal goals." },
+      { type: "paragraph", text: "The objective is to develop realistic eating habits rather than relying on extreme restrictions." },
+      { type: "heading", text: "Diet and Weight Management" },
+      { type: "paragraph", text: "Nutrition is an important component of weight management. A professional can help you understand balanced meals, portion awareness, food choices, meal planning and sustainable eating habits." },
+      { type: "paragraph", text: "Weight management may also involve physical activity, sleep, stress management and behavioural changes." },
+      { type: "heading", text: "Progress and Follow-Up" },
+      { type: "paragraph", text: "Your nutritional plan can be reviewed according to your progress and changing needs. Weight-loss results are different for everyone. Starting weight, health conditions, lifestyle, consistency and individual response can all influence progress." },
+      { type: "heading", text: "VAMA Clinics Locations" },
+      { type: "paragraph", text: "VAMA Clinics offers weight-management and diet consultation services across:" },
+      { type: "list", items: ["Lucknow", "Noida", "Indirapuram", "Lajpat Nagar, Delhi", "Agra", "Kanpur"] },
+      { type: "paragraph", text: "You can visit the VAMA Clinics branch nearest to you for personalised consultation and guidance." },
+      { type: "heading", text: "Make a Healthier Start" },
+      {
+        type: "paragraph",
+        text: "If you are confused by different diets or finding it difficult to maintain healthy eating habits, professional guidance can provide a more structured approach. VAMA Clinics focuses on practical and personalised nutrition and weight-management strategies.",
+      },
+    ],
+    faqs: [
+      { q: "What happens during a diet consultation?", a: "Your professional discusses your current eating patterns, meal timing, portion sizes, food preferences, activity level and goals before developing suitable recommendations." },
+      { q: "Is this only for weight loss?", a: "No — it also supports general healthy eating habits, portion control and sustainable lifestyle changes, alongside weight-management goals where relevant." },
+      { q: "Will I need to follow a strict diet?", a: "The objective is realistic, sustainable eating habits rather than extreme restriction — plans are built around your routine and preferences." },
+      { q: "How often will my plan be reviewed?", a: "Your nutritional plan is reviewed periodically according to your progress and changing needs." },
     ],
   },
 
