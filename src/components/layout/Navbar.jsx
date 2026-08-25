@@ -68,6 +68,7 @@ export default function Navbar() {
           <TreatmentsDropdown scrolled={scrolled} />
 
           {[
+            { to: "/clinics", label: "Clinics" },
             { to: "/blog", label: "Blog" },
             { to: "/contact-us", label: "Contact Us" },
           ].map((l) => (
@@ -166,6 +167,7 @@ export default function Navbar() {
               </MobileSub>
 
               {[
+                { to: "/clinics", label: "Clinics" },
                 { to: "/blog", label: "Blog" },
                 { to: "/contact-us", label: "Contact Us" },
               ].map((l, i) => (

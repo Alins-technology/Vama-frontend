@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import TreatmentCategory from "./pages/TreatmentCategory";
 import TreatmentDetail from "./pages/TreatmentDetail";
+import Clinics from "./pages/Clinics";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import ContactUs from "./pages/ContactUs";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/treatments/:category" element={<TreatmentCategory />} />
           <Route path="/treatments/:category/:slug" element={<TreatmentDetail />} />
+          <Route path="/clinics" element={<Clinics />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact-us" element={<ContactUs />} />

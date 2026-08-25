@@ -68,6 +68,7 @@ export default function Footer() {
         <FooterCol title="Quick Links">
           <Link to="/">Home</Link>
           <Link to="/about-us">About Us</Link>
+          <Link to="/clinics">Clinics</Link>
           <a href="/#our-team">Our Team</a>
           <Link to="/contact-us">Contact Us</Link>
         </FooterCol>
