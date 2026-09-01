@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Star, Navigation, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
+import { MapPin, Phone, Star, Navigation, MessageCircle, ArrowRight } from "lucide-react";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 import { locations } from "../../data/locations";
@@ -81,6 +82,16 @@ export default function ClinicsGrid() {
                       <Navigation className="h-3.5 w-3.5" /> Directions
                     </a>
                   </div>
+
+                  {loc.pagePath && (
+                    <Link
+                      to={loc.pagePath}
+                      className="group/link mt-4 flex items-center justify-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-brand transition-colors duration-300 hover:text-brand-dark"
+                    >
+                      View full clinic page
+                      <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover/link:translate-x-1" />
+                    </Link>
+                  )}
                 </motion.div>
               </Reveal>
             );

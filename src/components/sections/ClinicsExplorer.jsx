@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Phone, Mail, Star, Navigation, MessageCircle, PhoneCall } from "lucide-react";
+import { MapPin, Phone, Mail, Star, Navigation, MessageCircle, PhoneCall, ArrowRight } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
 import Reveal from "../ui/Reveal";
 import { locations } from "../../data/locations";
@@ -284,6 +285,15 @@ export default function ClinicsExplorer() {
                   >
                     <Navigation className="h-3.5 w-3.5" /> Get Directions
                   </a>
+                  {active.pagePath && (
+                    <Link
+                      to={active.pagePath}
+                      className="group/link inline-flex items-center gap-1.5 px-1 py-2.5 text-xs font-semibold uppercase tracking-wide text-brand transition-colors duration-300 hover:text-brand-dark"
+                    >
+                      Full clinic details
+                      <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover/link:translate-x-1" />
+                    </Link>
+                  )}
                 </div>
               </div>
             </motion.div>

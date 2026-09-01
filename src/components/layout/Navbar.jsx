@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Menu, X, Star, MapPin } from "lucide-react";
 import { categories, treatmentsByCategory } from "../../data/treatments";
+import { locations } from "../../data/locations";
 import vamaLogo from "../../assets/vamalogo.webp";
 
 const navLinks = [
@@ -66,9 +67,9 @@ export default function Navbar() {
           ))}
 
           <TreatmentsDropdown scrolled={scrolled} />
+          <ClinicsDropdown scrolled={scrolled} />
 
           {[
-            { to: "/clinics", label: "Clinics" },
             { to: "/blog", label: "Blog" },
             { to: "/contact-us", label: "Contact Us" },
           ].map((l) => (
@@ -166,8 +167,29 @@ export default function Navbar() {
                 ))}
               </MobileSub>
 
+              <MobileSub
+                label="Clinics"
+                open={mobileSub === "clinics"}
+                onToggle={() => setMobileSub(mobileSub === "clinics" ? null : "clinics")}
+              >
+                <Link to="/clinics" className="block py-2 text-sm font-semibold text-brand">
+                  All Clinics
+                </Link>
+                <div className="mt-1 flex flex-col gap-1 pl-3">
+                  {locations.map((loc) => (
+                    <Link
+                      key={loc.slug}
+                      to={loc.pagePath || "/clinics"}
+                      className="flex items-center gap-1.5 py-1 text-sm text-ink-soft"
+                    >
+                      {loc.city}
+                      {loc.flagship && <Star className="h-3 w-3 fill-gold text-gold" />}
+                    </Link>
+                  ))}
+                </div>
+              </MobileSub>
+
               {[
-                { to: "/clinics", label: "Clinics" },
                 { to: "/blog", label: "Blog" },
                 { to: "/contact-us", label: "Contact Us" },
               ].map((l, i) => (
@@ -273,6 +295,62 @@ function TreatmentsDropdown({ scrolled }) {
                   )}
                 </AnimatePresence>
               </div>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+/* ---------- Desktop dropdown: every clinic city, opens on hover ---------- */
+function ClinicsDropdown({ scrolled }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div
+      className="relative"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        className={`flex items-center gap-1 text-[13px] font-semibold uppercase tracking-[0.12em] transition-colors duration-300 ${
+          scrolled ? "text-ink hover:text-brand" : "text-ivory hover:text-gold-light"
+        }`}
+      >
+        Clinics
+        <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.3 }} className="flex">
+          <ChevronDown className="h-3.5 w-3.5" />
+        </motion.span>
+      </button>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: 10, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 10, scale: 0.98 }}
+            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute left-1/2 top-full z-50 w-64 -translate-x-1/2 rounded-2xl border border-line bg-ivory py-3 shadow-[0_24px_48px_-16px_rgba(20,32,43,0.25)]"
+          >
+            <Link
+              to="/clinics"
+              className="flex items-center justify-between gap-2 px-5 py-3 text-[13px] font-semibold uppercase tracking-wide text-brand transition-colors duration-200 hover:bg-panel/60"
+            >
+              All Clinics
+              <ChevronRight className="h-3.5 w-3.5 shrink-0" />
+            </Link>
+            <div className="my-1 h-px bg-line" />
+            {locations.map((loc) => (
+              <Link
+                key={loc.slug}
+                to={loc.pagePath || "/clinics"}
+                className="flex items-center gap-2.5 px-5 py-2.5 text-sm text-ink-soft transition-colors duration-200 hover:bg-panel/60 hover:text-brand"
+              >
+                <MapPin className="h-3.5 w-3.5 shrink-0 text-brand" />
+                <span className="flex-1">{loc.city}</span>
+                {loc.flagship && <Star className="h-3.5 w-3.5 shrink-0 fill-gold text-gold" />}
+              </Link>
             ))}
           </motion.div>
         )}

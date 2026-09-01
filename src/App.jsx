@@ -10,6 +10,7 @@ import About from "./pages/About";
 import TreatmentCategory from "./pages/TreatmentCategory";
 import TreatmentDetail from "./pages/TreatmentDetail";
 import Clinics from "./pages/Clinics";
+import ClinicLocationPage from "./pages/ClinicLocationPage";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import ContactUs from "./pages/ContactUs";
@@ -29,6 +30,12 @@ export default function App() {
           <Route path="/treatments/:category" element={<TreatmentCategory />} />
           <Route path="/treatments/:category/:slug" element={<TreatmentDetail />} />
           <Route path="/clinics" element={<Clinics />} />
+          <Route path="/vamaclinics-in-indirapuram" element={<ClinicLocationPage citySlug="indirapuram" />} />
+          <Route path="/vamaclinics-in-agra" element={<ClinicLocationPage citySlug="agra" />} />
+          <Route path="/vamaclinics-in-lajpat-nagar" element={<ClinicLocationPage citySlug="lajpat-nagar" />} />
+          <Route path="/vamaclinics-in-noida" element={<ClinicLocationPage citySlug="noida" />} />
+          <Route path="/vamaclinics-in-lucknow" element={<ClinicLocationPage citySlug="lucknow" />} />
+          <Route path="/vamaclinics-in-kanpur" element={<ClinicLocationPage citySlug="kanpur" />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact-us" element={<ContactUs />} />
