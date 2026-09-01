@@ -3,6 +3,8 @@ import blog2Image from "../assets/blogs/blog2.webp";
 import blog3Image from "../assets/blogs/blog3.webp";
 import blog4Image from "../assets/blogs/blog4.webp";
 import blog5Image from "../assets/blogs/blog5.webp";
+import blog6Image from "../assets/blogs/blog6.webp";
+import blog7Image from "../assets/blogs/blog7.webp";
 
 export const testimonials = [
   {
@@ -1249,6 +1251,577 @@ export const blogPosts = [
       {
         type: "paragraph",
         text: "At VAMA Solution, we're dedicated to providing personalized care, advanced hair restoration solutions, and ongoing support to help you regain your confidence. Whether you are from Noida, Lajpat Nagar Delhi, or Indirapuram, our team is here to guide you on your hair restoration journey with professional expertise and patient-focused care.",
+      },
+      { type: "link", text: "Book a free consultation", to: "/contact-us" },
+    ],
+  },
+  {
+    slug: "how-to-use-aloe-vera-on-face-at-night",
+    title: "How to Use Aloe Vera on Face at Night for Better Skin?",
+    excerpt:
+      "A simple nighttime skincare routine can help keep skin hydrated and comfortable. Here's how to use aloe vera on your face at night, whether you can leave it on overnight, and how it fits into routines for acne, dry skin and dark spots.",
+    category: "Skin",
+    readTime: "9 min read",
+    image: blog6Image,
+    content: [
+      {
+        type: "lead",
+        text: "A simple nighttime skincare routine can help keep the skin feeling comfortable, hydrated and refreshed. Among natural skincare ingredients, using aloe vera on the face at night is a popular choice because aloe gel has soothing and moisturizing properties. It can be especially appealing for people who want a lightweight addition to their evening routine.",
+      },
+      {
+        type: "paragraph",
+        text: "However, using aloe vera correctly is important. Fresh aloe vera, commercial aloe gel and aloe-based skincare products can differ in texture and formulation, and not every skin type responds in the same way. If you have sensitive or acne-prone skin, it is always sensible to patch-test a new product first.",
+      },
+      {
+        type: "paragraph",
+        text: "In this guide, we explain how to use aloe vera on the face at night, whether you can leave it on overnight, how long it should stay on the skin, and how it may fit into routines for acne, dry skin and dark spots.",
+      },
+      { type: "heading", text: "What Makes Aloe Vera Popular for Nighttime Skincare?" },
+      {
+        type: "paragraph",
+        text: "Aloe vera gel contains a high amount of water and is commonly used in skincare products designed to soothe and moisturize the skin.",
+      },
+      {
+        type: "paragraph",
+        text: "At night, skincare products can be applied after cleansing because the skin is free from makeup, sunscreen and much of the day's accumulated dirt and oil.",
+      },
+      { type: "paragraph", text: "A simple aloe vera overnight routine may help:" },
+      {
+        type: "list",
+        items: [
+          "Provide lightweight hydration",
+          "Make the skin feel softer",
+          "Soothe skin that feels dry or uncomfortable",
+          "Support a simple nighttime skincare routine",
+          "Reduce the feeling of tightness associated with dryness",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These benefits can vary depending on the individual and the type of aloe product being used.",
+      },
+      { type: "heading", text: "How to Use Aloe Vera on Face at Night" },
+      {
+        type: "paragraph",
+        text: "If you want to try aloe vera as part of your evening routine, keep the process simple.",
+      },
+      { type: "subheading", text: "Step 1: Cleanse Your Face" },
+      {
+        type: "paragraph",
+        text: "Start by washing your face with a gentle cleanser suitable for your skin type. This removes makeup, excess oil, sunscreen and surface impurities. Avoid aggressively scrubbing the skin before applying aloe vera, particularly if your skin is sensitive.",
+      },
+      { type: "subheading", text: "Step 2: Pat the Skin Dry" },
+      {
+        type: "paragraph",
+        text: "Gently pat your face with a clean towel. You do not need to completely dry the skin if you prefer applying skincare while it is slightly damp.",
+      },
+      { type: "subheading", text: "Step 3: Apply a Small Amount of Aloe Vera" },
+      {
+        type: "paragraph",
+        text: "Take a small amount of aloe vera gel and spread a thin layer across the face. Avoid applying a thick layer — more product does not necessarily mean better results. Be careful around the eyes and lips unless the particular product is specifically formulated for those areas.",
+      },
+      { type: "subheading", text: "Step 4: Allow It to Absorb" },
+      {
+        type: "paragraph",
+        text: "Give the aloe gel a few minutes to settle into the skin. If the product feels sticky or uncomfortable, you may be using too much.",
+      },
+      { type: "subheading", text: "Step 5: Follow with Moisturizer if Needed" },
+      {
+        type: "paragraph",
+        text: "People with dry skin may want to apply a suitable moisturizer after the aloe gel has absorbed. This can create a more complete nighttime routine: cleanser, then aloe vera gel, then moisturizer. If you use additional skincare products, introduce them carefully rather than applying many new products at once.",
+      },
+      { type: "heading", text: "Can You Leave Aloe Vera on Face Overnight?" },
+      {
+        type: "paragraph",
+        text: "Yes — some aloe vera products are designed as leave-on skincare products and can be left on the face overnight. However, this does not mean every type of aloe vera should automatically be left on the skin all night.",
+      },
+      {
+        type: "paragraph",
+        text: "Commercial aloe vera gels may contain additional ingredients, preservatives or fragrances, so always check the product directions.",
+      },
+      {
+        type: "paragraph",
+        text: "Fresh aloe vera also needs care. The yellowish latex found near the outer part of an aloe leaf can irritate some people's skin, so simply cutting a leaf and applying its contents directly is not necessarily the best approach.",
+      },
+      {
+        type: "paragraph",
+        text: "If you experience burning, itching, redness or irritation, wash the product off and discontinue use.",
+      },
+      { type: "heading", text: "How Long Should Aloe Vera Stay on the Face?" },
+      {
+        type: "paragraph",
+        text: "There is no single duration that works for everyone. If you are trying aloe vera for the first time, apply a small amount and observe how your skin reacts. A product intended as a leave-on gel can generally be used according to its label instructions.",
+      },
+      {
+        type: "paragraph",
+        text: "For an aloe vera face mask at night, the recommended duration depends on the ingredients used. A homemade or rinse-off mask should not automatically be treated like a leave-on product.",
+      },
+      {
+        type: "paragraph",
+        text: "The key is to follow the formulation instructions rather than assuming that keeping aloe vera on the skin longer will produce better results.",
+      },
+      { type: "heading", text: "Aloe Vera for Acne: Can It Help?" },
+      {
+        type: "paragraph",
+        text: "Aloe vera is often discussed for acne because of its soothing properties. However, it should not be considered a complete acne treatment. Acne can develop due to several factors, including excess oil production, clogged pores, inflammation and hormonal influences — a basic aloe gel may provide a soothing or hydrating step, but it does not address every cause of acne.",
+      },
+      { type: "paragraph", text: "For occasional blemishes, a simple skincare routine may include:" },
+      {
+        type: "list",
+        items: [
+          "Gentle cleansing",
+          "A non-comedogenic moisturizer",
+          "Appropriate acne-focused ingredients",
+          "Sun protection during the day",
+          "Aloe vera, if your skin tolerates it",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If acne is persistent, painful, widespread or leaving marks, professional evaluation may be more appropriate than relying only on home remedies.",
+      },
+      {
+        type: "link",
+        text: "Explore our Acne Scar Treatment options",
+        to: "/treatments/skin-treatment/acne-scar-treatment",
+      },
+      { type: "heading", text: "Aloe Vera for Dry Skin" },
+      {
+        type: "paragraph",
+        text: "Aloe vera can be a useful lightweight hydrating step, particularly when the skin feels tight or uncomfortable. However, aloe gel alone may not provide enough moisture for very dry skin.",
+      },
+      { type: "paragraph", text: "A better nighttime routine for dry skin may involve:" },
+      {
+        type: "steps",
+        items: [
+          "Gentle cleanser",
+          "Aloe vera gel, if tolerated",
+          "A moisturizer containing suitable moisturizing ingredients",
+          "A richer barrier-supporting product, if recommended",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal is not simply to add water to the skin but also to help reduce moisture loss. If dryness continues despite a consistent routine, it may be worth discussing the problem with a qualified skincare professional.",
+      },
+      { type: "heading", text: "Aloe Vera for Dark Spots" },
+      {
+        type: "paragraph",
+        text: "Many people search for aloe vera for dark spots, hoping it will lighten pigmentation naturally. Aloe vera can be soothing and may have a place in a gentle skincare routine, but it should not be presented as a guaranteed solution for pigmentation or dark spots.",
+      },
+      {
+        type: "paragraph",
+        text: "Dark spots can have different causes, including acne marks, sun exposure, hormonal changes and other skin conditions — treating the underlying cause is important.",
+      },
+      {
+        type: "paragraph",
+        text: "Daily sunscreen is particularly important when managing pigmentation, because UV exposure can contribute to persistent or worsening dark spots. If pigmentation does not improve or keeps returning, a dermatologist can help determine the cause and recommend appropriate treatment.",
+      },
+      { type: "heading", text: "Fresh Aloe Vera on Face: Is It Safe?" },
+      {
+        type: "paragraph",
+        text: "Using fresh aloe vera on the face is popular in home skincare, but natural does not automatically mean risk-free.",
+      },
+      {
+        type: "paragraph",
+        text: "If you use aloe directly from a plant, the leaf should be handled carefully — the yellow latex portion should not simply be mixed with the clear gel and applied to the face. Fresh plant material can also become contaminated if it is not prepared and stored hygienically.",
+      },
+      {
+        type: "paragraph",
+        text: "For people with sensitive skin, a properly formulated commercial product may be easier to use because its ingredients and intended application are clearly stated. Always perform a patch test before applying a new aloe product over the entire face.",
+      },
+      { type: "heading", text: "Aloe Vera Face Mask at Night" },
+      {
+        type: "paragraph",
+        text: "An aloe vera face mask at night can be a simple occasional skincare option. For example, a suitable aloe-based mask can be applied according to its instructions and removed after the recommended time.",
+      },
+      {
+        type: "paragraph",
+        text: "Avoid combining aloe vera with numerous kitchen ingredients simply because they are marketed as natural skincare remedies — ingredients such as lemon juice or abrasive substances can irritate the skin. A simple routine is often preferable to a complicated one.",
+      },
+      {
+        type: "paragraph",
+        text: "If your skin becomes red, itchy, burning or unusually uncomfortable after a mask, rinse it off and stop using it.",
+      },
+      { type: "heading", text: "A Simple Aloe Vera Overnight Routine" },
+      {
+        type: "paragraph",
+        text: "If your skin tolerates aloe vera, an uncomplicated evening routine can look like this:",
+      },
+      { type: "subheading", text: "Evening" },
+      {
+        type: "steps",
+        items: [
+          "Cleanse — remove makeup, sunscreen, sweat and excess oil",
+          "Apply aloe vera — use a thin layer of a suitable gel",
+          "Moisturize — apply moisturizer according to your skin type",
+          "Sleep — let your nighttime skincare products remain on the skin as directed",
+        ],
+      },
+      { type: "subheading", text: "Morning" },
+      {
+        type: "paragraph",
+        text: "Cleanse or rinse according to your skin's needs, moisturize, and apply broad-spectrum sunscreen before going outdoors. Consistency matters more than repeatedly adding new products.",
+      },
+      { type: "heading", text: "When Should You Avoid Aloe Vera?" },
+      { type: "paragraph", text: "Aloe vera may not suit everyone. Consider avoiding it or seeking professional advice if:" },
+      {
+        type: "list",
+        items: [
+          "You have previously reacted to aloe products",
+          "Your skin is extremely sensitive",
+          "You develop redness, itching or burning after application",
+          "You have an unexplained rash or active skin irritation",
+          "A product contains ingredients you know your skin cannot tolerate",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Before using fresh aloe or a new skincare product, a small patch test can help identify potential irritation.",
+      },
+      { type: "heading", text: "Aloe Vera and Professional Skincare" },
+      {
+        type: "paragraph",
+        text: "Home skincare can be useful for maintaining basic skin comfort, but persistent concerns may require a more personalized approach. VAMA Solution takes a broader approach to skin and hair care, where the right routine or professional treatment depends on each individual's skin condition, concerns and goals.",
+      },
+      {
+        type: "paragraph",
+        text: "Aloe vera can be one part of a routine, but it should not replace professional assessment when a skin problem is persistent or worsening.",
+      },
+      { type: "heading", text: "Frequently Asked Questions" },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How do you use aloe vera on your face at night?",
+            a: "Cleanse your face, apply a thin layer of suitable aloe vera gel, allow it to absorb and follow with moisturizer if needed. Always follow the product's instructions.",
+          },
+          {
+            q: "Can you leave aloe vera on your face overnight?",
+            a: "Yes, if you are using a leave-on aloe vera product intended for overnight use and your skin tolerates it. Do not assume that every fresh aloe preparation should be left overnight.",
+          },
+          {
+            q: "How long should aloe vera stay on your face?",
+            a: "It depends on the product. Leave-on gels can remain on the skin according to their instructions, while rinse-off masks should be removed after the recommended period.",
+          },
+          {
+            q: "Is aloe vera good for acne?",
+            a: "Aloe vera may have a soothing role in an acne-friendly skincare routine, but it is not a complete acne treatment. Persistent or severe acne should be assessed by a qualified professional.",
+          },
+          {
+            q: "Can aloe vera help dry skin?",
+            a: "Aloe vera can provide lightweight hydration and may make dry skin feel more comfortable. Very dry skin may also need a suitable moisturizer to help retain that moisture.",
+          },
+          {
+            q: "Can aloe vera remove dark spots?",
+            a: "Aloe vera should not be considered a guaranteed treatment for dark spots. Pigmentation can have different causes, and effective management depends on identifying the underlying issue.",
+          },
+          {
+            q: "Is fresh aloe vera better than aloe vera gel?",
+            a: "Not necessarily. Fresh aloe contains plant compounds that may irritate some people, while formulated gels are designed for topical use and may be easier to use consistently. The best choice depends on individual skin tolerance and the product formulation.",
+          },
+        ],
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "Using aloe vera on the face at night can be a simple addition to a skincare routine when your skin tolerates it. It may provide lightweight hydration and a soothing sensation, but it is important to use the right product and avoid assuming that natural ingredients are suitable for everyone.",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you choose fresh aloe vera or a formulated gel, start with a small amount, patch-test first and follow the product directions. For concerns such as persistent acne, significant dryness, pigmentation or recurring irritation, professional guidance can be more useful than relying exclusively on home remedies.",
+      },
+      {
+        type: "paragraph",
+        text: "A good skincare routine does not need to be complicated. Gentle cleansing, appropriate moisturization, sun protection and consistency are often more important than using a large number of products.",
+      },
+      { type: "link", text: "Book a free consultation", to: "/contact-us" },
+    ],
+  },
+  {
+    slug: "hair-transplant-in-agra-complete-guide-for-first-time-patients",
+    title: "Hair Transplant in Agra: A Complete Guide for First-Time Patients",
+    excerpt:
+      "Considering a hair transplant in Agra? A first-time patient's guide to understanding hair loss, who's a suitable candidate, how FUE actually works, and what to expect during recovery — in straightforward language.",
+    category: "Hair",
+    readTime: "9 min read",
+    image: blog7Image,
+    content: [
+      {
+        type: "lead",
+        text: "Hair loss can be a gradual process. Some people first notice a receding hairline, while others see thinning around the crown or a reduction in overall density. For some, a hair transplant in Agra is mainly a cosmetic concern; for others, it can affect confidence and everyday life.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are considering a hair transplant in Agra, it is useful to understand what the procedure involves, who may be suitable, how donor and recipient areas are assessed, and what kind of recovery to expect. A hair transplant is not a universal solution for every type of hair loss, so professional evaluation is an important part of the process.",
+      },
+      { type: "paragraph", text: "This guide explains the basics for first-time patients in straightforward language." },
+      { type: "heading", text: "Understanding Hair Loss and Hair Thinning" },
+      {
+        type: "paragraph",
+        text: "Hair loss can occur for many reasons. The pattern, speed and extent of hair loss can provide clues about its underlying cause.",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most common patterns is androgenetic alopecia, often referred to as male or female pattern hair loss. It can gradually affect the hairline, temples, crown or overall density, with genetics and hormonal factors often playing a role.",
+      },
+      { type: "paragraph", text: "Other possible causes include:" },
+      {
+        type: "list",
+        items: [
+          "Nutritional deficiencies",
+          "Certain medical conditions",
+          "Hormonal changes",
+          "Stress or illness",
+          "Some medications",
+          "Scalp disorders",
+          "Traction from repeated tight hairstyles",
+          "Autoimmune-related hair loss",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Not every type of hair loss requires a transplant. In some cases, appropriate hair fall treatment may help manage the underlying problem or slow further progression. A proper diagnosis should therefore come before deciding on a procedure.",
+      },
+      { type: "heading", text: "When Should You Consider a Hair Transplant?" },
+      {
+        type: "paragraph",
+        text: "A hair transplant may be considered when hair loss has resulted in areas of reduced or absent hair growth and sufficient healthy donor hair is available.",
+      },
+      { type: "paragraph", text: "People commonly explore transplantation when they have:" },
+      {
+        type: "list",
+        items: [
+          "A receding hairline",
+          "Male or female pattern hair loss",
+          "Thinning around the crown",
+          "Noticeable bald patches associated with suitable conditions",
+          "Stable areas of hair loss",
+          "Adequate donor hair for transplantation",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Age alone does not determine suitability. The pattern and progression of hair loss, donor supply, scalp condition, general health and expectations are all important.",
+      },
+      {
+        type: "paragraph",
+        text: "If hair loss is still progressing rapidly, a doctor may first recommend managing the condition before considering surgery. This can help with long-term planning and preservation of existing hair.",
+      },
+      { type: "heading", text: "What Is a Hair Transplant?" },
+      {
+        type: "paragraph",
+        text: "A hair transplant is a surgical hair restoration procedure in which hair follicles are taken from a donor area and placed into areas affected by hair loss.",
+      },
+      {
+        type: "paragraph",
+        text: "The donor area is generally the region of the scalp with healthy hair that can potentially be harvested for transplantation. The recipient area is where follicles are placed to restore or improve hair density.",
+      },
+      {
+        type: "paragraph",
+        text: "The procedure requires careful planning because the available donor supply is limited. A good treatment plan should consider not only the hair loss visible today but also possible future changes.",
+      },
+      { type: "subheading", text: "Hairline Planning" },
+      {
+        type: "paragraph",
+        text: "Hairline design is particularly important. A hairline that looks appropriate for one person may not suit another because facial proportions, age, existing hair pattern and future hair loss can differ. The objective is generally to create a natural-looking transition rather than simply placing as many grafts as possible.",
+      },
+      { type: "heading", text: "How Does FUE Hair Transplant Work?" },
+      {
+        type: "paragraph",
+        text: "FUE stands for Follicular Unit Extraction. It is a commonly used method of harvesting individual follicular units from the donor area. In simple terms, the process generally involves several stages:",
+      },
+      {
+        type: "steps",
+        items: [
+          "Consultation and planning — the doctor evaluates the pattern of hair loss, donor area, scalp, existing hair and desired outcome.",
+          "Donor area preparation — the donor region is prepared for follicle extraction, based on the individual's available donor hair.",
+          "Follicle extraction — individual follicular units are carefully extracted from the donor area using specialized instruments.",
+          "Graft preparation — the extracted follicles are prepared for placement while maintaining their viability.",
+          "Recipient area preparation — small openings are created according to the planned direction, angle and distribution of the hair.",
+          "Graft placement — the prepared follicular units are placed into the recipient areas according to the treatment plan.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "FUE can be useful because follicles are harvested individually rather than removing a long strip of scalp. However, it is still a surgical procedure and requires appropriate medical expertise.",
+      },
+      { type: "heading", text: "Who May Be Suitable for Hair Transplantation?" },
+      {
+        type: "paragraph",
+        text: "Not everyone experiencing hair loss is an appropriate candidate for transplantation. A professional assessment may consider:",
+      },
+      {
+        type: "list",
+        items: [
+          "Cause of hair loss",
+          "Stability of hair loss",
+          "Age and future hair-loss pattern",
+          "Donor hair density",
+          "Scalp health",
+          "Hair characteristics",
+          "Existing medical conditions",
+          "Previous hair treatments or procedures",
+          "Expectations regarding density and appearance",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Someone with extensive hair loss and limited donor supply may have different options and expectations from someone with early-stage hairline recession. Treatment plans therefore vary from person to person.",
+      },
+      { type: "heading", text: "Choosing a Hair Transplant Clinic in Agra" },
+      {
+        type: "paragraph",
+        text: "If you are researching a hair transplant clinic in Agra, avoid making a decision based only on advertisements, discounts or dramatic before-and-after photographs. Instead, look at the overall quality of the consultation and treatment planning.",
+      },
+      { type: "paragraph", text: "Consider whether the clinic:" },
+      {
+        type: "list",
+        items: [
+          "Provides a proper assessment before recommending treatment",
+          "Clearly explains the procedure",
+          "Discusses donor and recipient areas",
+          "Explains realistic outcomes",
+          "Has appropriately qualified medical professionals",
+          "Provides information about risks and recovery",
+          "Offers suitable follow-up care",
+          "Answers questions openly",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For someone researching a hair transplant doctor in Agra, checking professional qualifications and experience with the relevant procedure can be more useful than relying on labels such as \"best\" or \"top.\"",
+      },
+      {
+        type: "paragraph",
+        text: "VAMA Solution is one of the clinics offering hair restoration services in Agra. However, patients should make their final treatment decision after an individual medical consultation.",
+      },
+      { type: "link", text: "Visit our Agra clinic", to: "/vamaclinics-in-agra" },
+      { type: "heading", text: "Questions to Ask Before Choosing a Clinic" },
+      { type: "paragraph", text: "Before proceeding with a hair transplant procedure, consider asking:" },
+      {
+        type: "list",
+        items: [
+          "What is causing my hair loss?",
+          "Am I currently suitable for transplantation?",
+          "How much donor hair do I have?",
+          "Which transplant technique is being recommended?",
+          "How will my hairline be planned?",
+          "How many grafts may be appropriate for my case?",
+          "What are the possible risks and side effects?",
+          "What should I expect during recovery?",
+          "When might I start seeing new growth?",
+          "What happens if my existing hair continues to thin?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These questions can help you understand the treatment rather than simply choosing a procedure based on its name.",
+      },
+      { type: "heading", text: "Factors That Can Affect Hair Transplant Results" },
+      {
+        type: "paragraph",
+        text: "Hair transplantation does not produce identical outcomes for every patient. Several factors can influence the final appearance.",
+      },
+      { type: "subheading", text: "Donor Hair Supply" },
+      {
+        type: "paragraph",
+        text: "The number, density and characteristics of available donor follicles affect how much coverage can realistically be achieved.",
+      },
+      { type: "subheading", text: "Existing Hair" },
+      {
+        type: "paragraph",
+        text: "The amount and condition of existing hair can influence the overall appearance of density after transplantation.",
+      },
+      { type: "subheading", text: "Hair Characteristics" },
+      {
+        type: "paragraph",
+        text: "Hair thickness, texture, color and natural curl can affect how dense the transplanted area appears.",
+      },
+      { type: "subheading", text: "Hair-Loss Progression" },
+      {
+        type: "paragraph",
+        text: "If existing, non-transplanted hair continues to thin, the overall appearance can change over time.",
+      },
+      { type: "subheading", text: "Surgical Technique" },
+      {
+        type: "paragraph",
+        text: "Careful extraction, graft handling, placement, angle, direction and distribution all contribute to the outcome.",
+      },
+      { type: "subheading", text: "Individual Healing" },
+      {
+        type: "paragraph",
+        text: "Patients heal differently — recovery and growth patterns can vary depending on individual factors.",
+      },
+      {
+        type: "paragraph",
+        text: "Because of these variables, no responsible clinic should promise guaranteed, permanent or 100% results.",
+      },
+      { type: "heading", text: "Hair Transplant Recovery and Aftercare" },
+      {
+        type: "paragraph",
+        text: "Recovery following an FUE procedure varies from person to person. Temporary redness, swelling, tenderness, crusting or sensitivity can occur in treated areas.",
+      },
+      { type: "paragraph", text: "Your medical team may provide specific instructions regarding:" },
+      {
+        type: "list",
+        items: [
+          "Washing the scalp",
+          "Sleeping position",
+          "Physical activity",
+          "Sun exposure",
+          "Scalp protection",
+          "Medications or prescribed products",
+          "Follow-up appointments",
+        ],
+      },
+      { type: "paragraph", text: "Following aftercare instructions carefully can help support proper healing." },
+      {
+        type: "paragraph",
+        text: "It is also important to understand that transplanted hair does not immediately appear as the final result. Hair growth occurs gradually, and the timeline varies between individuals.",
+      },
+      { type: "heading", text: "Frequently Asked Questions" },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Is hair transplant suitable for everyone?",
+            a: "No. Suitability depends on the cause and progression of hair loss, donor hair availability, scalp condition, general health and individual expectations. A medical assessment is necessary.",
+          },
+          {
+            q: "How does FUE hair transplant work?",
+            a: "FUE involves extracting individual follicular units from a suitable donor area and placing them into prepared recipient areas. The follicles are positioned according to the planned hairline, direction and distribution.",
+          },
+          {
+            q: "How long does a hair transplant procedure take?",
+            a: "The duration depends on factors such as the number of grafts, technique, treatment area and individual circumstances. Your clinic should provide an estimated timeframe during consultation.",
+          },
+          {
+            q: "When can I expect to see hair growth?",
+            a: "Hair growth after transplantation is gradual. The visible timeline varies between individuals, and the final appearance may take several months to develop.",
+          },
+          {
+            q: "Does hair transplant treatment require aftercare?",
+            a: "Yes. Proper aftercare is an important part of recovery. Instructions can vary depending on the procedure and individual case, so patients should follow the guidance provided by their medical team.",
+          },
+          {
+            q: "How should I choose a hair transplant clinic in Agra?",
+            a: "Look for qualified medical professionals, appropriate assessment, transparent treatment planning, realistic expectations, clear information about risks, and proper follow-up care. Don't select a clinic solely because it claims to provide the \"best\" results.",
+          },
+          {
+            q: "Can a hair transplant prevent future hair loss?",
+            a: "A transplant moves available follicles into areas affected by hair loss; it does not necessarily prevent further loss of existing, non-transplanted hair. A doctor can discuss strategies for managing ongoing hair loss.",
+          },
+        ],
+      },
+      { type: "heading", text: "Conclusion" },
+      {
+        type: "paragraph",
+        text: "A hair transplant in Agra can be an option for selected people experiencing pattern hair loss or other suitable forms of permanent hair loss. However, deciding to undergo transplantation should begin with understanding the cause of hair loss and assessing whether the available donor hair can support the desired restoration.",
+      },
+      {
+        type: "paragraph",
+        text: "FUE is one commonly used approach, involving the individual extraction and placement of follicular units. Successful planning involves more than the extraction technique — it also requires careful consideration of the donor area, recipient area, hairline, existing hair, future hair loss and realistic expectations.",
       },
       { type: "link", text: "Book a free consultation", to: "/contact-us" },
     ],
