@@ -11,6 +11,7 @@ import TreatmentCategory from "./pages/TreatmentCategory";
 import TreatmentDetail from "./pages/TreatmentDetail";
 import Clinics from "./pages/Clinics";
 import ClinicLocationPage from "./pages/ClinicLocationPage";
+import HairTransplantLocationPage from "./pages/HairTransplantLocationPage";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import ContactUs from "./pages/ContactUs";
@@ -36,6 +37,12 @@ export default function App() {
           <Route path="/vamaclinics-in-noida" element={<ClinicLocationPage citySlug="noida" />} />
           <Route path="/vamaclinics-in-lucknow" element={<ClinicLocationPage citySlug="lucknow" />} />
           <Route path="/vamaclinics-in-kanpur" element={<ClinicLocationPage citySlug="kanpur" />} />
+          <Route path="/hair-transplant-in-indirapuram" element={<HairTransplantLocationPage citySlug="indirapuram" />} />
+          <Route path="/hair-transplant-in-noida" element={<HairTransplantLocationPage citySlug="noida" />} />
+          <Route path="/hair-transplant-in-lajpat-nagar" element={<HairTransplantLocationPage citySlug="lajpat-nagar" />} />
+          <Route path="/hair-transplant-in-agra" element={<HairTransplantLocationPage citySlug="agra" />} />
+          <Route path="/hair-transplant-in-lucknow" element={<HairTransplantLocationPage citySlug="lucknow" />} />
+          <Route path="/hair-transplant-in-kanpur" element={<HairTransplantLocationPage citySlug="kanpur" />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact-us" element={<ContactUs />} />

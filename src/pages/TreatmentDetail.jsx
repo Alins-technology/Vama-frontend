@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from "react-router-dom";
-import { CheckCircle2, Clock, Repeat, ShieldCheck } from "lucide-react";
+import { CheckCircle2, Clock, MapPin, Repeat, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
@@ -10,6 +10,7 @@ import AppointmentCTA from "../components/sections/AppointmentCTA";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
 import { categories, getTreatment, treatmentsByCategory } from "../data/treatments";
 import { serviceCities } from "../data/locations";
+import { hairTransplantPages } from "../data/hairTransplantPages";
 import { linkifyTreatments } from "../utils/linkifyTreatments";
 
 export default function TreatmentDetail() {
@@ -180,6 +181,34 @@ export default function TreatmentDetail() {
     </div>
   </section>
 )}
+
+      {/* City-specific hair transplant landing pages — internal link so these
+          SEO pages stay discoverable rather than orphaned */}
+      {treatment.slug === "hair-transplant" && (
+        <section className="bg-panel py-16 md:py-20">
+          <div className="container-page">
+            <Reveal>
+              <h3 className="text-center font-display text-2xl text-ink md:text-3xl">
+                Hair Transplant, City by City
+              </h3>
+              <p className="mx-auto mt-2 max-w-xl text-center text-sm text-ink-soft">
+                Read city-specific guidance on consultation, FUE and aftercare for each Vama Clinics location.
+              </p>
+            </Reveal>
+            <div className="mt-8 flex flex-wrap justify-center gap-2.5">
+              {hairTransplantPages.map((p) => (
+                <Link
+                  key={p.slug}
+                  to={p.path}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-line bg-ivory px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink-soft transition-colors duration-300 hover:border-brand hover:text-brand"
+                >
+                  <MapPin className="h-3.5 w-3.5" /> {p.city}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="bg-panel py-20 md:py-24">

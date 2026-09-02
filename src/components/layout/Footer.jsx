@@ -3,6 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
 import { primaryEmail, primaryPhone } from "../../data/locations";
 import { treatmentsByCategory } from "../../data/treatments";
+import { hairTransplantPages } from "../../data/hairTransplantPages";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -72,6 +73,20 @@ export default function Footer() {
           <a href="/#our-team">Our Team</a>
           <Link to="/contact-us">Contact Us</Link>
         </FooterCol>
+      </div>
+
+      <div className="border-t border-ivory/10">
+        <div className="container-page flex flex-wrap items-center gap-x-2 gap-y-2 py-5 text-xs text-ivory/50">
+          <span className="font-semibold uppercase tracking-[0.14em] text-ivory/40">Hair Transplant Near You:</span>
+          {hairTransplantPages.map((p, i) => (
+            <span key={p.slug} className="flex items-center gap-2">
+              <Link to={p.path} className="transition-colors hover:text-gold">
+                {p.city}
+              </Link>
+              {i < hairTransplantPages.length - 1 && <span className="text-ivory/20">·</span>}
+            </span>
+          ))}
+        </div>
       </div>
 
       <div className="border-t border-ivory/10">
