@@ -8,7 +8,7 @@ import FAQSection from "../components/sections/FAQSection";
 import LocationsSection from "../components/sections/LocationsSection";
 import { primaryEmail } from "../data/locations";
 
-const WHATSAPP_NUMBER = "919289758206"; // +91 92897 58206, no + or spaces
+const WHATSAPP_NUMBER = "918882911433"; // +91 88829 11433, no + or spaces
 
 export default function ContactUs() {
   const [submitted, setSubmitted] = useState(false);
@@ -52,8 +52,8 @@ export default function ContactUs() {
               <a href={`mailto:${primaryEmail}`} className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
                 <Mail className="h-4 w-4 text-brand" /> {primaryEmail}
               </a>
-              <a href="tel:9289758206" className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
-                <Phone className="h-4 w-4 text-brand" /> +91 92897 58206
+              <a href="tel:8882911433" className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
+                <Phone className="h-4 w-4 text-brand" /> +91 88829 11433
               </a>
             </div>
           </Reveal>

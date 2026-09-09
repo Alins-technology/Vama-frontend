@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
           <SectionHeading
             eyebrow="Why Choose VAMA"
             title="Care built around accurate diagnosis, not quick upsells."
-            description="Our Indirapuram clinic sits at the heart of Ghaziabad, Noida — designed to be a warm, welcoming space where every visit feels unhurried. Call us on +91 92897 58206 to know more."
+            description="Our Indirapuram clinic sits at the heart of Ghaziabad, Noida — designed to be a warm, welcoming space where every visit feels unhurried. Call us on +91 88829 11433 to know more."
           />
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             {points.map((p, i) => (

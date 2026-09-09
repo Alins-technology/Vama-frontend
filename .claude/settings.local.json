@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git fetch *)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
+      "Bash(netstat -ano)",
+      "PowerShell(Get-CimInstance *)",
+      "Bash(curl -s \"http://localhost:5173/src/data/treatments.js\")",
+      "Bash(git commit -m 'Fix FAQ accordion rendering blank question/answer text *)",
+      "Bash(git push *)"
+    ]
+  }
+}
