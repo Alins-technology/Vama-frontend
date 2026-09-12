@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { CalendarCheck, CheckCircle2, MessageCircle, X } from "lucide-react";
+import { CalendarCheck, MessageCircle, X } from "lucide-react";
 import { whatsappNumber } from "../../data/locations";
 
 /**
@@ -23,10 +24,9 @@ const services = [
 const SHOW_DELAY_MS = 1200;
 
 export default function BookingPopup() {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({ name: "", mobile: "", service: "" });
-  const [waLink, setWaLink] = useState("");
 
   useEffect(() => {
     const timer = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
@@ -59,12 +59,12 @@ export default function BookingPopup() {
       .join("\n");
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
-    setWaLink(url);
-    // Opening a new tab can be silently blocked inside in-app browsers
-    // (Facebook/Instagram ad webviews etc.) — a visible fallback link is
-    // shown below in case this doesn't actually open anything.
+    // Send the lead to WhatsApp in a background tab, then move the visitor
+    // themselves to a proper Thank You page instead of leaving them on a
+    // WhatsApp screen — the popup closes as part of the navigation.
     window.open(url, "_blank", "noopener,noreferrer");
-    setSubmitted(true);
+    setOpen(false);
+    navigate("/thank-you", { state: { waLink: url } });
   };
 
   return (
@@ -123,78 +123,49 @@ export default function BookingPopup() {
 
             {/* body */}
             <div className="overflow-y-auto px-7 py-7">
-              {submitted ? (
-                <div className="flex flex-col items-center gap-3 py-6 text-center">
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-light text-brand">
-                    <CheckCircle2 className="h-6 w-6" />
-                  </span>
-                  <p className="font-display text-lg text-ink">Almost done!</p>
-                  <p className="text-sm text-ink-soft">
-                    We've opened WhatsApp with your details ready — just hit send there to confirm your slot.
-                  </p>
-                  <p className="text-xs text-ink-soft/70">
-                    Nothing opened? Tap below.
-                  </p>
-                  <a
-                    href={waLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-1 flex items-center gap-2 rounded-full bg-brand px-6 py-2.5 text-sm font-semibold text-ivory transition-colors duration-300 hover:bg-brand-dark"
+              <form onSubmit={handleSubmit} className="space-y-3.5">
+                <Field
+                  label="Your Name"
+                  placeholder="e.g. Priya Verma"
+                  required
+                  value={form.name}
+                  onChange={handleChange("name")}
+                />
+                <Field
+                  label="Mobile Number"
+                  type="tel"
+                  placeholder="+91 98765 43210"
+                  required
+                  value={form.mobile}
+                  onChange={handleChange("mobile")}
+                />
+                <div>
+                  <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
+                    Interested In
+                  </label>
+                  <select
+                    value={form.service}
+                    onChange={handleChange("service")}
+                    className="w-full rounded-xl border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-brand"
                   >
-                    <MessageCircle className="h-4 w-4" /> Open WhatsApp
-                  </a>
-                  <button
-                    onClick={() => setOpen(false)}
-                    className="mt-1 text-xs font-semibold uppercase tracking-wide text-ink-soft hover:text-brand"
-                  >
-                    Close
-                  </button>
+                    <option value="">Select a treatment (optional)</option>
+                    {services.map((s) => (
+                      <option key={s} value={s}>
+                        {s}
+                      </option>
+                    ))}
+                  </select>
                 </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-3.5">
-                  <Field
-                    label="Your Name"
-                    placeholder="e.g. Priya Verma"
-                    required
-                    value={form.name}
-                    onChange={handleChange("name")}
-                  />
-                  <Field
-                    label="Mobile Number"
-                    type="tel"
-                    placeholder="+91 98765 43210"
-                    required
-                    value={form.mobile}
-                    onChange={handleChange("mobile")}
-                  />
-                  <div>
-                    <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
-                      Interested In
-                    </label>
-                    <select
-                      value={form.service}
-                      onChange={handleChange("service")}
-                      className="w-full rounded-xl border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-brand"
-                    >
-                      <option value="">Select a treatment (optional)</option>
-                      {services.map((s) => (
-                        <option key={s} value={s}>
-                          {s}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                  <button
-                    type="submit"
-                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-brand py-3.5 text-sm font-semibold text-ivory transition-colors duration-300 hover:bg-brand-dark"
-                  >
-                    Book Now on WhatsApp <MessageCircle className="h-4 w-4" />
-                  </button>
-                  <p className="text-center text-[11px] text-ink-soft/70">
-                    By submitting, you agree to be contacted by VAMA regarding your enquiry.
-                  </p>
-                </form>
-              )}
+                <button
+                  type="submit"
+                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-brand py-3.5 text-sm font-semibold text-ivory transition-colors duration-300 hover:bg-brand-dark"
+                >
+                  Book Now on WhatsApp <MessageCircle className="h-4 w-4" />
+                </button>
+                <p className="text-center text-[11px] text-ink-soft/70">
+                  By submitting, you agree to be contacted by VAMA regarding your enquiry.
+                </p>
+              </form>
             </div>
           </motion.div>
         </motion.div>

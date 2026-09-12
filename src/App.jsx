@@ -15,6 +15,7 @@ import HairTransplantLocationPage from "./pages/HairTransplantLocationPage";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import ContactUs from "./pages/ContactUs";
+import ThankYou from "./pages/ThankYou";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -46,6 +47,7 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/thank-you" element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
