@@ -26,6 +26,7 @@ export default function BookingPopup() {
   const [open, setOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({ name: "", mobile: "", service: "" });
+  const [waLink, setWaLink] = useState("");
 
   useEffect(() => {
     const timer = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
@@ -57,7 +58,12 @@ export default function BookingPopup() {
       .filter(Boolean)
       .join("\n");
 
-    window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`, "_blank");
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+    setWaLink(url);
+    // Opening a new tab can be silently blocked inside in-app browsers
+    // (Facebook/Instagram ad webviews etc.) — a visible fallback link is
+    // shown below in case this doesn't actually open anything.
+    window.open(url, "_blank", "noopener,noreferrer");
     setSubmitted(true);
   };
 
@@ -126,9 +132,20 @@ export default function BookingPopup() {
                   <p className="text-sm text-ink-soft">
                     We've opened WhatsApp with your details ready — just hit send there to confirm your slot.
                   </p>
+                  <p className="text-xs text-ink-soft/70">
+                    Nothing opened? Tap below.
+                  </p>
+                  <a
+                    href={waLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 flex items-center gap-2 rounded-full bg-brand px-6 py-2.5 text-sm font-semibold text-ivory transition-colors duration-300 hover:bg-brand-dark"
+                  >
+                    <MessageCircle className="h-4 w-4" /> Open WhatsApp
+                  </a>
                   <button
                     onClick={() => setOpen(false)}
-                    className="mt-2 rounded-full bg-brand px-6 py-2.5 text-sm font-semibold text-ivory transition-colors duration-300 hover:bg-brand-dark"
+                    className="mt-1 text-xs font-semibold uppercase tracking-wide text-ink-soft hover:text-brand"
                   >
                     Close
                   </button>

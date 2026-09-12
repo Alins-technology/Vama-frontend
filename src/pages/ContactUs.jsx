@@ -6,13 +6,14 @@ import Reveal from "../components/ui/Reveal";
 import SectionHeading from "../components/ui/SectionHeading";
 import FAQSection from "../components/sections/FAQSection";
 import LocationsSection from "../components/sections/LocationsSection";
-import { primaryEmail } from "../data/locations";
+import { primaryEmail, primaryPhone } from "../data/locations";
 
 const WHATSAPP_NUMBER = "918882911433"; // +91 88829 11433, no + or spaces
 
 export default function ContactUs() {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({ name: "", mobile: "", email: "", message: "" });
+  const [waLink, setWaLink] = useState("");
 
   const handleChange = (field) => (e) => setForm((f) => ({ ...f, [field]: e.target.value }));
 
@@ -30,7 +31,11 @@ export default function ContactUs() {
       .join("\n");
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
-    window.open(url, "_blank");
+    setWaLink(url);
+    // Opening a new tab can be silently blocked inside in-app browsers
+    // (Facebook/Instagram ad webviews etc.) — a visible fallback link is
+    // shown below in case this doesn't actually open anything.
+    window.open(url, "_blank", "noopener,noreferrer");
 
     setSubmitted(true);
   };
@@ -52,8 +57,8 @@ export default function ContactUs() {
               <a href={`mailto:${primaryEmail}`} className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
                 <Mail className="h-4 w-4 text-brand" /> {primaryEmail}
               </a>
-              <a href="tel:8882911433" className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
-                <Phone className="h-4 w-4 text-brand" /> +91 88829 11433
+              <a href={`tel:${primaryPhone.replace(/\s/g, "")}`} className="flex items-center gap-3 rounded-xl bg-ivory p-4 text-sm text-ink-soft hover:text-brand">
+                <Phone className="h-4 w-4 text-brand" /> {primaryPhone}
               </a>
             </div>
           </Reveal>
@@ -66,9 +71,18 @@ export default function ContactUs() {
                   <p className="text-sm text-ink-soft">
                     We've opened WhatsApp with your message ready — just hit send there to reach us.
                   </p>
+                  <p className="text-xs text-ink-soft/70">Nothing opened? Tap below.</p>
+                  <a
+                    href={waLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 rounded-xl bg-brand px-6 py-2.5 text-sm font-semibold text-ivory transition-colors hover:bg-brand-dark"
+                  >
+                    <Send className="h-4 w-4" /> Open WhatsApp
+                  </a>
                   <button
                     onClick={() => setSubmitted(false)}
-                    className="mt-2 text-xs font-semibold uppercase tracking-wide text-brand hover:text-brand-dark"
+                    className="mt-1 text-xs font-semibold uppercase tracking-wide text-brand hover:text-brand-dark"
                   >
                     Send another message
                   </button>
