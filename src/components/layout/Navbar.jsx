@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, ChevronRight, Menu, X, Star, MapPin } from "lucide-react";
 import { categories, treatmentsByCategory } from "../../data/treatments";
 import { locations } from "../../data/locations";
-import vamaLogo from "../../assets/vamalogo.webp";
+import vamaIcon from "../../assets/vamalogo-icon.webp";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -44,14 +44,38 @@ export default function Navbar() {
       }`}
     >
       <div className="container-page flex items-center justify-between py-4">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-start gap-2.5 md:gap-3">
           <motion.img
-            whileHover={{ scale: 1.04 }}
+            whileHover={{ scale: 1.04, rotate: 2 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-            src={vamaLogo}
-            alt="VAMA Advanced Hair & Skin Clinic"
-            className="h-12 w-auto object-contain"
+            src={vamaIcon}
+            alt=""
+            aria-hidden="true"
+            className="h-10 w-10 shrink-0 object-contain md:h-[46px] md:w-[46px]"
           />
+          <span className="flex flex-col items-center justify-start pt-0.5 leading-none md:pt-1">
+            <span
+              className={`font-display text-base font-bold leading-none tracking-wide transition-colors duration-300 md:text-xl ${
+                scrolled ? "text-[#0CA6AC]" : "text-ivory"
+              }`}
+            >
+              VAMA
+            </span>
+            <span
+              className={`mt-[2px] whitespace-nowrap text-[10px] font-semibold leading-none underline decoration-1 underline-offset-2 transition-colors duration-300 md:text-[13px] ${
+                scrolled ? "text-[#0CA6AC]" : "text-ivory"
+              }`}
+            >
+              Advanced Hair &amp; Skin Clinic
+            </span>
+            <span
+              className={`mt-[3px] text-[7px] font-medium uppercase leading-none tracking-[0.22em] transition-colors duration-300 md:text-[8px] ${
+                scrolled ? "text-[#0CA6AC]" : "text-gold-light"
+              }`}
+            >
+              Skin | Hair | Laser | Slimming
+            </span>
+          </span>
         </Link>
 
         {/* desktop nav */}
