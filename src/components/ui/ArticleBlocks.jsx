@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Accordion from "./Accordion";
 import { linkifyTreatments } from "../../utils/linkifyTreatments";
+import { linkifyKeywords } from "../../utils/linkifyKeywords";
 
 /**
  * Renders a blog/article body from a simple content-block schema, styled to
@@ -11,8 +12,10 @@ import { linkifyTreatments } from "../../utils/linkifyTreatments";
  * a `content` array in src/data/content.js, no new page/template needed.
  *
  * Block shapes:
- *   { type: "lead", text }                  opening paragraph, larger + darker
- *   { type: "paragraph", text }             regular body copy
+ *   { type: "lead", text, links? }          opening paragraph, larger + darker
+ *   { type: "paragraph", text, links? }     regular body copy
+ *       links: [{ text, to }] hand-placed keyword links inside that text (first match;
+ *       "/route" = internal, "https://..." = external new tab)
  *   { type: "heading", text }               section heading (h2)
  *   { type: "subheading", text }            sub-section heading (h3)
  *   { type: "list", items: [] }             checklist-style bullet list
@@ -34,7 +37,7 @@ export default function ArticleBlocks({ blocks = [] }) {
           case "lead":
             return (
               <p key={i} className="text-lg leading-relaxed text-ink">
-                {linkifyTreatments(block.text, { linkedSlugs })}
+                {linkifyKeywords(block.text, block.links, { linkedSlugs })}
               </p>
             );
 
@@ -173,7 +176,7 @@ export default function ArticleBlocks({ blocks = [] }) {
           default:
             return (
               <p key={i} className="text-[15px] leading-relaxed text-ink-soft">
-                {linkifyTreatments(block.text, { linkedSlugs })}
+                {linkifyKeywords(block.text, block.links, { linkedSlugs })}
               </p>
             );
         }
