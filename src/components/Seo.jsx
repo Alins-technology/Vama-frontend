@@ -1,6 +1,8 @@
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const SITE_NAME = "VAMA Advanced Hair & Skin Clinic";
+const SITE_URL = "https://www.vamaclinics.com";
 const DEFAULT_DESCRIPTION =
   "VAMA Advanced Hair & Skin Clinic — hair transplant, skin, laser, weight loss & allergy treatments across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur.";
 const DEFAULT_KEYWORDS =
@@ -28,6 +30,21 @@ function setMetaByProperty(property, content) {
   tag.setAttribute("content", content);
 }
 
+function setCanonical(href) {
+  const existing = document.querySelector('link[rel="canonical"]');
+  if (!href) {
+    if (existing) existing.remove();
+    return;
+  }
+  let link = existing;
+  if (!link) {
+    link = document.createElement("link");
+    link.setAttribute("rel", "canonical");
+    document.head.appendChild(link);
+  }
+  link.setAttribute("href", href);
+}
+
 /**
  * Sets per-page <title>, meta description and meta keywords.
  * Renders nothing — just synchronises `document.head` on mount/update.
@@ -36,7 +53,8 @@ function setMetaByProperty(property, content) {
  * `titleOverride`, when given, is used verbatim as the <title> (no auto
  * "| SITE_NAME" suffix appended) — for pages with an SEO-provided full title.
  */
-export default function Seo({ title, description, keywords, titleOverride }) {
+export default function Seo({ title, description, keywords, titleOverride, canonical, noCanonical }) {
+  const { pathname } = useLocation();
   useEffect(() => {
     const pageTitle = titleOverride
       ? titleOverride
@@ -55,7 +73,9 @@ export default function Seo({ title, description, keywords, titleOverride }) {
     setMetaByName("keywords", pageKeywords);
     setMetaByProperty("og:title", pageTitle);
     setMetaByProperty("og:description", pageDescription);
-  }, [title, description, keywords, titleOverride]);
+    const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+    setCanonical(noCanonical ? null : canonical || `${SITE_URL}${path}`);
+  }, [title, description, keywords, titleOverride, canonical, noCanonical, pathname]);
 
   return null;
 }

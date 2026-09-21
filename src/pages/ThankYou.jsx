@@ -40,6 +40,7 @@ export default function ThankYou() {
   return (
     <>
       <Seo
+        noCanonical
         title="Thank You"
         description="Thanks for reaching out to VAMA Advanced Hair & Skin Clinic. Your enquiry has been received."
       />

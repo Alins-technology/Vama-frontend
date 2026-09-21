@@ -56,7 +56,12 @@ export default function ClinicLocationPage({ citySlug }) {
 
   return (
     <>
-      <Seo titleOverride={page.seoTitle} description={page.metaDescription} keywords={keywords} />
+      <Seo
+        titleOverride={page.seoTitle}
+        description={page.metaDescription}
+        keywords={keywords}
+        canonical={`https://www.vamaclinics.com${page.path}`}
+      />
 
       <PageHero
         eyebrow="VAMA Clinics"

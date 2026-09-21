@@ -1688,13 +1688,13 @@ export const treatments = [
       {
         type: "lead",
         text: "Get rid of psoriasis with expert care near you. Our team of experienced dermatologists uses a combination of modern medical treatments and proven skincare protocols to manage psoriasis at its root, not just treat the surface symptoms — no matter which of our clinics you visit.",
-        links: [{ text: "expert care", to: "https://www.vamasolution.com/psoriasis-treatment/" }],
+        links: [{ text: "expert care", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       { type: "heading", text: "What is Psoriasis?" },
       {
         type: "paragraph",
         text: "Psoriasis is a chronic autoimmune skin condition that causes skin cells to build up rapidly, leading to thick, scaly patches on the skin. These patches, often red or silvery-white, can appear on the scalp, elbows, knees, lower back and other parts of the body. While psoriasis isn't contagious, it can be uncomfortable, itchy and emotionally distressing if left untreated.",
-        links: [{ text: "chronic autoimmune skin condition", to: "https://www.vamasolution.com/psoriasis-treatment/" }],
+        links: [{ text: "chronic autoimmune skin condition", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       { type: "heading", text: "Common Symptoms of Psoriasis" },
       {
@@ -1732,7 +1732,7 @@ export const treatments = [
       {
         type: "paragraph",
         text: "Because triggers vary from person to person, a proper diagnosis by an experienced dermatologist is essential before starting any treatment plan.",
-        links: [{ text: "proper diagnosis", to: "https://www.vamasolution.com/psoriasis-treatment/" }],
+        links: [{ text: "proper diagnosis", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       { type: "heading", text: "Types of Psoriasis We Treat" },
       {
@@ -1754,7 +1754,7 @@ export const treatments = [
       {
         type: "paragraph",
         text: "While psoriasis doesn't have a permanent one-time cure, it can be effectively controlled and managed with the right combination of treatments. At VAMA Clinics, our approach focuses on reducing flare-ups, calming inflammation and keeping your skin clear for longer periods. Every patient's psoriasis is different, so we avoid one-size-fits-all solutions and instead build a plan based on your skin type, severity and lifestyle:",
-        links: [{ text: "reducing flare-ups", to: "https://www.vamasolution.com/psoriasis-treatment/" }],
+        links: [{ text: "reducing flare-ups", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       {
         type: "steps",
@@ -1796,7 +1796,7 @@ export const treatments = [
       {
         type: "paragraph",
         text: "Don't let psoriasis affect your confidence and comfort any longer. Visit your nearest VAMA Clinics branch — Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra or Kanpur — and take the first step toward clearer, healthier skin.",
-        links: [{ text: "nearest VAMA Clinics branch", to: "https://www.vamasolution.com/psoriasis-treatment/" }],
+        links: [{ text: "nearest VAMA Clinics branch", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       { type: "link", text: "Book a Free Consultation", to: "/contact-us" },
     ],

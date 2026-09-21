@@ -3845,14 +3845,14 @@ export const blogPosts = [
       {
         type: "paragraph",
         text: "Not every patient is ready to go under the knife, and hair loss clinics have evolved to meet this need. PRP Hair Treatment Sector 70 Noida providers have seen a rise in demand for their services as patients look to stop the progression of hair loss and even reverse its effects. Platelet-Rich Plasma therapies are often used in conjunction with other Hair Loss Treatment Sector 70 Noida, including topical medications and low-level laser therapy, to create a comprehensive approach to hair loss prevention and restoration.",
-        links: [{ text: "PRP Hair Treatment Sector 70 Noida", to: "https://www.vamasolution.com/hair-transplant-clinic-in-noida/" }],
+        links: [{ text: "PRP Hair Treatment Sector 70 Noida", to: "https://www.vamaclinics.com/hair-transplant-clinic-in-noida/" }],
       },
       { type: "link", text: "Explore Hair PRP", to: "/treatments/hair-treatment/hair-prp" },
       { type: "subheading", text: "Increased Focus on Doctor Credentials" },
       {
         type: "paragraph",
         text: "As the market matures, patients are doing their homework before they make a choice. Instead of price and convenience, many patients are now looking to source a Hair Transplant Doctor in Sector 70 Noida with the right certifications and transparent before and after results, along with an honest and informative consultation, which is a sign of modern decision-making being significantly more research intensive",
-        links: [{ text: "Hair Transplant Doctor in Sector 70 Noida", to: "https://www.vamasolution.com/hair-transplant-clinic-in-noida/" }],
+        links: [{ text: "Hair Transplant Doctor in Sector 70 Noida", to: "https://www.vamaclinics.com/hair-transplant-clinic-in-noida/" }],
       },
       { type: "subheading", text: "A Shift Toward Full-Service Clinics" },
       {
