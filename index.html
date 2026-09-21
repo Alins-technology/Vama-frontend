@@ -13,32 +13,56 @@
     <title>VAMA | Advanced Hair &amp; Skin Clinic</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <!-- Google Tag Manager -->
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B38MERGK7H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Fonts: loaded without blocking first paint (display=swap shows fallback text meanwhile) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" /></noscript>
 
-  gtag('config', 'G-B38MERGK7H');
-</script>
-<!-- Event snippet for Submit lead form (1) conversion page -->
-<!-- Event snippet for Submit lead form (3) conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18305296922/iEb_CP_-3uMcEJrU0phE',
-      'value': 1.0,
-      'currency': 'INR'
-  });
-</script>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NN85687G');</script>
-<!-- End Google Tag Manager -->
+    <!--
+      Analytics (gtag + GTM). The dataLayer queue and every gtag() call below run
+      immediately, exactly as before, so no events are lost. Only the heavy
+      googletagmanager.com scripts are deferred: they load on the visitor's first
+      interaction, or 5 seconds after page load, whichever comes first.
+    -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B38MERGK7H');
+
+      // Event snippet for Submit lead form conversion page
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18305296922/iEb_CP_-3uMcEJrU0phE',
+          'value': 1.0,
+          'currency': 'INR'
+      });
+
+      // GTM start marker (was inside the standard GTM snippet)
+      window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+
+      (function () {
+        var loaded = false;
+        function loadTags() {
+          if (loaded) return;
+          loaded = true;
+          ['scroll', 'pointerdown', 'keydown', 'touchstart', 'mousemove'].forEach(function (e) {
+            window.removeEventListener(e, loadTags);
+          });
+          var g = document.createElement('script');
+          g.async = true;
+          g.src = 'https://www.googletagmanager.com/gtag/js?id=G-B38MERGK7H';
+          document.head.appendChild(g);
+          var t = document.createElement('script');
+          t.async = true;
+          t.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-NN85687G';
+          document.head.appendChild(t);
+        }
+        ['scroll', 'pointerdown', 'keydown', 'touchstart', 'mousemove'].forEach(function (e) {
+          window.addEventListener(e, loadTags, { once: true, passive: true });
+        });
+        window.addEventListener('load', function () { setTimeout(loadTags, 5000); });
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

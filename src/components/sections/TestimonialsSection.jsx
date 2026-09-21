@@ -1,7 +1,7 @@
 import { Quote, Star } from "lucide-react";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
-import { testimonials } from "../../data/content";
+import { testimonials } from "../../data/homeContent";
 
 export default function TestimonialsSection() {
   return (

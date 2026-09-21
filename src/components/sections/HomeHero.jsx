@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { CalendarCheck, ChevronRight, Sparkle, Award, Users } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "../../assets/Hometop.jpg";
+import hero640 from "../../assets/Hometop-640.webp";
+import hero960 from "../../assets/Hometop-960.webp";
 
 const stats = [
   ["6", "Clinics across North India"],
@@ -149,9 +150,11 @@ export default function HomeHero() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          // No opacity fade on the hero image wrapper: it is the LCP element, and
+          // an opacity:0 start delays when the browser counts it as painted.
+          initial={{ scale: 0.97 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 0.6 }}
           className="relative"
         >
           <motion.div
@@ -160,7 +163,13 @@ export default function HomeHero() {
             className="aspect-[4/5] w-full overflow-hidden rounded-[2rem] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.5)]"
           >
             <img
-              src={heroImage}
+              src={hero960}
+              srcSet={`${hero640} 640w, ${hero960} 960w`}
+              sizes="(min-width: 1024px) 560px, 100vw"
+              width="960"
+              height="1280"
+              fetchPriority="high"
+              decoding="async"
               alt="Patient consultation at VAMA clinic"
               className="h-full w-full object-cover"
             />

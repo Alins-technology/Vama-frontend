@@ -1,7 +1,7 @@
 import SectionHeading from "../ui/SectionHeading";
 import Accordion from "../ui/Accordion";
 import Reveal from "../ui/Reveal";
-import { faqs } from "../../data/content";
+import { faqs } from "../../data/homeContent";
 
 export default function FAQSection({ items = faqs, title = "Frequently asked questions" }) {
   return (

@@ -1,31 +1,38 @@
+import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
 import FloatingDock from "./components/layout/FloatingDock";
-import BookingPopup from "./components/layout/BookingPopup";
 import ScrollToTop from "./components/ScrollToTop";
 
+// Home stays in the main bundle (it's the landing page); every other route and
+// the booking popup load on demand so visitors don't download code for pages
+// they haven't opened.
 import Home from "./pages/Home";
-import About from "./pages/About";
-import TreatmentCategory from "./pages/TreatmentCategory";
-import TreatmentDetail from "./pages/TreatmentDetail";
-import Clinics from "./pages/Clinics";
-import ClinicLocationPage from "./pages/ClinicLocationPage";
-import HairTransplantLocationPage from "./pages/HairTransplantLocationPage";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
-import ContactUs from "./pages/ContactUs";
-import ThankYou from "./pages/ThankYou";
-import NotFound from "./pages/NotFound";
+const Footer = lazy(() => import("./components/layout/Footer"));
+const BookingPopup = lazy(() => import("./components/layout/BookingPopup"));
+const About = lazy(() => import("./pages/About"));
+const TreatmentCategory = lazy(() => import("./pages/TreatmentCategory"));
+const TreatmentDetail = lazy(() => import("./pages/TreatmentDetail"));
+const Clinics = lazy(() => import("./pages/Clinics"));
+const ClinicLocationPage = lazy(() => import("./pages/ClinicLocationPage"));
+const HairTransplantLocationPage = lazy(() => import("./pages/HairTransplantLocationPage"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const ThankYou = lazy(() => import("./pages/ThankYou"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 export default function App() {
   return (
     <div className="relative flex min-h-screen flex-col">
       <ScrollToTop />
-      <BookingPopup />
+      <Suspense fallback={null}>
+        <BookingPopup />
+      </Suspense>
       <Navbar />
       <FloatingDock />
       <main className="flex-1">
+        <Suspense fallback={<div className="min-h-screen" aria-hidden />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
@@ -50,8 +57,11 @@ export default function App() {
           <Route path="/thank-you" element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }
