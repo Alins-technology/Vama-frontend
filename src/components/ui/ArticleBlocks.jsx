@@ -25,10 +25,11 @@ import { linkifyKeywords } from "../../utils/linkifyKeywords";
  *   { type: "timeline", items: [{ label, text }] }  labelled phases (e.g. recovery timeline)
  *   { type: "faq", items: [{ q, a }] }      accordion-style Q&A (reuses ui/Accordion)
  */
-export default function ArticleBlocks({ blocks = [] }) {
+export default function ArticleBlocks({ blocks = [], excludeSlug }) {
   // Shared across every block in this article so each treatment gets linked
-  // only on its first mention, not every time it's named.
-  const linkedSlugs = new Set();
+  // only on its first mention, not every time it's named. Pre-seeding
+  // `excludeSlug` keeps a treatment's own page from linking to itself.
+  const linkedSlugs = new Set(excludeSlug ? [excludeSlug] : []);
 
   return (
     <div className="space-y-5">

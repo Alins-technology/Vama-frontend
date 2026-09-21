@@ -158,7 +158,7 @@ export default function TreatmentDetail() {
               </h2>
             </Reveal>
             <div className="prose-content mt-10">
-              <ArticleBlocks blocks={treatment.article} />
+              <ArticleBlocks blocks={treatment.article} excludeSlug={treatment.slug} />
             </div>
           </div>
         </section>
