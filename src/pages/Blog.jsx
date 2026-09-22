@@ -32,6 +32,8 @@ export default function Blog() {
                     <img
                       src={post.image}
                       alt={post.title}
+                      loading="lazy"
+                      decoding="async"
                       className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
                     />
                   </div>

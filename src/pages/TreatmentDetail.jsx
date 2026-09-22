@@ -52,6 +52,7 @@ export default function TreatmentDetail() {
                 <img
                   src={treatment.image}
                   alt={treatment.name}
+                  decoding="async"
                   className="h-full w-full object-cover"
                 />
               </div>

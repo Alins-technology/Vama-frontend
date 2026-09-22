@@ -2,8 +2,8 @@ import { Award, ShieldCheck, Sparkles, Stethoscope } from "lucide-react";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 
-import interior from "../../assets/Clinic/interior.jpg";
-import consultation from "../../assets/Clinic/consultation.jpg";
+import interior from "../../assets/Clinic/interior.webp";
+import consultation from "../../assets/Clinic/consultation.webp";
 
 const points = [
   {
@@ -35,10 +35,22 @@ export default function WhyChooseUs() {
         <Reveal className="relative">
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-[3/4] translate-y-8 overflow-hidden rounded-3xl">
-              <img src={interior} alt="Clinic interior" className="h-full w-full object-cover" />
+              <img
+                src={interior}
+                alt="Clinic interior"
+                loading="lazy"
+                decoding="async"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div className="aspect-[3/4] overflow-hidden rounded-3xl">
-              <img src={consultation} alt="Consultation room" className="h-full w-full object-cover" />
+              <img
+                src={consultation}
+                alt="Consultation room"
+                loading="lazy"
+                decoding="async"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
           <div className="absolute -bottom-6 left-1/2 w-[85%] -translate-x-1/2 rounded-2xl bg-ink p-5 text-ivory shadow-xl">

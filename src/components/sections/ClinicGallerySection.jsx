@@ -1,18 +1,24 @@
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 
-import reception from "../../assets/Clinic/Reception.jpg";
-import consultation from "../../assets/Clinic/consultation.jpg";
-import interior from "../../assets/Clinic/interior.jpg";
-import waitingLounge from "../../assets/Clinic/Waiting-lounge.jpg";
-import procedure from "../../assets/Clinic/procedure.jpg";
-import laser from "../../assets/Clinic/laser.jpg";
-import skincareCorner from "../../assets/Clinic/Skincarecorner.jpg";
+import reception from "../../assets/Clinic/Reception.webp";
+import consultation from "../../assets/Clinic/consultation.webp";
+import interior from "../../assets/Clinic/interior.webp";
+import waitingLounge from "../../assets/Clinic/Waiting-lounge.webp";
+import procedure from "../../assets/Clinic/procedure.webp";
+import laser from "../../assets/Clinic/laser.webp";
+import skincareCorner from "../../assets/Clinic/Skincarecorner.webp";
 
 function GalleryImg({ src, label, className = "" }) {
   return (
     <div className={`relative h-full w-full ${className}`}>
-      <img src={src} alt={label} className="h-full w-full object-cover" />
+      <img
+        src={src}
+        alt={label}
+        loading="lazy"
+        decoding="async"
+        className="h-full w-full object-cover"
+      />
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/70 via-ink/10 to-transparent p-4">
         <p className="text-[11px] font-semibold uppercase tracking-wide text-ivory">{label}</p>
       </div>

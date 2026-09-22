@@ -10,7 +10,7 @@ import AppointmentCTA from "../components/sections/AppointmentCTA";
 import LocationsSection from "../components/sections/LocationsSection";
 import ArticleBlocks from "../components/ui/ArticleBlocks";
 
-import aboutImage from "../assets/Clinic/Reception.jpg";
+import aboutImage from "../assets/Clinic/Reception.webp";
 
 const aboutStoryBlocks = [
   {
@@ -80,6 +80,7 @@ export default function About() {
               <img
                 src={aboutImage}
                 alt="Doctors at VAMA clinic"
+                decoding="async"
                 className="h-full w-full object-cover"
               />
             </motion.div>

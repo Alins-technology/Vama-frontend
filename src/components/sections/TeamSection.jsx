@@ -43,6 +43,8 @@ function TeamCard({ member }) {
         <motion.img
           src={member.photo}
           alt={member.name}
+          loading="lazy"
+          decoding="async"
           animate={{ scale: hovered ? 1.08 : 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="absolute inset-0 h-full w-full object-cover"

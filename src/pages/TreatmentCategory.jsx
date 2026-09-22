@@ -48,6 +48,8 @@ export default function TreatmentCategory() {
                       <motion.img
                         src={t.image}
                         alt={t.name}
+                        loading="lazy"
+                        decoding="async"
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
                         className="h-full w-full object-cover"

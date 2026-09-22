@@ -6,10 +6,14 @@
 
   --color-ink: #14202b;
   --color-ink-soft: #55666f;
-  --color-brand: #0ea6ac;
+  /* Darkened from the original #0ea6ac / #0a8288 so white text on brand-colored
+     buttons and small uppercase "brand"/"gold" labels on light backgrounds
+     both clear WCAG AA contrast (4.5:1) — the lighter shades measured ~2.9:1
+     and ~4.35:1, which Lighthouse's accessibility audit flags. */
+  --color-brand: #077b80;
   --color-brand-dark: #086e73;
   --color-brand-light: #dbf5f6;
-  --color-gold: #0a8288;
+  --color-gold: #076c70;
   --color-gold-light: #bff0f1;
   --color-rose: #7fd0d3;
   --color-ivory: #ffffff;

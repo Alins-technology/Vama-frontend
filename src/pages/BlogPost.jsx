@@ -32,6 +32,7 @@ export default function BlogPost() {
                 <img
                   src={post.image}
                   alt={post.title}
+                  decoding="async"
                   className="h-auto w-full object-contain"
                 />
               </div>

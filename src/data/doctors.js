@@ -1,13 +1,13 @@
-import dhananjay from "../assets/doctors/Dhananjay.jpg";
-import prerna from "../assets/doctors/Prerna.jpg";
-import neeraj from "../assets/doctors/neeraj.jpg";
-import tuhina from "../assets/doctors/Tuhina.jpg";
-import suman from "../assets/doctors/Suman.jpg";
-import nabam from "../assets/doctors/Nabam.jpg";
-import anjali from "../assets/doctors/Anjali.jpg";
-import shivani from "../assets/doctors/shivani.jpg";
-import archana from "../assets/doctors/Archana.jpg";
-import bushra from "../assets/doctors/Bushra.jpg";
+import dhananjay from "../assets/doctors/Dhananjay.webp";
+import prerna from "../assets/doctors/Prerna.webp";
+import neeraj from "../assets/doctors/neeraj.webp";
+import tuhina from "../assets/doctors/Tuhina.webp";
+import suman from "../assets/doctors/Suman.webp";
+import nabam from "../assets/doctors/Nabam.webp";
+import anjali from "../assets/doctors/Anjali.webp";
+import shivani from "../assets/doctors/shivani.webp";
+import archana from "../assets/doctors/Archana.webp";
+import bushra from "../assets/doctors/Bushra.webp";
 
 export const doctors = [
   {

@@ -6,12 +6,12 @@ import blog5Image from "../assets/blogs/blog5.webp";
 import blog6Image from "../assets/blogs/blog6.webp";
 import blog7Image from "../assets/blogs/blog7.webp";
 import blog8Image from "../assets/blogs/blog8.jpg";
-import blog9Image from "../assets/blogs/blog9.png";
-import blog10Image from "../assets/blogs/blog10.png";
-import blog11Image from "../assets/blogs/blog11.png";
-import blog12Image from "../assets/blogs/blog12.png";
-import blog13Image from "../assets/blogs/blog13.png";
-import blog14Image from "../assets/blogs/blog14.png";
+import blog9Image from "../assets/blogs/blog9.webp";
+import blog10Image from "../assets/blogs/blog10.webp";
+import blog11Image from "../assets/blogs/blog11.webp";
+import blog12Image from "../assets/blogs/blog12.webp";
+import blog13Image from "../assets/blogs/blog13.webp";
+import blog14Image from "../assets/blogs/blog14.webp";
 
 export { testimonials, faqs } from "./homeContent.js";
 

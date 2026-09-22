@@ -51,6 +51,7 @@ export default function Navbar() {
             src={vamaIcon}
             alt=""
             aria-hidden="true"
+            decoding="async"
             className="h-10 w-10 shrink-0 object-contain md:h-[46px] md:w-[46px]"
           />
           <span className="flex flex-col items-center justify-start pt-0.5 leading-none md:pt-1">
