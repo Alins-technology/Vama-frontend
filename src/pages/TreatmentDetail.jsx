@@ -40,6 +40,7 @@ export default function TreatmentDetail() {
       <PageHero
         eyebrow={cat.name}
         title={treatment.name}
+        as="h2"
         crumbs={[{ label: "Treatments" }, { label: cat.name, to: `/treatments/${category}` }, { label: treatment.name }]}
       />
 
@@ -52,7 +53,6 @@ export default function TreatmentDetail() {
                 <img
                   src={treatment.image}
                   alt={treatment.name}
-                  decoding="async"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -72,7 +72,10 @@ export default function TreatmentDetail() {
 
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Overview</span>
-            <h2 className="mt-3 font-display text-3xl text-ink md:text-4xl">{treatment.name}</h2>
+            {/* The page's real <h1> — the banner above renders this same text as an
+                <h2> (via PageHero's as="h2") so there's exactly one <h1>, sized
+                exactly as it was before this swap. */}
+            <h1 className="mt-3 font-display text-3xl text-ink md:text-4xl">{treatment.name}</h1>
             <p className="mt-5 text-[15px] leading-relaxed text-ink-soft">
               {linkifyTreatments(treatment.description, { excludeSlug: treatment.slug })}
             </p>

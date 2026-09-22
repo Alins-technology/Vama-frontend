@@ -2,8 +2,14 @@ import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
-export default function PageHero({ eyebrow, title, crumbs = [] }) {
+export default function PageHero({ eyebrow, title, crumbs = [], as = "h1" }) {
   const words = title.split(" ");
+  // Most pages have no other heading that repeats this title, so this banner
+  // stays the page's one real <h1>. Treatment detail pages are the exception:
+  // the Overview section below repeats this same text as the real content
+  // heading, so those pages pass as="h2" here and render an <h1> there instead —
+  // keeping exactly one <h1> per page without changing how anything looks.
+  const HeadingTag = as;
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-brand-dark via-brand to-brand-dark pb-16 pt-28 text-ivory md:pb-20 md:pt-32">
@@ -66,7 +72,7 @@ export default function PageHero({ eyebrow, title, crumbs = [] }) {
           </motion.span>
         )}
 
-        <h1 className="max-w-2xl overflow-hidden font-display text-3xl leading-[1.08] md:text-5xl">
+        <HeadingTag className="max-w-2xl overflow-hidden font-display text-3xl leading-[1.08] md:text-5xl">
           {words.map((word, i) => (
             <span key={i} className="mr-3 inline-block overflow-hidden last:mr-0">
               <motion.span
@@ -79,7 +85,7 @@ export default function PageHero({ eyebrow, title, crumbs = [] }) {
               </motion.span>
             </span>
           ))}
-        </h1>
+        </HeadingTag>
       </div>
 
       {/* curved bottom edge — smaller now */}
