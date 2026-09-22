@@ -43,7 +43,8 @@ export default function ContactUs() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with VAMA Advanced Hair & Skin Clinic. Visit or call our clinics in Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur, or book a free consultation online."
+        titleOverride="Contact VAMA Clinics | Book Skin & Hair Consultation"
+        description="Contact VAMA Clinics to book consultations for skin, hair, laser and weight loss treatments at a clinic location convenient for you."
         keywords="contact VAMA clinic, hair skin clinic near me, VAMA clinic Noida address, VAMA clinic Indirapuram phone number, book consultation dermatologist"
       />
       <PageHero eyebrow="Contact Us" title="We'd love to hear from you." crumbs={[{ label: "Contact Us" }]} />

@@ -31,10 +31,10 @@ import vitiligoImg from "../assets/Treatments/Vitiligo.jpg";
 import weightLossImg from "../assets/Treatments/weightloss.jpg";
 
 export const categories = [
-  { slug: "skin-treatment", name: "Skin Treatment", tagline: "Clear, healthy, radiant skin — backed by dermatology." },
-  { slug: "hair-treatment", name: "Hair Treatment", tagline: "Science-led hair restoration for natural, lasting density." },
-  { slug: "weight-loss", name: "Weight Loss", tagline: "Personalised, medically guided programmes for sustainable results." },
-  { slug: "allergy-treatment", name: "Allergy Treatment", tagline: "Identify the trigger, treat the reaction — personalised care for skin allergies & conditions." },
+  { slug: "skin-treatment", name: "Skin Treatment", tagline: "Clear, healthy, radiant skin — backed by dermatology.", metaTitle: "Skin Treatments | Dermatology & Skin Care | VAMA Clinics", metaDescription: "Explore skin treatments at VAMA Clinics, including acne, pigmentation, laser, Botox, HydraFacial and personalized skin care options." },
+  { slug: "hair-treatment", name: "Hair Treatment", tagline: "Science-led hair restoration for natural, lasting density.", metaTitle: "Hair Treatments | Hair Transplant & Hair Care | VAMA Clinics", metaDescription: "Explore hair treatments at VAMA Clinics, including hair transplant, GFC, hair fall treatment and other personalized hair restoration options." },
+  { slug: "weight-loss", name: "Weight Loss", tagline: "Personalised, medically guided programmes for sustainable results.", metaTitle: "Weight Loss Treatment | Weight Management | VAMA Clinics", metaDescription: "Explore weight loss treatments at VAMA Clinics, including medical weight management, inch loss, body contouring and personalized care." },
+  { slug: "allergy-treatment", name: "Allergy Treatment", tagline: "Identify the trigger, treat the reaction — personalised care for skin allergies & conditions.", metaTitle: "Allergy Treatment | Skin & Allergy Care | VAMA Clinics", metaDescription: "Explore allergy treatment at VAMA Clinics with personalized care for common skin allergies, allergic reactions and related skin concerns." },
 ];
 
 const commonProcess = (a, b, c, d) => [
@@ -52,9 +52,9 @@ export const treatments = [
     name: "Acne Scar Treatment",
     image: acneScarImg,
     short: "Smoother texture with laser resurfacing, micro-needling & peels.",
-    metaTitle: "Acne Scar Treatment & Skin Resurfacing | VAMA Clinics",
+    metaTitle: "Acne Scar Treatment | Skin Care | VAMA Clinics",
     metaDescription:
-      "Reduce acne scars and uneven skin texture with advanced dermatologist-led treatments at VAMA Clinics. Personalized plans for visibly smoother skin.",
+      "Explore acne scar treatment at VAMA Clinics with personalized options to improve the appearance of acne scars, skin texture and uneven tone.",
     description:
       "Our acne scar programmes combine fractional laser resurfacing, micro-needling and chemical peels to rebuild collagen and even out skin texture. Every plan is customised to your scar type — ice-pick, boxcar or rolling — for the most natural improvement.",
     benefits: ["Visibly smoother texture", "Minimal downtime", "Customised to scar type", "Collagen rebuilding over time"],
@@ -153,9 +153,9 @@ export const treatments = [
     name: "Anti-Ageing Treatment",
     image: antiAgeingImg,
     short: "Firmer, youthful skin with non-surgical lifting & rejuvenation.",
-    metaTitle: "Anti-Ageing Treatment & Skin Care | VAMA Clinics",
+    metaTitle: "Anti-Ageing Treatment | Skin Care | VAMA Clinics",
     metaDescription:
-      "Address fine lines, wrinkles and loss of skin firmness with expert-guided anti-ageing treatments at VAMA Clinics, tailored to your skin's needs.",
+      "Explore anti-ageing treatments at VAMA Clinics with personalized options to address fine lines, wrinkles, skin texture and signs of ageing.",
     description:
       "From thread lifts to skin-boosters, our anti-ageing protocols target fine lines, sagging and dullness without surgery — restoring a naturally youthful look while keeping your expressions intact.",
     benefits: ["Reduces fine lines & wrinkles", "Improves skin elasticity", "No surgery, minimal downtime", "Natural-looking results"],
@@ -267,9 +267,9 @@ export const treatments = [
     name: "Botox",
     image: botoxImg,
     short: "Soften expression lines with precise, doctor-administered Botox.",
-    metaTitle: "Botox Treatment & Facial Care | VAMA Clinics",
+    metaTitle: "Botox Treatment | Facial Rejuvenation | VAMA Clinics",
     metaDescription:
-      "Smoothen expression lines and fine wrinkles with professionally administered Botox at VAMA Clinics. Consult our experts for a personalized plan.",
+      "Explore Botox treatment at VAMA Clinics for facial rejuvenation and the appearance of fine lines, with personalized care and expert guidance.",
     description:
       "Botox relaxes the muscles responsible for forehead lines, crow's feet and frown lines. Administered by our trained dermatologists in precise, measured doses for a refreshed — never frozen — look.",
     benefits: ["Softens expression lines", "15–20 minute session", "Results in 3–7 days", "Lasts 4–6 months"],
@@ -369,7 +369,7 @@ export const treatments = [
     short: "Safe, scarless removal of moles and skin tags.",
     metaTitle: "Mole & Skin Tag Removal Treatment | VAMA Clinics",
     metaDescription:
-      "Safe, dermatologist-guided mole and skin tag removal at VAMA Clinics. Minimally invasive procedures with proper pre- and post-care support.",
+      "Get professional mole and skin tag removal at VAMA Clinics. Consult our skin specialists for safe, personalized treatment options.",
     description:
       "Using laser and radiofrequency techniques, we remove unwanted moles and skin tags safely and precisely, with minimal scarring and quick healing.",
     benefits: ["Quick, walk-in procedure", "Minimal scarring", "Precise & safe", "Immediate results"],
@@ -459,9 +459,9 @@ export const treatments = [
     name: "HydraFacial",
     image: hydrafacialImg,
     short: "Deep cleanse, exfoliate & hydrate in one relaxing session.",
-    metaTitle: "HydraFacial Treatment & Facial Care | VAMA Clinics",
+    metaTitle: "HydraFacial Treatment | Glowing Skin | VAMA Clinics",
     metaDescription:
-      "Cleanse, exfoliate and hydrate your skin with HydraFacial at VAMA Clinics. A dermatologist-guided treatment for refreshed, glowing skin.",
+      "Explore HydraFacial treatment at VAMA Clinics for deep cleansing, hydration and refreshed-looking skin with personalized care for your skin needs.",
     description:
       "HydraFacial combines cleansing, exfoliation, extraction and hydration in a single machine-assisted treatment — leaving skin instantly brighter with zero downtime.",
     benefits: ["Instant glow", "Deep pore cleansing", "Zero downtime", "Suitable for all skin types"],
@@ -568,9 +568,9 @@ export const treatments = [
     name: "Korean Glass Skin Treatment",
     image: koreanGlassSkinImg,
     short: "The dewy, poreless 'glass skin' finish, done right.",
-    metaTitle: "Korean Glass Skin Treatment & Facial Glow | VAMA Clinics",
+    metaTitle: "Korean Glass Skin Treatment | VAMA Clinics",
     metaDescription:
-      "Get smoother, luminous skin with the Korean Glass Skin treatment at VAMA Clinics. Expert-guided skincare for a radiant, even-toned complexion.",
+      "Explore Korean Glass Skin treatment at VAMA Clinics for smoother, hydrated and radiant-looking skin with personalized care for your skin needs.",
     description:
       "A multi-step protocol of gentle exfoliation, deep hydration and skin-barrier repair inspired by Korean skincare rituals — for that smooth, translucent, dewy finish.",
     benefits: ["Poreless, dewy finish", "Improves hydration & barrier", "Gentle, multi-step protocol", "Great pre-event glow"],
@@ -658,9 +658,9 @@ export const treatments = [
     name: "Laser Hair Reduction",
     image: laserHairReductionImg,
     short: "Long-term hair reduction with advanced diode laser.",
-    metaTitle: "Laser Hair Reduction – Smooth, Hair-Free Skin | VAMA Clinics",
+    metaTitle: "Laser Hair Reduction Treatment | VAMA Clinics",
     metaDescription:
-      "Reduce unwanted hair with advanced laser hair reduction at VAMA Clinics. Safe, dermatologist-supervised sessions tailored to your skin type.",
+      "Get laser hair reduction at VAMA Clinics for smoother-looking skin and reduced unwanted hair with personalized treatment plans and expert care.",
     description:
       "Our diode laser technology targets hair follicles at the root for long-lasting reduction across face and body, suitable for all skin tones with minimal discomfort.",
     benefits: ["Long-lasting results", "Suitable for all skin tones", "Fast sessions", "Minimal discomfort"],
@@ -754,9 +754,9 @@ export const treatments = [
     name: "Dermal Fillers",
     image: dermalFillerImg,
     short: "Restore volume & contour with precision filler placement.",
-    metaTitle: "Dermal Filler Treatment & Facial Contouring | VAMA Clinics",
+    metaTitle: "Dermal Filler Treatment | Facial Rejuvenation | VAMA Clinics",
     metaDescription:
-      "Restore facial volume and smoothen contours with professionally administered dermal fillers at VAMA Clinics. Book a personalized consultation.",
+      "Explore dermal filler treatment at VAMA Clinics for facial rejuvenation, with personalized options to enhance facial contours and restore volume.",
     description:
       "Dermal fillers restore lost volume in cheeks, lips and under-eyes, and sharpen facial contouring — administered with precision for natural, balanced results.",
     benefits: ["Restores facial volume", "Natural contouring", "Immediate results", "Minimal downtime"],
@@ -853,9 +853,9 @@ export const treatments = [
     name: "Face PRP",
     image: facePrpImg,
     short: "Your own platelets, concentrated to rejuvenate skin naturally.",
-    metaTitle: "Face PRP Treatment & Facial Care | VAMA Clinics",
+    metaTitle: "Face PRP Treatment | Skin Rejuvenation | VAMA Clinics",
     metaDescription:
-      "Improve skin texture and radiance with Face PRP treatment at VAMA Clinics, performed under expert dermatological supervision.",
+      "Explore Face PRP treatment at VAMA Clinics to support skin rejuvenation, improve skin texture and address common signs of skin ageing.",
     description:
       "Platelet-Rich Plasma from your own blood is reinjected into the skin to stimulate collagen and improve texture, tone and glow — a completely natural rejuvenation method.",
     benefits: ["100% natural (autologous)", "Improves tone & texture", "Stimulates collagen", "Minimal side effects"],
@@ -951,9 +951,9 @@ export const treatments = [
     name: "Skin Rejuvenation",
     image: skinRejuvenationImg,
     short: "Restore tone, texture & radiance with combination therapy.",
-    metaTitle: "Skin Rejuvenation Treatment & Facial Renewal | VAMA Clinics",
+    metaTitle: "Skin Rejuvenation Treatment | VAMA Clinics",
     metaDescription:
-      "Refresh dull, tired-looking skin with dermatologist-guided skin rejuvenation treatments at VAMA Clinics, customized to your skin concerns.",
+      "Explore skin rejuvenation treatment at VAMA Clinics with personalized options to refresh your skin and improve the appearance of common skin concerns",
     description:
       "A tailored combination of peels, laser toning and skin boosters designed to reverse dullness, pigmentation and uneven texture for consistently radiant skin.",
     benefits: ["Evens out tone", "Reduces pigmentation", "Boosts radiance", "Custom combination therapy"],
@@ -1053,9 +1053,9 @@ export const treatments = [
     name: "Hair Transplant (FUE)",
     image: hairTransplantImg,
     short: "Natural, permanent hair restoration with advanced FUE.",
-    metaTitle: "Hair Transplant Clinic & Treatment | VAMA Clinics",
+    metaTitle: "Hair Transplant Treatment | VAMA Clinics",
     metaDescription:
-      "Get a personalized hair transplant consultation with Dr. Akanksha Gupta at VAMA Clinics. Expert-led evaluation and natural-looking results.",
+      "Explore hair transplant treatment at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions based on your needs.",
     description:
       "Our Follicular Unit Extraction (FUE) technique transplants healthy follicles individually for a natural hairline and density — permanent, scarless and tailored to your growth pattern.",
     benefits: ["Permanent, natural results", "Scarless FUE technique", "Customised hairline design", "Experienced surgical team"],
@@ -1081,9 +1081,9 @@ export const treatments = [
     name: "Hair Fall Treatment",
     image: hairFallImg,
     short: "Diagnose the root cause and stop hair fall early.",
-    metaTitle: "Advanced Hair Fall Treatment & Care | VAMA Clinics",
+    metaTitle: "Hair Fall Treatment | Hair Loss Care | VAMA Clinics",
     metaDescription:
-      "Address hair fall with expert diagnosis and treatment plans by Dr. Akanksha Gupta at VAMA Clinics, tailored to your scalp and hair condition.",
+      "Explore hair fall treatment at VAMA Clinics with personalized care and treatment options for hair loss, thinning hair and scalp concerns.",
     description:
       "We identify the underlying cause of hair fall — nutritional, hormonal or hereditary — and build a targeted plan combining medication, PRP and topical therapy.",
     benefits: ["Root-cause diagnosis", "Customised treatment plan", "Combination therapy", "Regular progress tracking"],
@@ -1109,9 +1109,9 @@ export const treatments = [
     name: "Hair Replacement",
     image: hairReplacementImg,
     short: "Instant, natural-looking density with non-surgical systems.",
-    metaTitle: "Hair Replacement Treatment & Care | VAMA Clinics",
+    metaTitle: "Hair Replacement Treatment | VAMA Clinics",
     metaDescription:
-      "Explore non-surgical hair replacement solutions guided by Dr. Akanksha Gupta at VAMA Clinics, designed to suit your lifestyle and needs.",
+      "Explore hair replacement treatment at VAMA Clinics for hair loss and thinning, with personalized options designed to improve hair appearance and confidence.",
     description:
       "Our non-surgical hair replacement systems offer an immediate, natural-looking solution for hair loss — undetectable, comfortable and fully customisable.",
     benefits: ["Instant results", "Non-surgical", "Undetectable & natural", "Low maintenance"],
@@ -1137,9 +1137,9 @@ export const treatments = [
     name: "Hair PRP",
     image: hairPrpImg,
     short: "Platelet-Rich Plasma therapy to stimulate hair regrowth.",
-    metaTitle: "Hair PRP Treatment & Hair Growth | VAMA Clinics",
+    metaTitle: "Hair PRP Treatment | Hair Regrowth | VAMA Clinics",
     metaDescription:
-      "Support hair growth with PRP therapy administered by Dr. Akanksha Gupta at VAMA Clinics, using your body's own healing process.",
+      "Explore Hair PRP treatment at VAMA Clinics for hair thinning and hair loss, with personalized care and treatment options based on your needs.",
     description:
       "PRP therapy uses concentrated growth factors from your own blood, injected into the scalp to stimulate dormant follicles and strengthen existing hair.",
     benefits: ["Stimulates regrowth", "100% natural", "No downtime", "Strengthens existing hair"],
@@ -1193,9 +1193,9 @@ export const treatments = [
     name: "Hair DNA Test",
     image: hairDnaImg,
     short: "Understand your genetic hair-loss risk before it starts.",
-    metaTitle: "Hair DNA Test & Hair Health Analysis | VAMA Clinics",
+    metaTitle: "Hair DNA Test | Personalized Hair Care | VAMA Clinics",
     metaDescription:
-      "Understand the genetic causes of your hair loss with a Hair DNA Test guided by Dr. Akanksha Gupta at VAMA Clinics.",
+      "Explore Hair DNA testing at VAMA Clinics to understand genetic factors linked to hair concerns and support personalized hair care decisions.",
     description:
       "A simple genetic test that predicts your predisposition to hair thinning, helping us design a preventive, personalised treatment roadmap.",
     benefits: ["Predicts hair-loss risk", "Personalised roadmap", "Simple, non-invasive test", "Preventive approach"],
@@ -1221,9 +1221,9 @@ export const treatments = [
     name: "GFC Hair Treatment",
     image: gfcImg,
     short: "Growth Factor Concentrate for denser, healthier hair.",
-    metaTitle: "GFC Hair Treatment & Hair Growth | VAMA Clinics",
+    metaTitle: "GFC Hair Treatment | Hair Regrowth | VAMA Clinics",
     metaDescription:
-      "Explore Growth Factor Concentrate (GFC) therapy for hair restoration, offered by Dr. Akanksha Gupta at VAMA Clinics.",
+      "Explore GFC hair treatment at VAMA Clinics for hair loss and thinning, with personalized care designed to support healthier-looking hair.",
     description:
       "GFC therapy delivers a concentrated dose of growth factors to the scalp, promoting follicle activity and hair density with fewer sessions than traditional PRP.",
     benefits: ["Fewer sessions needed", "Boosts follicle activity", "Improves density", "Minimal discomfort"],
@@ -1251,9 +1251,9 @@ export const treatments = [
     name: "Medical Weight Loss",
     image: weightLossImg,
     short: "Professionally supervised, personalised weight-management guidance.",
-    metaTitle: "Looking Medical Weight Loss | VAMA Clinics",
+    metaTitle: "Medical Weight Loss Treatment | VAMA Clinics",
     metaDescription:
-      "Get personalized medical weight loss support at VAMA Clinics with professional guidance, nutrition planning, and sustainable lifestyle strategies.",
+      "Explore medical weight loss treatment at VAMA Clinics with personalized plans, professional guidance and support based on your individual needs.",
     description:
       "Medical Weight Loss offers a structured approach that considers your health, lifestyle, eating habits, weight history and individual goals. At VAMA Clinics, it focuses on personalised weight-management guidance rather than temporary or restrictive dieting — combining nutritional guidance, physical activity, behavioural changes, health monitoring and medically appropriate options when required.",
     benefits: ["Professionally supervised guidance", "Personalised nutrition & lifestyle plan", "Focus on sustainable change, not crash diets", "Regular progress monitoring"],
@@ -1330,9 +1330,9 @@ export const treatments = [
     name: "Obesity Treatment",
     image: weightLossImg,
     short: "Structured, individualised weight-management strategies for obesity.",
-    metaTitle: "Are You Looking Obesity Treatment & Care | VAMA Clinics",
+    metaTitle: "Obesity Treatment | Weight Management | VAMA Clinics",
     metaDescription:
-      "Explore personalized obesity treatment at VAMA Clinics with professional guidance, lifestyle support, and structured weight management solutions.",
+      "Explore obesity treatment at VAMA Clinics with personalized weight management options, lifestyle guidance and care based on individual needs.",
     description:
       "Obesity is a complex health concern influenced by nutrition, physical activity, genetics, lifestyle, medications, sleep and other health factors. VAMA Clinics provides a structured approach to Obesity Treatment, focusing on individual assessment and personalised weight-management strategies rather than short-term dieting.",
     benefits: ["Individual health assessment", "Personalised combination of strategies", "Behavioural & lifestyle support", "Regular weight monitoring"],
@@ -1409,9 +1409,9 @@ export const treatments = [
     name: "Inch Loss Treatment",
     image: contouringImg,
     short: "Targeted measurement reduction for the abdomen, waist & more.",
-    metaTitle: "Inch Loss & Body Shaping Treatments| VAMA Clinics",
+    metaTitle: "Inch Loss Treatment | Body Contouring | VAMA Clinics",
     metaDescription:
-      "Discover personalized inch loss treatment at VAMA Clinics to support targeted body shaping with professional guidance and suitable treatment options.",
+      "Explore inch loss treatment at VAMA Clinics with personalized body contouring options designed to support targeted inch reduction and wellness.",
     description:
       "Sometimes body measurements remain a concern even when overall weight changes. Inch Loss Treatment focuses on improving measurements and body contours in selected areas — the abdomen, waist, thighs, arms and hips — based on your individual body composition, goals and suitability.",
     benefits: ["Targets localised areas of concern", "Improves body contours", "Non-surgical treatment options", "Personalised, area-specific planning"],
@@ -1473,9 +1473,9 @@ export const treatments = [
     name: "Body Contouring",
     image: contouringImg,
     short: "Non-surgical shaping for areas resistant to diet & exercise.",
-    metaTitle: "Body Contouring Treatment & Body Shaping | VAMA Clinics",
+    metaTitle: "Body Contouring Treatment | VAMA Clinics",
     metaDescription:
-      "Explore personalized body contouring at VAMA Clinics for targeted body shaping with suitable non-surgical options and professional treatment guidance.",
+      "Explore body contouring treatment at VAMA Clinics with personalized options designed to support targeted body shaping and inch loss goals.",
     description:
       "Even with regular exercise and a balanced diet, certain areas of the body can remain resistant to changes in shape. Body Contouring focuses on improving the appearance and shape of selected areas through appropriate non-surgical treatment options, selected according to your goals, body composition, health status and suitability.",
     benefits: ["Non-invasive shaping options", "Targets areas resistant to lifestyle change", "Personalised treatment planning", "Realistic, expectation-led consultation"],
@@ -1533,9 +1533,9 @@ export const treatments = [
     name: "EMS Body Sculpting",
     image: contouringImg,
     short: "Electrical muscle stimulation for non-surgical body shaping.",
-    metaTitle: "EMS Body Sculpting Treatment & Body Shaping | VAMA Clinics",
+    metaTitle: "EMS Body Sculpting Treatment | VAMA Clinics",
     metaDescription:
-      "Discover EMS body sculpting Treatment at VAMA Clinics for targeted muscle stimulation and body shaping with a personalized treatment approach.",
+      "Explore EMS body sculpting at VAMA Clinics for muscle stimulation and body contouring, with personalized treatment options based on your goals.",
     description:
       "EMS Body Sculpting uses electrical muscle stimulation to activate targeted muscles through controlled electrical impulses. It is a non-surgical approach that may be considered as part of a body-shaping and muscle-conditioning program, planned according to your goals, target areas, health considerations and suitability.",
     benefits: ["Non-surgical muscle activation", "Targeted body-shaping support", "Adjustable treatment intensity", "Complements an active lifestyle"],
@@ -1602,9 +1602,9 @@ export const treatments = [
     name: "Weight Management",
     image: weightLossImg,
     short: "Practical nutrition & diet consultation for sustainable habits.",
-    metaTitle: "Weight Management Program & Support | VAMA Clinics",
+    metaTitle: "Weight Management Treatment | VAMA Clinics",
     metaDescription:
-      "Get personalized weight management support at VAMA Clinics with nutrition guidance, lifestyle strategies, and professional care for healthier habits.",
+      "Explore weight management treatment at VAMA Clinics with personalized plans, lifestyle guidance and professional support for healthy weight goals.",
     description:
       "Healthy weight management involves more than following a temporary diet. Your food choices, activity level, sleep, stress, lifestyle, medical history and daily routine can all influence your ability to maintain a healthy weight. Weight Management and Diet Consultation at VAMA Clinics focuses on creating practical nutrition and lifestyle strategies based on individual needs.",
     benefits: ["Personalised nutrition guidance", "Practical, sustainable strategies", "Lifestyle & behavioural support", "Regular follow-up & review"],
@@ -1669,9 +1669,9 @@ export const treatments = [
     name: "Psoriasis Treatment",
     image: psoriasisImg,
     short: "Calm inflamed, scaly plaques and extend symptom-free periods.",
-    metaTitle: "Psoriasis Treatment Clinic | Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra, Kanpur – VAMA Clinics",
+    metaTitle: "Psoriasis Treatment | Skin Care & Treatment | VAMA Clinics",
     metaDescription:
-      "Looking for effective Psoriasis Treatment near you? VAMA Clinics offers expert diagnosis and advanced treatment across Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra & Kanpur. Book a free consultation today.",
+      "Explore psoriasis treatment at VAMA Clinics with personalized care and treatment options to help manage psoriasis symptoms and support healthier skin.",
     description:
       "Living with psoriasis can be frustrating — the constant itching, flaking and visible patches can affect not just your skin, but your confidence too. At VAMA Clinics, we offer advanced, personalized psoriasis treatment in Noida and across our branches in Lajpat Nagar, Indirapuram, Lucknow, Agra and Kanpur, designed to reduce flare-ups, control symptoms and give you clearer, healthier skin over the long term.",
     benefits: ["Reduces redness & scaling", "Personalised trigger management", "Combination topical + light therapy", "Long-term flare control"],
@@ -1814,6 +1814,9 @@ export const treatments = [
     name: "Vitiligo Treatment",
     image: vitiligoImg,
     short: "Restore pigment and even out skin tone with targeted repigmentation therapy.",
+    metaTitle: "Vitiligo Treatment | Skin Care & Treatment | VAMA Clinics",
+    metaDescription:
+      "Explore vitiligo treatment at VAMA Clinics with personalized care and treatment options to help manage skin depigmentation and support skin health.",
     description:
       "Vitiligo occurs when pigment-producing cells (melanocytes) are destroyed, leading to smooth, white patches of skin. Our treatment protocols — including phototherapy, topical immunomodulators and camouflage techniques — aim to stabilise the condition and stimulate repigmentation.",
     benefits: ["Stabilises spreading patches", "Stimulates repigmentation", "Combination light + topical therapy", "Cosmetic camouflage guidance"],
@@ -1839,6 +1842,9 @@ export const treatments = [
     name: "Fungal Infection Treatment",
     image: fungalImg,
     short: "Fast, effective relief from ringworm, athlete's foot & other fungal skin infections.",
+    metaTitle: "Fungal Infection Treatment | VAMA Clinics",
+    metaDescription:
+      "Explore fungal infection treatment at VAMA Clinics with personalized care and suitable treatment options for common fungal skin concerns.",
     description:
       "Fungal skin infections — such as ringworm, athlete's foot and yeast infections — thrive in warm, moist areas and cause itching, redness and ring-shaped rashes. We diagnose the exact fungal strain and prescribe targeted antifungal therapy to clear the infection and prevent recurrence.",
     benefits: ["Targeted antifungal therapy", "Fast itch & redness relief", "Prevents spreading & recurrence", "Hygiene & lifestyle guidance"],
@@ -1864,6 +1870,9 @@ export const treatments = [
     name: "Alopecia Treatment",
     image: alopeciaImg,
     short: "Diagnose and treat sudden or patchy hair loss with targeted regrowth therapy.",
+    metaTitle: "Alopecia Treatment | Hair Loss Care | VAMA Clinics",
+    metaDescription:
+      "Explore alopecia treatment at VAMA Clinics with personalized care and treatment options to help manage hair loss and support healthier hair.",
     description:
       "Alopecia areata is an autoimmune condition where the immune system attacks hair follicles, causing sudden, patchy hair loss on the scalp or body. Our dermatologists combine steroid therapy, PRP/GFC and scalp treatments to calm the immune response and stimulate regrowth.",
     benefits: ["Root-cause diagnosis", "Stimulates regrowth", "Combination medical + PRP therapy", "Regular progress tracking"],
@@ -1889,6 +1898,9 @@ export const treatments = [
     name: "Eczema Treatment",
     image: eczemaImg,
     short: "Calm dry, itchy, inflamed skin with barrier-repair focused care.",
+    metaTitle: "Eczema Treatment | Skin Care & Treatment | VAMA Clinics",
+    metaDescription:
+      "Get professional eczema treatment at VAMA Clinics with personalized care to help manage eczema symptoms and support healthier-looking skin.",
     description:
       "Eczema (atopic dermatitis) causes dry, itchy, inflamed patches of skin, often flaring with stress, allergens or weather changes. Our treatment plans focus on calming inflammation, repairing the skin barrier and identifying personal triggers to reduce recurrence.",
     benefits: ["Reduces itching & inflammation", "Repairs skin barrier", "Trigger identification", "Customised skincare routine"],
@@ -1914,6 +1926,9 @@ export const treatments = [
     name: "Keloid Treatment",
     image: keloidImg,
     short: "Flatten and soften raised, overgrown scars with targeted therapy.",
+    metaTitle: "Keloid Treatment | Scar Treatment | VAMA Clinics",
+    metaDescription:
+      "Explore keloid treatment at VAMA Clinics with personalized care and suitable treatment options to help manage raised scars and skin concerns.",
     description:
       "Keloids are raised, thickened scars that grow beyond the original wound boundary, often after injury, piercings or acne. Our treatment combines intralesional injections, laser therapy and pressure/silicone therapy to flatten and soften keloids and reduce recurrence.",
     benefits: ["Flattens raised scars", "Reduces itching & discomfort", "Minimises recurrence", "Combination therapy approach"],
@@ -1939,6 +1954,9 @@ export const treatments = [
     name: "Lipoma Removal",
     image: lipomaImg,
     short: "Safe removal of benign fatty lumps beneath the skin.",
+    metaTitle: "Lipoma Removal Treatment | VAMA Clinics",
+    metaDescription:
+      "Explore lipoma removal treatment at VAMA Clinics with personalized care and suitable treatment options based on the size, location and individual needs.",
     description:
       "A lipoma is a soft, slow-growing, benign lump of fatty tissue that forms just under the skin. While harmless, many patients choose removal for comfort or cosmetic reasons. We offer safe, minimally invasive removal with minimal scarring.",
     benefits: ["Safe, minimally invasive removal", "Minimal scarring", "Quick procedure", "Confirms benign diagnosis"],

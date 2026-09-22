@@ -23,7 +23,8 @@ export default function TreatmentCategory() {
     <>
       <Seo
         title={cat.name}
-        description={`${cat.tagline} Explore ${items.length} ${cat.name.toLowerCase()} options at VAMA's clinics in ${serviceCities.join(", ")}.`}
+        titleOverride={cat.metaTitle}
+        description={cat.metaDescription || `${cat.tagline} Explore ${items.length} ${cat.name.toLowerCase()} options at VAMA's clinics in ${serviceCities.join(", ")}.`}
         keywords={`${cat.name}, ${treatmentKeywords}, ${cityKeywords}`}
       />
       <PageHero
@@ -48,8 +49,6 @@ export default function TreatmentCategory() {
                       <motion.img
                         src={t.image}
                         alt={t.name}
-                        loading="lazy"
-                        decoding="async"
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
                         className="h-full w-full object-cover"

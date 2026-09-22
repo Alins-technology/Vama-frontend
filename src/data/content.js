@@ -6,12 +6,12 @@ import blog5Image from "../assets/blogs/blog5.webp";
 import blog6Image from "../assets/blogs/blog6.webp";
 import blog7Image from "../assets/blogs/blog7.webp";
 import blog8Image from "../assets/blogs/blog8.jpg";
-import blog9Image from "../assets/blogs/blog9.webp";
-import blog10Image from "../assets/blogs/blog10.webp";
-import blog11Image from "../assets/blogs/blog11.webp";
-import blog12Image from "../assets/blogs/blog12.webp";
-import blog13Image from "../assets/blogs/blog13.webp";
-import blog14Image from "../assets/blogs/blog14.webp";
+import blog9Image from "../assets/blogs/blog9.png";
+import blog10Image from "../assets/blogs/blog10.png";
+import blog11Image from "../assets/blogs/blog11.png";
+import blog12Image from "../assets/blogs/blog12.png";
+import blog13Image from "../assets/blogs/blog13.png";
+import blog14Image from "../assets/blogs/blog14.png";
 
 export { testimonials, faqs } from "./homeContent.js";
 
@@ -28,6 +28,9 @@ export const blogPosts = [
     title: "Top Reasons to Choose VAMA Solution for Hair Transplant in Noida",
     excerpt:
       "Hair loss can be frustrating — but choosing the right clinic makes all the difference. Here's why VAMA Solution's experienced specialists, advanced FUE technology and personalised aftercare make it a trusted choice in Noida.",
+    metaTitle: "Hair Transplant in Noida: Complete Guide | VAMA Clinics",
+    metaDescription:
+      "Learn about hair transplant in Noida, including FUE, procedure, recovery, cost, suitability and key factors to consider before treatment.",
     category: "Hair",
     readTime: "10 min read",
     image: blog1Image,
@@ -331,6 +334,9 @@ export const blogPosts = [
     title: "Hair Transplant Clinic in Noida for Safe & Natural Results",
     excerpt:
       "Genetics, stress or hormones — whatever's behind your hair thinning, modern FUE, GFC and PRP treatments can help. Here's what to look for in a trustworthy hair transplant clinic in Noida.",
+    metaTitle: "Hair Transplant Clinic in Noida | VAMA Clinics",
+    metaDescription:
+      "Learn about hair transplant clinics in Noida, FUE treatment, safety, natural-looking results, recovery and factors to consider before treatment.",
     category: "Hair",
     readTime: "7 min read",
     image: blog2Image,
@@ -550,6 +556,9 @@ export const blogPosts = [
     title: "Struggling with Hair Loss? Discover the Best Hair Transplant Solutions",
     excerpt:
       "Hair Transplant or GFC Therapy — which one is right for you? A side-by-side comparison, a real treatment-plan example, and what to check before you commit.",
+    metaTitle: "Best Hair Transplant Solutions for Hair Loss | VAMA",
+    metaDescription:
+      "Explore hair transplant solutions for hair loss, including FUE, suitability, treatment options and key factors to consider before your procedure.",
     category: "Hair",
     readTime: "9 min read",
     image: blog3Image,
@@ -789,6 +798,9 @@ export const blogPosts = [
     title: "Hair Fall Treatment: Causes, Symptoms & Best Solutions in 2026",
     excerpt:
       "Genetics, hormones, stress or nutrition — hair fall has many possible causes. A 2026 guide to spotting the early signs and choosing between GFC, PRP, medication and FUE Hair Transplant.",
+    metaTitle: "Hair Fall Treatment: Causes & Solutions 2026 | VAMA",
+    metaDescription:
+      "Learn about hair fall causes, symptoms and treatment options in 2026, including lifestyle tips and professional hair care solutions from VAMA Clinics.",
     category: "Hair",
     readTime: "9 min read",
     image: blog4Image,
@@ -997,6 +1009,9 @@ export const blogPosts = [
     title: "Top 5 Reasons to Choose Noida for Your Hair Transplant",
     excerpt:
       "Delhi NCR has plenty of clinics — so why do so many patients travel to Noida for their hair transplant? Five reasons, a Lajpat Nagar vs. Noida comparison, and a realistic recovery timeline.",
+    metaTitle: "Top 5 Reasons for Hair Transplant in Noida | VAMA",
+    metaDescription:
+      "Discover 5 reasons to consider a hair transplant in Noida, including treatment options, FUE, consultations, accessibility and clinic care.",
     category: "Hair",
     readTime: "10 min read",
     image: blog5Image,
@@ -1207,6 +1222,9 @@ export const blogPosts = [
     title: "How to Use Aloe Vera on Face at Night for Better Skin?",
     excerpt:
       "A simple nighttime skincare routine can help keep skin hydrated and comfortable. Here's how to use aloe vera on your face at night, whether you can leave it on overnight, and how it fits into routines for acne, dry skin and dark spots.",
+    metaTitle: "How to Use Aloe Vera on Face at Night | VAMA Clinics",
+    metaDescription:
+      "Learn how to use aloe vera on your face at night, including application steps, potential benefits, precautions and skincare tips from VAMA Clinics.",
     category: "Skin",
     readTime: "9 min read",
     image: blog6Image,
@@ -1490,6 +1508,9 @@ export const blogPosts = [
     title: "Hair Transplant in Agra: A Complete Guide for First-Time Patients",
     excerpt:
       "Considering a hair transplant in Agra? A first-time patient's guide to understanding hair loss, who's a suitable candidate, how FUE actually works, and what to expect during recovery — in straightforward language.",
+    metaTitle: "Hair Transplant in Agra: Complete Guide | VAMA Clinics",
+    metaDescription:
+      "Read this complete guide to hair transplant in Agra, covering FUE, procedure, recovery, costs, suitability and what first-time patients should know.",
     category: "Hair",
     readTime: "9 min read",
     image: blog7Image,

@@ -14,9 +14,9 @@ export const hairTransplantPages = [
     slug: "indirapuram",
     path: "/hair-transplant-in-indirapuram",
     city: "Indirapuram",
-    seoTitle: "Top Hair Transplant Clinics in Indirapuram | Vama Clinics",
+    seoTitle: "Hair Transplant in Indirapuram | VAMA Clinics",
     metaDescription:
-      "Explore Hair Transplant in Indirapuram at Vama Clinics with personalized consultation, FUE options, treatment planning, and hair restoration guidance.",
+      "Explore hair transplant treatment in Indirapuram at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Indirapuram",
       "Hair Transplant Clinic in Indirapuram",
@@ -147,9 +147,9 @@ export const hairTransplantPages = [
     slug: "lucknow",
     path: "/hair-transplant-in-lucknow",
     city: "Lucknow",
-    seoTitle: "Hair Transplant in Lucknow | Vama Clinics",
+    seoTitle: "Hair Transplant in Lucknow | VAMA Clinics",
     metaDescription:
-      "Explore Hair Transplant in Lucknow at Vama Clinics with personalized consultation, FUE options, treatment planning, and hair restoration guidance.",
+      "Explore hair transplant treatment in Lucknow at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Lucknow",
       "Hair Transplant Clinic in Lucknow",
@@ -278,9 +278,9 @@ export const hairTransplantPages = [
     slug: "noida",
     path: "/hair-transplant-in-noida",
     city: "Noida",
-    seoTitle: "Best Hair Transplant in Noida | Vama Clinics",
+    seoTitle: "Hair Transplant in Noida | VAMA Clinics",
     metaDescription:
-      "Explore Hair Transplant in Noida at Vama Clinics with personalized consultation, treatment planning, recovery guidance, and hair restoration options.",
+      "Explore hair transplant treatment in Noida at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Noida",
       "Best Hair Transplant",
@@ -407,9 +407,9 @@ export const hairTransplantPages = [
     slug: "kanpur",
     path: "/hair-transplant-in-kanpur",
     city: "Kanpur",
-    seoTitle: "Hair Transplant in Kanpur | Vama Clinics",
+    seoTitle: "Hair Transplant in Kanpur | VAMA Clinics",
     metaDescription:
-      "Looking for Hair Transplant in Kanpur? Explore personalized hair restoration, FUE options, consultation, treatment planning, and aftercare at Vama Clinics.",
+      "Explore hair transplant treatment in Kanpur at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Kanpur",
       "Hair Transplant Clinic in Kanpur",
@@ -539,9 +539,9 @@ export const hairTransplantPages = [
     slug: "lajpat-nagar",
     path: "/hair-transplant-in-lajpat-nagar",
     city: "Lajpat Nagar",
-    seoTitle: "Hair Transplant in Lajpat Nagar | Vama Clinics",
+    seoTitle: "Hair Transplant in Lajpat Nagar | VAMA Clinics",
     metaDescription:
-      "Explore Hair Transplant in Lajpat Nagar at Vama Clinics with personalized consultation, FUE options, treatment planning, and aftercare guidance.",
+      "Explore hair transplant treatment in Lajpat Nagar at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Lajpat Nagar",
       "Hair Transplant Clinic in Lajpat Nagar",
@@ -670,9 +670,9 @@ export const hairTransplantPages = [
     slug: "agra",
     path: "/hair-transplant-in-agra",
     city: "Agra",
-    seoTitle: "Best Hair Transplant in Agra | Vama Clinics",
+    seoTitle: "Hair Transplant in Agra | VAMA Clinics",
     metaDescription:
-      "Looking for Hair Transplant in Agra? Explore personalized hair restoration, FUE options, consultation, treatment planning, and aftercare at Vama Clinics.",
+      "Explore hair transplant treatment in Agra at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions.",
     keywords: [
       "Hair Transplant in Agra",
       "Hair Transplant Clinic in Agra",

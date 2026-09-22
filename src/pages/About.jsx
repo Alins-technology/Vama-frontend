@@ -10,7 +10,7 @@ import AppointmentCTA from "../components/sections/AppointmentCTA";
 import LocationsSection from "../components/sections/LocationsSection";
 import ArticleBlocks from "../components/ui/ArticleBlocks";
 
-import aboutImage from "../assets/Clinic/Reception.webp";
+import aboutImage from "../assets/Clinic/Reception.jpg";
 
 const aboutStoryBlocks = [
   {
@@ -60,7 +60,8 @@ export default function About() {
     <>
       <Seo
         title="About Us"
-        description="Meet VAMA Advanced Hair & Skin Clinic — certified dermatologists, cosmetologists & trichologists delivering safe, ethical hair, skin, weight loss & allergy care across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur."
+        titleOverride="About VAMA Clinics | Skin, Hair & Wellness Experts"
+        description="Learn about VAMA Clinics and our approach to personalized skin, hair, laser and weight loss treatments focused on patient care and guidance."
         keywords="about VAMA clinic, hair and skin clinic Ghaziabad, dermatology team Noida, best hair transplant doctors, aesthetic clinic Indirapuram"
       />
       <PageHero
@@ -80,7 +81,6 @@ export default function About() {
               <img
                 src={aboutImage}
                 alt="Doctors at VAMA clinic"
-                decoding="async"
                 className="h-full w-full object-cover"
               />
             </motion.div>

@@ -14,7 +14,8 @@ export default function Blog() {
     <>
       <Seo
         title="Blog"
-        description="Expert insights on hair transplant, skin treatments, weight loss and allergy care from VAMA Advanced Hair & Skin Clinic's specialists in Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur."
+        titleOverride="VAMA Clinics Blog | Skin, Hair, Weight Loss & Wellness"
+        description="Explore VAMA Clinics blogs for expert insights on hair, skin, weight loss, laser treatments, and wellness, with practical tips and guidance."
         keywords="hair transplant blog, skin care tips, hair fall treatment blog, VAMA Advanced Hair & Skin Clinic blog, dermatology articles Noida"
       />
       <PageHero eyebrow="Blog" title="Insights from our specialists." crumbs={[{ label: "Blog" }]} />
@@ -32,8 +33,6 @@ export default function Blog() {
                     <img
                       src={post.image}
                       alt={post.title}
-                      loading="lazy"
-                      decoding="async"
                       className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
                     />
                   </div>

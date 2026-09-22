@@ -17,7 +17,12 @@ export default function BlogPost() {
 
   return (
     <>
-      <Seo title={post.title} description={post.excerpt} keywords={`${post.title}, ${post.category}, VAMA Advanced Hair & Skin Clinic blog`} />
+      <Seo
+        title={post.title}
+        titleOverride={post.metaTitle}
+        description={post.metaDescription || post.excerpt}
+        keywords={`${post.title}, ${post.category}, VAMA Advanced Hair & Skin Clinic blog`}
+      />
       <PageHero
         eyebrow={post.category}
         title={post.title}
@@ -32,7 +37,6 @@ export default function BlogPost() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  decoding="async"
                   className="h-auto w-full object-contain"
                 />
               </div>

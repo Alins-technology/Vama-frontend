@@ -15,7 +15,8 @@ export default function Clinics() {
     <>
       <Seo
         title="Our Clinics"
-        description={`Visit any of our ${locations.length} VAMA Advanced Hair & Skin clinics across ${serviceCities.join(", ")}. Find addresses, contact numbers and specialists at each location.`}
+        titleOverride="VAMA Clinics | Skin, Hair & Weight Loss Clinics"
+        description="Find VAMA Clinics locations for hair, skin, laser and weight loss treatments, with personalized care from experienced professionals across India."
         keywords="VAMA clinic locations, hair skin clinic Noida, hair skin clinic Indirapuram, hair skin clinic Lajpat Nagar, hair skin clinic Agra, hair skin clinic Lucknow, hair skin clinic Kanpur, clinic near me"
       />
 

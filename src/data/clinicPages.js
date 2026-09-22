@@ -20,9 +20,9 @@ export const clinicPages = [
   {
     slug: "indirapuram",
     path: "/vamaclinics-in-indirapuram",
-    seoTitle: "Skin, Hair, Laser & Weight Clinic in Indirapuram | VAMA",
+    seoTitle: "VAMA Clinics Indirapuram | Skin, Hair & Laser",
     metaDescription:
-      "VAMA Clinics in Indirapuram, Ghaziabad offers skin, hair, laser and weight management treatments including hair transplant, acne scars, PRP and laser hair reduction.",
+      "Visit VAMA Clinics in Indirapuram for hair, skin, laser and weight loss treatments with personalized care from experienced professionals.",
     heroTitle: "VAMA Clinics in Indirapuram",
     intro: [
       "VAMA Clinics provides a comprehensive range of skin, hair, laser and weight-management treatments in Indirapuram, Ghaziabad. From hair loss and hair transplantation to acne scars, pigmentation, skin rejuvenation, laser hair reduction and weight-management concerns, treatment plans are tailored to individual needs.",
@@ -137,9 +137,9 @@ export const clinicPages = [
   {
     slug: "agra",
     path: "/vamaclinics-in-agra",
-    seoTitle: "Skin, Hair, Laser & Weight Clinic in Agra | VAMA",
+    seoTitle: "VAMA Clinics Agra | Skin, Hair & Weight Loss | Vama Clinics",
     metaDescription:
-      "VAMA Clinics in Agra offers personalized skin, hair, laser and weight management treatments including hair transplant, acne scars, PRP and laser care.",
+      "Visit VAMA Clinics in Agra for hair, skin, laser and weight loss treatments with personalized care and treatment options based on your needs.",
     heroTitle: "VAMA Clinics – Agra",
     intro: [
       "Your skin, hair and body can change with age, lifestyle, hormones, genetics and environmental factors. Finding the right treatment therefore starts with understanding the concern rather than choosing a procedure simply because it is popular.",
@@ -273,9 +273,9 @@ export const clinicPages = [
   {
     slug: "lajpat-nagar",
     path: "/vamaclinics-in-lajpat-nagar",
-    seoTitle: "Skin, Hair, Laser & Weight Clinic in Lajpat Nagar",
+    seoTitle: "VAMA Clinics Lajpat Nagar | Skin, Hair & Laser",
     metaDescription:
-      "VAMA Clinics in Lajpat Nagar offers skin, hair, laser and weight management treatments including hair transplant, acne scars, PRP and laser hair reduction.",
+      "Visit VAMA Clinics in Lajpat Nagar for hair, skin, laser and weight loss treatments with personalized care and treatment options.",
     heroTitle: "VAMA Clinics – Lajpat Nagar",
     intro: [
       "Healthy skin, fuller-looking hair and effective weight management often require a personalized approach. VAMA Clinics – Lajpat Nagar offers a comprehensive range of skin, hair, laser and weight-management treatments, helping patients address cosmetic and aesthetic concerns through professionally guided treatment options.",
@@ -392,9 +392,9 @@ export const clinicPages = [
   {
     slug: "noida",
     path: "/vamaclinics-in-noida",
-    seoTitle: "Skin, Hair, Laser & Weight Loss Clinic in Noida | VAMA",
+    seoTitle: "VAMA Clinics Noida | Skin, Hair & Weight Loss",
     metaDescription:
-      "Explore skin, hair, laser and weight management treatments at VAMA Clinics in Noida, including hair transplant, acne scars, laser hair reduction and more.",
+      "Visit VAMA Clinics in Noida for hair, skin, laser and weight loss treatments with personalized care and treatment options based on your needs.",
     heroTitle: "VAMA Clinics in Noida",
     intro: [
       "Healthy skin, stronger-looking hair and a confident appearance often require more than a single treatment. VAMA Clinics in Noida provides a comprehensive range of skin, hair, laser and weight-management treatments designed around individual concerns and treatment goals.",
@@ -505,9 +505,9 @@ export const clinicPages = [
   {
     slug: "lucknow",
     path: "/vamaclinics-in-lucknow",
-    seoTitle: "Skin & Hair Clinic in Gomti Nagar, Lucknow | VAMA Clinics",
+    seoTitle: "VAMA Clinics Lucknow | Skin, Hair & Weight Loss",
     metaDescription:
-      "Visit VAMA Clinics Lucknow for expert hair transplant, PRP, acne scar removal, laser hair removal & skin treatments in Gomti Nagar. Book your free consultation!",
+      "Visit VAMA Clinics in Lucknow for hair, skin, laser and weight loss treatments with personalized care from experienced professionals.",
     heroTitle: "VAMA Clinics Lucknow",
     intro: [
       "At VAMA Advanced Hair & Skin Clinic, we bring together medical expertise, certified dermatologists and US-FDA-cleared technologies to provide comprehensive aesthetic and wellness care in Lucknow. Rather than applying generic treatment packages, our specialists focus on root-cause diagnosis, ensuring that each patient receives a clinical plan matched to their exact skin, hair and body requirements.",
@@ -595,9 +595,9 @@ export const clinicPages = [
   {
     slug: "kanpur",
     path: "/vamaclinics-in-kanpur",
-    seoTitle: "VAMA Clinics Kanpur | Skin, Hair, Laser & Wellness",
+    seoTitle: "VAMA Clinics Kanpur | Skin, Hair & Weight Loss",
     metaDescription:
-      "Discover VAMA Clinics in Kanpur for hair restoration, skin care, laser procedures, facial aesthetics and personalized weight management services.",
+      "Visit VAMA Clinics in Kanpur for hair, skin, laser and weight loss treatments with personalized care and treatment options for your needs.",
     heroTitle: "VAMA Clinics Kanpur",
     intro: [
       "Skin, hair and body concerns are different for every individual. While one person may be looking for a solution for hair thinning, another may want to improve acne scars, pigmentation, unwanted hair or weight-related concerns.",
