@@ -99,16 +99,8 @@ export default function BookingPopup() {
 
             {/* header */}
             <div className="relative shrink-0 overflow-hidden bg-gradient-to-br from-brand-dark via-brand to-brand-dark px-7 pb-8 pt-8 text-ivory">
-              <motion.div
-                className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold/25 blur-3xl"
-                animate={{ x: [0, 15, 0], y: [0, 10, 0] }}
-                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-              />
-              <motion.div
-                className="pointer-events-none absolute -bottom-10 left-0 h-32 w-32 rounded-full bg-rose/15 blur-3xl"
-                animate={{ x: [0, -10, 0], y: [0, 8, 0] }}
-                transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-              />
+              <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold/25 blur-3xl animate-popup-blob-a" />
+              <div className="pointer-events-none absolute -bottom-10 left-0 h-32 w-32 rounded-full bg-rose/15 blur-3xl animate-popup-blob-b" />
 
               <span className="relative inline-flex items-center gap-2 rounded-full border border-ivory/20 bg-ivory/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-gold-light">
                 <CalendarCheck className="h-3.5 w-3.5" /> Free Consultation

@@ -82,6 +82,44 @@ h1, h2, h3, h4, .font-display {
   }
 }
 
+/* Decorative "ambient blob" float/pulse loops — plain CSS keyframes instead of
+   framer-motion's JS/rAF-driven `animate={{...}} repeat: Infinity`. These run
+   continuously for as long as the section is mounted, so doing them in JS
+   keeps the main thread busy every frame (this is a real contributor to
+   Total Blocking Time on throttled mobile CPUs). CSS transform/opacity
+   keyframes are handled by the compositor thread instead, so they're
+   effectively free for TBT purposes while looking identical. */
+@keyframes blob-float-a {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(25px, 15px); }
+}
+@keyframes blob-float-b {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-20px, -10px); }
+}
+@keyframes blob-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+@keyframes sparkle-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(12deg); }
+}
+@keyframes popup-blob-a {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(15px, 10px); }
+}
+@keyframes popup-blob-b {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-10px, 8px); }
+}
+.animate-blob-a { animation: blob-float-a 11s ease-in-out infinite; }
+.animate-blob-b { animation: blob-float-b 13s ease-in-out infinite; }
+.animate-blob-pulse { animation: blob-pulse 9s ease-in-out infinite; }
+.animate-sparkle { animation: sparkle-float 6s ease-in-out infinite; }
+.animate-popup-blob-a { animation: popup-blob-a 8s ease-in-out infinite; }
+.animate-popup-blob-b { animation: popup-blob-b 9s ease-in-out infinite; }
+
 /* focus visibility */
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
   outline: 2px solid var(--color-gold);

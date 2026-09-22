@@ -13,22 +13,12 @@ const stats = [
 export default function HomeHero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-brand-dark via-brand to-brand pb-24 pt-40 text-ivory md:pb-32 md:pt-48">
-      {/* ambient shapes */}
-      <motion.div
-        className="pointer-events-none absolute -right-32 -top-10 h-96 w-96 rounded-full bg-ivory/20 blur-3xl"
-        animate={{ x: [0, 25, 0], y: [0, 15, 0] }}
-        transition={{ duration: 11, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="pointer-events-none absolute bottom-0 left-0 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-light/20 blur-3xl"
-        animate={{ x: [0, -20, 0], y: [0, -10, 0] }}
-        transition={{ duration: 13, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="pointer-events-none absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-rose/10 blur-[100px]"
-        animate={{ scale: [1, 1.15, 1] }}
-        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-      />
+      {/* ambient shapes — plain CSS animations, not framer-motion (see index.css:
+          these loop forever, so keeping them off the JS main thread matters
+          a lot for Total Blocking Time on throttled mobile CPUs) */}
+      <div className="pointer-events-none absolute -right-32 -top-10 h-96 w-96 rounded-full bg-ivory/20 blur-3xl animate-blob-a" />
+      <div className="pointer-events-none absolute bottom-0 left-0 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-light/20 blur-3xl animate-blob-b" />
+      <div className="pointer-events-none absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-rose/10 blur-[100px] animate-blob-pulse" />
 
       {/* faint diagonal texture */}
       <div
@@ -39,14 +29,12 @@ export default function HomeHero() {
         }}
       />
 
-      <motion.div
+      <div
         aria-hidden
-        className="pointer-events-none absolute right-[8%] top-28 hidden lg:block"
-        animate={{ y: [0, -16, 0], rotate: [0, 12, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        className="pointer-events-none absolute right-[8%] top-28 hidden animate-sparkle lg:block"
       >
         <Sparkle className="h-8 w-8 text-gold-light" />
-      </motion.div>
+      </div>
 
       <div className="container-page relative grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
         <div>
