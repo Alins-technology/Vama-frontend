@@ -7,6 +7,7 @@ import acneScarImg from "../assets/Treatments/Acne-scar.avif";
 import alopeciaImg from "../assets/Treatments/Alopecia.jpg";
 import antiAgeingImg from "../assets/Treatments/Anti-Ageing.jpg";
 import botoxImg from "../assets/Treatments/botox.jpg";
+import pigmentationImg from "../assets/Clinic/AcneScarTreatment.avif";
 import contouringImg from "../assets/Treatments/Contouring.jpg";
 import dandruffImg from "../assets/Treatments/dandruff.jpg";
 import dermalFillerImg from "../assets/Treatments/dermalfiller.jpg";
@@ -259,6 +260,119 @@ export const treatments = [
       { q: "Can anti-ageing treatment remove wrinkles completely?", a: "Treatments may improve the appearance of wrinkles, but complete removal cannot be guaranteed. Results vary between individuals." },
       { q: "Is there downtime?", a: "Downtime depends on the procedure. Some treatments may involve minimal downtime, while others can cause temporary redness, swelling or sensitivity." },
       { q: "How long do results last?", a: "Results vary according to the treatment, individual skin characteristics and lifestyle. Some procedures may require maintenance sessions." },
+    ],
+  },
+  {
+    slug: "pigmentation-treatment",
+    category: "skin-treatment",
+    name: "Pigmentation Treatment",
+    image: pigmentationImg,
+    short: "Personalized care for dark spots, uneven tone and pigmentation concerns.",
+    metaTitle: "Pigmentation Treatment in Noida, Delhi & North India | VAMA Clinics",
+    metaDescription:
+      "Explore personalized pigmentation treatment at VAMA Clinics for dark spots, melasma, post-acne pigmentation and uneven skin tone across Noida, Indirapuram, Lajpat Nagar, Kanpur, Lucknow and Agra.",
+    description:
+      "Uneven skin tone, dark patches and brown spots can develop when the skin produces or distributes excess melanin. At VAMA Clinics, pigmentation treatment is planned around your skin type, pigmentation pattern, possible causes and treatment goals.",
+    benefits: ["Targets uneven skin tone", "Cause-based treatment planning", "Personalized skincare guidance", "Suitable professional options"],
+    duration: "30–45 mins consultation",
+    sessions: "Plan varies by concern",
+    downtime: "None to minimal",
+    process: commonProcess(
+      "Your pigmentation pattern, skin type, medical history and possible triggers are assessed before treatment is recommended.",
+      "A personalized plan may include professional skincare, topical medication, chemical peels or selected laser and light-based procedures.",
+      "The selected treatment is performed with an approach suited to the type and depth of pigmentation and your skin characteristics.",
+      "Sun protection, skincare and follow-up guidance help support gradual improvement and reduce the chance of recurrence."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "Uneven skin tone, dark patches and brown spots are common skin concerns that can affect the face and other areas of the body. Pigmentation occurs when the skin produces or distributes excess melanin, the pigment responsible for skin color. It can develop due to sun exposure, acne or skin inflammation, hormonal changes, certain medications or other underlying factors.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, we provide personalized pigmentation treatment based on the individual's skin type, pigmentation pattern, possible causes and treatment goals. Our approach focuses on understanding the reason behind pigmentation before recommending suitable treatment options.",
+      },
+      { type: "heading", text: "What Is Pigmentation?" },
+      {
+        type: "paragraph",
+        text: "Pigmentation refers to changes in the normal color of the skin. Pigmentation Treatment in Noida usually appears as darker patches or spots, while some skin conditions can cause areas of reduced pigmentation. Since different types of pigmentation can look similar, proper assessment is important before starting treatment.",
+      },
+      {
+        type: "list",
+        items: [
+          "Dark spots and patches",
+          "Uneven skin tone",
+          "Melasma",
+          "Post-acne pigmentation",
+          "Post-inflammatory pigmentation",
+          "Sun-induced pigmentation",
+          "Age-related dark spots",
+        ],
+      },
+      { type: "heading", text: "What Causes Pigmentation?" },
+      {
+        type: "paragraph",
+        text: "Pigmentation may develop due to several factors. Sun exposure is one of the major triggers because ultraviolet and visible light can stimulate pigment production and may worsen existing dark patches. Hormonal changes, acne, skin injuries, inflammation, certain medications and irritating skincare products can also contribute to pigmentation.",
+      },
+      {
+        type: "paragraph",
+        text: "For this reason, identifying the possible cause is an important part of creating an appropriate treatment plan.",
+      },
+      { type: "heading", text: "Pigmentation Treatment at VAMA Clinics" },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, treatment is selected according to the type and depth of pigmentation, skin characteristics and individual requirements. Depending on the assessment, a treatment plan may include professional skincare, topical medications where appropriate, chemical peels or selected laser and light-based procedures.",
+      },
+      {
+        type: "paragraph",
+        text: "For conditions such as melasma, treatment may involve a combination of sun protection, topical medication and sometimes procedures. There is no single treatment that works for every person or every type of pigmentation. Our team aims to provide a gradual and individualized approach rather than promising instant results.",
+      },
+      { type: "heading", text: "Why Sun Protection Matters" },
+      {
+        type: "paragraph",
+        text: "Sun protection is an important part of pigmentation management. Continued sun exposure can make existing pigmentation darker and contribute to new pigmentation. Dermatologists commonly recommend broad-spectrum sunscreen with SPF 30 or higher, along with other sun-protection measures. Patients should also follow the skincare and aftercare instructions provided during their treatment.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, we focus on personalized care and professional guidance. Our goal is to help improve the appearance of uneven skin tone while maintaining a focus on skin health and patient safety.",
+      },
+      {
+        type: "list",
+        items: [
+          "Assessment of your pigmentation concern",
+          "Understanding possible triggers and contributing factors",
+          "Personalized treatment planning",
+          "Suitable professional treatment options",
+          "Skincare and sun-protection guidance",
+          "Follow-up based on individual requirements",
+        ],
+      },
+      { type: "heading", text: "Pigmentation Treatment Across Our Clinics" },
+      {
+        type: "paragraph",
+        text: "VAMA Clinics offers pigmentation consultation and personalized skin care across Noida, Indirapuram, Lajpat Nagar, Kanpur, Lucknow and Agra. Choose a convenient clinic location to discuss your dark spots, melasma, post-acne pigmentation or uneven skin tone.",
+        links: [
+          { text: "Noida", to: "/vamaclinics-in-noida" },
+          { text: "Indirapuram", to: "/vamaclinics-in-indirapuram" },
+          { text: "Lajpat Nagar", to: "/vamaclinics-in-lajpat-nagar" },
+          { text: "Kanpur", to: "/vamaclinics-in-kanpur" },
+          { text: "Lucknow", to: "/vamaclinics-in-lucknow" },
+          { text: "Agra", to: "/vamaclinics-in-agra" },
+        ],
+      },
+      { type: "heading", text: "Book a Pigmentation Consultation" },
+      {
+        type: "paragraph",
+        text: "Pigmentation can have different causes, and the right treatment depends on an accurate assessment. If you are concerned about dark spots, melasma, post-acne pigmentation or uneven skin tone, professional consultation can help identify suitable options. Book a consultation with VAMA Clinics to discuss your pigmentation concerns and explore suitable treatment options for your skin.",
+      },
+    ],
+    faqs: [
+      { q: "What is the best treatment for pigmentation?", a: "The most suitable option depends on the type, depth and cause of pigmentation. A consultation may lead to skincare, topical medication, chemical peels or selected laser and light-based procedures." },
+      { q: "Can pigmentation be treated permanently?", a: "Pigmentation can often be improved, but recurrence is possible, especially with ongoing sun exposure or hormonal triggers. Consistent sun protection and follow-up care are important." },
+      { q: "Is pigmentation treatment safe for all skin types?", a: "Treatment is selected according to skin type, sensitivity and pigmentation pattern. A professional assessment helps determine which options are appropriate and how they should be planned." },
+      { q: "How long does pigmentation treatment take?", a: "The consultation usually takes around 30–45 minutes. The number of treatment sessions and time to see improvement vary depending on the concern and individual skin response." },
+      { q: "Do I need sunscreen after pigmentation treatment?", a: "Yes. Broad-spectrum sunscreen with SPF 30 or higher is an important part of pigmentation management and aftercare, along with the guidance provided by your clinician." },
     ],
   },
   {
