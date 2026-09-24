@@ -7,8 +7,11 @@ import acneScarImg from "../assets/Treatments/Acne-scar.avif";
 import alopeciaImg from "../assets/Treatments/Alopecia.jpg";
 import antiAgeingImg from "../assets/Treatments/Anti-Ageing.jpg";
 import botoxImg from "../assets/Treatments/botox.jpg";
+import bodyContouringImg from "../assets/Treatments/contouring.png";
+import emsBodyImg from "../assets/Treatments/EMSBody.png";
 import faceLiftingImg from "../assets/Treatments/facelifting.png";
-import pigmentationImg from "../assets/Clinic/AcneScarTreatment.avif";
+import obesityImg from "../assets/Treatments/obesity.png";
+import pigmentationImg from "../assets/Treatments/pigmentation.png";
 import contouringImg from "../assets/Treatments/Contouring.jpg";
 import dandruffImg from "../assets/Treatments/dandruff.jpg";
 import dermalFillerImg from "../assets/Treatments/dermalfiller.jpg";
@@ -1564,7 +1567,7 @@ export const treatments = [
     slug: "obesity-treatment",
     category: "weight-loss",
     name: "Obesity Treatment",
-    image: weightLossImg,
+    image: obesityImg,
     short: "Structured, individualised weight-management strategies for obesity.",
     metaTitle: "Obesity Treatment | Weight Management | VAMA Clinics",
     metaDescription:
@@ -1707,7 +1710,7 @@ export const treatments = [
     slug: "body-contouring",
     category: "weight-loss",
     name: "Body Contouring",
-    image: contouringImg,
+    image: bodyContouringImg,
     short: "Non-surgical shaping for areas resistant to diet & exercise.",
     metaTitle: "Body Contouring Treatment | VAMA Clinics",
     metaDescription:
@@ -1767,7 +1770,7 @@ export const treatments = [
     slug: "ems-body-sculpting",
     category: "weight-loss",
     name: "EMS Body Sculpting",
-    image: contouringImg,
+    image: emsBodyImg,
     short: "Electrical muscle stimulation for non-surgical body shaping.",
     metaTitle: "EMS Body Sculpting Treatment | VAMA Clinics",
     metaDescription:
