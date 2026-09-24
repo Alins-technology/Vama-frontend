@@ -24,6 +24,7 @@ const treatmentBySlug = Object.fromEntries(treatments.map((t) => [t.slug, t]));
 const ALIASES = {
   "acne-scar-treatment": ["acne scars", "acne scarring"],
   "anti-ageing-treatment": ["anti-ageing", "anti ageing", "anti-aging", "anti aging"],
+  "face-lifting-treatment": ["face lifting", "facelift", "facial rejuvenation", "skin tightening"],
   "pigmentation-treatment": ["pigmentation", "pigmentation treatment", "dark spots", "uneven skin tone", "melasma"],
   "mole-skin-tag-removal": ["mole and skin tag removal", "mole removal", "skin tag removal", "moles and skin tags"],
   "hydrafacial": ["hydra facial"],

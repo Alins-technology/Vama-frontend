@@ -7,6 +7,7 @@ import acneScarImg from "../assets/Treatments/Acne-scar.avif";
 import alopeciaImg from "../assets/Treatments/Alopecia.jpg";
 import antiAgeingImg from "../assets/Treatments/Anti-Ageing.jpg";
 import botoxImg from "../assets/Treatments/botox.jpg";
+import faceLiftingImg from "../assets/Treatments/facelifting.png";
 import pigmentationImg from "../assets/Clinic/AcneScarTreatment.avif";
 import contouringImg from "../assets/Treatments/Contouring.jpg";
 import dandruffImg from "../assets/Treatments/dandruff.jpg";
@@ -260,6 +261,127 @@ export const treatments = [
       { q: "Can anti-ageing treatment remove wrinkles completely?", a: "Treatments may improve the appearance of wrinkles, but complete removal cannot be guaranteed. Results vary between individuals." },
       { q: "Is there downtime?", a: "Downtime depends on the procedure. Some treatments may involve minimal downtime, while others can cause temporary redness, swelling or sensitivity." },
       { q: "How long do results last?", a: "Results vary according to the treatment, individual skin characteristics and lifestyle. Some procedures may require maintenance sessions." },
+    ],
+  },
+  {
+    slug: "face-lifting-treatment",
+    category: "skin-treatment",
+    name: "Face Lifting Treatment",
+    image: faceLiftingImg,
+    short: "Personalized facial rejuvenation for skin laxity, wrinkles and changing contours.",
+    metaTitle: "Face Lifting Treatment in Noida, Delhi & North India | VAMA Clinics",
+    metaDescription:
+      "Explore personalized face lifting treatment at VAMA Clinics for facial laxity, wrinkles, sagging skin and changing contours across Noida, Indirapuram, Lajpat Nagar, Agra, Kanpur and Lucknow.",
+    description:
+      "Face lifting treatments are designed to improve the appearance of age-related concerns such as fine lines, wrinkles, sagging skin and changes in facial contours. At VAMA Clinics, treatment is selected according to skin condition, degree of laxity, treatment goals and overall suitability.",
+    benefits: ["Improves the appearance of facial laxity", "Supports firmer-looking skin", "Personalized treatment planning", "Guidance on realistic outcomes"],
+    duration: "30–45 mins consultation",
+    sessions: "Plan varies by treatment",
+    downtime: "Varies by procedure",
+    process: commonProcess(
+      "Your skin condition, facial structure, medical history, degree of laxity and desired outcome are assessed during consultation.",
+      "A suitable approach is recommended, which may include selected non-surgical skin-tightening or other aesthetic treatments.",
+      "The chosen treatment is performed according to your individual plan and the expected recovery requirements are explained.",
+      "Preparation, aftercare, recovery guidance and follow-up are discussed so that results and next steps are clearly understood."
+    ),
+    article: [
+      {
+        type: "paragraph",
+        text: "As we age, the skin gradually loses elasticity and facial tissues may become less firm. Fine lines, wrinkles, sagging skin and changes in facial contours can become more noticeable over time. Face lifting treatments are designed to improve the appearance of these age-related concerns and support a firmer, more refreshed facial appearance.",
+      },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, we understand that every person's skin and facial structure is different. Our approach focuses on assessing individual concerns and recommending an appropriate treatment option based on skin condition, degree of laxity, treatment goals and overall suitability.",
+      },
+      { type: "heading", text: "What Is Face Lifting?" },
+      {
+        type: "paragraph",
+        text: "Face lifting refers to treatments that aim to improve facial firmness, skin laxity and the appearance of age-related changes. Depending on the individual's needs, facial rejuvenation may involve non-surgical skin-tightening procedures or, where appropriate, surgical facelift procedures.",
+      },
+      {
+        type: "paragraph",
+        text: "A surgical facelift, also known as rhytidectomy, is designed to address visible signs of ageing such as sagging facial skin, jowls, deeper facial folds and loose skin around the neck. Non-surgical skin-tightening procedures may provide more gradual and subtle improvement with generally less downtime than surgery. The suitable option depends on the amount of skin laxity and the patient's desired outcome.",
+      },
+      { type: "heading", text: "Common Concerns Addressed" },
+      {
+        type: "paragraph",
+        text: "Face lifting and facial rejuvenation treatments may be considered for concerns such as:",
+      },
+      {
+        type: "list",
+        items: [
+          "Mild to moderate skin laxity",
+          "Fine lines and wrinkles",
+          "Loss of facial firmness",
+          "Sagging cheeks",
+          "Jowls and less-defined jawline",
+          "Loose skin around the lower face and neck",
+          "Changes in facial contours",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The treatment plan should be customized because different procedures address different types and degrees of facial ageing.",
+      },
+      { type: "heading", text: "Face Lifting at VAMA Clinics" },
+      {
+        type: "paragraph",
+        text: "At VAMA Clinics, we focus on personalized treatment planning rather than using the same procedure for every patient. During consultation, your skin condition, facial structure, concerns, medical history and desired outcome can be considered before deciding on a suitable approach.",
+      },
+      {
+        type: "paragraph",
+        text: "Depending on the assessment, facial rejuvenation may involve selected non-surgical skin-tightening or other aesthetic treatments. Some patients may require a combination of treatments to address skin texture, volume changes, wrinkles or laxity.",
+      },
+      {
+        type: "paragraph",
+        text: "A proper consultation is important because cosmetic procedures have potential risks, and patients should understand expected results, recovery, alternatives and aftercare before treatment.",
+      },
+      { type: "heading", text: "Who May Consider Face Lifting?" },
+      {
+        type: "paragraph",
+        text: "Face lifting may be considered by adults who are concerned about visible facial laxity, wrinkles or changes in facial contours. However, suitability cannot be determined by age alone. For surgical facelift procedures, factors such as overall health, healing ability, smoking status, skin condition and realistic expectations may be considered during assessment.",
+      },
+      { type: "heading", text: "Why Choose VAMA Clinics?" },
+      {
+        type: "paragraph",
+        text: "VAMA Clinics focuses on a patient-centered approach to aesthetic and skin care. Our goal is to help patients understand their available options and choose a treatment plan appropriate for their individual needs.",
+      },
+      {
+        type: "list",
+        items: [
+          "Individual skin and facial assessment",
+          "Personalized treatment recommendations",
+          "Discussion of expected outcomes",
+          "Guidance about preparation and aftercare",
+          "Focus on patient comfort and safety",
+          "Professional consultation before treatment",
+        ],
+      },
+      { type: "heading", text: "Face Lifting Treatment Across Multiple Locations" },
+      {
+        type: "paragraph",
+        text: "VAMA Clinics provides aesthetic and skin-care services across multiple locations. Patients looking for Face Lifting Treatment in Noida can consult our team for an assessment of their facial concerns. We also serve patients looking for Face Lifting Treatment in Indirapuram, Face Lifting Treatment in Lajpat Nagar, Face Lifting Treatment in Agra, Face Lifting Treatment in Kanpur and Face Lifting Treatment in Lucknow.",
+        links: [
+          { text: "Face Lifting Treatment in Noida", to: "/vamaclinics-in-noida" },
+          { text: "Face Lifting Treatment in Indirapuram", to: "/vamaclinics-in-indirapuram" },
+          { text: "Face Lifting Treatment in Lajpat Nagar", to: "/vamaclinics-in-lajpat-nagar" },
+          { text: "Face Lifting Treatment in Agra", to: "/vamaclinics-in-agra" },
+          { text: "Face Lifting Treatment in Kanpur", to: "/vamaclinics-in-kanpur" },
+          { text: "Face Lifting Treatment in Lucknow", to: "/vamaclinics-in-lucknow" },
+        ],
+      },
+      { type: "heading", text: "Book a Consultation" },
+      {
+        type: "paragraph",
+        text: "If you are concerned about facial sagging, wrinkles, loose skin or loss of facial firmness, a professional consultation can help you understand which treatment options may be appropriate for you. VAMA Clinics provides personalized skin and aesthetic care with a focus on appropriate treatment planning, patient safety and realistic expectations. Book a consultation with VAMA Clinics to discuss your face lifting and facial rejuvenation concerns.",
+      },
+    ],
+    faqs: [
+      { q: "What is the difference between a surgical facelift and non-surgical face lifting?", a: "A surgical facelift addresses more advanced laxity through surgery, while non-surgical procedures generally provide gradual, more subtle improvement with less downtime. Suitability depends on your concerns and assessment." },
+      { q: "Who is suitable for face lifting treatment?", a: "Adults with concerns such as facial laxity, wrinkles or changing contours may be considered. Age alone does not determine suitability; skin condition, health, expectations and the selected treatment also matter." },
+      { q: "Does face lifting treatment have downtime?", a: "Downtime varies according to the procedure. Non-surgical treatments may involve less recovery, while surgical procedures require a longer recovery period and detailed aftercare." },
+      { q: "Can face lifting remove all wrinkles and sagging?", a: "Treatment may improve the appearance of wrinkles and laxity, but complete removal or identical results cannot be guaranteed. A consultation helps set realistic expectations." },
+      { q: "Is a consultation required before face lifting treatment?", a: "Yes. A professional assessment is important to review your facial structure, skin condition, medical history, goals, alternatives, potential risks and aftercare requirements." },
     ],
   },
   {
