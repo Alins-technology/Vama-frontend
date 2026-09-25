@@ -3963,13 +3963,14 @@ export const blogPosts = [
       },
       {
         type: "paragraph",
-        text: "Two commonly discussed donor-harvesting approaches are:",
+        text: "Three commonly discussed hair-transplant techniques are:",
       },
       {
         type: "list",
         items: [
           "FUE (Follicular Unit Excision)",
           "FUT (Follicular Unit Transplantation)",
+          "DHI (Direct Hair Implantation)",
         ],
       },
       {
