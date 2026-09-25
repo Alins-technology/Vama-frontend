@@ -49,6 +49,7 @@ export default function BlogPost() {
             <span className="inline-flex items-center gap-1.5"><Clock className="h-3.5 w-3.5" /> {post.readTime}</span>
             <span>·</span>
             <span>{post.category}</span>
+            {post.date && (<><span>·</span><span>{post.date}</span></>)}
           </div>
 
           <div className="prose-content mt-6">

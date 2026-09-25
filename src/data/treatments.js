@@ -272,9 +272,9 @@ export const treatments = [
     name: "Face Lifting Treatment",
     image: faceLiftingImg,
     short: "Personalized facial rejuvenation for skin laxity, wrinkles and changing contours.",
-    metaTitle: "Face Lifting Treatment in Noida, Delhi & North India | VAMA Clinics",
+    metaTitle: "Face Lifting Treatment in Delhi | VAMA Clinic",
     metaDescription:
-      "Explore personalized face lifting treatment at VAMA Clinics for facial laxity, wrinkles, sagging skin and changing contours across Noida, Indirapuram, Lajpat Nagar, Agra, Kanpur and Lucknow.",
+      "Face lifting treatment in Delhi, Ghaziabad, Kanpur, Agra, Lucknow & Lajpat Nagar for firmer, youthful-looking skin with personalised care at VAMA Clinic.",
     description:
       "Face lifting treatments are designed to improve the appearance of age-related concerns such as fine lines, wrinkles, sagging skin and changes in facial contours. At VAMA Clinics, treatment is selected according to skin condition, degree of laxity, treatment goals and overall suitability.",
     benefits: ["Improves the appearance of facial laxity", "Supports firmer-looking skin", "Personalized treatment planning", "Guidance on realistic outcomes"],
@@ -393,9 +393,9 @@ export const treatments = [
     name: "Pigmentation Treatment",
     image: pigmentationImg,
     short: "Personalized care for dark spots, uneven tone and pigmentation concerns.",
-    metaTitle: "Pigmentation Treatment in Noida, Delhi & North India | VAMA Clinics",
+    metaTitle: "Looking for Pigmentation Treatment | VAMA Clinic",
     metaDescription:
-      "Explore personalized pigmentation treatment at VAMA Clinics for dark spots, melasma, post-acne pigmentation and uneven skin tone across Noida, Indirapuram, Lajpat Nagar, Kanpur, Lucknow and Agra.",
+      "Pigmentation treatment in Delhi, Ghaziabad, Kanpur, Agra, Lucknow & Lajpat Nagar. Personalised care for clear, even-toned skin at VAMA.",
     description:
       "Uneven skin tone, dark patches and brown spots can develop when the skin produces or distributes excess melanin. At VAMA Clinics, pigmentation treatment is planned around your skin type, pigmentation pattern, possible causes and treatment goals.",
     benefits: ["Targets uneven skin tone", "Cause-based treatment planning", "Personalized skincare guidance", "Suitable professional options"],

@@ -25,6 +25,7 @@ export const teamMembers = [
   { name: "Dr. Sameer Kapoor", role: "Trichologist", bio: "Focused on scalp health, hair-loss diagnostics and PRP/GFC therapy for long-term hair density." },
 ];
 
+// Naya blog hamesha list ke END mein add karo — reverse() ki wajah se website par sabse upar dikhega.
 export const blogPosts = [
   {
     slug: "hair-transplant-in-noida",
@@ -36,6 +37,7 @@ export const blogPosts = [
       "Learn about hair transplant in Noida, including FUE, procedure, recovery, cost, suitability and key factors to consider before treatment.",
     category: "Hair",
     readTime: "10 min read",
+    date: "8 Sep 2026",
     image: blog1Image,
     content: [
       {
@@ -342,6 +344,7 @@ export const blogPosts = [
       "Learn about hair transplant clinics in Noida, FUE treatment, safety, natural-looking results, recovery and factors to consider before treatment.",
     category: "Hair",
     readTime: "7 min read",
+    date: "9 Sep 2026",
     image: blog2Image,
     content: [
       {
@@ -564,6 +567,7 @@ export const blogPosts = [
       "Explore hair transplant solutions for hair loss, including FUE, suitability, treatment options and key factors to consider before your procedure.",
     category: "Hair",
     readTime: "9 min read",
+    date: "10 Sep 2026",
     image: blog3Image,
     content: [
       {
@@ -806,6 +810,7 @@ export const blogPosts = [
       "Learn about hair fall causes, symptoms and treatment options in 2026, including lifestyle tips and professional hair care solutions from VAMA Clinics.",
     category: "Hair",
     readTime: "9 min read",
+    date: "11 Sep 2026",
     image: blog4Image,
     content: [
       {
@@ -1017,6 +1022,7 @@ export const blogPosts = [
       "Discover 5 reasons to consider a hair transplant in Noida, including treatment options, FUE, consultations, accessibility and clinic care.",
     category: "Hair",
     readTime: "10 min read",
+    date: "12 Sep 2026",
     image: blog5Image,
     content: [
       {
@@ -1230,6 +1236,7 @@ export const blogPosts = [
       "Learn how to use aloe vera on your face at night, including application steps, potential benefits, precautions and skincare tips from VAMA Clinics.",
     category: "Skin",
     readTime: "9 min read",
+    date: "13 Sep 2026",
     image: blog6Image,
     content: [
       {
@@ -1516,6 +1523,7 @@ export const blogPosts = [
       "Read this complete guide to hair transplant in Agra, covering FUE, procedure, recovery, costs, suitability and what first-time patients should know.",
     category: "Hair",
     readTime: "9 min read",
+    date: "14 Sep 2026",
     image: blog7Image,
     content: [
       {
@@ -1804,6 +1812,7 @@ export const blogPosts = [
       "Online consultations have made healthcare more accessible — but they aren't a replacement for every assessment. Here's what to know before booking an online doctor consultation for weight loss treatment in Indirapuram.",
     category: "Weight Loss",
     readTime: "8 min read",
+    date: "15 Sep 2026",
     image: blog8Image,
     content: [
       {
@@ -2032,6 +2041,7 @@ export const blogPosts = [
       "A hair transplant is a surgical decision, not a price comparison. Here's what to check — donor assessment, surgeon qualifications, FUE technique, hygiene protocols and aftercare — before choosing a Hair Transplant Clinic in Noida.",
     category: "Hair",
     readTime: "9 min read",
+    date: "16 Sep 2026",
     image: blog9Image,
     content: [
       {
@@ -2353,6 +2363,7 @@ export const blogPosts = [
       "A chemical peel isn't the same treatment for every acne mark or scar. Here's how it works, who it may help, what recovery looks like, and how it compares to HydraFacial and other acne-scar treatments.",
     category: "Skin",
     readTime: "10 min read",
+    date: "17 Sep 2026",
     image: blog10Image,
     content: [
       {
@@ -2709,6 +2720,7 @@ export const blogPosts = [
       "Itching, redness, rashes or dryness don't always mean an allergy — eczema, fungal infections and psoriasis can look similar. Here's how to tell the difference and when to see a dermatologist.",
     category: "Skin",
     readTime: "11 min read",
+    date: "18 Sep 2026",
     image: blog11Image,
     content: [
       {
@@ -3173,6 +3185,7 @@ export const blogPosts = [
       "Hair fall has many possible causes — genetics, hormones, stress, nutrition and scalp conditions. Here's how to find the cause, which treatments may help and how to care for your hair.",
     category: "Hair",
     readTime: "12 min read",
+    date: "19 Sep 2026",
     image: blog12Image,
     content: [
       {
@@ -3504,6 +3517,7 @@ export const blogPosts = [
       "From sneezing and itchy skin to recurring rashes, allergies have many triggers. Learn how allergies are diagnosed, how they are treated and when to see a doctor.",
     category: "Skin",
     readTime: "8 min read",
+    date: "20 Sep 2026",
     image: blog13Image,
     content: [
       {
@@ -3749,6 +3763,7 @@ export const blogPosts = [
       "Why Noida has become a leading hair restoration hub in Delhi NCR, the latest trends in FUE and PRP, and what the future holds for patients and clinics.",
     category: "Hair",
     readTime: "7 min read",
+    date: "21 Sep 2026",
     image: blog14Image,
     content: [
       {
@@ -3913,6 +3928,7 @@ export const blogPosts = [
     metaDescription: "Learn what determines hair transplant success — donor hair, hair-loss pattern, hairline design, graft handling, FUE technique and aftercare. Consult VAMA Clinics, Sector 70 Noida.",
     category: "Hair",
     readTime: "9 min read",
+    date: "22 Sep 2026",
     image: blog15Image,
     content: [
       {
@@ -4333,6 +4349,7 @@ export const blogPosts = [
     metaDescription: "A complete patient guide to choosing the right weight loss treatment in India — treatment options, weight loss vs fat loss, choosing a clinic and what to expect at consultation.",
     category: "Weight Loss",
     readTime: "9 min read",
+    date: "23 Sep 2026",
     image: blog16Image,
     content: [
       {
@@ -4787,6 +4804,7 @@ export const blogPosts = [
     metaDescription: "Learn how laser hair reduction works, why multiple sessions are needed, whether it is permanent, safety, before and aftercare. Laser hair reduction at VAMA Clinics.",
     category: "Skin",
     readTime: "10 min read",
+    date: "24 Sep 2026",
     image: blog17Image,
     content: [
       {
@@ -5246,4 +5264,4 @@ export const blogPosts = [
       { type: "link", text: "Book a free consultation", to: "/contact-us" },
     ],
   },
-];
+].reverse();

@@ -4,6 +4,7 @@ import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
 import { primaryEmail, primaryPhone } from "../../data/locations";
 import { treatmentsByCategory } from "../../data/treatments";
 import { hairTransplantPages } from "../../data/hairTransplantPages";
+import vamaIcon from "../../assets/vamalogo-icon.webp";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -12,14 +13,22 @@ export default function Footer() {
     <footer className="relative bg-ink text-ivory/80">
       <div className="container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <div className="flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-gold text-ink">
-              <svg viewBox="0 0 32 32" className="h-6 w-6" fill="none">
-                <path d="M9 22c0-8 5-13 13-13-1 8-6 13-13 13Z" fill="currentColor" />
-              </svg>
+          <Link to="/" className="flex items-start gap-3">
+            <img
+              src={vamaIcon}
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              className="h-[46px] w-[46px] shrink-0 object-contain"
+            />
+            <span className="flex flex-col items-center justify-start pt-1 leading-none">
+              <span className="font-display text-xl font-bold leading-none tracking-wide text-ivory">VAMA</span>
+              <span className="mt-[2px] whitespace-nowrap text-[13px] font-semibold leading-none text-ivory underline decoration-1 underline-offset-2">
+                Advanced Hair &amp; Skin Clinic
+              </span>
             </span>
-            <span className="font-display text-xl text-ivory">VAMA</span>
-          </div>
+          </Link>
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-ivory/60">
             Vama Advanced Hair &amp; Skin Clinic, nestled at the heart of Indirapuram, Ghaziabad — a warm,
             welcoming space for advanced hair, skin, laser and aesthetic care across six cities.

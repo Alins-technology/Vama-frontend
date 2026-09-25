@@ -48,6 +48,7 @@ export default function Blog() {
                   <div className="mt-5 flex items-center justify-between">
                     <span className="inline-flex items-center gap-1.5 text-xs text-ink-soft/70">
                       <Clock className="h-3.5 w-3.5" /> {post.readTime}
+                      {post.date && <span>· {post.date}</span>}
                     </span>
                     <ArrowRight className="h-4 w-4 text-brand transition-transform group-hover:translate-x-1" />
                   </div>
