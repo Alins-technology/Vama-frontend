@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { ArrowRight, Clock } from "lucide-react";
 import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
@@ -9,7 +9,26 @@ import { blogPosts } from "../data/content";
 
 const tones = ["brand", "gold", "rose"];
 
+// Blog page filter tabs — "value" must match the `category` field in src/data/content.js
+const categories = [
+  { label: "All", value: "All" },
+  { label: "Hair", value: "Hair" },
+  { label: "Skin", value: "Skin" },
+  { label: "Weight Loss", value: "Weight Loss" },
+  { label: "Allergy", value: "Allergy" },
+];
+
 export default function Blog() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const requested = searchParams.get("category");
+  const active = categories.some((c) => c.value === requested) ? requested : "All";
+  const visiblePosts = active === "All" ? blogPosts : blogPosts.filter((p) => p.category === active);
+
+  const selectCategory = (value) => {
+    if (value === "All") setSearchParams({}, { replace: true });
+    else setSearchParams({ category: value }, { replace: true });
+  };
+
   return (
     <>
       <Seo
@@ -20,9 +39,36 @@ export default function Blog() {
       />
       <PageHero eyebrow="Blog" title="Insights from our specialists." crumbs={[{ label: "Blog" }]} />
 
-      <section className="bg-ivory py-20 md:py-28">
+      <section className="bg-ivory py-16 md:py-24">
+        <div className="container-page mb-10 flex flex-wrap justify-center gap-2.5 md:mb-12" role="tablist" aria-label="Blog categories">
+          {categories.map((c) => {
+            const count = c.value === "All" ? blogPosts.length : blogPosts.filter((p) => p.category === c.value).length;
+            const isActive = active === c.value;
+            return (
+              <button
+                key={c.value}
+                type="button"
+                role="tab"
+                aria-selected={isActive}
+                onClick={() => selectCategory(c.value)}
+                className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors ${
+                  isActive
+                    ? "border-brand bg-brand text-ivory"
+                    : "border-line bg-ivory text-ink-soft hover:border-brand hover:text-brand"
+                }`}
+              >
+                {c.label}
+                <span className={`text-xs font-medium ${isActive ? "text-ivory/80" : "text-ink-soft/60"}`}>{count}</span>
+              </button>
+            );
+          })}
+        </div>
+
         <div className="container-page grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post, i) => (
+          {visiblePosts.length === 0 && (
+            <p className="col-span-full text-center text-sm text-ink-soft">No blogs in this category yet.</p>
+          )}
+          {visiblePosts.map((post, i) => (
             <Reveal key={post.slug} delay={(i % 3) * 0.08}>
               <Link
                 to={`/blog/${post.slug}`}

@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
+// Breadcrumb path (Home > ...) intentionally removed from all pages.
+// `crumbs` prop is still accepted so existing pages don't break, but it is not rendered.
+// eslint-disable-next-line no-unused-vars
 export default function PageHero({ eyebrow, title, crumbs = [], as = "h1" }) {
   const words = title.split(" ");
   // Most pages have no other heading that repeats this title, so this banner
@@ -35,31 +36,6 @@ export default function PageHero({ eyebrow, title, crumbs = [], as = "h1" }) {
       />
 
       <div className="container-page relative">
-        {crumbs.length > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-4 flex items-center gap-1.5 text-xs uppercase tracking-[0.14em] text-ivory/60"
-          >
-            <Link to="/" className="transition-colors duration-300 hover:text-gold-light">
-              Home
-            </Link>
-            {crumbs.map((c, i) => (
-              <span key={i} className="flex items-center gap-1.5">
-                <ChevronRight className="h-3 w-3" />
-                {c.to ? (
-                  <Link to={c.to} className="transition-colors duration-300 hover:text-gold-light">
-                    {c.label}
-                  </Link>
-                ) : (
-                  <span className="text-ivory">{c.label}</span>
-                )}
-              </span>
-            ))}
-          </motion.div>
-        )}
-
         {eyebrow && (
           <motion.span
             initial={{ opacity: 0, y: -6 }}
