@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { createContext, useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const SITE_NAME = "VAMA Advanced Hair & Skin Clinic";
@@ -7,6 +7,15 @@ const DEFAULT_DESCRIPTION =
   "VAMA Advanced Hair & Skin Clinic — hair transplant, skin, laser, weight loss & allergy treatments across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur.";
 const DEFAULT_KEYWORDS =
   "VAMA Advanced Hair & Skin Clinic, hair transplant clinic, skin clinic, dermatologist Noida, hair and skin treatment Indirapuram, weight loss clinic, allergy treatment clinic";
+
+/**
+ * Build-time prerender support (scripts/prerender.mjs).
+ * On the server there is no `document`, so <Seo> writes the page's head
+ * values into this context during render; the prerender script then puts
+ * them into the generated HTML file. In the browser the context is null
+ * and the useEffect below updates document.head as before.
+ */
+export const HeadContext = createContext(null);
 
 function setMetaByName(name, content) {
   if (!content) return;
@@ -55,27 +64,37 @@ function setCanonical(href) {
  */
 export default function Seo({ title, description, keywords, titleOverride, canonical, noCanonical }) {
   const { pathname } = useLocation();
-  useEffect(() => {
-    const pageTitle = titleOverride
-      ? titleOverride
-      : title
-        ? `${title} | ${SITE_NAME}`
-        : `${SITE_NAME} | Hair, Skin, Weight Loss & Allergy Treatments`;
-    const pageDescription = description || DEFAULT_DESCRIPTION;
-    const pageKeywords = keywords
-      ? Array.isArray(keywords)
-        ? keywords.join(", ")
-        : keywords
-      : DEFAULT_KEYWORDS;
+  const serverHead = useContext(HeadContext);
 
+  const pageTitle = titleOverride
+    ? titleOverride
+    : title
+      ? `${title} | ${SITE_NAME}`
+      : `${SITE_NAME} | Hair, Skin, Weight Loss & Allergy Treatments`;
+  const pageDescription = description || DEFAULT_DESCRIPTION;
+  const pageKeywords = keywords
+    ? Array.isArray(keywords)
+      ? keywords.join(", ")
+      : keywords
+    : DEFAULT_KEYWORDS;
+  const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  const pageCanonical = noCanonical ? null : canonical || `${SITE_URL}${path}`;
+
+  if (serverHead) {
+    serverHead.title = pageTitle;
+    serverHead.description = pageDescription;
+    serverHead.keywords = pageKeywords;
+    serverHead.canonical = pageCanonical;
+  }
+
+  useEffect(() => {
     document.title = pageTitle;
     setMetaByName("description", pageDescription);
     setMetaByName("keywords", pageKeywords);
     setMetaByProperty("og:title", pageTitle);
     setMetaByProperty("og:description", pageDescription);
-    const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
-    setCanonical(noCanonical ? null : canonical || `${SITE_URL}${path}`);
-  }, [title, description, keywords, titleOverride, canonical, noCanonical, pathname]);
+    setCanonical(pageCanonical);
+  }, [pageTitle, pageDescription, pageKeywords, pageCanonical]);
 
   return null;
 }

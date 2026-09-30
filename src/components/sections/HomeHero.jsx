@@ -62,6 +62,7 @@ export default function HomeHero() {
                 Confidence
               </motion.span>
             </span>
+            <span className="sr-only"> </span>
             <span className="inline-block overflow-hidden">
               <motion.span
                 className="inline-block"
@@ -72,6 +73,7 @@ export default function HomeHero() {
                 looks good
               </motion.span>
             </span>
+            <span className="sr-only"> </span>
             <span className="block overflow-hidden text-gold-light">
               <motion.span
                 className="inline-block"

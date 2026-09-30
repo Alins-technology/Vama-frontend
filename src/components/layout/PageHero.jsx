@@ -59,6 +59,8 @@ export default function PageHero({ eyebrow, title, crumbs = [], as = "h1" }) {
               >
                 {word}
               </motion.span>
+              {/* real space so crawlers/screen readers read "Insights from our…" not "Insightsfromour…" */}
+              {i < words.length - 1 && <span className="sr-only"> </span>}
             </span>
           ))}
         </HeadingTag>

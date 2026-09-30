@@ -2724,7 +2724,7 @@ export const blogPosts = [
     title: "How to Identify a Skin Allergy: Common Symptoms, Causes & Treatment?",
     excerpt:
       "Itching, redness, rashes or dryness don't always mean an allergy — eczema, fungal infections and psoriasis can look similar. Here's how to tell the difference and when to see a dermatologist.",
-    category: "Skin",
+    category: "Allergy",
     readTime: "11 min read",
     date: "18 Sep 2026",
     image: blog11Image,
@@ -3521,7 +3521,7 @@ export const blogPosts = [
     title: "How Is Allergy Treatment? A Complete Guide for Patients",
     excerpt:
       "From sneezing and itchy skin to recurring rashes, allergies have many triggers. Learn how allergies are diagnosed, how they are treated and when to see a doctor.",
-    category: "Skin",
+    category: "Allergy",
     readTime: "8 min read",
     date: "20 Sep 2026",
     image: blog13Image,
@@ -5617,7 +5617,7 @@ export const blogPosts = [
     excerpt: "From eczema and psoriasis to vitiligo, fungal infections, alopecia, keloids and lipomas — learn what causes common skin conditions, why proper diagnosis matters, and how the right treatment can stop the itch and repair your skin barrier.",
     metaTitle: "Complete Guide to Skin Allergies: Stop the Itch | VAMA Clinics",
     metaDescription: "Learn about common skin allergies like eczema, psoriasis, vitiligo and fungal infections, their causes, treatments and daily habits to heal your skin barrier.",
-    category: "Skin",
+    category: "Allergy",
     readTime: "6 min read",
     date: "28 Sep 2026",
     image: blog19Image,
