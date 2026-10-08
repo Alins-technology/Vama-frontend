@@ -34,6 +34,25 @@ for (const slug of blogSlugs) routes.add(`/blog/${slug}`);
 const esc = (s = "") =>
   String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+// FAQPage structured data — homepage only, built from the FAQs actually shown
+// on the homepage (src/data/homeContent.js) so the schema always matches the
+// visible content, as Google requires.
+const { faqs } = await import(pathToFileURL(path.join(root, "src", "data", "homeContent.js")).href);
+const faqJsonLd = JSON.stringify(
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  },
+  null,
+  2
+).replace(/</g, "\\u003c");
+const faqScript = `    <script type="application/ld+json">\n${faqJsonLd}\n    </script>\n  </head>`;
+
 function setMeta(html, attr, key, value) {
   if (!value) return html;
   const tag = `<meta ${attr}="${key}" content="${esc(value)}" />`;
@@ -58,6 +77,7 @@ for (const route of [...routes].sort()) {
     if (head.canonical) {
       page = page.replace("</head>", `    <link rel="canonical" href="${esc(head.canonical)}" />\n  </head>`);
     }
+    if (route === "/") page = page.replace("</head>", faqScript);
     if (!/<h1[\s>]/.test(html)) console.warn(`  ! no <h1> on ${route}`);
 
     const out = route === "/" ? path.join(dist, "index.html") : path.join(dist, `${route.slice(1)}.html`);

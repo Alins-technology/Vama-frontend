@@ -30,12 +30,12 @@ export const testimonials = [
 
 export const faqs = [
   {
-    q: "What is VAMA Solution?",
-    a: "VAMA Solution is a leading hair, skin and aesthetic clinic offering advanced, non-surgical and surgical treatments across six cities.",
+    q: "What is VAMA Clinics?",
+    a: "VAMA Clinics (VAMA Advanced Hair & Skin Clinic) is a leading hair, skin and aesthetic clinic offering advanced, non-surgical and surgical treatments across six cities.",
   },
   {
-    q: "What services does VAMA Solution offer?",
-    a: "We provide Hair Transplant, PRP Therapy, Skin Treatments, Laser Hair Reduction, Botox, Fillers, HydraFacial and Anti-Ageing treatments, among others.",
+    q: "What services does VAMA Clinics offer?",
+    a: "VAMA Clinics offers hair transplant, hair fall treatment, PRP, acne scar treatment, anti-ageing, pigmentation treatment, Botox, laser hair reduction, HydraFacial, weight loss and allergy treatment.",
   },
   {
     q: "Do I need an appointment before visiting?",
@@ -54,11 +54,11 @@ export const faqs = [
     a: "Acne Scar Treatment, Skin Rejuvenation, HydraFacial, Korean Glass Skin, Face PRP, Botox, Fillers and more.",
   },
   {
-    q: "Where is VAMA Solution located?",
+    q: "Where is VAMA Clinics located?",
     a: "We have clinics in Noida, Indirapuram, Lajpat Nagar (Delhi), Lucknow, Agra and Kanpur.",
   },
   {
-    q: "Why choose VAMA Solution?",
+    q: "Why choose VAMA Clinics?",
     a: "Experienced specialists, advanced technology, personalised care and proven treatments — delivered safely, with natural-looking results.",
   },
 ];
