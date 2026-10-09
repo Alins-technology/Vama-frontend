@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Seo
         title="Advanced Hair, Skin, Weight Loss & Allergy Clinic"
-        titleOverride="VAMA Clinics | Skin, Hair, Laser & Weight Loss"
+        titleOverride="Advanced Hair, Skin, Weight Loss & Allergy Clinic"
         description="VAMA Clinics offers personalized skin, hair, laser and weight loss treatments with expert guidance across multiple clinic locations in India."
         keywords="hair transplant clinic Noida, skin clinic Indirapuram, best dermatologist Ghaziabad, hair fall treatment, acne scar treatment, weight loss clinic, allergy treatment clinic, VAMA Advanced Hair & Skin Clinic"
       />
