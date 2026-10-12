@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { CalendarCheck, MessageCircle, X } from "lucide-react";
 import { whatsappNumber } from "../../data/locations";
+import { sendLead } from "../../utils/sendLead";
 
 /**
  * Site-wide "Book an Appointment" popup. Shows once per fresh page load
@@ -49,6 +50,7 @@ export default function BookingPopup() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    sendLead({ name: form.name, phone: form.mobile, service: form.service, source: "Website - Booking Popup" });
     const text = [
       "New appointment request from VAMA website:",
       `Name: ${form.name}`,

@@ -4,6 +4,7 @@ import Reveal from "../ui/Reveal";
 import { Eyebrow } from "../ui/SectionHeading";
 import { CheckCircle2, Send } from "lucide-react";
 import { whatsappNumber } from "../../data/locations";
+import { sendLead } from "../../utils/sendLead";
 
 const services = [
   "Hair Transplant",
@@ -23,6 +24,7 @@ export default function AppointmentCTA() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    sendLead({ name: form.name, phone: form.mobile, service: form.service, source: "Website - Appointment Form" });
 
     const text = [
       "New appointment request from VAMA website:",

@@ -8,6 +8,7 @@ import SectionHeading from "../components/ui/SectionHeading";
 import FAQSection from "../components/sections/FAQSection";
 import LocationsSection from "../components/sections/LocationsSection";
 import { primaryEmail, primaryPhone } from "../data/locations";
+import { sendLead } from "../utils/sendLead";
 
 const WHATSAPP_NUMBER = "918882911433"; // +91 88829 11433, no + or spaces
 
@@ -19,6 +20,7 @@ export default function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    sendLead({ name: form.name, phone: form.mobile, email: form.email, message: form.message, source: "Website - Contact Us" });
 
     const text = [
       "New enquiry from VAMA website:",
