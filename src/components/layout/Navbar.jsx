@@ -208,6 +208,7 @@ export default function Navbar() {
                       className="flex items-center gap-1.5 py-1 text-sm text-ink-soft"
                     >
                       {loc.city}
+                      {loc.area && ` (${loc.area})`}
                       {loc.flagship && <Star className="h-3 w-3 fill-gold text-gold" />}
                     </Link>
                   ))}
@@ -373,7 +374,7 @@ function ClinicsDropdown({ scrolled }) {
                 className="flex items-center gap-2.5 px-5 py-2.5 text-sm text-ink-soft transition-colors duration-200 hover:bg-panel/60 hover:text-brand"
               >
                 <MapPin className="h-3.5 w-3.5 shrink-0 text-brand" />
-                <span className="flex-1">{loc.city}</span>
+                <span className="flex-1">{loc.city}{loc.area && ` (${loc.area})`}</span>
                 {loc.flagship && <Star className="h-3.5 w-3.5 shrink-0 fill-gold text-gold" />}
               </Link>
             ))}

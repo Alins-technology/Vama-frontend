@@ -1,6 +1,6 @@
 # VAMA Clinics
 
-> VAMA Clinics (VAMA Advanced Hair & Skin Clinic) is an advanced hair, skin, aesthetic and wellness clinic with branches in Noida, Indirapuram (Ghaziabad), Lajpat Nagar (New Delhi), Lucknow, Agra and Kanpur. VAMA Clinics provides medically guided treatment options for hair loss, hair restoration, skin concerns, aesthetic treatments, weight management and allergy-related skin conditions.
+> VAMA Clinics (VAMA Advanced Hair & Skin Clinic) is an advanced hair, skin, aesthetic and wellness clinic with branches in Noida, Indirapuram (Ghaziabad), Lajpat Nagar (New Delhi), Lucknow (Gomti Nagar and Ashiyana), Agra, Kanpur and Wave City (Ghaziabad) — 8 clinics across 7 cities. VAMA Clinics provides medically guided treatment options for hair loss, hair restoration, skin concerns, aesthetic treatments, weight management and allergy-related skin conditions.
 
 ## About VAMA Clinics
 
@@ -18,10 +18,11 @@ The clinic provides consultation and treatment options for hair loss, hair thinn
 - [Noida](https://www.vamaclinics.com/vamaclinics-in-noida): SU2, Sector 70, Opposite Pan Oasis Gate No. 4, Noida, Uttar Pradesh 201306. Phone: +91-92897-58206
 - [Indirapuram, Ghaziabad](https://www.vamaclinics.com/vamaclinics-in-indirapuram): A 212, Rajhans Plaza, Ahinsa Khand-1, Opposite Aditya Mall, Indirapuram, Ghaziabad, Uttar Pradesh 201014. Phone: +91-92897-58206
 - [Lajpat Nagar, New Delhi](https://www.vamaclinics.com/vamaclinics-in-lajpat-nagar): M 11, Vinoba Puri, Block M, Lajpat Nagar II, New Delhi, Delhi 110024. Phone: +91-76785-26802
-- [Lucknow](https://www.vamaclinics.com/vamaclinics-in-lucknow): 3/85 Patrakarpuram, Vinay Khand 3, Gomti Nagar, Lucknow, Uttar Pradesh 226010. Phone: +91-93109-15249
-- Lucknow (Sharda Nagar): 3/11, Near St Ann's Convent School, Ratan Khand, Rajni Khand, Sharda Nagar, Lucknow, Uttar Pradesh 226002. Phone: +91-78811-95024
+- [Lucknow (Gomti Nagar)](https://www.vamaclinics.com/vamaclinics-in-lucknow): 3/85 Patrakarpuram, Vinay Khand 3, Gomti Nagar, Lucknow, Uttar Pradesh 226010. Phone: +91-93109-15249
+- Lucknow (Ashiyana): 3/11, Near St Ann's Convent School, Ratan Khand, Rajni Khand, Sharda Nagar, Lucknow, Uttar Pradesh 226002. Phone: +91-78811-95024
 - [Agra](https://www.vamaclinics.com/vamaclinics-in-agra): 32B/50, Prakash Nagar, Ghatwasan, Kamla Nagar, Agra, Uttar Pradesh 282004. Phone: +91-76783-11367
 - [Kanpur](https://www.vamaclinics.com/vamaclinics-in-kanpur): Ground Floor, 111/78, Chandra Gupta Rd, Ashok Nagar, Harsh Nagar, Kanpur, Uttar Pradesh 208012. Phone: +91-88826-25726
+- Wave City, Ghaziabad: Greenwood Enclave, Dream Homes, Flat 316, Tower 7, Sector 5, Wave City, Ghaziabad, Uttar Pradesh 201015. Phone: +91-88829-11433
 - [All clinics](https://www.vamaclinics.com/clinics)
 
 ## Hair Treatments

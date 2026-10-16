@@ -17,7 +17,7 @@ export default function Clinics() {
         title="Our Clinics"
         titleOverride="VAMA Clinics | Skin, Hair & Weight Loss Clinics"
         description="Find VAMA Clinics locations for hair, skin, laser and weight loss treatments, with personalized care from experienced professionals across India."
-        keywords="VAMA clinic locations, hair skin clinic Noida, hair skin clinic Indirapuram, hair skin clinic Lajpat Nagar, hair skin clinic Agra, hair skin clinic Lucknow, hair skin clinic Kanpur, clinic near me"
+        keywords="VAMA clinic locations, hair skin clinic Noida, hair skin clinic Indirapuram, hair skin clinic Lajpat Nagar, hair skin clinic Agra, hair skin clinic Lucknow, hair skin clinic Kanpur, hair skin clinic Ghaziabad, clinic near me"
       />
 
       <PageHero

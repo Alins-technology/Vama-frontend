@@ -1,7 +1,5 @@
 import dhananjay from "../assets/doctors/Dhananjay.webp";
 import prerna from "../assets/doctors/Prerna.webp";
-import neeraj from "../assets/doctors/neeraj.webp";
-import tuhina from "../assets/doctors/Tuhina.webp";
 import suman from "../assets/doctors/Suman.webp";
 import nabam from "../assets/doctors/Nabam.webp";
 import anjali from "../assets/doctors/Anjali.webp";
@@ -23,20 +21,6 @@ export const doctors = [
     branch: "Lucknow Branch",
     slug: "lucknow",
     photo: prerna,
-  },
-  {
-    name: "Dr. Neeraj",
-    role: "Specialist",
-    branch: "Lajpat Nagar Branch",
-    slug: "lajpat-nagar",
-    photo: neeraj,
-  },
-  {
-    name: "Dr. Tuhina",
-    role: "MD Dermatologist",
-    branch: "Indirapuram Branch",
-    slug: "indirapuram",
-    photo: tuhina,
   },
   {
     name: "Dr. Suman",

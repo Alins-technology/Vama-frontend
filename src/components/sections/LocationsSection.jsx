@@ -14,7 +14,7 @@ export default function LocationsSection() {
         <SectionHeading
           eyebrow="Find Us"
           title="Our Locations"
-          description="7 clinics across North India — walk in, or call ahead to book your slot."
+          description={`${locations.length} clinics across North India — walk in, or call ahead to book your slot.`}
           align="center"
         />
 

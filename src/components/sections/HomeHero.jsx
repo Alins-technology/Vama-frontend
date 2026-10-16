@@ -5,7 +5,7 @@ import hero640 from "../../assets/Hometop-640.webp";
 import hero960 from "../../assets/Hometop-960.webp";
 
 const stats = [
-  ["6", "Clinics across North India"],
+  ["8", "Clinics across North India"],
   ["4000+", "Hair transplants performed"],
   ["12+", "Years combined expertise"],
 ];
@@ -93,7 +93,7 @@ export default function HomeHero() {
             className="mt-6 max-w-lg text-[15px] leading-relaxed text-ivory/75 md:text-base"
           >
             VAMA Advanced Hair &amp; Skin Clinic brings advanced hair restoration, dermatology
-            and aesthetic treatments to Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur —
+            and aesthetic treatments to Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra, Kanpur and Ghaziabad —
             with honest consultations and technology-led results.
           </motion.p>
 

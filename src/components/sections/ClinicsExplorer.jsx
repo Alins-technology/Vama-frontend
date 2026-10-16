@@ -148,6 +148,11 @@ export default function ClinicsExplorer() {
                   >
                     {loc.city}
                   </span>
+                  {loc.area && (
+                    <span className="block text-[10px] font-medium normal-case tracking-normal text-ink-soft/80">
+                      {loc.area}
+                    </span>
+                  )}
                 </button>
               );
             })}
@@ -173,6 +178,7 @@ export default function ClinicsExplorer() {
                 )}
                 <span className={`relative z-10 ${isActive ? "text-ivory" : "text-ink-soft hover:text-brand"}`}>
                   {loc.city}
+                  {loc.area && ` · ${loc.area}`}
                   {loc.flagship && <Star className="ml-1 inline h-3 w-3 fill-current align-[-1px]" />}
                 </span>
               </button>

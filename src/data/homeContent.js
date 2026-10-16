@@ -31,7 +31,7 @@ export const testimonials = [
 export const faqs = [
   {
     q: "What is VAMA Clinics?",
-    a: "VAMA Clinics (VAMA Advanced Hair & Skin Clinic) is a leading hair, skin and aesthetic clinic offering advanced, non-surgical and surgical treatments across six cities.",
+    a: "VAMA Clinics (VAMA Advanced Hair & Skin Clinic) is a leading hair, skin and aesthetic clinic offering advanced, non-surgical and surgical treatments across seven cities.",
   },
   {
     q: "What services does VAMA Clinics offer?",
@@ -55,7 +55,7 @@ export const faqs = [
   },
   {
     q: "Where is VAMA Clinics located?",
-    a: "We have clinics in Noida, Indirapuram, Lajpat Nagar (Delhi), Lucknow, Agra and Kanpur.",
+    a: "We have 8 clinics across 7 cities: Noida, Indirapuram, Lajpat Nagar (Delhi), Lucknow (Gomti Nagar and Ashiyana), Agra, Kanpur and Ghaziabad (Wave City).",
   },
   {
     q: "Why choose VAMA Clinics?",

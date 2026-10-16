@@ -31,7 +31,7 @@ const aboutStoryBlocks = [
   },
   {
     type: "paragraph",
-    text: "Being present across six cities means quality hair and skin care doesn't have to come with a long commute. Whether you're visiting us for your first consultation or returning years later as your needs change, our team is built to support you through different stages of your care journey.",
+    text: "Being present across seven cities means quality hair and skin care doesn't have to come with a long commute. Whether you're visiting us for your first consultation or returning years later as your needs change, our team is built to support you through different stages of your care journey.",
   },
   {
     type: "paragraph",

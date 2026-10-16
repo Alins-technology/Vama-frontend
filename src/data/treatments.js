@@ -1976,7 +1976,7 @@ export const treatments = [
       { type: "heading", text: "Types of Psoriasis We Treat" },
       {
         type: "paragraph",
-        text: "At our clinics across Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra and Kanpur, we diagnose and treat all major types of psoriasis, including:",
+        text: "At our clinics across Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra, Kanpur and Ghaziabad, we diagnose and treat all major types of psoriasis, including:",
       },
       {
         type: "list",

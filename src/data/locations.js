@@ -2,6 +2,7 @@ export const locations = [
   {
     slug: "lucknow",
     city: "Lucknow",
+    area: "Gomti Nagar",
     label: "Lucknow (Gomti Nagar) Clinic",
     address: "3/85 Patrakarpuram, Vinay Khand 3, Gomti Nagar, Lucknow, Uttar Pradesh",
     phones: ["+91 88829 11433"],
@@ -11,7 +12,8 @@ export const locations = [
   {
     slug: "lucknow-sharda-nagar",
     city: "Lucknow",
-    label: "Lucknow (Sharda Nagar) Clinic",
+    area: "Ashiyana",
+    label: "Lucknow (Ashiyana) Clinic",
     address: "3/11, Near St Ann's Convent School, Ratan Khand, Rajni Khand, Sharda Nagar, Lucknow, Uttar Pradesh 226002",
     phones: ["+91 78811 95024"],
     email: "care@vamasolution.com",
@@ -77,4 +79,4 @@ export const primaryEmail = "care@vamasolution.com";
 export const whatsappNumber = "918882911433";
 
 // City labels used for location-targeted SEO copy (meta keywords, page copy).
-export const serviceCities = ["Noida", "Indirapuram", "Lajpat Nagar", "Agra", "Lucknow", "Kanpur"];
+export const serviceCities = ["Noida", "Indirapuram", "Lajpat Nagar", "Agra", "Lucknow", "Kanpur", "Ghaziabad"];

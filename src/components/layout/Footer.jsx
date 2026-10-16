@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-ivory/60">
             Vama Advanced Hair &amp; Skin Clinic, nestled at the heart of Indirapuram, Ghaziabad — a warm,
-            welcoming space for advanced hair, skin, laser and aesthetic care across six cities.
+            welcoming space for advanced hair, skin, laser and aesthetic care across seven cities.
           </p>
           <div className="mt-6 flex gap-3">
             <a

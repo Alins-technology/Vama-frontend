@@ -54,8 +54,8 @@ export default function WhyChooseUs() {
             </div>
           </div>
           <div className="absolute -bottom-6 left-1/2 w-[85%] -translate-x-1/2 rounded-2xl bg-ink p-5 text-ivory shadow-xl">
-            <p className="font-display text-2xl">6 Cities</p>
-            <p className="text-xs uppercase tracking-wide text-ivory/60">Noida · Indirapuram · Lajpat Nagar · Lucknow · Agra · Kanpur</p>
+            <p className="font-display text-2xl">7 Cities</p>
+            <p className="text-xs uppercase tracking-wide text-ivory/60">Noida · Indirapuram · Lajpat Nagar · Lucknow · Agra · Kanpur · Ghaziabad</p>
           </div>
         </Reveal>
 
