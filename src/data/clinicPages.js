@@ -587,6 +587,7 @@ export const clinicPages = [
       heading: "VAMA Clinics – Gomti Nagar, Lucknow",
       paragraphs: [
         "Every treatment at our Lucknow clinic is backed by structured post-procedure aftercare and scheduled follow-ups, so patients always know what to expect at each stage of their plan.",
+        "VAMA Clinics now also has a second Lucknow branch at 3/11, Near St Ann's Convent School, Ratan Khand, Rajni Khand, Sharda Nagar, Lucknow 226002 — call +91 78811 95024 to book a visit there.",
       ],
     },
   },
