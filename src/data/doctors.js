@@ -6,6 +6,9 @@ import anjali from "../assets/doctors/Anjali.webp";
 import shivani from "../assets/doctors/shivani.webp";
 import archana from "../assets/doctors/Archana.webp";
 import bushra from "../assets/doctors/Bushra.webp";
+import puma from "../assets/doctors/Puma.webp";
+import sayeed from "../assets/doctors/Sayeed.webp";
+import priyanka from "../assets/doctors/Priyanka.webp";
 
 export const doctors = [
   {
@@ -70,6 +73,27 @@ export const doctors = [
     branch: "Noida Branch",
     slug: "noida",
     photo: bushra,
+  },
+  {
+    name: "Dr. Puma Nyare",
+    role: "BHMS, Cosmetologist",
+    branch: "Lajpat Nagar Branch",
+    slug: "lajpat-nagar",
+    photo: puma,
+  },
+  {
+    name: "Dr. Sayeed",
+    role: "Cosmetologist",
+    branch: "Lajpat Nagar Branch",
+    slug: "lajpat-nagar",
+    photo: sayeed,
+  },
+  {
+    name: "Dr. Priyanka",
+    role: "Cosmetologist",
+    branch: "Lajpat Nagar Branch",
+    slug: "lajpat-nagar",
+    photo: priyanka,
   },
 ];
 
