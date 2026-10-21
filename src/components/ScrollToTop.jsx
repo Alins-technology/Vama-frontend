@@ -1,4 +1,4 @@
-import { useLayoutEffect } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 /**
@@ -18,6 +18,20 @@ import { useLocation } from "react-router-dom";
  */
 export default function ScrollToTop() {
   const { pathname } = useLocation();
+  const isFirstRoute = useRef(true);
+
+  // Meta Pixel: index.html fires PageView on the initial load. This is a
+  // single-page app, so later in-app navigations don't reload the page —
+  // fire PageView ourselves on each route change after the first.
+  useEffect(() => {
+    if (isFirstRoute.current) {
+      isFirstRoute.current = false;
+      return;
+    }
+    if (typeof window !== "undefined" && typeof window.fbq === "function") {
+      window.fbq("track", "PageView");
+    }
+  }, [pathname]);
 
   useLayoutEffect(() => {
     const html = document.documentElement;
