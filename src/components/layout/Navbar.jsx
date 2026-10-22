@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { m as motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, ChevronRight, Menu, X, Star, MapPin } from "lucide-react";
-import { categories, treatmentsByCategory } from "../../data/treatments";
+import { categories, treatmentsByCategory } from "../../data/treatmentIndex";
 import { locations } from "../../data/locations";
 import vamaIcon from "../../assets/vamalogo-icon.webp";
 

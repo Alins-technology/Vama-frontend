@@ -1,6 +1,6 @@
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Accordion from "./Accordion";
 import { linkifyTreatments } from "../../utils/linkifyTreatments";
 import { linkifyKeywords } from "../../utils/linkifyKeywords";

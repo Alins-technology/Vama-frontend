@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 
 // Breadcrumb path (Home > ...) intentionally removed from all pages.
 // `crumbs` prop is still accepted so existing pages don't break, but it is not rendered.

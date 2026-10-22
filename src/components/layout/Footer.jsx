@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
 import { primaryEmail, primaryPhone } from "../../data/locations";
-import { treatmentsByCategory } from "../../data/treatments";
+import { treatmentsByCategory } from "../../data/treatmentIndex";
 import { hairTransplantPages } from "../../data/hairTransplantPages";
 import vamaIcon from "../../assets/vamalogo-icon.webp";
 

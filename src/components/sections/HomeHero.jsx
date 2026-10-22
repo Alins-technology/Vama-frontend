@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { CalendarCheck, ChevronRight, Sparkle, Award, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import hero640 from "../../assets/Hometop-640.webp";
@@ -38,70 +37,47 @@ export default function HomeHero() {
 
       <div className="container-page relative grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
         <div>
-          <motion.span
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 rounded-full border border-ivory/20 bg-ivory/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-gold-light backdrop-blur-sm"
+          <span
+            className="hero-fade-up inline-flex items-center gap-2 rounded-full border border-ivory/20 bg-ivory/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-gold-light backdrop-blur-sm"
           >
             <span className="relative flex h-1.5 w-1.5">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gold-light/70" />
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-gold-light" />
             </span>
             Skin · Hair · Laser · Slimming
-          </motion.span>
+          </span>
 
           <h1 className="mt-6 overflow-hidden font-display text-[2.6rem] leading-[1.05] md:text-6xl lg:text-[4rem]">
             <span className="mr-4 inline-block overflow-hidden">
-              <motion.span
-                className="inline-block"
-                initial={{ y: "110%" }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-              >
+              <span className="hero-rise inline-block" style={{ animationDelay: "0.15s" }}>
                 Confidence
-              </motion.span>
+              </span>
             </span>
             <span className="sr-only"> </span>
             <span className="inline-block overflow-hidden">
-              <motion.span
-                className="inline-block"
-                initial={{ y: "110%" }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
-              >
+              <span className="hero-rise inline-block" style={{ animationDelay: "0.25s" }}>
                 looks good
-              </motion.span>
+              </span>
             </span>
             <span className="sr-only"> </span>
             <span className="block overflow-hidden text-gold-light">
-              <motion.span
-                className="inline-block"
-                initial={{ y: "110%" }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.7, delay: 0.38, ease: [0.22, 1, 0.36, 1] }}
-              >
+              <span className="hero-rise inline-block" style={{ animationDelay: "0.38s" }}>
                 on your skin &amp; hair.
-              </motion.span>
+              </span>
             </span>
           </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
+          <p
             className="mt-6 max-w-lg text-[15px] leading-relaxed text-ivory/75 md:text-base"
           >
             VAMA Advanced Hair &amp; Skin Clinic brings advanced hair restoration, dermatology
             and aesthetic treatments to Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra, Kanpur and Ghaziabad —
             with honest consultations and technology-led results.
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.6 }}
-            className="mt-9 flex flex-wrap items-center gap-4"
+          <div
+            className="hero-fade-up mt-9 flex flex-wrap items-center gap-4"
+            style={{ animationDelay: "0.5s" }}
           >
             <Link
               to="/contact-us"
@@ -116,41 +92,27 @@ export default function HomeHero() {
               Explore Treatments
               <ChevronRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.7 }}
-            className="mt-12 flex flex-wrap gap-x-8 gap-y-4 border-t border-ivory/15 pt-8"
+          <div
+            className="hero-fade-up mt-12 flex flex-wrap gap-x-8 gap-y-4 border-t border-ivory/15 pt-8"
+            style={{ animationDelay: "0.65s" }}
           >
-            {stats.map(([num, label], i) => (
-              <motion.div
+            {stats.map(([num, label]) => (
+              <div
                 key={label}
-                initial={{ opacity: 0, y: 12 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.75 + i * 0.1 }}
-                whileHover={{ y: -3 }}
+                className="transition-transform duration-300 hover:-translate-y-[3px]"
               >
                 <p className="font-display text-3xl text-gold-light">{num}</p>
                 <p className="mt-1 max-w-[9rem] text-xs leading-snug text-ivory/60">{label}</p>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
 
-        <motion.div
-          // No opacity fade on the hero image wrapper: it is the LCP element, and
-          // an opacity:0 start delays when the browser counts it as painted.
-          initial={{ scale: 0.97 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="relative"
-        >
-          <motion.div
-            whileHover={{ scale: 1.015 }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
-            className="aspect-[4/5] w-full overflow-hidden rounded-[2rem] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.5)]"
+        <div className="relative">
+          <div
+            className="aspect-[4/5] transition-transform duration-[400ms] ease-out hover:scale-[1.015] w-full overflow-hidden rounded-[2rem] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.5)]"
           >
             <img
               src={hero960}
@@ -163,15 +125,12 @@ export default function HomeHero() {
               alt="Patient consultation at VAMA clinic"
               className="h-full w-full object-cover"
             />
-          </motion.div>
+          </div>
 
           {/* floating credential badges — replaces the fake "nearest clinic" card */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.8 }}
-            whileHover={{ y: -4 }}
-            className="absolute -left-6 bottom-10 hidden w-52 rounded-2xl bg-ivory p-4 text-ink shadow-xl sm:block"
+          <div
+            style={{ animationDelay: "0.8s" }}
+            className="hero-slide-l absolute -left-6 bottom-10 hidden w-52 rounded-2xl bg-ivory p-4 text-ink shadow-xl sm:block"
           >
             <div className="flex items-center gap-2.5">
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-light text-brand">
@@ -182,14 +141,11 @@ export default function HomeHero() {
                 <p className="text-[11px] text-ink-soft">Combined expertise</p>
               </div>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.95 }}
-            whileHover={{ y: -4 }}
-            className="absolute -right-4 top-8 hidden w-44 rounded-2xl bg-ivory p-4 text-ink shadow-xl sm:block"
+          <div
+            style={{ animationDelay: "0.95s" }}
+            className="hero-slide-r absolute -right-4 top-8 hidden w-44 rounded-2xl bg-ivory p-4 text-ink shadow-xl sm:block"
           >
             <div className="flex items-center gap-2.5">
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-light text-gold">
@@ -200,8 +156,8 @@ export default function HomeHero() {
                 <p className="text-[11px] text-ink-soft">Happy patients</p>
               </div>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

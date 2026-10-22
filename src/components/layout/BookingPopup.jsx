@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 import { CalendarCheck, MessageCircle, X } from "lucide-react";
 import { whatsappNumber } from "../../data/locations";
 import { sendLead } from "../../utils/sendLead";
@@ -22,7 +22,13 @@ const services = [
   "Weight Loss Programme",
 ];
 
+// The popup opens shortly after the visitor first interacts (scroll, tap,
+// key press or mouse movement) instead of on a fixed timer. A full-screen
+// modal that appears while the page is still loading becomes the "largest
+// contentful paint" and was pushing mobile LCP to ~11s in PageSpeed. Real
+// visitors still see it within a second or two of starting to browse.
 const SHOW_DELAY_MS = 1200;
+const TRIGGER_EVENTS = ["scroll", "pointerdown", "touchstart", "keydown", "mousemove"];
 
 export default function BookingPopup() {
   const navigate = useNavigate();
@@ -30,8 +36,16 @@ export default function BookingPopup() {
   const [form, setForm] = useState({ name: "", mobile: "", service: "" });
 
   useEffect(() => {
-    const timer = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
-    return () => clearTimeout(timer);
+    let timer;
+    const arm = () => {
+      TRIGGER_EVENTS.forEach((e) => window.removeEventListener(e, arm));
+      timer = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
+    };
+    TRIGGER_EVENTS.forEach((e) => window.addEventListener(e, arm, { once: true, passive: true }));
+    return () => {
+      TRIGGER_EVENTS.forEach((e) => window.removeEventListener(e, arm));
+      clearTimeout(timer);
+    };
   }, []);
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { treatments } from "../data/treatments";
+import { treatmentIndex as treatments } from "../data/treatmentIndex";
 
 /**
  * Auto-links treatment name mentions inside plain body copy (blog articles,

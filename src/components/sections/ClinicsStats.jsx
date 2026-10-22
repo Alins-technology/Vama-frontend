@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { MapPin, Building2, Stethoscope, Sparkles } from "lucide-react";
 import useCountUp from "../../utils/useCountUp";
 import { locations, serviceCities } from "../../data/locations";
-import { treatments } from "../../data/treatments";
+import { treatmentIndex as treatments } from "../../data/treatmentIndex";
 
 const stats = [
   { icon: Building2, value: locations.length, suffix: "", label: "Clinics" },

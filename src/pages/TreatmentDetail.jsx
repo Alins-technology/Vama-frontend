@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { CheckCircle2, Clock, MapPin, Repeat, ShieldCheck } from "lucide-react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";

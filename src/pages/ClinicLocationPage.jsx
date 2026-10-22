@@ -1,5 +1,5 @@
 import { Navigate, Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import {
   MapPin,
   Phone,

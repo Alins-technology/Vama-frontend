@@ -1,5 +1,5 @@
 import { CheckCircle2, Target, Eye } from "lucide-react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
 import Reveal from "../components/ui/Reveal";

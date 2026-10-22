@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m as motion, AnimatePresence } from "framer-motion";
 import { ArrowUp, MessageCircle, Phone } from "lucide-react";
 import { primaryPhone, whatsappNumber } from "../../data/locations";
 import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";

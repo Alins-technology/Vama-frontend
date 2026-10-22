@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Star } from "lucide-react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 import { locations } from "../../data/locations";

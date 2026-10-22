@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Star, Navigation, MessageCircle, ArrowRight } from "lucide-react";
 import Reveal from "../ui/Reveal";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 import { doctors } from "../../data/doctors";

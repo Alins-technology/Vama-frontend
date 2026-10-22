@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import { LazyMotion, domAnimation } from "framer-motion";
 import Navbar from "./components/layout/Navbar";
 import FloatingDock from "./components/layout/FloatingDock";
 import ScrollToTop from "./components/ScrollToTop";
@@ -24,6 +25,10 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 
 export default function App() {
   return (
+    // LazyMotion + `m` components (imported as `motion` across the site) ship
+    // only the animation/hover/in-view features instead of framer-motion's full
+    // bundle (drag, layout projection...), which was ~100 KB of the main chunk.
+    <LazyMotion features={domAnimation}>
     <div className="relative flex min-h-screen flex-col">
       <ScrollToTop />
       <Suspense fallback={null}>
@@ -63,5 +68,6 @@ export default function App() {
         <Footer />
       </Suspense>
     </div>
+    </LazyMotion>
   );
 }
