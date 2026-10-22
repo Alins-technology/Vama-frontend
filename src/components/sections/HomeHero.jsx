@@ -1,6 +1,8 @@
 import { CalendarCheck, ChevronRight, Sparkle, Award, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import hero480 from "../../assets/Hometop-480.webp";
 import hero640 from "../../assets/Hometop-640.webp";
+import hero720 from "../../assets/Hometop-720.webp";
 import hero960 from "../../assets/Hometop-960.webp";
 
 const stats = [
@@ -116,8 +118,8 @@ export default function HomeHero() {
           >
             <img
               src={hero960}
-              srcSet={`${hero640} 640w, ${hero960} 960w`}
-              sizes="(min-width: 1024px) 560px, 100vw"
+              srcSet={`${hero480} 480w, ${hero640} 640w, ${hero720} 720w, ${hero960} 960w`}
+              sizes="(min-width: 1024px) 560px, calc(100vw - 40px)"
               width="960"
               height="1280"
               fetchPriority="high"

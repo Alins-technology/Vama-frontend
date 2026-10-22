@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useId } from "react";
 import { useNavigate } from "react-router-dom";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { CalendarCheck, MessageCircle, X } from "lucide-react";
@@ -148,10 +148,11 @@ export default function BookingPopup() {
                   onChange={handleChange("mobile")}
                 />
                 <div>
-                  <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
+                  <label htmlFor="popup-service" className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
                     Interested In
                   </label>
                   <select
+                    id="popup-service"
                     value={form.service}
                     onChange={handleChange("service")}
                     className="w-full rounded-xl border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-brand"
@@ -183,10 +184,12 @@ export default function BookingPopup() {
 }
 
 function Field({ label, ...props }) {
+  const id = useId();
   return (
     <div>
-      <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">{label}</label>
+      <label htmlFor={id} className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">{label}</label>
       <input
+        id={id}
         {...props}
         className="w-full rounded-xl border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-brand"
       />

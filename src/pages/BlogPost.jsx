@@ -45,7 +45,7 @@ export default function BlogPost() {
             )}
           </Reveal>
 
-          <div className="mt-6 flex items-center gap-4 text-xs text-ink-soft/70">
+          <div className="mt-6 flex items-center gap-4 text-xs text-ink-soft">
             <span className="inline-flex items-center gap-1.5"><Clock className="h-3.5 w-3.5" /> {post.readTime}</span>
             <span>·</span>
             <span>{post.category}</span>

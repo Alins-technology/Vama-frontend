@@ -58,7 +58,7 @@ export default function Blog() {
                 }`}
               >
                 {c.label}
-                <span className={`text-xs font-medium ${isActive ? "text-ivory/80" : "text-ink-soft/60"}`}>{count}</span>
+                <span className={`text-xs font-medium ${isActive ? "text-ivory" : "text-ink-soft"}`}>{count}</span>
               </button>
             );
           })}
@@ -88,11 +88,11 @@ export default function Blog() {
                 <div className="flex flex-1 flex-col justify-between p-6">
                   <div>
                     <span className="text-[11px] font-semibold uppercase tracking-wide text-gold">{post.category}</span>
-                    <h3 className="mt-2 font-display text-xl leading-snug text-ink">{post.title}</h3>
+                    <h2 className="mt-2 font-display text-xl leading-snug text-ink">{post.title}</h2>
                     <p className="mt-2 text-sm leading-relaxed text-ink-soft">{post.excerpt}</p>
                   </div>
                   <div className="mt-5 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 text-xs text-ink-soft/70">
+                    <span className="inline-flex items-center gap-1.5 text-xs text-ink-soft">
                       <Clock className="h-3.5 w-3.5" /> {post.readTime}
                       {post.date && <span>· {post.date}</span>}
                     </span>

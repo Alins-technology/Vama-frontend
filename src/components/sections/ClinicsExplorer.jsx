@@ -279,7 +279,7 @@ export default function ClinicsExplorer() {
                     href={whatsappHref(active.phones[0], active.label)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-ivory transition-colors duration-300 hover:opacity-90"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#107C41] px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-ivory transition-colors duration-300 hover:opacity-90"
                   >
                     <MessageCircle className="h-3.5 w-3.5" /> WhatsApp
                   </a>

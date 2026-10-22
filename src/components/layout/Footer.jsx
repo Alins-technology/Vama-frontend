@@ -38,7 +38,7 @@ export default function Footer() {
               href="https://www.facebook.com/vamaadvancedhairandskinclinic/"
               target="_blank"
               rel="noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/15 transition-colors hover:border-gold hover:text-gold"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/15 transition-colors hover:border-gold hover:text-gold-light"
               aria-label="Facebook"
             >
               <FacebookIcon className="h-4 w-4" />
@@ -47,7 +47,7 @@ export default function Footer() {
               href="https://www.instagram.com/vamaskinandhairclinic/"
               target="_blank"
               rel="noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/15 transition-colors hover:border-gold hover:text-gold"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/15 transition-colors hover:border-gold hover:text-gold-light"
               aria-label="Instagram"
             >
               <InstagramIcon className="h-4 w-4" />
@@ -86,10 +86,10 @@ export default function Footer() {
 
       <div className="border-t border-ivory/10">
         <div className="container-page flex flex-wrap items-center gap-x-2 gap-y-2 py-5 text-xs text-ivory/50">
-          <span className="font-semibold uppercase tracking-[0.14em] text-ivory/40">Hair Transplant Near You:</span>
+          <span className="font-semibold uppercase tracking-[0.14em] text-ivory/70">Hair Transplant Near You:</span>
           {hairTransplantPages.map((p, i) => (
             <span key={p.slug} className="flex items-center gap-2">
-              <Link to={p.path} className="transition-colors hover:text-gold">
+              <Link to={p.path} className="transition-colors hover:text-gold-light">
                 {p.city}
               </Link>
               {i < hairTransplantPages.length - 1 && <span className="text-ivory/20">·</span>}
@@ -105,10 +105,10 @@ export default function Footer() {
             <span className="inline-flex items-center gap-1.5">
               <MapPin className="h-3.5 w-3.5" /> Indirapuram, Ghaziabad
             </span>
-            <a href={`tel:${primaryPhone.replace(/\s/g, "")}`} className="inline-flex items-center gap-1.5 hover:text-gold">
+            <a href={`tel:${primaryPhone.replace(/\s/g, "")}`} className="inline-flex items-center gap-1.5 hover:text-gold-light">
               <Phone className="h-3.5 w-3.5" /> {primaryPhone}
             </a>
-            <a href={`mailto:${primaryEmail}`} className="inline-flex items-center gap-1.5 hover:text-gold">
+            <a href={`mailto:${primaryEmail}`} className="inline-flex items-center gap-1.5 hover:text-gold-light">
               <Mail className="h-3.5 w-3.5" /> {primaryEmail}
             </a>
           </div>
@@ -121,8 +121,8 @@ export default function Footer() {
 function FooterCol({ title, children }) {
   return (
     <div>
-      <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">{title}</h4>
-      <div className="mt-4 flex flex-col gap-2.5 text-sm text-ivory/65 [&_a]:transition-colors [&_a:hover]:text-gold">
+      <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-light">{title}</h2>
+      <div className="mt-4 flex flex-col gap-2.5 text-sm text-ivory/65 [&_a]:transition-colors [&_a:hover]:text-gold-light">
         {children}
       </div>
     </div>

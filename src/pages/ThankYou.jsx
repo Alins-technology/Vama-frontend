@@ -102,7 +102,7 @@ export default function ThankYou() {
                   <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-light font-display text-lg text-brand">
                     {i + 1}
                   </span>
-                  <h3 className="mt-4 font-display text-lg text-ink">{step.title}</h3>
+                  <h2 className="mt-4 font-display text-lg text-ink">{step.title}</h2>
                   <p className="mt-2 text-sm text-ink-soft">{step.text}</p>
                 </div>
               </Reveal>

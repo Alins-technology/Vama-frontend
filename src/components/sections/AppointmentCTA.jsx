@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useId } from "react";
 import { useNavigate } from "react-router-dom";
 import Reveal from "../ui/Reveal";
 import { Eyebrow } from "../ui/SectionHeading";
@@ -87,10 +87,11 @@ export default function AppointmentCTA() {
                   />
                 </div>
                 <div>
-                  <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
+                  <label htmlFor="cta-service" className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
                     Select Service
                   </label>
                   <select
+                    id="cta-service"
                     required
                     value={form.service}
                     onChange={handleChange("service")}
@@ -120,12 +121,14 @@ export default function AppointmentCTA() {
 }
 
 function Field({ label, ...props }) {
+  const id = useId();
   return (
     <div>
-      <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
+      <label htmlFor={id} className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft">
         {label}
       </label>
       <input
+        id={id}
         {...props}
         className="w-full rounded-xl border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-brand"
       />

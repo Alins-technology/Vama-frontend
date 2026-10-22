@@ -68,7 +68,7 @@ export default function ClinicsGrid() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label={`WhatsApp ${loc.label}`}
-                      className="flex flex-1 items-center justify-center gap-1.5 rounded-full bg-[#25D366]/10 px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-[#128C4A] transition-colors duration-300 hover:bg-[#25D366] hover:text-ivory"
+                      className="flex flex-1 items-center justify-center gap-1.5 rounded-full bg-[#25D366]/10 px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-[#107C41] transition-colors duration-300 hover:bg-[#107C41] hover:text-ivory"
                     >
                       <MessageCircle className="h-3.5 w-3.5" /> WhatsApp
                     </a>

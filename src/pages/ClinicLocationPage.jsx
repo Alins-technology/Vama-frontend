@@ -119,7 +119,7 @@ export default function ClinicLocationPage({ citySlug }) {
                 <p className="relative mt-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-light">
                   {location.city}
                 </p>
-                <h3 className="relative mt-1 font-display text-xl leading-snug">{location.label}</h3>
+                <h2 className="relative mt-1 font-display text-xl leading-snug">{location.label}</h2>
               </div>
 
               <div className="space-y-5 p-6">
@@ -159,7 +159,7 @@ export default function ClinicLocationPage({ citySlug }) {
                     href={whatsappHref(location.phones[0], location.label)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-full bg-[#25D366] px-3 py-2.5 text-[11px] font-semibold uppercase tracking-wide text-ivory transition-colors duration-300 hover:opacity-90"
+                    className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-full bg-[#107C41] px-3 py-2.5 text-[11px] font-semibold uppercase tracking-wide text-ivory transition-colors duration-300 hover:opacity-90"
                   >
                     <MessageCircle className="h-3.5 w-3.5" /> WhatsApp
                   </a>

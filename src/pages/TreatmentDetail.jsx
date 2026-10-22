@@ -81,7 +81,7 @@ export default function TreatmentDetail() {
             </p>
 
             <div className="mt-8">
-              <h3 className="font-display text-xl text-ink">Key benefits</h3>
+              <h2 className="font-display text-xl text-ink">Key benefits</h2>
               <ul className="mt-4 grid gap-3 sm:grid-cols-2">
                 {treatment.benefits.map((b, i) => (
                   <motion.li
