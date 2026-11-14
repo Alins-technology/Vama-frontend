@@ -30,11 +30,10 @@ export const locations = [
   {
     slug: "indirapuram",
     city: "Indirapuram",
-    label: "Indirapuram (Ghaziabad) Clinic — Flagship",
-    address: "A-212, Rajhans Plaza, Ahinsa Khand-1, Opposite Aditya Mall, Indirapuram, Ghaziabad, Uttar Pradesh",
+    label: "Indirapuram (Ghaziabad) Clinic",
+    address: "Shop No. A-212, 2nd Floor, Rajhans Plaza, Agrasen Marg, Opposite Aditya Mall (beside Orange County), Ahinsa Khand 1, Indirapuram, Ghaziabad, Uttar Pradesh 201014",
     phones: ["+91 88829 11433"],
     email: "care@vamasolution.com",
-    flagship: true,
     pagePath: "/vamaclinics-in-indirapuram",
   },
   {
