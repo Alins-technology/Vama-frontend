@@ -158,3 +158,29 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 ::-webkit-scrollbar-track { background: var(--color-ivory); }
 ::-webkit-scrollbar-thumb { background: var(--color-brand-light); border-radius: 8px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-gold); }
+/* Reels strip — slow, continuous right-to-left drift (CSS = compositor
+   thread, so it doesn't add to TBT). Pauses on hover; the track is the
+   reel list rendered twice, so -50% lands exactly on the start again. */
+@keyframes reels-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.reels-track {
+  animation-name: reels-marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  padding-left: 1.25rem;
+}
+.reels-mask:hover .reels-track,
+.reels-mask:focus-within .reels-track {
+  animation-play-state: paused;
+}
+.reels-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+/* Reduced motion: no auto-slide, let people swipe/scroll the strip instead. */
+@media (prefers-reduced-motion: reduce) {
+  .reels-mask { overflow-x: auto; }
+  .reels-track { animation: none !important; }
+}

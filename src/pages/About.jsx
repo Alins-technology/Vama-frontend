@@ -9,6 +9,9 @@ import TestimonialsSection from "../components/sections/TestimonialsSection";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
 import LocationsSection from "../components/sections/LocationsSection";
 import ArticleBlocks from "../components/ui/ArticleBlocks";
+import ApproachSteps from "../components/sections/ApproachSteps";
+import ClinicGallerySection from "../components/sections/ClinicGallerySection";
+import TeamSection from "../components/sections/TeamSection";
 
 import aboutImage from "../assets/Clinic/Reception.jpg";
 
@@ -24,6 +27,10 @@ const aboutStoryBlocks = [
   {
     type: "paragraph",
     text: "Every consultation at VAMA Clinics begins the same way: with a genuine conversation about your history, concerns, and goals. We explain your options clearly, including their limitations, before recommending any treatment. If something isn't the right fit for you, we'll say so — our priority is your wellbeing, not a quick sale.",
+  },
+  {
+    type: "paragraph",
+    text: "Environmental factors genuinely affect skin and hair health — pollution, dust, and hard water are common concerns across Delhi NCR and UP cities. Rather than offering the same generic advice everywhere, our specialists factor in your local environment and lifestyle when building a treatment plan, alongside your medical history and specific concerns.",
   },
   {
     type: "paragraph",
@@ -155,6 +162,8 @@ export default function About() {
         </div>
       </section>
 
+      <ApproachSteps />
+
       <section className="bg-ivory py-20 md:py-28">
         <div className="container-page mx-auto max-w-3xl">
           <SectionHeading eyebrow="Our Story" title="A clinic built for the long term" align="center" />
@@ -165,6 +174,9 @@ export default function About() {
           </Reveal>
         </div>
       </section>
+
+      <ClinicGallerySection />
+      <TeamSection />
 
       <LocationsSection />
 
