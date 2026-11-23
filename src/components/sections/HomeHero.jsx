@@ -5,10 +5,10 @@ import hero640 from "../../assets/Hometop-640.webp";
 import hero720 from "../../assets/Hometop-720.webp";
 import hero960 from "../../assets/Hometop-960.webp";
 
-const stats = [
-  ["8", "Clinics across North India"],
-  ["4000+", "Hair transplants performed"],
-  ["12+", "Years combined expertise"],
+const highlights = [
+  "Clinics across North India",
+  "Advanced hair restoration",
+  "Experienced specialists",
 ];
 
 export default function HomeHero() {
@@ -100,13 +100,12 @@ export default function HomeHero() {
             className="hero-fade-up mt-12 flex flex-wrap gap-x-8 gap-y-4 border-t border-ivory/15 pt-8"
             style={{ animationDelay: "0.65s" }}
           >
-            {stats.map(([num, label]) => (
+            {highlights.map((highlight) => (
               <div
-                key={label}
+                key={highlight}
                 className="transition-transform duration-300 hover:-translate-y-[3px]"
               >
-                <p className="font-display text-3xl text-gold-light">{num}</p>
-                <p className="mt-1 max-w-[9rem] text-xs leading-snug text-ivory/60">{label}</p>
+                <p className="max-w-[9rem] text-sm font-medium leading-snug text-ivory/75">{highlight}</p>
               </div>
             ))}
           </div>
@@ -139,8 +138,8 @@ export default function HomeHero() {
                 <Award className="h-4.5 w-4.5" />
               </span>
               <div>
-                <p className="font-display text-base leading-tight">12+ Years</p>
-                <p className="text-[11px] text-ink-soft">Combined expertise</p>
+                <p className="font-display text-base leading-tight">Experienced team</p>
+                <p className="text-[11px] text-ink-soft">Specialist-led care</p>
               </div>
             </div>
           </div>
@@ -154,8 +153,8 @@ export default function HomeHero() {
                 <Users className="h-4.5 w-4.5" />
               </span>
               <div>
-                <p className="font-display text-base leading-tight">4000+</p>
-                <p className="text-[11px] text-ink-soft">Happy patients</p>
+                <p className="font-display text-base leading-tight">Patient-first care</p>
+                <p className="text-[11px] text-ink-soft">Personalised treatment</p>
               </div>
             </div>
           </div>
