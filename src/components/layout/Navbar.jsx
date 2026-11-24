@@ -303,9 +303,19 @@ function TreatmentsDropdown({ scrolled }) {
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, x: 8 }}
                       transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
-                      className="absolute left-full top-0 ml-1 w-60 rounded-2xl border border-line bg-ivory p-4 shadow-[0_24px_48px_-16px_rgba(20,32,43,0.25)]"
+                      className={`absolute left-full top-0 ml-1 max-h-[75vh] overflow-y-auto rounded-2xl border border-line bg-ivory p-4 shadow-[0_24px_48px_-16px_rgba(20,32,43,0.25)] ${
+                        treatmentsByCategory(cat.slug).length > 10 ? "w-[30rem]" : "w-60"
+                      }`}
                     >
-                      <ul className="space-y-1">
+                      {/* long categories (e.g. Skin) switch to two columns so the
+                          flyout stays on screen instead of running past the fold */}
+                      <ul
+                        className={
+                          treatmentsByCategory(cat.slug).length > 10
+                            ? "grid grid-cols-2 gap-x-2 gap-y-0.5"
+                            : "space-y-1"
+                        }
+                      >
                         {treatmentsByCategory(cat.slug).map((t) => (
                           <li key={t.slug}>
                             <Link

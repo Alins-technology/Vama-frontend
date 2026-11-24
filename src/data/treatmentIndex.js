@@ -182,6 +182,156 @@ export const treatmentIndex = [
     "slug": "lipoma-removal",
     "name": "Lipoma Removal",
     "category": "allergy-treatment"
+  },
+  {
+    "slug": "hair-thread-therapy",
+    "name": "Hair Thread Therapy",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "scalp-micropigmentation",
+    "name": "Scalp Micropigmentation (SMP)",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "hair-mesotherapy",
+    "name": "Hair Mesotherapy",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "hair-cupping-therapy",
+    "name": "Hair Cupping Therapy",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "leech-therapy-for-hair",
+    "name": "Leech Therapy for Hair",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "scalp-hydra-treatment",
+    "name": "Scalp Hydra Treatment",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "exosome-hair-treatment",
+    "name": "Exosome Hair Treatment",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "qr678-hair-treatment",
+    "name": "QR678 Hair Treatment",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "lllt-hair-therapy",
+    "name": "LLLT Hair Therapy",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "high-frequency-treatment",
+    "name": "High Frequency Treatment",
+    "category": "hair-treatment"
+  },
+  {
+    "slug": "carbon-laser-facial",
+    "name": "Carbon Laser Facial",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "co2-laser-treatment",
+    "name": "CO2 Laser Treatment",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "bb-glow-treatment",
+    "name": "BB Glow Treatment",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "photofacial",
+    "name": "Photofacial",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "rf-skin-tightening",
+    "name": "Radiofrequency Skin Tightening",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "hifu-treatment",
+    "name": "HIFU Treatment",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "exosome-facial",
+    "name": "Face Exosome Therapy",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "nctf-skin-booster",
+    "name": "NCTF Skin Booster",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "face-mesotherapy",
+    "name": "Face Mesotherapy",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "q-switch-laser",
+    "name": "Q-Switch Laser Toning",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "laser-tattoo-removal",
+    "name": "Laser Tattoo Removal",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "microblading",
+    "name": "Microblading & Lip Blush",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "collagen-facial",
+    "name": "Collagen Facial",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "thread-lift",
+    "name": "Thread Lift",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "chemical-peels",
+    "name": "Chemical Peels",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "hyperhidrosis-treatment",
+    "name": "Hyperhidrosis Treatment",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "glutathione-drip",
+    "name": "Glutathione Drip",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "ear-lobe-repair",
+    "name": "Ear Lobe Repair",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "ear-piercing",
+    "name": "Ear Piercing",
+    "category": "skin-treatment"
+  },
+  {
+    "slug": "fat-dissolving-mesotherapy",
+    "name": "Fat Dissolving Mesotherapy",
+    "category": "weight-loss"
   }
 ];
 

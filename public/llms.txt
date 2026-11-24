@@ -35,6 +35,16 @@ The clinic provides consultation and treatment options for hair loss, hair thinn
 - [Hair Replacement / Hair Patch](https://www.vamaclinics.com/treatments/hair-treatment/hair-replacement)
 - [Hair DNA Test](https://www.vamaclinics.com/treatments/hair-treatment/hair-dna-test)
 - [Dandruff Treatment](https://www.vamaclinics.com/treatments/hair-treatment/dandruff-treatment)
+- [Hair Thread Therapy](https://www.vamaclinics.com/treatments/hair-treatment/hair-thread-therapy)
+- [Scalp Micropigmentation (SMP)](https://www.vamaclinics.com/treatments/hair-treatment/scalp-micropigmentation)
+- [Hair Mesotherapy](https://www.vamaclinics.com/treatments/hair-treatment/hair-mesotherapy)
+- [Hair Cupping Therapy](https://www.vamaclinics.com/treatments/hair-treatment/hair-cupping-therapy)
+- [Leech Therapy for Hair](https://www.vamaclinics.com/treatments/hair-treatment/leech-therapy-for-hair)
+- [Scalp Hydra Treatment](https://www.vamaclinics.com/treatments/hair-treatment/scalp-hydra-treatment)
+- [Exosome Hair Treatment](https://www.vamaclinics.com/treatments/hair-treatment/exosome-hair-treatment)
+- [QR678 Hair Treatment](https://www.vamaclinics.com/treatments/hair-treatment/qr678-hair-treatment)
+- [LLLT Hair Therapy](https://www.vamaclinics.com/treatments/hair-treatment/lllt-hair-therapy)
+- [High Frequency Treatment](https://www.vamaclinics.com/treatments/hair-treatment/high-frequency-treatment)
 - Hair Restoration
 - Scalp and hair-loss assessment
 
@@ -55,6 +65,25 @@ The clinic provides consultation and treatment options for hair loss, hair thinn
 - [Botox](https://www.vamaclinics.com/treatments/skin-treatment/botox)
 - [Laser Hair Reduction](https://www.vamaclinics.com/treatments/skin-treatment/laser-hair-reduction)
 - [Mole and Skin Tag Removal](https://www.vamaclinics.com/treatments/skin-treatment/mole-skin-tag-removal)
+- [Carbon Laser Facial](https://www.vamaclinics.com/treatments/skin-treatment/carbon-laser-facial)
+- [CO2 Laser Treatment](https://www.vamaclinics.com/treatments/skin-treatment/co2-laser-treatment)
+- [BB Glow Treatment](https://www.vamaclinics.com/treatments/skin-treatment/bb-glow-treatment)
+- [Photofacial](https://www.vamaclinics.com/treatments/skin-treatment/photofacial)
+- [Radiofrequency Skin Tightening](https://www.vamaclinics.com/treatments/skin-treatment/rf-skin-tightening)
+- [HIFU Treatment](https://www.vamaclinics.com/treatments/skin-treatment/hifu-treatment)
+- [Face Exosome Therapy](https://www.vamaclinics.com/treatments/skin-treatment/exosome-facial)
+- [NCTF Skin Booster](https://www.vamaclinics.com/treatments/skin-treatment/nctf-skin-booster)
+- [Face Mesotherapy](https://www.vamaclinics.com/treatments/skin-treatment/face-mesotherapy)
+- [Q-Switch Laser Toning](https://www.vamaclinics.com/treatments/skin-treatment/q-switch-laser)
+- [Laser Tattoo Removal](https://www.vamaclinics.com/treatments/skin-treatment/laser-tattoo-removal)
+- [Microblading & Lip Blush](https://www.vamaclinics.com/treatments/skin-treatment/microblading)
+- [Collagen Facial](https://www.vamaclinics.com/treatments/skin-treatment/collagen-facial)
+- [Thread Lift](https://www.vamaclinics.com/treatments/skin-treatment/thread-lift)
+- [Chemical Peels](https://www.vamaclinics.com/treatments/skin-treatment/chemical-peels)
+- [Hyperhidrosis Treatment](https://www.vamaclinics.com/treatments/skin-treatment/hyperhidrosis-treatment)
+- [Glutathione Drip](https://www.vamaclinics.com/treatments/skin-treatment/glutathione-drip)
+- [Ear Lobe Repair](https://www.vamaclinics.com/treatments/skin-treatment/ear-lobe-repair)
+- [Ear Piercing](https://www.vamaclinics.com/treatments/skin-treatment/ear-piercing)
 
 ## Weight Management
 
@@ -65,6 +94,7 @@ The clinic provides consultation and treatment options for hair loss, hair thinn
 - [Body Contouring](https://www.vamaclinics.com/treatments/weight-loss/body-contouring)
 - [Inch Loss Treatment](https://www.vamaclinics.com/treatments/weight-loss/inch-loss-treatment)
 - [EMS Body Sculpting](https://www.vamaclinics.com/treatments/weight-loss/ems-body-sculpting)
+- [Fat Dissolving Mesotherapy](https://www.vamaclinics.com/treatments/weight-loss/fat-dissolving-mesotherapy)
 
 ## Allergy and Skin Condition Treatments
 
