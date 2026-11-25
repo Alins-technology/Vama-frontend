@@ -21,6 +21,59 @@
   --color-line: #d7e9ea;
 }
 
+/* Self-hosted fonts (same variable fonts Google Fonts served, SIL OFL licensed).
+   Served from our own domain so mobile visitors skip two extra connections to
+   fonts.googleapis.com / fonts.gstatic.com; the two latin files are preloaded in
+   index.html. latin-ext and italic files only download if a page needs them. */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/fraunces-latin-opsz-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/fraunces-latin-ext-opsz-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/fraunces-latin-opsz-italic.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/fraunces-latin-ext-opsz-italic.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/inter-latin-wght-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/inter-latin-ext-wght-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -120,6 +173,31 @@ h1, h2, h3, h4, .font-display {
 .animate-popup-blob-a { animation: popup-blob-a 8s ease-in-out infinite; }
 .animate-popup-blob-b { animation: popup-blob-b 9s ease-in-out infinite; }
 
+/* The hero blobs are large, heavily blurred layers. Moving them forever makes
+   phones re-composite those blurs every frame, which eats main-thread time on
+   mobile. On small screens (and for reduced-motion users) they stay put. */
+@keyframes page-orb-a {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, 20px); }
+}
+@keyframes page-orb-b {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-25px, -15px); }
+}
+.animate-page-orb-a { animation: page-orb-a 10s ease-in-out infinite; }
+.animate-page-orb-b { animation: page-orb-b 12s ease-in-out infinite; }
+
+@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+  .animate-page-orb-a,
+  .animate-page-orb-b,
+  .animate-blob-a,
+  .animate-blob-b,
+  .animate-blob-pulse,
+  .animate-sparkle {
+    animation: none;
+  }
+}
+
 /* Home hero entrance — CSS instead of framer-motion so the hero is visible in
    the prerendered HTML straight away. The JS-driven version shipped the
    headline/paragraph at opacity 0 until the whole JS bundle had downloaded and
@@ -143,6 +221,12 @@ h1, h2, h3, h4, .font-display {
 }
 .hero-fade-up { animation: hero-fade-up 0.6s ease-out both; }
 .hero-rise { animation: hero-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+/* Inner-page banner eyebrow (PageHero) — same idea as the home hero. */
+@keyframes page-hero-eyebrow {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: none; }
+}
+.page-hero-eyebrow { animation: page-hero-eyebrow 0.5s ease-out 0.05s both; }
 .hero-slide-l { animation: hero-slide-l 0.7s ease-out both; }
 .hero-slide-r { animation: hero-slide-r 0.7s ease-out both; }
 

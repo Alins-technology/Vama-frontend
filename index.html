@@ -11,12 +11,11 @@
     <meta name="description" content="VAMA Advanced Hair & Skin Clinic — hair transplant, skin, weight loss, allergy, laser & aesthetic treatments across Noida, Indirapuram, Lajpat Nagar, Agra, Lucknow & Kanpur." />
     <meta name="keywords" content="VAMA Advanced Hair & Skin Clinic, hair transplant clinic, skin clinic, weight loss clinic, allergy treatment clinic, dermatologist Noida, hair and skin treatment Indirapuram" />
     <title>VAMA | Advanced Hair &amp; Skin Clinic</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fonts: loaded without blocking first paint (display=swap shows fallback text meanwhile) -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&display=swap" /></noscript>
+    <!-- Fonts are self-hosted (see @font-face in src/index.css). Preloading the two
+         latin files lets text render in the real fonts on first paint, without
+         extra connections to Google Fonts. -->
+    <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
 
     <!--
       Analytics (gtag, both GTM containers, Clarity, Meta Pixel). The dataLayer,

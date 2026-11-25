@@ -68,8 +68,8 @@ export default function Blog() {
           {visiblePosts.length === 0 && (
             <p className="col-span-full text-center text-sm text-ink-soft">No blogs in this category yet.</p>
           )}
-          {visiblePosts.map((post, i) => (
-            <Reveal key={post.slug} delay={(i % 3) * 0.08}>
+          {visiblePosts.map((post, i) => {
+            const card = (
               <Link
                 to={`/blog/${post.slug}`}
                 className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line transition-all hover:-translate-y-1.5 hover:shadow-[0_24px_48px_-20px_rgba(22,36,31,0.3)]"
@@ -80,6 +80,8 @@ export default function Blog() {
                       src={post.image}
                       alt={post.title}
                       className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+                      fetchPriority={i === 0 ? "high" : undefined}
+                      loading={i < 3 ? undefined : "lazy"}
                     />
                   </div>
                 ) : (
@@ -100,8 +102,18 @@ export default function Blog() {
                   </div>
                 </div>
               </Link>
-            </Reveal>
-          ))}
+            );
+            // The first row is on screen at load: render it straight away (no
+            // Reveal fade, which starts at opacity 0 until the JavaScript loads)
+            // so the top card image isn't held back as the page's LCP.
+            return i < 3 ? (
+              <div key={post.slug}>{card}</div>
+            ) : (
+              <Reveal key={post.slug} delay={(i % 3) * 0.08}>
+                {card}
+              </Reveal>
+            );
+          })}
         </div>
       </section>
 

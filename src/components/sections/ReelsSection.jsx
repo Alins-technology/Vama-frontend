@@ -9,7 +9,7 @@ import { reels, instagramUrl } from "../../data/reels";
 // One reel card. The muted preview only loads + plays while the card is
 // actually on screen (IntersectionObserver), so 6–8 reels don't all download
 // at once and hurt page speed / ad landing-page experience.
-function ReelCard({ reel, onOpen, hidden }) {
+function ReelCard({ reel, onOpen, hidden, showPoster }) {
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function ReelCard({ reel, onOpen, hidden }) {
       <video
         ref={videoRef}
         src={reel.src}
-        poster={reel.poster || undefined}
+        poster={(showPoster && reel.poster) || undefined}
         muted
         loop
         playsInline
@@ -106,6 +106,30 @@ function ReelModal({ reel, onClose }) {
 export default function ReelsSection() {
   const [active, setActive] = useState(null);
   const [touchPaused, setTouchPaused] = useState(false);
+  // Poster images (26 of them, the strip is doubled) are only requested once the
+  // section is close to the screen. As plain poster="" attributes they all
+  // downloaded with the first paint, competing with the hero on mobile.
+  const sectionRef = useRef(null);
+  const [nearScreen, setNearScreen] = useState(false);
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === "undefined") {
+      setNearScreen(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setNearScreen(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "600px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   if (!reels?.length) return null;
 
@@ -116,7 +140,7 @@ export default function ReelsSection() {
   const paused = touchPaused || !!active;
 
   return (
-    <section id="reels" className="overflow-hidden bg-panel pt-20 pb-6 md:pt-28 md:pb-8">
+    <section ref={sectionRef} id="reels" className="overflow-hidden bg-panel pt-20 pb-6 md:pt-28 md:pb-8">
       <div className="container-page">
         <SectionHeading
           eyebrow="Watch Real Results"
@@ -144,6 +168,7 @@ export default function ReelsSection() {
                 reel={reel}
                 onOpen={setActive}
                 hidden={i >= reels.length}
+                showPoster={nearScreen}
               />
             ))}
           </div>

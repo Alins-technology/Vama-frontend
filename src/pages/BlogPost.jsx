@@ -2,7 +2,6 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { Clock } from "lucide-react";
 import Seo from "../components/Seo";
 import PageHero from "../components/layout/PageHero";
-import Reveal from "../components/ui/Reveal";
 import Placeholder from "../components/ui/Placeholder";
 import ArticleBlocks from "../components/ui/ArticleBlocks";
 import AppointmentCTA from "../components/sections/AppointmentCTA";
@@ -31,19 +30,20 @@ export default function BlogPost() {
 
       <article className="bg-ivory py-20 md:py-28">
         <div className="container-page mx-auto max-w-3xl">
-          <Reveal>
-            {post.image ? (
-              <div className="overflow-hidden rounded-[1.75rem] bg-panel shadow-[0_20px_50px_-28px_rgba(22,36,31,0.35)]">
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="h-auto w-full object-contain"
-                />
-              </div>
-            ) : (
-              <Placeholder label={post.category} ratio="aspect-[16/9]" tone="brand" />
-            )}
-          </Reveal>
+          {/* Banner is the page's LCP element, so it is not wrapped in <Reveal>
+              (which starts at opacity 0 until the JavaScript has loaded). */}
+          {post.image ? (
+            <div className="overflow-hidden rounded-[1.75rem] bg-panel shadow-[0_20px_50px_-28px_rgba(22,36,31,0.35)]">
+              <img
+                src={post.image}
+                alt={post.title}
+                className="h-auto w-full object-contain"
+                fetchPriority="high"
+              />
+            </div>
+          ) : (
+            <Placeholder label={post.category} ratio="aspect-[16/9]" tone="brand" />
+          )}
 
           <div className="mt-6 flex items-center gap-4 text-xs text-ink-soft">
             <span className="inline-flex items-center gap-1.5"><Clock className="h-3.5 w-3.5" /> {post.readTime}</span>

@@ -17,7 +17,11 @@ const app = (
 // so in production #root already has the page markup — hydrate it instead of
 // re-rendering from scratch. In `npm run dev` #root is empty, so render normally.
 if (rootEl.hasChildNodes()) {
-  hydrateRoot(rootEl, app);
+  // Let the browser paint the prerendered page first, then hydrate. Hydrating
+  // straight away meant phones ran the whole React render before showing the
+  // (already complete) HTML, which pushed mobile LCP out by seconds. Waiting
+  // one frame lets the content appear immediately; React attaches right after.
+  requestAnimationFrame(() => setTimeout(() => hydrateRoot(rootEl, app), 0));
 } else {
   createRoot(rootEl).render(app);
 }

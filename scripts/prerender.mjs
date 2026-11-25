@@ -19,7 +19,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 const ssrEntry = path.join(root, "dist-ssr", "entry-server.js");
 
-const { render, blogSlugs } = await import(pathToFileURL(ssrEntry).href);
+const { render, blogSlugs, pageSeo } = await import(pathToFileURL(ssrEntry).href);
 const template = fs.readFileSync(path.join(dist, "index.html"), "utf-8");
 
 // Routes: everything in the sitemap + every blog post + pages not in the sitemap.
@@ -76,6 +76,21 @@ for (const route of [...routes].sort()) {
     page = setMeta(page, "property", "og:description", head.description);
     if (head.canonical) {
       page = page.replace("</head>", `    <link rel="canonical" href="${esc(head.canonical)}" />\n  </head>`);
+    }
+    // Open Graph / Twitter tags for link previews (WhatsApp, Facebook, LinkedIn,
+    // X) and page-specific structured data — see pageSeo() in src/entry-server.jsx.
+    const extra = pageSeo(route);
+    page = setMeta(page, "property", "og:type", extra.ogType);
+    page = setMeta(page, "property", "og:site_name", "VAMA Clinics");
+    if (head.canonical) page = setMeta(page, "property", "og:url", head.canonical);
+    page = setMeta(page, "property", "og:image", extra.ogImage);
+    page = setMeta(page, "name", "twitter:card", "summary_large_image");
+    page = setMeta(page, "name", "twitter:title", head.title);
+    page = setMeta(page, "name", "twitter:description", head.description);
+    page = setMeta(page, "name", "twitter:image", extra.ogImage);
+    if (extra.jsonLd) {
+      const json = JSON.stringify(extra.jsonLd, null, 2).replace(/</g, "\\u003c");
+      page = page.replace("</head>", () => `    <script type="application/ld+json">\n${json}\n    </script>\n  </head>`);
     }
     if (route === "/") page = page.replace("</head>", faqScript);
     if (!/<h1[\s>]/.test(html)) console.warn(`  ! no <h1> on ${route}`);

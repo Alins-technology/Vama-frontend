@@ -47,13 +47,17 @@ export default function TreatmentDetail() {
       {/* Overview + image */}
       <section className="bg-ivory py-20 md:py-28">
         <div className="container-page grid gap-14 lg:grid-cols-2 lg:items-start">
-          <Reveal>
+          {/* Not wrapped in <Reveal>: this image is usually the page's LCP element,
+              and Reveal starts at opacity 0 until the JavaScript has loaded, which
+              delayed it by seconds on mobile. */}
+          <div>
             <div className="lg:sticky lg:top-28">
               <div className="aspect-[4/5] overflow-hidden rounded-[2rem]">
                 <img
                   src={treatment.image}
                   alt={treatment.name}
                   className="h-full w-full object-cover"
+                  fetchPriority="high"
                 />
               </div>
 
@@ -68,7 +72,7 @@ export default function TreatmentDetail() {
                 ))}
               </div>
             </div>
-          </Reveal>
+          </div>
 
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Overview</span>

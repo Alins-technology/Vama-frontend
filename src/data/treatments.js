@@ -2321,7 +2321,7 @@ export const treatments = [
     short: "Dissolvable PDO threads placed in the scalp to support thinning hair.",
     metaTitle: "Hair Thread Therapy (PDO Threads) for Hair Loss | VAMA Clinics",
     metaDescription:
-      "Hair thread therapy at VAMA Clinics uses dissolvable PDO mono and cog threads in the scalp to support thinning hair. Learn how it works, who it suits and what to expect.",
+      "Hair thread therapy at VAMA Clinics uses dissolvable PDO mono and cog threads in the scalp to support thinning hair. How it works and who it suits.",
     description:
       "Hair Thread Therapy places ultra-fine, dissolvable PDO (polydioxanone) threads just beneath the scalp surface in thinning areas. As the threads slowly dissolve, they are thought to stimulate local blood flow and collagen around the follicles. At VAMA Clinics, we offer both mono threads and cog threads, chosen by the doctor after a scalp assessment.",
     benefits: ["Dissolvable, medical-grade PDO threads", "Quick procedure under local numbing", "Can be combined with PRP or GFC", "Little to no downtime"],
@@ -2384,7 +2384,7 @@ export const treatments = [
     name: "Scalp Micropigmentation (SMP)",
     image: smpImg,
     short: "Natural-looking pigment dots that recreate the look of hair density.",
-    metaTitle: "Scalp Micropigmentation (SMP) for Baldness & Thinning | VAMA Clinics",
+    metaTitle: "Scalp Micropigmentation (SMP) for Hair Loss | VAMA Clinics",
     metaDescription:
       "SMP at VAMA Clinics creates the look of fuller hair or a shaved-head hairline with fine pigment dots. Learn the process, sessions and aftercare.",
     description:
@@ -2442,7 +2442,7 @@ export const treatments = [
     short: "Micro-injections of nourishing actives into the scalp for weak hair.",
     metaTitle: "Hair Mesotherapy for Hair Fall & Thinning | VAMA Clinics",
     metaDescription:
-      "Hair mesotherapy at VAMA Clinics delivers vitamins, amino acids and other actives into the scalp through micro-injections. Learn benefits, sessions and suitability.",
+      "Hair mesotherapy at VAMA Clinics delivers vitamins, amino acids and scalp actives through micro-injections for hair fall and thinning.",
     description:
       "Hair Mesotherapy delivers a doctor-selected blend of vitamins, amino acids, minerals and other scalp-nourishing actives directly into the scalp through very fine micro-injections. It is used as a supportive treatment for hair fall, thinning and weak hair, usually as a course of sessions.",
     benefits: ["Delivers actives directly to the scalp", "Supports weak, thinning hair", "Quick sessions with no downtime", "Combines well with PRP and medical treatment"],
@@ -2494,7 +2494,7 @@ export const treatments = [
     short: "Gentle suction therapy for scalp circulation and relaxation.",
     metaTitle: "Hair Cupping Therapy for Scalp Health | VAMA Clinics",
     metaDescription:
-      "Hair cupping therapy at VAMA Clinics uses gentle suction cups on the scalp to support circulation and relaxation as part of a hair care plan. Learn what to expect.",
+      "Hair cupping therapy at VAMA Clinics uses gentle suction cups on the scalp to support circulation and relaxation as part of a hair plan.",
     description:
       "Hair Cupping Therapy uses small suction cups on the scalp to gently lift the skin and encourage local blood flow. It is offered as a supportive, relaxing scalp therapy and is often combined with other hair treatments as part of a broader plan for hair fall.",
     benefits: ["Gentle, non-invasive scalp therapy", "Supports scalp circulation", "Relaxing, stress-relieving session", "Works alongside other hair treatments"],
@@ -2640,7 +2640,7 @@ export const treatments = [
     short: "Advanced regenerative scalp therapy for thinning hair.",
     metaTitle: "Exosome Hair Treatment for Hair Loss | VAMA Clinics",
     metaDescription:
-      "Exosome hair treatment at VAMA Clinics is an advanced regenerative scalp therapy for hair thinning. Learn how exosomes work, who may benefit and what the evidence says.",
+      "Exosome hair treatment at VAMA Clinics: an advanced regenerative scalp therapy for thinning hair. How it works, who it suits and what to expect.",
     description:
       "Exosome Hair Treatment is an advanced regenerative option for thinning hair. Exosomes are tiny vesicles that carry signalling molecules between cells. When applied to the scalp, usually with microneedling or fine injections, they are intended to support the scalp environment and hair follicle activity.",
     benefits: ["Advanced regenerative scalp therapy", "No blood draw needed", "Can be combined with microneedling", "Short sessions with minimal downtime"],
@@ -2848,9 +2848,9 @@ export const treatments = [
     name: "Carbon Laser Facial",
     image: carbonFacialImg,
     short: "Carbon peel laser facial for oily skin, open pores and instant glow.",
-    metaTitle: "Carbon Laser Facial (Carbon Peel) | Oily Skin & Pores | VAMA Clinics",
+    metaTitle: "Carbon Laser Facial (Carbon Peel) for Oily Skin | VAMA Clinics",
     metaDescription:
-      "Carbon laser facial (carbon peel) at VAMA Clinics helps oily skin, open pores, blackheads and dull tone with a quick, no-downtime laser session. Learn how it works.",
+      "Carbon laser facial (carbon peel) at VAMA Clinics for oily skin, open pores, blackheads and dull tone, in a quick session with no downtime.",
     description:
       "The Carbon Laser Facial, also called a carbon peel or Hollywood peel, uses a thin layer of medical-grade carbon lotion followed by a Q-switched laser. The laser targets the carbon, which lifts away excess oil, dead cells and impurities from the pores. It leaves the skin looking clearer, smoother and brighter, with no downtime.",
     benefits: ["Helps control excess oil", "Refines the look of open pores", "Instant brightness and smoothness", "No downtime, lunchtime session"],
@@ -2902,9 +2902,9 @@ export const treatments = [
     name: "CO2 Laser Treatment",
     image: co2LaserImg,
     short: "Fractional CO2 laser resurfacing for scars, texture and fine lines.",
-    metaTitle: "Fractional CO2 Laser Treatment for Acne Scars & Texture | VAMA Clinics",
+    metaTitle: "Fractional CO2 Laser for Acne Scars | VAMA Clinics",
     metaDescription:
-      "Fractional CO2 laser at VAMA Clinics resurfaces the skin to improve acne scars, uneven texture, open pores and fine lines. Learn the procedure, downtime and results.",
+      "Fractional CO2 laser at VAMA Clinics resurfaces skin to improve acne scars, uneven texture, open pores and fine lines. Procedure and downtime.",
     description:
       "Fractional CO2 Laser is an ablative laser resurfacing treatment. It creates thousands of microscopic treatment columns in the skin while leaving surrounding skin intact. As the skin heals, new collagen forms, which improves the look of acne scars, rough texture, open pores and fine lines.",
     benefits: ["Improves acne scars and texture", "Stimulates new collagen", "Refines pores and fine lines", "Results build over months"],
@@ -3105,7 +3105,7 @@ export const treatments = [
     short: "Focused ultrasound for non-surgical lifting of the face and neck.",
     metaTitle: "HIFU Treatment | Non-Surgical Face & Neck Lift | VAMA Clinics",
     metaDescription:
-      "HIFU at VAMA Clinics uses high-intensity focused ultrasound to lift and tighten the face, jawline and neck without surgery. Learn results, sessions and suitability.",
+      "HIFU at VAMA Clinics uses focused ultrasound to lift and tighten the face, jawline and neck without surgery. Results, sessions and suitability.",
     description:
       "HIFU (High-Intensity Focused Ultrasound) delivers focused ultrasound energy to precise depths beneath the skin, including the SMAS layer that is tightened in surgical facelifts. This creates tiny points of heat that stimulate collagen and lead to gradual lifting and tightening of the face, jawline and neck, without surgery or downtime.",
     benefits: ["Non-surgical lifting and tightening", "Targets deep supporting layers", "Usually a single session", "No downtime"],
@@ -3153,7 +3153,7 @@ export const treatments = [
     short: "Regenerative facial therapy for texture, glow and skin recovery.",
     metaTitle: "Face Exosome Therapy for Skin Rejuvenation | VAMA Clinics",
     metaDescription:
-      "Face exosome therapy at VAMA Clinics is a regenerative facial treatment for dull skin, texture, fine lines and post-laser recovery. Learn how it works and what to expect.",
+      "Face exosome therapy at VAMA Clinics: regenerative facial treatment for dull skin, texture, fine lines and recovery after laser treatments.",
     description:
       "Face Exosome Therapy uses an exosome-based solution applied with microneedling to support skin renewal. Exosomes carry signalling molecules that are intended to help skin repair, hydration and collagen activity. It is used for dullness, uneven texture, fine lines and to support healing after laser or microneedling treatments.",
     benefits: ["Supports skin renewal", "Improves texture and glow", "Helps recovery after procedures", "Minimal downtime"],
@@ -3199,9 +3199,9 @@ export const treatments = [
     name: "NCTF Skin Booster",
     image: skinRejuvenationImg,
     short: "Hyaluronic acid and vitamin mesotherapy for deep skin hydration.",
-    metaTitle: "NCTF Skin Booster (NCTF 135HA) for Hydration & Glow | VAMA Clinics",
+    metaTitle: "NCTF Skin Booster (NCTF 135HA) | VAMA Clinics",
     metaDescription:
-      "NCTF skin booster at VAMA Clinics uses NCTF 135HA, a hyaluronic acid and vitamin complex, to hydrate and revitalise dull, tired skin. Learn the protocol and results.",
+      "NCTF skin booster at VAMA Clinics uses NCTF 135HA, a hyaluronic acid and vitamin complex, to hydrate and revitalise dull, tired skin.",
     description:
       "NCTF Skin Booster uses NCTF 135HA, a revitalising complex of non-cross-linked hyaluronic acid with vitamins, amino acids, coenzymes, minerals and nucleic acids. It is delivered into the skin through fine micro-injections to improve hydration, radiance, elasticity and the look of fine lines on the face, neck, under-eyes, décolletage and hands.",
     benefits: ["Deep hydration and radiance", "Improves elasticity and fine lines", "Suitable for under-eyes, neck and hands", "Natural-looking skin quality improvement"],
@@ -3300,7 +3300,7 @@ export const treatments = [
     name: "Q-Switch Laser Toning",
     image: pigmentationImg,
     short: "Laser toning for pigmentation, dark spots and uneven tone.",
-    metaTitle: "Q-Switch Laser Toning for Pigmentation & Dark Spots | VAMA Clinics",
+    metaTitle: "Q-Switch Laser Toning for Pigmentation | VAMA Clinics",
     metaDescription:
       "Q-Switch laser toning at VAMA Clinics targets pigmentation, dark spots, sun damage and uneven tone with short laser pulses and minimal downtime. Learn more.",
     description:
@@ -3353,7 +3353,7 @@ export const treatments = [
     short: "Gradual fading of unwanted tattoos with Q-switched laser.",
     metaTitle: "Laser Tattoo Removal | Safe Tattoo Fading | VAMA Clinics",
     metaDescription:
-      "Laser tattoo removal at VAMA Clinics uses Q-switched laser to break down tattoo ink so it fades gradually over sessions. Learn how it works, sessions and aftercare.",
+      "Laser tattoo removal at VAMA Clinics uses Q-switched laser to break down ink so tattoos fade gradually. How it works, sessions and aftercare.",
     description:
       "Laser Tattoo Removal uses a Q-switched laser to break tattoo ink into tiny particles, which the body's immune system then clears away over the following weeks. Tattoos fade gradually over a series of sessions. The number of sessions depends on ink colour, depth, size, age of the tattoo and skin type.",
     benefits: ["Gradual, controlled fading", "Treats professional and amateur tattoos", "Can lighten for a cover-up tattoo", "Precise targeting of ink"],
@@ -3402,9 +3402,9 @@ export const treatments = [
     name: "Microblading & Lip Blush",
     image: dermalFillerImg,
     short: "Semi-permanent eyebrow microblading and lip colour enhancement.",
-    metaTitle: "Microblading & Lip Blush | Semi-Permanent Brows & Lips | VAMA Clinics",
+    metaTitle: "Microblading & Lip Blush | Semi-Permanent Makeup | VAMA",
     metaDescription:
-      "Eyebrow microblading and lip blush at VAMA Clinics give natural-looking, semi-permanent fuller brows and enhanced lip colour. Learn the process, healing and touch-ups.",
+      "Eyebrow microblading and lip blush at VAMA Clinics for natural-looking, semi-permanent fuller brows and soft lip colour. Process and healing.",
     description:
       "Microblading and Lip Blush are semi-permanent cosmetic pigmentation treatments. Microblading uses a fine hand tool to draw hair-like strokes that make eyebrows look fuller and more defined. Lip Blush adds soft, natural-looking colour and definition to the lips. Both fade gradually over time and need occasional touch-ups.",
     benefits: ["Natural, hair-like brow strokes", "Soft, even lip colour", "Saves daily makeup time", "Customised shape and shade"],
@@ -3647,7 +3647,7 @@ export const treatments = [
     name: "Hyperhidrosis Treatment",
     image: botoxImg,
     short: "Botulinum toxin injections to control excessive sweating.",
-    metaTitle: "Hyperhidrosis Treatment (Botox for Excessive Sweating) | VAMA Clinics",
+    metaTitle: "Hyperhidrosis Treatment (Botox for Sweating) | VAMA Clinics",
     metaDescription:
       "Hyperhidrosis treatment at VAMA Clinics uses botulinum toxin injections to reduce excessive sweating of the underarms, palms and feet.",
     description:
