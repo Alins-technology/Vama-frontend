@@ -73,7 +73,7 @@ export const treatments = [
     name: "Acne Scar Treatment",
     image: acneScarImg,
     short: "Smoother texture with laser resurfacing, micro-needling & peels.",
-    metaTitle: "Acne Scar Treatment | Skin Care | VAMA Clinics",
+    metaTitle: "Acne Scar Treatment: Laser, Peels & Microneedling | VAMA",
     metaDescription:
       "Explore acne scar treatment at VAMA Clinics with personalized options to improve the appearance of acne scars, skin texture and uneven tone.",
     description:
@@ -174,7 +174,7 @@ export const treatments = [
     name: "Anti-Ageing Treatment",
     image: antiAgeingImg,
     short: "Firmer, youthful skin with non-surgical lifting & rejuvenation.",
-    metaTitle: "Anti-Ageing Treatment | Skin Care | VAMA Clinics",
+    metaTitle: "Anti-Ageing Treatment for Wrinkles & Fine Lines | VAMA",
     metaDescription:
       "Explore anti-ageing treatments at VAMA Clinics with personalized options to address fine lines, wrinkles, skin texture and signs of ageing.",
     description:
@@ -409,7 +409,7 @@ export const treatments = [
     name: "Pigmentation Treatment",
     image: pigmentationImg,
     short: "Personalized care for dark spots, uneven tone and pigmentation concerns.",
-    metaTitle: "Looking for Pigmentation Treatment | VAMA Clinic",
+    metaTitle: "Pigmentation Treatment for Melasma & Dark Spots | VAMA",
     metaDescription:
       "Pigmentation treatment in Delhi, Ghaziabad, Kanpur, Agra, Lucknow & Lajpat Nagar. Personalised care for clear, even-toned skin at VAMA.",
     description:
@@ -522,7 +522,7 @@ export const treatments = [
     name: "Botox",
     image: botoxImg,
     short: "Soften expression lines with precise, doctor-administered Botox.",
-    metaTitle: "Botox Treatment | Facial Rejuvenation | VAMA Clinics",
+    metaTitle: "Botox for Wrinkles & Fine Lines | VAMA Clinics",
     metaDescription:
       "Explore Botox treatment at VAMA Clinics for facial rejuvenation and the appearance of fine lines, with personalized care and expert guidance.",
     description:
@@ -634,8 +634,8 @@ export const treatments = [
     category: "skin-treatment",
     name: "Mole / Skin Tag Removal",
     image: moleImg,
-    short: "Safe, scarless removal of moles and skin tags.",
-    metaTitle: "Mole & Skin Tag Removal Treatment | VAMA Clinics",
+    short: "Safe, quick removal of moles and skin tags with minimal scarring.",
+    metaTitle: "Mole & Skin Tag Removal | Quick, Safe Procedure | VAMA",
     metaDescription:
       "Get professional mole and skin tag removal at VAMA Clinics. Consult our skin specialists for safe, personalized treatment options.",
     description:
@@ -727,7 +727,7 @@ export const treatments = [
     name: "HydraFacial",
     image: hydrafacialImg,
     short: "Deep cleanse, exfoliate & hydrate in one relaxing session.",
-    metaTitle: "HydraFacial Treatment | Glowing Skin | VAMA Clinics",
+    metaTitle: "HydraFacial for Glowing, Hydrated Skin | VAMA Clinics",
     metaDescription:
       "Explore HydraFacial treatment at VAMA Clinics for deep cleansing, hydration and refreshed-looking skin with personalized care for your skin needs.",
     description:
@@ -930,7 +930,7 @@ export const treatments = [
     name: "Laser Hair Reduction",
     image: laserHairReductionImg,
     short: "Long-term hair reduction with advanced diode laser.",
-    metaTitle: "Laser Hair Reduction Treatment | VAMA Clinics",
+    metaTitle: "Laser Hair Reduction for Face & Body | VAMA Clinics",
     metaDescription:
       "Get laser hair reduction at VAMA Clinics for smoother-looking skin and reduced unwanted hair with personalized treatment plans and expert care.",
     description:
@@ -1026,7 +1026,7 @@ export const treatments = [
     name: "Dermal Fillers",
     image: dermalFillerImg,
     short: "Restore volume & contour with precision filler placement.",
-    metaTitle: "Dermal Filler Treatment | Facial Rejuvenation | VAMA Clinics",
+    metaTitle: "Dermal Fillers for Lips, Cheeks & Under-Eyes | VAMA",
     metaDescription:
       "Explore dermal filler treatment at VAMA Clinics for facial rejuvenation, with personalized options to enhance facial contours and restore volume.",
     description:
@@ -1143,7 +1143,7 @@ export const treatments = [
     name: "Face PRP",
     image: facePrpImg,
     short: "Your own platelets, concentrated to rejuvenate skin naturally.",
-    metaTitle: "Face PRP Treatment | Skin Rejuvenation | VAMA Clinics",
+    metaTitle: "Face PRP (Vampire Facial) for Glow & Acne Scars | VAMA",
     metaDescription:
       "Explore Face PRP treatment at VAMA Clinics to support skin rejuvenation, improve skin texture and address common signs of skin ageing.",
     description:
@@ -1253,7 +1253,7 @@ export const treatments = [
     name: "Skin Rejuvenation",
     image: skinRejuvenationImg,
     short: "Restore tone, texture & radiance with combination therapy.",
-    metaTitle: "Skin Rejuvenation Treatment | VAMA Clinics",
+    metaTitle: "Skin Rejuvenation for Dull, Tired Skin | VAMA Clinics",
     metaDescription:
       "Explore skin rejuvenation treatment at VAMA Clinics with personalized options to refresh your skin and improve the appearance of common skin concerns",
     description:
@@ -1354,13 +1354,13 @@ export const treatments = [
     category: "hair-treatment",
     name: "Hair Transplant (FUE)",
     image: hairTransplantImg,
-    short: "Natural, permanent hair restoration with advanced FUE.",
-    metaTitle: "Hair Transplant Treatment | VAMA Clinics",
+    short: "Natural, long-lasting hair restoration with advanced FUE.",
+    metaTitle: "FUE Hair Transplant: Natural Hairline & Density | VAMA",
     metaDescription:
       "Explore hair transplant treatment at VAMA Clinics with personalized consultation, FUE options and hair restoration solutions based on your needs.",
     description:
-      "Our Follicular Unit Extraction (FUE) technique transplants healthy follicles individually for a natural hairline and density — permanent, scarless and tailored to your growth pattern.",
-    benefits: ["Permanent, natural results", "Scarless FUE technique", "Customised hairline design", "Experienced surgical team"],
+      "Our Follicular Unit Extraction (FUE) technique transplants healthy follicles individually for a natural hairline and density — with minimal scarring, long-lasting results and a plan tailored to your growth pattern.",
+    benefits: ["Long-lasting, natural results", "Minimal-scar FUE technique", "Customised hairline design", "Experienced surgical team"],
     duration: "4–8 hours (day procedure)",
     sessions: "1 session (single sitting)",
     downtime: "5–7 days visible scabbing",
@@ -1370,6 +1370,24 @@ export const treatments = [
       "Healthy follicles are extracted one-by-one and implanted into thinning areas under local anaesthesia.",
       "A detailed aftercare kit and follow-up visits support healthy graft survival and regrowth."
     ),
+    article: [
+      {"type": "lead", "text": "A hair transplant moves healthy hair follicles from a donor area, usually the back and sides of the head, to areas that have thinned or gone bald. Because these donor follicles are naturally resistant to pattern hair loss, they usually keep growing in their new place for many years."},
+      {"type": "heading", "text": "What Is an FUE Hair Transplant?"},
+      {"type": "paragraph", "text": "In Follicular Unit Extraction (FUE), individual follicular units of one to four hairs are removed one at a time with a fine punch and then placed into tiny openings in the thinning area. FUE leaves very small dot-like marks in the donor area instead of a linear scar, so short hairstyles are usually still possible once healed."},
+      {"type": "table", "headers": ["", "FUE", "FUT (strip)"], "rows": [["How grafts are taken", "Individual units, one by one", "A thin strip of scalp is removed and divided"], ["Donor area marks", "Tiny scattered dots", "A fine linear scar"], ["Healing of donor area", "Usually quicker", "Stitches and a longer recovery"], ["Short hairstyles", "Usually possible", "The scar may show with very short hair"]]},
+      {"type": "heading", "text": "Who Is a Good Candidate?"},
+      {"type": "list", "items": ["Men with male pattern baldness whose hair loss has started to stabilise", "Women with suitable patterns of thinning, after the cause is checked", "People with enough healthy donor hair at the back and sides", "Beard, eyebrow and scar areas, in selected cases", "People in good general health with realistic expectations"]},
+      {"type": "paragraph", "text": "A transplant may not be the right first step if hair loss is very recent or rapidly changing, if the cause is a deficiency, thyroid problem or active scalp condition, or if donor hair is limited. In those cases, hair fall treatment, Hair PRP or GFC may come first.", "links": [{"text": "hair fall treatment", "to": "/treatments/hair-treatment/hair-fall-treatment"}, {"text": "Hair PRP", "to": "/treatments/hair-treatment/hair-prp"}, {"text": "GFC", "to": "/treatments/hair-treatment/gfc-hair-treatment"}]},
+      {"type": "heading", "text": "How Many Grafts Will I Need?"},
+      {"type": "paragraph", "text": "The number of grafts depends on the size of the area, how dense you want it to look, your hair thickness and how much donor hair you have. Your doctor estimates this during the consultation. Since donor hair is limited, a good plan also keeps some in reserve in case hair loss progresses later."},
+      {"type": "heading", "text": "Recovery and Results Timeline"},
+      {"type": "table", "headers": ["Time after surgery", "What to expect"], "rows": [["First 1–2 weeks", "Mild swelling and small scabs; the scabs usually clear in 7–10 days"], ["Weeks 2–8", "Most transplanted hairs shed; this is normal and the roots stay in place"], ["Months 3–4", "New hair starts growing, often thin at first"], ["Months 6–8", "Visible improvement in coverage and thickness"], ["Months 10–12+", "Results mature; the crown can take longer"]]},
+      {"type": "paragraph", "text": "Like any surgery, a hair transplant carries risks such as infection, bleeding, swelling, poor graft growth or a reaction to anaesthesia. Your existing natural hair can continue to thin, so many patients also continue medical treatment or PRP to protect it."},
+      {"type": "heading", "text": "Hair Transplant at VAMA Clinics"},
+      {"type": "paragraph", "text": "Our doctors assess your scalp, donor area and hair loss pattern before suggesting surgery, and explain when a transplant is not the right choice. For location-specific information, see our hair transplant pages for Noida, Indirapuram and Lajpat Nagar.", "links": [{"text": "Noida", "to": "/hair-transplant-in-noida"}, {"text": "Indirapuram", "to": "/hair-transplant-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/hair-transplant-in-lajpat-nagar"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers FUE hair transplant at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+      {"type": "link", "text": "Not ready for surgery? Explore Hair Replacement", "to": "/treatments/hair-treatment/hair-replacement"},
+    ],
     faqs: [
       { q: "Is FUE painful?", a: "The procedure is done under local anaesthesia, so it's largely painless; mild soreness afterward is normal." },
       { q: "When will new hair start growing?", a: "Transplanted hair typically sheds first, with new growth starting around month 3–4 and full results by 10–12 months." },
@@ -1383,7 +1401,7 @@ export const treatments = [
     name: "Hair Fall Treatment",
     image: hairFallImg,
     short: "Diagnose the root cause and stop hair fall early.",
-    metaTitle: "Hair Fall Treatment | Hair Loss Care | VAMA Clinics",
+    metaTitle: "Hair Fall Treatment: Causes, Diagnosis & Care | VAMA",
     metaDescription:
       "Explore hair fall treatment at VAMA Clinics with personalized care and treatment options for hair loss, thinning hair and scalp concerns.",
     description:
@@ -1398,6 +1416,25 @@ export const treatments = [
       "Treatment is administered and adjusted as your scalp responds over the following weeks.",
       "Progress is tracked with photos and trichoscopy at each follow-up visit."
     ),
+    article: [
+      {"type": "lead", "text": "Losing around 50 to 100 hairs a day is generally normal. When shedding clearly increases, the parting widens or the hairline starts to recede, it is worth finding the cause early, because most hair fall is easier to manage when treated in time."},
+      {"type": "heading", "text": "Common Causes of Hair Fall"},
+      {"type": "table", "headers": ["Cause", "What it often looks like"], "rows": [["Pattern hair loss (genetic and hormonal)", "Receding hairline or crown thinning in men; a widening parting in women"], ["Telogen effluvium", "Sudden diffuse shedding 2–3 months after illness, fever, surgery, childbirth or stress"], ["Nutritional deficiency", "Diffuse thinning linked to low iron, vitamin D, B12 or protein"], ["Thyroid and PCOS", "Thinning along with other symptoms such as weight change or irregular periods"], ["Scalp conditions", "Dandruff, itching, redness or infection with hair fall"], ["Alopecia areata", "Round, smooth bald patches that appear suddenly"]]},
+      {"type": "paragraph", "text": "Because each cause needs a different plan, treatment starts with diagnosis rather than a standard oil or shampoo. Sudden patchy loss is treated very differently from pattern hair loss, so read about alopecia treatment if you notice bald patches.", "links": [{"text": "alopecia treatment", "to": "/treatments/allergy-treatment/alopecia-treatment"}]},
+      {"type": "heading", "text": "How We Diagnose Hair Fall"},
+      {"type": "list", "items": ["A detailed history of when the hair fall started, recent illness, diet, stress and medicines", "Scalp examination and trichoscopy to check follicle health and miniaturisation", "Blood tests where needed, such as iron (ferritin), vitamin D, B12 and thyroid levels", "Hormonal evaluation for women with irregular periods, acne or excess facial hair", "A Hair DNA test in selected cases, to understand genetic tendency"]},
+      {"type": "paragraph", "text": "You can learn more about our Hair DNA test and how it can support a personalised plan.", "links": [{"text": "Hair DNA test", "to": "/treatments/hair-treatment/hair-dna-test"}]},
+      {"type": "heading", "text": "Treatment Options"},
+      {"type": "subheading", "text": "Medical Treatment"},
+      {"type": "paragraph", "text": "Doctor-prescribed topical and oral treatments are the foundation for pattern hair loss. Deficiencies are corrected with supplements only when tests show they are needed. These treatments work while you continue them, so your doctor will discuss the long-term plan."},
+      {"type": "subheading", "text": "In-Clinic Therapies"},
+      {"type": "paragraph", "text": "Hair PRP, GFC hair treatment, hair mesotherapy and LLLT can support weakened follicles and are often combined with medical treatment. Scalp treatments help when dandruff or an oily, inflamed scalp is part of the problem.", "links": [{"text": "Hair PRP", "to": "/treatments/hair-treatment/hair-prp"}, {"text": "GFC hair treatment", "to": "/treatments/hair-treatment/gfc-hair-treatment"}, {"text": "hair mesotherapy", "to": "/treatments/hair-treatment/hair-mesotherapy"}, {"text": "LLLT", "to": "/treatments/hair-treatment/lllt-hair-therapy"}]},
+      {"type": "subheading", "text": "When Hair Has Already Thinned a Lot"},
+      {"type": "paragraph", "text": "If follicles in an area have stopped producing hair, treatments that support follicles cannot bring that hair back. A hair transplant or a non-surgical hair replacement system may then be discussed.", "links": [{"text": "hair transplant", "to": "/treatments/hair-treatment/hair-transplant"}, {"text": "hair replacement", "to": "/treatments/hair-treatment/hair-replacement"}]},
+      {"type": "heading", "text": "What Results Can You Expect?"},
+      {"type": "paragraph", "text": "Hair grows slowly, so most plans need three to six months before the change is clear. Reduced shedding is usually noticed first, followed by better density. Results vary with the cause, your age and how consistently the plan is followed."},
+      {"type": "paragraph", "text": "VAMA Clinics offers hair fall treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "How do I know if my hair fall is normal or a problem?", a: "Losing more than 100 strands a day, or noticing thinning/visible scalp, is a sign to get it evaluated." },
       { q: "How soon will hair fall reduce?", a: "Most patients notice reduced shedding within 6–8 weeks of starting a targeted plan." },
@@ -1411,7 +1448,7 @@ export const treatments = [
     name: "Hair Replacement",
     image: hairReplacementImg,
     short: "Instant, natural-looking density with non-surgical systems.",
-    metaTitle: "Hair Replacement Treatment | VAMA Clinics",
+    metaTitle: "Non-Surgical Hair Replacement & Hair Patch | VAMA",
     metaDescription:
       "Explore hair replacement treatment at VAMA Clinics for hair loss and thinning, with personalized options designed to improve hair appearance and confidence.",
     description:
@@ -1426,6 +1463,21 @@ export const treatments = [
       "The system is fitted and styled to blend seamlessly with your existing hair.",
       "Simple maintenance visits keep the system looking natural over time."
     ),
+    article: [
+      {"type": "lead", "text": "Hair replacement is a non-surgical way to restore a full head of hair. A custom hair system is matched to your natural hair colour, texture and density, then fixed over the thinning area so the change is visible on the same day."},
+      {"type": "heading", "text": "How Does Hair Replacement Work?"},
+      {"type": "paragraph", "text": "A thin, breathable base holds natural or high-quality hair. The system is cut and styled to blend with your own hair and attached with medical-grade tapes or adhesives, or with clip-based methods. Your natural hair around it stays as it is."},
+      {"type": "heading", "text": "Who Is It Suitable For?"},
+      {"type": "list", "items": ["People with advanced hair loss who do not have enough donor hair for a transplant", "Those who prefer not to have surgery or cannot have it for health reasons", "People who want an immediate result, for example before an event", "Men and women with thinning on the top or crown", "People with hair loss from scars or some medical conditions"]},
+      {"type": "heading", "text": "Hair Replacement vs Hair Transplant"},
+      {"type": "table", "headers": ["", "Hair replacement", "Hair transplant"], "rows": [["Surgery", "No", "Yes, under local anaesthesia"], ["When you see results", "Same day", "Grows over 10–12 months"], ["Donor hair needed", "No", "Yes"], ["Maintenance", "Regular servicing and replacement of the system", "Mostly protecting the surrounding natural hair"], ["Grows new hair", "No", "Yes, transplanted follicles grow"]]},
+      {"type": "paragraph", "text": "Both options can look natural when done well. Your doctor can help you compare them based on your hair loss stage, donor supply and lifestyle. Read more about FUE hair transplant.", "links": [{"text": "FUE hair transplant", "to": "/treatments/hair-treatment/hair-transplant"}]},
+      {"type": "heading", "text": "Living with a Hair System"},
+      {"type": "paragraph", "text": "Most people can shower, exercise, travel and style their hair normally once they are used to the system. It needs regular maintenance visits, usually every few weeks, to clean the base, re-attach it and trim your natural hair so the blend stays natural. A system wears with time and needs replacing periodically, so ask about upkeep and the total yearly cost before you start."},
+      {"type": "heading", "text": "Caring for Your Scalp"},
+      {"type": "paragraph", "text": "Keeping the scalp underneath clean and healthy prevents itching and irritation. If you have dandruff or a sensitive scalp, tell your specialist, since dandruff treatment can make the system more comfortable to wear.", "links": [{"text": "dandruff treatment", "to": "/treatments/hair-treatment/dandruff-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers non-surgical hair replacement at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Will it look natural?", a: "Yes, systems are custom-matched to your hair colour, texture and scalp tone for an undetectable finish." },
       { q: "Can I wash and style it normally?", a: "Yes, most systems allow normal washing, styling and even swimming with proper care." },
@@ -1439,7 +1491,7 @@ export const treatments = [
     name: "Hair PRP",
     image: hairPrpImg,
     short: "Platelet-Rich Plasma therapy to stimulate hair regrowth.",
-    metaTitle: "Hair PRP Treatment | Hair Regrowth | VAMA Clinics",
+    metaTitle: "Hair PRP Treatment for Hair Fall & Thinning | VAMA",
     metaDescription:
       "Explore Hair PRP treatment at VAMA Clinics for hair thinning and hair loss, with personalized care and treatment options based on your needs.",
     description:
@@ -1501,7 +1553,7 @@ export const treatments = [
     name: "Dandruff Treatment",
     image: dandruffImg,
     short: "Targeted therapy for a healthy, flake-free scalp.",
-    metaTitle: "Dandruff Treatment & Scalp Care | VAMA Clinics",
+    metaTitle: "Dandruff Treatment for Itchy, Flaky Scalp | VAMA Clinics",
     metaDescription:
       "Get lasting relief from dandruff and scalp irritation with expert care from Dr. Akanksha Gupta at VAMA Clinics.",
     description:
@@ -1516,6 +1568,22 @@ export const treatments = [
       "In-clinic scalp treatments are combined with a home-care routine.",
       "Scalp health is reviewed and the routine is adjusted for lasting relief."
     ),
+    article: [
+      {"type": "lead", "text": "Dandruff is a common scalp condition that causes white or yellowish flakes and itching. Mild dandruff often settles with the right shampoo, but stubborn, greasy or itchy flaking may need medical treatment."},
+      {"type": "heading", "text": "What Causes Dandruff?"},
+      {"type": "paragraph", "text": "Most dandruff is linked to seborrhoeic dermatitis, where the scalp reacts to a yeast called Malassezia that lives on oily skin. Oily scalp, stress, infrequent washing, weather changes and some skin conditions can make it worse."},
+      {"type": "table", "headers": ["Condition", "How it can look"], "rows": [["Dandruff / seborrhoeic dermatitis", "Loose white or yellow, greasy flakes with itching"], ["Dry scalp", "Small, dry, white flakes, often worse in winter"], ["Scalp psoriasis", "Thick, silvery scales on red patches, often beyond the hairline"], ["Fungal infection (tinea capitis)", "Scaly patches with broken hairs, more common in children"]]},
+      {"type": "paragraph", "text": "Because these can look alike, a doctor's check helps when flakes do not improve. Read about psoriasis treatment and fungal infection treatment if your symptoms match those patterns.", "links": [{"text": "psoriasis treatment", "to": "/treatments/allergy-treatment/psoriasis-treatment"}, {"text": "fungal infection treatment", "to": "/treatments/allergy-treatment/fungal-infection-treatment"}]},
+      {"type": "heading", "text": "Can Dandruff Cause Hair Fall?"},
+      {"type": "paragraph", "text": "Dandruff does not usually cause permanent hair loss, but constant itching, scratching and scalp inflammation can increase shedding and make hair look thin. Treating the scalp often reduces this hair fall too."},
+      {"type": "heading", "text": "How Dandruff Is Treated"},
+      {"type": "list", "items": ["Medicated shampoos containing antifungal or anti-flaking ingredients, used as directed", "Prescription lotions for an inflamed or very itchy scalp", "In-clinic scalp treatments that deep-cleanse and calm the scalp", "Treatment of any related condition, such as psoriasis or infection", "A simple maintenance routine to prevent recurrence"]},
+      {"type": "paragraph", "text": "Our scalp hydra treatment and high frequency treatment can support a clean, balanced scalp alongside medical care.", "links": [{"text": "scalp hydra treatment", "to": "/treatments/hair-treatment/scalp-hydra-treatment"}, {"text": "high frequency treatment", "to": "/treatments/hair-treatment/high-frequency-treatment"}]},
+      {"type": "heading", "text": "Tips to Keep Dandruff Away"},
+      {"type": "list", "items": ["Wash your hair regularly, especially if your scalp is oily", "Leave medicated shampoo on the scalp for the time advised before rinsing", "Avoid heavy oiling if it makes your flakes worse", "Do not scratch the scalp with nails or combs", "Manage stress and sleep well, as flare-ups often follow stressful periods"]},
+      {"type": "paragraph", "text": "See a doctor if the flakes do not improve after a few weeks of regular care, if the scalp is red, painful or oozing, or if you notice hair fall or bald patches. Our dandruff guide explains more.", "links": [{"text": "dandruff guide", "to": "/blog/how-to-get-rid-of-dandruff-permanently"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers dandruff treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Is dandruff contagious?", a: "No, dandruff is not contagious — it's caused by scalp conditions like fungal overgrowth or dryness." },
       { q: "Will regular shampoo fix it?", a: "Over-the-counter shampoos often only mask symptoms; our protocol addresses the root cause for lasting results." },
@@ -1529,7 +1597,7 @@ export const treatments = [
     name: "Hair DNA Test",
     image: hairDnaImg,
     short: "Understand your genetic hair-loss risk before it starts.",
-    metaTitle: "Hair DNA Test | Personalized Hair Care | VAMA Clinics",
+    metaTitle: "Hair DNA Test for Personalised Hair Loss Care | VAMA",
     metaDescription:
       "Explore Hair DNA testing at VAMA Clinics to understand genetic factors linked to hair concerns and support personalized hair care decisions.",
     description:
@@ -1544,6 +1612,22 @@ export const treatments = [
       "The sample is analysed for genetic markers linked to hair-loss predisposition.",
       "Results are explained in detail, with a preventive or corrective roadmap built around them."
     ),
+    article: [
+      {"type": "lead", "text": "A Hair DNA test looks at selected genetic markers linked to hair loss and hair health. It does not diagnose hair loss on its own, but it can add useful information to your doctor's assessment when planning treatment."},
+      {"type": "heading", "text": "What Does a Hair DNA Test Check?"},
+      {"type": "paragraph", "text": "The test uses a simple cheek swab or saliva sample. Depending on the panel, it can look at genes related to:"},
+      {"type": "list", "items": ["Your tendency towards pattern hair loss (androgenetic alopecia)", "How your body handles hormones linked to hair thinning", "How you may respond to certain hair loss medicines", "Nutrient needs such as vitamins and minerals linked to hair health", "Factors linked to inflammation and oxidative stress"]},
+      {"type": "heading", "text": "Who May Benefit?"},
+      {"type": "list", "items": ["People with a family history of early baldness who want to plan ahead", "Those whose hair loss has not responded well to standard treatment", "People planning long-term treatment who want a more personalised approach", "Patients planning a hair transplant who want to understand future hair loss risk"]},
+      {"type": "heading", "text": "What a Hair DNA Test Cannot Do"},
+      {"type": "paragraph", "text": "Genes are only part of the picture. A DNA test cannot show current problems such as low iron, thyroid issues, stress-related shedding or scalp infections, and it cannot predict exactly how much hair you will lose. That is why it is always used along with a scalp examination and blood tests where needed."},
+      {"type": "table", "headers": ["Test", "What it tells you"], "rows": [["Hair DNA test", "Genetic tendencies and possible treatment response"], ["Blood tests", "Current deficiencies, thyroid and hormone levels"], ["Trichoscopy", "The present condition of follicles and the scalp"]]},
+      {"type": "heading", "text": "How the Results Are Used"},
+      {"type": "paragraph", "text": "Your doctor combines the report with your history and examination to plan treatment. This may include medical treatment, nutrition guidance, Hair PRP or GFC, or planning for a future hair transplant.", "links": [{"text": "Hair PRP", "to": "/treatments/hair-treatment/hair-prp"}, {"text": "GFC", "to": "/treatments/hair-treatment/gfc-hair-treatment"}, {"text": "hair transplant", "to": "/treatments/hair-treatment/hair-transplant"}]},
+      {"type": "paragraph", "text": "The sample is quick and painless to give, and results usually arrive within a few weeks. Ask your doctor what the panel covers and how the results will change your plan before you book."},
+      {"type": "paragraph", "text": "VAMA Clinics offers the Hair DNA test at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+      {"type": "link", "text": "Explore Hair Fall Treatment", "to": "/treatments/hair-treatment/hair-fall-treatment"},
+    ],
     faqs: [
       { q: "How is the sample collected?", a: "It's a simple, painless cheek swab — no blood draw or injections needed." },
       { q: "How long until I get results?", a: "Results are typically available within 2–3 weeks, followed by a detailed consultation." },
@@ -1557,7 +1641,7 @@ export const treatments = [
     name: "GFC Hair Treatment",
     image: gfcImg,
     short: "Growth Factor Concentrate for denser, healthier hair.",
-    metaTitle: "GFC Hair Treatment | Hair Regrowth | VAMA Clinics",
+    metaTitle: "GFC Hair Treatment for Hair Thinning | VAMA Clinics",
     metaDescription:
       "Explore GFC hair treatment at VAMA Clinics for hair loss and thinning, with personalized care designed to support healthier-looking hair.",
     description:
@@ -1572,6 +1656,22 @@ export const treatments = [
       "Growth Factor Concentrate is prepared and micro-injected into the scalp.",
       "Scalp is monitored across follow-ups to track density improvements."
     ),
+    article: [
+      {"type": "lead", "text": "GFC (Growth Factor Concentrate) is a non-surgical hair treatment that uses growth factors taken from your own blood. It is often used for early to moderate hair thinning, to support weak follicles and reduce hair fall."},
+      {"type": "heading", "text": "How Is GFC Different from PRP?"},
+      {"type": "paragraph", "text": "Both start with a small sample of your blood. In standard PRP, the platelet-rich plasma is injected. In GFC, the platelets are activated during preparation so that growth factors are released and concentrated before injection. Learn more about Hair PRP.", "links": [{"text": "Hair PRP", "to": "/treatments/hair-treatment/hair-prp"}]},
+      {"type": "table", "headers": ["", "Hair PRP", "GFC"], "rows": [["Source", "Your own blood", "Your own blood"], ["What is injected", "Platelet-rich plasma", "Activated, concentrated growth factors"], ["Typical plan", "4–6 sessions, then maintenance", "3–4 sessions, then maintenance"], ["Best suited to", "Early to moderate thinning", "Early to moderate thinning"]]},
+      {"type": "heading", "text": "Who Is GFC Suitable For?"},
+      {"type": "list", "items": ["Men and women with early pattern hair loss", "Diffuse thinning or a widening parting", "Hair fall after stress or illness, once the cause is checked", "People after a hair transplant, to support healing and existing hair"]},
+      {"type": "paragraph", "text": "GFC may not be advised with low platelet counts, bleeding disorders, active scalp infections or during pregnancy. It cannot regrow hair where follicles have stopped working completely."},
+      {"type": "heading", "text": "What Happens During a Session?"},
+      {"type": "list", "items": ["A small amount of blood is drawn, similar to a routine blood test", "The sample is processed to prepare the growth factor concentrate", "Numbing is used to make the scalp comfortable", "The concentrate is injected into the thinning areas with fine needles", "You can usually return to normal work the same day"]},
+      {"type": "heading", "text": "Results and Number of Sessions"},
+      {"type": "paragraph", "text": "Most plans involve three to four sessions about a month apart, followed by maintenance sessions every few months. Reduced hair fall is often noticed first, and improvements in thickness build over three to six months. Results vary from person to person, and GFC works best alongside treatment of any underlying cause."},
+      {"type": "paragraph", "text": "Read our guide to the benefits and limits of GFC hair treatment.", "links": [{"text": "benefits and limits of GFC hair treatment", "to": "/blog/top-5-benefits-of-gfc-hair-treatment-and-what-it-cant-do"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers GFC hair treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+      {"type": "link", "text": "Explore Hair Fall Treatment", "to": "/treatments/hair-treatment/hair-fall-treatment"},
+    ],
     faqs: [
       { q: "How is GFC different from PRP?", a: "GFC delivers a more concentrated dose of growth factors with fewer proteins that can inhibit growth, often needing fewer sessions." },
       { q: "Is it suitable for advanced hair loss?", a: "GFC works best for early-to-moderate hair thinning; advanced cases may be better suited to transplant." },
@@ -1587,7 +1687,7 @@ export const treatments = [
     name: "Medical Weight Loss",
     image: weightLossImg,
     short: "Professionally supervised, personalised weight-management guidance.",
-    metaTitle: "Medical Weight Loss Treatment | VAMA Clinics",
+    metaTitle: "Medical Weight Loss Program: Doctor-Led | VAMA Clinics",
     metaDescription:
       "Explore medical weight loss treatment at VAMA Clinics with personalized plans, professional guidance and support based on your individual needs.",
     description:
@@ -1666,7 +1766,7 @@ export const treatments = [
     name: "Obesity Treatment",
     image: obesityImg,
     short: "Structured, individualised weight-management strategies for obesity.",
-    metaTitle: "Obesity Treatment | Weight Management | VAMA Clinics",
+    metaTitle: "Obesity Treatment: Doctor-Led Weight Loss | VAMA Clinics",
     metaDescription:
       "Explore obesity treatment at VAMA Clinics with personalized weight management options, lifestyle guidance and care based on individual needs.",
     description:
@@ -1745,7 +1845,7 @@ export const treatments = [
     name: "Inch Loss Treatment",
     image: contouringImg,
     short: "Targeted measurement reduction for the abdomen, waist & more.",
-    metaTitle: "Inch Loss Treatment | Body Contouring | VAMA Clinics",
+    metaTitle: "Inch Loss Treatment for Belly, Arms & Thighs | VAMA",
     metaDescription:
       "Explore inch loss treatment at VAMA Clinics with personalized body contouring options designed to support targeted inch reduction and wellness.",
     description:
@@ -1809,7 +1909,7 @@ export const treatments = [
     name: "Body Contouring",
     image: bodyContouringImg,
     short: "Non-surgical shaping for areas resistant to diet & exercise.",
-    metaTitle: "Body Contouring Treatment | VAMA Clinics",
+    metaTitle: "Non-Surgical Body Contouring & Fat Reduction | VAMA",
     metaDescription:
       "Explore body contouring treatment at VAMA Clinics with personalized options designed to support targeted body shaping and inch loss goals.",
     description:
@@ -1869,7 +1969,7 @@ export const treatments = [
     name: "EMS Body Sculpting",
     image: emsBodyImg,
     short: "Electrical muscle stimulation for non-surgical body shaping.",
-    metaTitle: "EMS Body Sculpting Treatment | VAMA Clinics",
+    metaTitle: "EMS Body Sculpting: Build Muscle, Burn Fat | VAMA",
     metaDescription:
       "Explore EMS body sculpting at VAMA Clinics for muscle stimulation and body contouring, with personalized treatment options based on your goals.",
     description:
@@ -1938,7 +2038,7 @@ export const treatments = [
     name: "Weight Management",
     image: weightLossImg,
     short: "Practical nutrition & diet consultation for sustainable habits.",
-    metaTitle: "Weight Management Treatment | VAMA Clinics",
+    metaTitle: "Weight Management Program for Lasting Results | VAMA",
     metaDescription:
       "Explore weight management treatment at VAMA Clinics with personalized plans, lifestyle guidance and professional support for healthy weight goals.",
     description:
@@ -2005,7 +2105,7 @@ export const treatments = [
     name: "Psoriasis Treatment",
     image: psoriasisImg,
     short: "Calm inflamed, scaly plaques and extend symptom-free periods.",
-    metaTitle: "Psoriasis Treatment | Skin Care & Treatment | VAMA Clinics",
+    metaTitle: "Psoriasis Treatment: Control Flare-Ups | VAMA Clinics",
     metaDescription:
       "Explore psoriasis treatment at VAMA Clinics with personalized care and treatment options to help manage psoriasis symptoms and support healthier skin.",
     description:
@@ -2024,13 +2124,12 @@ export const treatments = [
       {
         type: "lead",
         text: "Get rid of psoriasis with expert care near you. Our team of experienced dermatologists uses a combination of modern medical treatments and proven skincare protocols to manage psoriasis at its root, not just treat the surface symptoms — no matter which of our clinics you visit.",
-        links: [{ text: "expert care", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
+        links: [{ text: "expert care", to: "/treatments/allergy-treatment" }],
       },
       { type: "heading", text: "What is Psoriasis?" },
       {
         type: "paragraph",
         text: "Psoriasis is a chronic autoimmune skin condition that causes skin cells to build up rapidly, leading to thick, scaly patches on the skin. These patches, often red or silvery-white, can appear on the scalp, elbows, knees, lower back and other parts of the body. While psoriasis isn't contagious, it can be uncomfortable, itchy and emotionally distressing if left untreated.",
-        links: [{ text: "chronic autoimmune skin condition", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       { type: "heading", text: "Common Symptoms of Psoriasis" },
       {
@@ -2068,7 +2167,7 @@ export const treatments = [
       {
         type: "paragraph",
         text: "Because triggers vary from person to person, a proper diagnosis by an experienced dermatologist is essential before starting any treatment plan.",
-        links: [{ text: "proper diagnosis", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
+        links: [{ text: "proper diagnosis", to: "/contact-us" }],
       },
       { type: "heading", text: "Types of Psoriasis We Treat" },
       {
@@ -2090,7 +2189,6 @@ export const treatments = [
       {
         type: "paragraph",
         text: "While psoriasis doesn't have a permanent one-time cure, it can be effectively controlled and managed with the right combination of treatments. At VAMA Clinics, our approach focuses on reducing flare-ups, calming inflammation and keeping your skin clear for longer periods. Every patient's psoriasis is different, so we avoid one-size-fits-all solutions and instead build a plan based on your skin type, severity and lifestyle:",
-        links: [{ text: "reducing flare-ups", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
       },
       {
         type: "steps",
@@ -2132,7 +2230,7 @@ export const treatments = [
       {
         type: "paragraph",
         text: "Don't let psoriasis affect your confidence and comfort any longer. Visit your nearest VAMA Clinics branch — Noida, Lajpat Nagar, Indirapuram, Lucknow, Agra or Kanpur — and take the first step toward clearer, healthier skin.",
-        links: [{ text: "nearest VAMA Clinics branch", to: "https://www.vamaclinics.com/psoriasis-treatment/" }],
+        links: [{ text: "nearest VAMA Clinics branch", to: "/clinics" }],
       },
       { type: "link", text: "Book a Free Consultation", to: "/contact-us" },
     ],
@@ -2150,7 +2248,7 @@ export const treatments = [
     name: "Vitiligo Treatment",
     image: vitiligoImg,
     short: "Restore pigment and even out skin tone with targeted repigmentation therapy.",
-    metaTitle: "Vitiligo Treatment | Skin Care & Treatment | VAMA Clinics",
+    metaTitle: "Vitiligo Treatment: Phototherapy & Repigmentation | VAMA",
     metaDescription:
       "Explore vitiligo treatment at VAMA Clinics with personalized care and treatment options to help manage skin depigmentation and support skin health.",
     description:
@@ -2165,6 +2263,22 @@ export const treatments = [
       "Phototherapy or topical treatment is delivered on a fixed schedule to stimulate melanocyte activity.",
       "Progress is photographed and reviewed every few weeks to track repigmentation and adjust the plan."
     ),
+    article: [
+      {"type": "lead", "text": "Vitiligo is a condition in which some skin loses its colour and turns white or lighter, because pigment-producing cells (melanocytes) stop working in those areas. It is not contagious, and with early treatment many patches can regain colour."},
+      {"type": "heading", "text": "Types of Vitiligo"},
+      {"type": "table", "headers": ["Type", "How it appears"], "rows": [["Non-segmental (generalised)", "Patches on both sides of the body, often hands, face and around body openings"], ["Segmental", "Patches on one side or one area of the body, usually starting at a younger age"], ["Focal", "A few small patches in one area"]]},
+      {"type": "heading", "text": "What Causes Vitiligo?"},
+      {"type": "paragraph", "text": "Vitiligo is thought to be an autoimmune condition, where the immune system targets pigment cells. Family history, stress, skin injury and some other autoimmune conditions such as thyroid disease may play a part. It is not caused by diet, and eating certain foods together does not cause it."},
+      {"type": "heading", "text": "How Vitiligo Is Treated"},
+      {"type": "paragraph", "text": "The aim is to stop the patches from spreading and to bring colour back. Your doctor chooses treatment based on the type, how active it is and which areas are affected."},
+      {"type": "list", "items": ["Topical medicines to calm the immune reaction in the skin", "Phototherapy (narrowband UVB) to stimulate pigment cells", "Excimer light for small, stable patches", "Oral medicines for rapidly spreading vitiligo, under close supervision", "Surgical options such as grafting for stable patches that have not responded"]},
+      {"type": "heading", "text": "How Long Does Treatment Take?"},
+      {"type": "paragraph", "text": "Repigmentation is slow and usually takes several months. The face and neck often respond better than the hands and feet. Some patches may not regain full colour, and new patches can appear, so regular follow-up matters."},
+      {"type": "heading", "text": "Living with Vitiligo"},
+      {"type": "list", "items": ["Use broad-spectrum sunscreen on white patches, as they burn easily", "Avoid skin injury, tight friction and harsh products on affected areas", "Ask about camouflage creams if you want to cover patches", "Get thyroid levels checked if your doctor advises it", "Seek support if the condition affects your confidence"]},
+      {"type": "paragraph", "text": "Not every white patch is vitiligo. Fungal infections and some other conditions can cause light patches, so a proper diagnosis comes first. See our fungal infection treatment page to learn more.", "links": [{"text": "fungal infection treatment", "to": "/treatments/allergy-treatment/fungal-infection-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers vitiligo treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Is vitiligo dangerous?", a: "No, vitiligo is not medically harmful or contagious — it's a pigmentation condition, though it can affect confidence, which is why cosmetic and medical support matters." },
       { q: "Can lost pigment come back?", a: "Many patients see partial to significant repigmentation with consistent treatment, especially when started early, though results vary by patch location and skin type." },
@@ -2178,7 +2292,7 @@ export const treatments = [
     name: "Fungal Infection Treatment",
     image: fungalImg,
     short: "Fast, effective relief from ringworm, athlete's foot & other fungal skin infections.",
-    metaTitle: "Fungal Infection Treatment | VAMA Clinics",
+    metaTitle: "Fungal Infection Treatment: Ringworm & Tinea | VAMA",
     metaDescription:
       "Explore fungal infection treatment at VAMA Clinics with personalized care and suitable treatment options for common fungal skin concerns.",
     description:
@@ -2193,6 +2307,20 @@ export const treatments = [
       "Treatment is started immediately with clear instructions on application and hygiene practices.",
       "Follow-up review ensures the infection has fully cleared and doesn't recur."
     ),
+    article: [
+      {"type": "lead", "text": "Fungal skin infections are very common in India's hot and humid climate. They cause itchy, red or scaly patches, often in skin folds, and they can keep coming back if they are not treated fully."},
+      {"type": "heading", "text": "Common Types of Fungal Infection"},
+      {"type": "table", "headers": ["Infection", "Where it appears", "Typical signs"], "rows": [["Ringworm (tinea corporis)", "Body, arms, legs", "Itchy, ring-shaped red patches with a raised edge"], ["Jock itch (tinea cruris)", "Groin and inner thighs", "Red, itchy rash that spreads outwards"], ["Athlete's foot (tinea pedis)", "Between the toes, soles", "Peeling, itching and cracking"], ["Tinea versicolor", "Chest, back, neck", "Light or dark, slightly scaly patches"], ["Nail fungus", "Toenails, fingernails", "Thick, discoloured or crumbly nails"], ["Candida", "Skin folds, under the breasts", "Moist, red rash with small spots nearby"]]},
+      {"type": "heading", "text": "Why Fungal Infections Keep Coming Back"},
+      {"type": "list", "items": ["Stopping treatment as soon as the itching settles", "Using steroid-containing creams bought without a prescription, which can make infection worse", "Sweat and tight, non-breathable clothing", "Sharing towels, clothes or footwear", "Diabetes or a weak immune system", "Infection in other family members"]},
+      {"type": "paragraph", "text": "Over-the-counter mixed creams that contain steroids are a major reason for stubborn, widespread infections. Please avoid them unless a doctor has prescribed them."},
+      {"type": "heading", "text": "How Fungal Infections Are Treated"},
+      {"type": "paragraph", "text": "Your doctor confirms the diagnosis, sometimes with a simple skin scraping test, and then prescribes antifungal creams, powders or tablets depending on the type and extent. Treatment usually continues for some time after the skin looks clear to stop it from returning."},
+      {"type": "heading", "text": "Prevention Tips"},
+      {"type": "list", "items": ["Dry skin folds, feet and the groin well after bathing", "Wear loose cotton clothes and change sweaty clothes quickly", "Do not share towels or footwear", "Wash clothes and towels of affected family members separately", "Complete the full course of treatment"]},
+      {"type": "paragraph", "text": "Some fungal infections look like eczema or psoriasis, and the treatments are very different. Read about eczema treatment and psoriasis treatment.", "links": [{"text": "eczema treatment", "to": "/treatments/allergy-treatment/eczema-treatment"}, {"text": "psoriasis treatment", "to": "/treatments/allergy-treatment/psoriasis-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers fungal infection treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Is a fungal infection contagious?", a: "Yes, most fungal skin infections can spread through direct contact or shared items like towels, so early treatment and hygiene matter." },
       { q: "How soon will the itching stop?", a: "Antifungal treatment typically reduces itching and redness within a few days, though full clearance takes 2–4 weeks." },
@@ -2206,7 +2334,7 @@ export const treatments = [
     name: "Alopecia Treatment",
     image: alopeciaImg,
     short: "Diagnose and treat sudden or patchy hair loss with targeted regrowth therapy.",
-    metaTitle: "Alopecia Treatment | Hair Loss Care | VAMA Clinics",
+    metaTitle: "Alopecia Areata Treatment for Patchy Hair Loss | VAMA",
     metaDescription:
       "Explore alopecia treatment at VAMA Clinics with personalized care and treatment options to help manage hair loss and support healthier hair.",
     description:
@@ -2221,6 +2349,22 @@ export const treatments = [
       "Treatment is administered in-clinic, with sessions spaced to encourage steady follicle recovery.",
       "Regrowth is tracked with photos and trichoscopy at each follow-up, and the plan is adjusted as needed."
     ),
+    article: [
+      {"type": "lead", "text": "Alopecia simply means hair loss. At VAMA Clinics, this page focuses on alopecia areata, a condition in which the immune system affects hair follicles and causes round, smooth bald patches that often appear suddenly."},
+      {"type": "heading", "text": "Types of Alopecia"},
+      {"type": "table", "headers": ["Type", "What it looks like"], "rows": [["Alopecia areata", "One or more round, smooth bald patches on the scalp, beard or eyebrows"], ["Alopecia totalis", "Loss of all scalp hair"], ["Alopecia universalis", "Loss of hair on the scalp and body"], ["Androgenetic alopecia", "Gradual pattern thinning, treated as pattern hair loss"], ["Traction alopecia", "Hair loss from tight hairstyles pulling on the hair"]]},
+      {"type": "paragraph", "text": "Pattern hair loss is managed differently, so see our hair fall treatment page if your hair is thinning gradually rather than in patches.", "links": [{"text": "hair fall treatment", "to": "/treatments/hair-treatment/hair-fall-treatment"}]},
+      {"type": "heading", "text": "What Causes Alopecia Areata?"},
+      {"type": "paragraph", "text": "In alopecia areata, the immune system attacks hair follicles, which pauses hair growth without destroying the follicle. It can be linked to family history, stress and other autoimmune conditions such as thyroid disease or vitiligo. It is not contagious."},
+      {"type": "heading", "text": "How It Is Treated"},
+      {"type": "list", "items": ["Corticosteroid injections into small patches, often the first choice for adults", "Topical medicines to calm inflammation and encourage regrowth", "Other topical immunotherapy for more extensive patches", "Oral medicines for severe or widespread cases, under close supervision", "Checks for thyroid and other related conditions"]},
+      {"type": "heading", "text": "Will My Hair Grow Back?"},
+      {"type": "paragraph", "text": "Many people with a few small patches see regrowth within months, sometimes even without treatment. New hair may first grow in white or fine and later return to normal colour. The condition can come back, and extensive or long-standing hair loss is harder to treat, which is why early assessment helps."},
+      {"type": "heading", "text": "When to See a Doctor"},
+      {"type": "list", "items": ["A new bald patch appears suddenly", "Patches are spreading or joining together", "You notice hair loss in the beard, eyebrows or eyelashes", "Nails show pitting or ridges along with hair loss"]},
+      {"type": "paragraph", "text": "Our scalp assessment helps distinguish alopecia areata from fungal infection, traction hair loss and other causes.", "links": [{"text": "fungal infection", "to": "/treatments/allergy-treatment/fungal-infection-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers alopecia treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Will my hair grow back?", a: "Many patients regrow hair with timely treatment, though the course varies — some regrow within months, others need a longer combination approach." },
       { q: "Is alopecia areata permanent?", a: "It can be unpredictable, with some patients seeing complete regrowth and others experiencing recurring patches — a monitored treatment plan helps improve outcomes." },
@@ -2234,7 +2378,7 @@ export const treatments = [
     name: "Eczema Treatment",
     image: eczemaImg,
     short: "Calm dry, itchy, inflamed skin with barrier-repair focused care.",
-    metaTitle: "Eczema Treatment | Skin Care & Treatment | VAMA Clinics",
+    metaTitle: "Eczema Treatment for Dry, Itchy Skin | VAMA Clinics",
     metaDescription:
       "Get professional eczema treatment at VAMA Clinics with personalized care to help manage eczema symptoms and support healthier-looking skin.",
     description:
@@ -2249,6 +2393,22 @@ export const treatments = [
       "Topical treatment and, where needed, in-clinic therapy is started to calm active flare-ups.",
       "A long-term maintenance routine and trigger-avoidance plan is shared to reduce recurrence."
     ),
+    article: [
+      {"type": "lead", "text": "Eczema, also called atopic dermatitis, is a long-term skin condition that causes dry, itchy and inflamed patches. It often starts in childhood and tends to come in flare-ups, but with the right care most people can keep it well controlled."},
+      {"type": "heading", "text": "Common Signs of Eczema"},
+      {"type": "list", "items": ["Intense itching, often worse at night", "Dry, rough or scaly skin", "Red or darker patches, depending on skin tone", "Oozing or crusting during a bad flare", "Thickened skin in areas that are scratched often", "In adults, patches often appear on the hands, neck, inner elbows and behind the knees"]},
+      {"type": "heading", "text": "What Triggers Eczema Flare-Ups?"},
+      {"type": "table", "headers": ["Trigger", "Examples"], "rows": [["Irritants", "Harsh soaps, detergents, fragrances, wool"], ["Weather", "Dry winter air, heat and sweating"], ["Allergens", "Dust mites, pollen, pet dander"], ["Stress", "Exams, work pressure, poor sleep"], ["Infections", "Bacterial or viral skin infections"]]},
+      {"type": "heading", "text": "How Eczema Is Treated"},
+      {"type": "paragraph", "text": "Treatment aims to repair the skin barrier, calm inflammation and reduce flare-ups."},
+      {"type": "list", "items": ["Regular use of a thick, fragrance-free moisturiser, even when skin looks clear", "Prescription anti-inflammatory creams for flare-ups, used as directed", "Antihistamines to help with itching and sleep, where suitable", "Treatment of any infection in broken skin", "Phototherapy or oral medicines for severe eczema that does not respond"]},
+      {"type": "heading", "text": "Daily Care Tips"},
+      {"type": "list", "items": ["Take short, lukewarm baths and pat the skin dry", "Apply moisturiser within a few minutes of bathing", "Choose mild, fragrance-free products and cotton clothing", "Keep nails short to reduce damage from scratching", "Note your triggers and avoid them where possible"]},
+      {"type": "heading", "text": "When to See a Dermatologist"},
+      {"type": "paragraph", "text": "See a doctor if eczema disturbs your sleep or daily life, if creams are not helping, if the skin becomes painful, crusted or weepy, or if you are not sure the rash is eczema. Fungal infections and psoriasis can look similar but need different treatment.", "links": [{"text": "Fungal infections", "to": "/treatments/allergy-treatment/fungal-infection-treatment"}, {"text": "psoriasis", "to": "/treatments/allergy-treatment/psoriasis-treatment"}]},
+      {"type": "paragraph", "text": "Our guide to skin allergies explains how allergic rashes differ from eczema.", "links": [{"text": "guide to skin allergies", "to": "/blog/how-to-identify-a-skin-allergy-symptoms-causes-and-treatment-options"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers eczema treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Is eczema the same as an allergy?", a: "Not exactly — eczema is a skin-barrier condition often linked to allergies and sensitivities, which is why identifying your specific triggers is key to managing it." },
       { q: "Can eczema be cured?", a: "There's no permanent cure, but flare-ups can be effectively controlled and significantly reduced with the right barrier-repair and trigger-avoidance plan." },
@@ -2262,7 +2422,7 @@ export const treatments = [
     name: "Keloid Treatment",
     image: keloidImg,
     short: "Flatten and soften raised, overgrown scars with targeted therapy.",
-    metaTitle: "Keloid Treatment | Scar Treatment | VAMA Clinics",
+    metaTitle: "Keloid Treatment: Injections, Laser & Removal | VAMA",
     metaDescription:
       "Explore keloid treatment at VAMA Clinics with personalized care and suitable treatment options to help manage raised scars and skin concerns.",
     description:
@@ -2277,6 +2437,22 @@ export const treatments = [
       "Treatment is delivered in-clinic on a spaced schedule to gradually flatten and soften the keloid.",
       "Silicone sheeting or gel and follow-up visits help maintain results and prevent recurrence."
     ),
+    article: [
+      {"type": "lead", "text": "A keloid is a raised, firm scar that grows beyond the edges of the original wound. Keloids can form after acne, piercings, surgery, burns or even minor scratches, and they are more common in people with darker skin tones."},
+      {"type": "heading", "text": "Keloid or Hypertrophic Scar?"},
+      {"type": "table", "headers": ["", "Keloid", "Hypertrophic scar"], "rows": [["Size", "Grows beyond the original wound", "Stays within the wound edges"], ["Timing", "May appear months after injury and keep growing", "Usually appears within weeks"], ["Over time", "Rarely improves on its own", "Often flattens over time"], ["Common sites", "Chest, shoulders, earlobes, jawline", "Anywhere a wound healed with tension"]]},
+      {"type": "heading", "text": "Symptoms"},
+      {"type": "list", "items": ["A shiny, raised, rubbery scar", "Pink, red or darker colour than the surrounding skin", "Itching, tenderness or pain", "Gradual growth over months"]},
+      {"type": "heading", "text": "How Keloids Are Treated"},
+      {"type": "paragraph", "text": "Keloids can be stubborn and may return, so treatment often combines more than one approach."},
+      {"type": "list", "items": ["Steroid injections into the keloid to flatten it and reduce itching, usually repeated every few weeks", "Silicone gel or sheets to soften and flatten the scar", "Cryotherapy (freezing) for smaller keloids", "Laser treatment to reduce redness and improve texture", "Surgical removal, usually combined with injections or other therapy to lower the chance of recurrence", "Pressure earrings or garments after earlobe keloid removal"]},
+      {"type": "paragraph", "text": "If a keloid formed on your earlobe after piercing, our ear lobe repair page explains how torn or damaged earlobes are treated.", "links": [{"text": "ear lobe repair", "to": "/treatments/skin-treatment/ear-lobe-repair"}]},
+      {"type": "heading", "text": "Can Keloids Be Prevented?"},
+      {"type": "list", "items": ["If you have had keloids before, avoid elective piercings and cosmetic procedures where possible", "Treat acne early to prevent deep, inflamed lesions", "Tell your doctor about keloids before any surgery", "Start silicone or pressure therapy early on new wounds, if advised"]},
+      {"type": "heading", "text": "What Results to Expect"},
+      {"type": "paragraph", "text": "Treatment can usually flatten a keloid, ease itching and improve its appearance, but complete removal without any recurrence cannot be guaranteed. Regular follow-up helps catch regrowth early. For other scar types, see acne scar treatment.", "links": [{"text": "acne scar treatment", "to": "/treatments/skin-treatment/acne-scar-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers keloid treatment at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Can keloids be removed completely?", a: "Keloids can be significantly flattened and softened, but because they can recur — especially after surgical removal alone — we use combination, low-recurrence therapies." },
       { q: "Are keloid injections painful?", a: "Discomfort is usually mild and brief; topical numbing is used to keep the procedure as comfortable as possible." },
@@ -2290,7 +2466,7 @@ export const treatments = [
     name: "Lipoma Removal",
     image: lipomaImg,
     short: "Safe removal of benign fatty lumps beneath the skin.",
-    metaTitle: "Lipoma Removal Treatment | VAMA Clinics",
+    metaTitle: "Lipoma Removal: Safe Day-Care Procedure | VAMA Clinics",
     metaDescription:
       "Explore lipoma removal treatment at VAMA Clinics with personalized care and suitable treatment options based on the size, location and individual needs.",
     description:
@@ -2305,6 +2481,21 @@ export const treatments = [
       "The lipoma is removed under local anaesthesia through a small incision, with the site closed neatly.",
       "Simple wound care instructions are given, with a follow-up to check healing."
     ),
+    article: [
+      {"type": "lead", "text": "A lipoma is a soft, slow-growing lump of fat that sits just under the skin. Lipomas are almost always harmless, but people often choose to remove them when they are large, visible, uncomfortable or growing."},
+      {"type": "heading", "text": "How to Recognise a Lipoma"},
+      {"type": "list", "items": ["A soft, rubbery lump that moves slightly under the skin when pressed", "Usually painless, though some can be tender", "Commonly on the back, shoulders, neck, arms or thighs", "Grows slowly over months or years", "Usually less than 5 cm, though some grow larger"]},
+      {"type": "heading", "text": "When Should a Lump Be Checked?"},
+      {"type": "paragraph", "text": "Most lipomas are harmless, but any new lump should be examined by a doctor. Get it checked quickly if the lump is hard, fixed in place, painful, growing fast or larger than about 5 cm. Your doctor may advise an ultrasound or other tests to confirm the diagnosis before removal."},
+      {"type": "table", "headers": ["Lump", "Typical features"], "rows": [["Lipoma", "Soft, movable, painless, slow-growing"], ["Sebaceous / epidermoid cyst", "Firm, may have a small central opening, can become infected"], ["Swollen lymph node", "Often in the neck, armpit or groin; may be linked to infection"]]},
+      {"type": "heading", "text": "How Lipoma Removal Is Done"},
+      {"type": "list", "items": ["The area is cleaned and numbed with local anaesthesia", "A small cut is made over or near the lipoma", "The fatty lump is removed along with its thin capsule to lower the chance of it returning", "The wound is closed with fine stitches and dressed", "Stitches are usually removed after about a week, depending on the site"]},
+      {"type": "paragraph", "text": "Removal is usually a short day procedure, and most people return to normal activities within a day or two, avoiding heavy exercise for a short time. The removed tissue may be sent for testing if your doctor advises it."},
+      {"type": "heading", "text": "Recovery and Scarring"},
+      {"type": "paragraph", "text": "Every surgical removal leaves a scar, but doctors place the cut carefully and use fine stitches to keep it as small and neat as possible. Keep the wound clean and dry, follow the dressing instructions and protect the scar from the sun as it heals. A lipoma rarely returns once removed completely."},
+      {"type": "paragraph", "text": "For small skin growths such as moles and skin tags, see mole and skin tag removal. For scars that become thick and raised, see keloid treatment.", "links": [{"text": "mole and skin tag removal", "to": "/treatments/skin-treatment/mole-skin-tag-removal"}, {"text": "keloid treatment", "to": "/treatments/allergy-treatment/keloid-treatment"}]},
+      {"type": "paragraph", "text": "VAMA Clinics offers lipoma removal at our clinics in Noida, Indirapuram, Lajpat Nagar, Lucknow, Agra and Kanpur.", "links": [{"text": "Noida", "to": "/vamaclinics-in-noida"}, {"text": "Indirapuram", "to": "/vamaclinics-in-indirapuram"}, {"text": "Lajpat Nagar", "to": "/vamaclinics-in-lajpat-nagar"}, {"text": "Lucknow", "to": "/vamaclinics-in-lucknow"}, {"text": "Agra", "to": "/vamaclinics-in-agra"}, {"text": "Kanpur", "to": "/vamaclinics-in-kanpur"}]},
+    ],
     faqs: [
       { q: "Is a lipoma cancerous?", a: "No, lipomas are benign, non-cancerous growths, though we can confirm this with an examination or ultrasound if there's any doubt." },
       { q: "Does lipoma removal leave a scar?", a: "A small, well-placed incision is used to minimise scarring, and most marks fade significantly over time." },
@@ -3490,6 +3681,9 @@ export const treatments = [
         { text: "Kanpur", to: "/vamaclinics-in-kanpur" },
       ] },
       { type: "link", text: "Explore Anti-Ageing Treatment", to: "/treatments/skin-treatment/anti-ageing-treatment" },
+      {"type": "heading", "text": "Aftercare and Maintenance"},
+      {"type": "list", "items": ["Avoid heavy makeup for the rest of the day so the skin can settle", "Skip saunas, steam and intense workouts for 24 hours", "Use a gentle cleanser and moisturiser, and avoid scrubs or strong actives for a couple of days", "Apply broad-spectrum sunscreen every morning", "Book sessions about every three to four weeks if you are following a course, then monthly for maintenance"]},
+      {"type": "paragraph", "text": "A collagen facial gives a fresh, hydrated look and supports skin quality, but it does not replace medical treatments for deep wrinkles or sagging. For those concerns, your doctor may suggest options such as HIFU or RF skin tightening.", "links": [{"text": "HIFU", "to": "/treatments/skin-treatment/hifu-treatment"}, {"text": "RF skin tightening", "to": "/treatments/skin-treatment/rf-skin-tightening"}]},
     ],
     faqs: [
       { q: "Does a collagen facial build new collagen?", a: "It mainly hydrates and refreshes the skin. For deeper collagen stimulation, energy-based or injectable treatments may be advised." },
@@ -3682,6 +3876,9 @@ export const treatments = [
         { text: "Lucknow", to: "/vamaclinics-in-lucknow" },
       ] },
       { type: "link", text: "Explore Botox", to: "/treatments/skin-treatment/botox" },
+      {"type": "heading", "text": "Everyday Tips to Manage Sweating"},
+      {"type": "list", "items": ["Use a clinical-strength antiperspirant at night on dry skin, as advised by your doctor", "Wear loose, breathable cotton clothing and carry a spare shirt if needed", "Choose moisture-wicking socks and rotate your shoes so they dry fully", "Keep a note of triggers such as heat, spicy food, caffeine or stress", "Do not stop any prescribed medicine on your own if you think it is causing sweating; ask your doctor first"]},
+      {"type": "paragraph", "text": "Sudden heavy sweating, night sweats, or sweating with weight loss, fever or a fast heartbeat should be checked by a doctor, as it can have a medical cause. Excess sweating in skin folds can also lead to fungal infections, which need their own treatment.", "links": [{"text": "fungal infections", "to": "/treatments/allergy-treatment/fungal-infection-treatment"}]},
     ],
     faqs: [
       { q: "Is Botox for sweating safe?", a: "It is a well-established treatment for excessive underarm sweating when performed by trained professionals." },
